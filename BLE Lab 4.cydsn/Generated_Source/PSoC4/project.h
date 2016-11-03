@@ -44,11 +44,11 @@
 #include <CapSense.h>
 #include <CapSense_CSHL.h>
 #include <CapSense_TunerHelper.h>
-#include <CapSense_SMS.h>
 #include <CapSense_PVT.h>
 #include <CapSense_IP.h>
 #include <BLE_bless_isr.h>
 #include <CapSense_SampleClk.h>
+#include <CapSense_Sns.h>
 #include <CapSense_Sns_aliases.h>
 #include <CapSense_SenseClk.h>
 #include <core_cm0_psoc4.h>

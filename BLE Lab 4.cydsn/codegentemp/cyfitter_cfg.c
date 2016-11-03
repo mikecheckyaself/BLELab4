@@ -385,10 +385,10 @@ void cyfitter_cfg(void)
 	{
 		static const uint32 CYCODE cy_cfg_addr_table[] = {
 			0x400F3241u, /* Base address: 0x400F3200 Count: 65 */
-			0x400F3326u, /* Base address: 0x400F3300 Count: 38 */
+			0x400F3327u, /* Base address: 0x400F3300 Count: 39 */
 			0x400F4105u, /* Base address: 0x400F4100 Count: 5 */
 			0x400F4202u, /* Base address: 0x400F4200 Count: 2 */
-			0x400F4309u, /* Base address: 0x400F4300 Count: 9 */
+			0x400F4308u, /* Base address: 0x400F4300 Count: 8 */
 			0x400F6002u, /* Base address: 0x400F6000 Count: 2 */
 		};
 
@@ -435,9 +435,9 @@ void cyfitter_cfg(void)
 			{0xAAu, 0x02u},
 			{0xACu, 0x01u},
 			{0xAEu, 0x02u},
-			{0xB2u, 0x03u},
 			{0xB3u, 0x01u},
-			{0xB8u, 0x0Au},
+			{0xB4u, 0x03u},
+			{0xB8u, 0x22u},
 			{0xBEu, 0x01u},
 			{0xC0u, 0x04u},
 			{0xC7u, 0x10u},
@@ -461,11 +461,12 @@ void cyfitter_cfg(void)
 			{0x10u, 0x2Au},
 			{0x15u, 0x40u},
 			{0x18u, 0x80u},
-			{0x1Au, 0x60u},
+			{0x19u, 0x20u},
+			{0x1Au, 0x40u},
 			{0x1Fu, 0x80u},
 			{0x21u, 0x04u},
 			{0x24u, 0x40u},
-			{0x25u, 0x20u},
+			{0x26u, 0x10u},
 			{0x2Fu, 0x28u},
 			{0x37u, 0x10u},
 			{0x39u, 0x80u},
@@ -485,9 +486,9 @@ void cyfitter_cfg(void)
 			{0x79u, 0x08u},
 			{0x7Fu, 0x80u},
 			{0x80u, 0x40u},
-			{0x82u, 0x10u},
 			{0x83u, 0x20u},
-			{0x89u, 0x20u},
+			{0x85u, 0x20u},
+			{0x86u, 0x10u},
 			{0x8Cu, 0x40u},
 			{0xC4u, 0x87u},
 			{0xCAu, 0x60u},
@@ -495,7 +496,7 @@ void cyfitter_cfg(void)
 			{0xCEu, 0xE8u},
 			{0xD0u, 0x21u},
 			{0xDEu, 0x82u},
-			{0xE4u, 0x04u},
+			{0xE4u, 0x0Au},
 			{0x38u, 0x01u},
 			{0x3Cu, 0x01u},
 			{0x80u, 0x01u},
@@ -503,15 +504,14 @@ void cyfitter_cfg(void)
 			{0xE2u, 0x80u},
 			{0x5Du, 0x08u},
 			{0xD6u, 0x01u},
-			{0x5Au, 0x01u},
+			{0x5Au, 0x02u},
 			{0x5Cu, 0x08u},
-			{0x80u, 0x08u},
-			{0x8Au, 0x01u},
+			{0x84u, 0x08u},
+			{0x86u, 0x01u},
 			{0x8Du, 0x08u},
 			{0x9Du, 0x08u},
 			{0xD6u, 0x03u},
 			{0xE0u, 0x02u},
-			{0xE4u, 0x01u},
 			{0x01u, 0x01u},
 			{0x10u, 0x01u},
 		};
@@ -552,9 +552,9 @@ void cyfitter_cfg(void)
 		CY_SET_XTND_REG32((void CYFAR *)(CYREG_GPIO_PRT0_PC), 0x00D80000u);
 
 		/* IOPINS0_2 Starting address: CYDEV_GPIO_PRT2_DR */
-		CY_SET_XTND_REG32((void CYFAR *)(CYREG_GPIO_PRT2_DR), 0x0000007Eu);
+		CY_SET_XTND_REG32((void CYFAR *)(CYREG_GPIO_PRT2_DR), 0x00000041u);
 		CY_SET_XTND_REG32((void CYFAR *)(CYREG_GPIO_PRT2_PC), 0x00040000u);
-		CY_SET_XTND_REG32((void CYFAR *)(CYREG_GPIO_PRT2_PC2), 0x0000003Eu);
+		CY_SET_XTND_REG32((void CYFAR *)(CYREG_GPIO_PRT2_PC2), 0x00000001u);
 
 		/* IOPINS0_3 Starting address: CYDEV_GPIO_PRT3_DR */
 		CY_SET_XTND_REG32((void CYFAR *)(CYREG_GPIO_PRT3_DR), 0x000000C0u);
@@ -573,7 +573,7 @@ void cyfitter_cfg(void)
 
 		/* UDB_PA_3 Starting address: CYDEV_UDB_PA3_BASE */
 		CY_SET_XTND_REG32((void CYFAR *)(CYDEV_UDB_PA3_BASE), 0x00990000u);
-		CY_SET_XTND_REG32((void CYFAR *)(CYREG_UDB_PA3_CFG8), 0x40000000u);
+		CY_SET_XTND_REG32((void CYFAR *)(CYREG_UDB_PA3_CFG8), 0x10000000u);
 
 		/* Enable digital routing */
 		CY_SET_XTND_REG8((void *)CYREG_UDB_UDBIF_BANK_CTL, CY_GET_XTND_REG8((void *)CYREG_UDB_UDBIF_BANK_CTL) | 0x02u);

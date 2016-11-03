@@ -77,9 +77,9 @@
 <dep name=".\Generated_Source\PSoC4\CapSense_CSHL.h" />
 <dep name=".\Generated_Source\PSoC4\CapSense_IP.h" />
 <dep name=".\Generated_Source\PSoC4\CapSense_PVT.h" />
-<dep name=".\Generated_Source\PSoC4\CapSense_SMS.h" />
 <dep name=".\Generated_Source\PSoC4\CapSense_SampleClk.h" />
 <dep name=".\Generated_Source\PSoC4\CapSense_SenseClk.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_Sns.h" />
 <dep name=".\Generated_Source\PSoC4\CapSense_Sns_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\CapSense_TunerHelper.h" />
 <dep name=".\Generated_Source\PSoC4\CyFlash.h" />
@@ -128,9 +128,9 @@
 <file name=".\Generated_Source\PSoC4\CapSense_CSHL.h" />
 <file name=".\Generated_Source\PSoC4\CapSense_IP.h" />
 <file name=".\Generated_Source\PSoC4\CapSense_PVT.h" />
-<file name=".\Generated_Source\PSoC4\CapSense_SMS.h" />
 <file name=".\Generated_Source\PSoC4\CapSense_SampleClk.h" />
 <file name=".\Generated_Source\PSoC4\CapSense_SenseClk.h" />
+<file name=".\Generated_Source\PSoC4\CapSense_Sns.h" />
 <file name=".\Generated_Source\PSoC4\CapSense_Sns_aliases.h" />
 <file name=".\Generated_Source\PSoC4\CapSense_TunerHelper.h" />
 <file name=".\Generated_Source\PSoC4\CyFlash.h" />
@@ -179,9 +179,9 @@
 <dep name=".\Generated_Source\PSoC4\CapSense_CSHL.h" />
 <dep name=".\Generated_Source\PSoC4\CapSense_IP.h" />
 <dep name=".\Generated_Source\PSoC4\CapSense_PVT.h" />
-<dep name=".\Generated_Source\PSoC4\CapSense_SMS.h" />
 <dep name=".\Generated_Source\PSoC4\CapSense_SampleClk.h" />
 <dep name=".\Generated_Source\PSoC4\CapSense_SenseClk.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_Sns.h" />
 <dep name=".\Generated_Source\PSoC4\CapSense_Sns_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\CapSense_TunerHelper.h" />
 <dep name=".\Generated_Source\PSoC4\CyFlash.h" />
@@ -435,25 +435,6 @@
 <dep name=".\Generated_Source\PSoC4\CapSense_PM.c" />
 </file>
 <file name=".\Generated_Source\PSoC4\CapSense_PM.c" />
-<file name=".\CortexM0\ARM_GCC_484\Debug\CapSense_SMS.o">
-<dep name=".\Generated_Source\PSoC4\CapSense.h" />
-<dep name=".\Generated_Source\PSoC4\CapSense_CSHL.h" />
-<dep name=".\Generated_Source\PSoC4\CapSense_IP.h" />
-<dep name=".\Generated_Source\PSoC4\CapSense_PVT.h" />
-<dep name=".\Generated_Source\PSoC4\CapSense_SMS.h" />
-<dep name=".\Generated_Source\PSoC4\CapSense_SampleClk.h" />
-<dep name=".\Generated_Source\PSoC4\CapSense_SenseClk.h" />
-<dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\core_cm0.h" />
-<dep name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
-<dep name=".\Generated_Source\PSoC4\core_cmFunc.h" />
-<dep name=".\Generated_Source\PSoC4\core_cmInstr.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-<dep name=".\Generated_Source\PSoC4\CapSense_SMS.c" />
-</file>
-<file name=".\Generated_Source\PSoC4\CapSense_SMS.c" />
 <file name=".\CortexM0\ARM_GCC_484\Debug\CapSense_SampleClk.o">
 <dep name=".\Generated_Source\PSoC4\CapSense_SampleClk.h" />
 <dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
@@ -470,6 +451,16 @@
 <dep name=".\Generated_Source\PSoC4\CapSense_SenseClk.c" />
 </file>
 <file name=".\Generated_Source\PSoC4\CapSense_SenseClk.c" />
+<file name=".\CortexM0\ARM_GCC_484\Debug\CapSense_Sns.o">
+<dep name=".\Generated_Source\PSoC4\CapSense_Sns.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_Sns_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_Sns.c" />
+</file>
+<file name=".\Generated_Source\PSoC4\CapSense_Sns.c" />
 <file name=".\CortexM0\ARM_GCC_484\Debug\CapSense_TunerHelper.o">
 <dep name=".\Generated_Source\PSoC4\CapSense.h" />
 <dep name=".\Generated_Source\PSoC4\CapSense_CSHL.h" />
@@ -618,6 +609,26 @@
 <file name=".\Generated_Source\PSoC4\cydevicegnu_trm.inc" />
 <file name=".\Generated_Source\PSoC4\cyfittergnu.inc" />
 <file name=".\Generated_Source\PSoC4\CyBootAsmGnu.s" />
+<file name=".\Generated_Source\PSoC4\CapSense_SMS.h" />
+<file name=".\CortexM0\ARM_GCC_484\Debug\CapSense_SMS.o">
+<dep name=".\Generated_Source\PSoC4\CapSense.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_CSHL.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_IP.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_PVT.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SMS.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SampleClk.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SenseClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
+<dep name=".\Generated_Source\PSoC4\core_cmFunc.h" />
+<dep name=".\Generated_Source\PSoC4\core_cmInstr.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SMS.c" />
+</file>
+<file name=".\Generated_Source\PSoC4\CapSense_SMS.c" />
 </CyGuid_1173175f-1b9b-4ad4-a065-754a48a27021>
 </dependency_info>
 </CyGuid_f44455c5-3770-4452-b988-0a7a7ff46256>
@@ -657,8 +668,8 @@
 <dep name=".\CortexM0\ARM_GCC_484\Debug\CapSense_CSHL.o" />
 <dep name=".\CortexM0\ARM_GCC_484\Debug\CapSense_INT.o" />
 <dep name=".\CortexM0\ARM_GCC_484\Debug\CapSense_TunerHelper.o" />
-<dep name=".\CortexM0\ARM_GCC_484\Debug\CapSense_SMS.o" />
 <dep name=".\CortexM0\ARM_GCC_484\Debug\CapSense_SampleClk.o" />
+<dep name=".\CortexM0\ARM_GCC_484\Debug\CapSense_Sns.o" />
 <dep name=".\CortexM0\ARM_GCC_484\Debug\CapSense_SenseClk.o" />
 <dep name=".\CortexM0\ARM_GCC_484\Debug\BLE Lab 4.a" />
 <dep name="${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM0\ARM_GCC_484\Debug\CyComponentLibrary.a" />
@@ -715,9 +726,11 @@
 <name_val_pair name=".\Generated_Source\PSoC4\CapSense_SampleClk.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -I.\Generated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -O0" />
 <name_val_pair name=".\Generated_Source\PSoC4\CapSense_SenseClk.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -I.\Generated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -O0" />
 <name_val_pair name="C:\Users\Heidi\Desktop\BLE Lab 4\BLE Lab 4.cydsn\CortexM0\ARM_GCC_484\Debug\BLE Lab 4.hex" v="-mthumb -march=armv6-m -Wl,-Map,${OutputDir}/${ProjectShortName}.map -T .\Generated_Source\PSoC4\cm0gcc.ld -g -specs=nano.specs &quot;-u _printf_float&quot; &quot;&quot; -Wl,--gc-sections" />
+<name_val_pair name=".\Generated_Source\PSoC4\CapSense_Sns.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -I.\Generated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -O0" />
+<name_val_pair name="C:\Users\Heidi\Desktop\BLE_Lab_4\BLE Lab 4.cydsn\CortexM0\ARM_GCC_484\Debug\BLE Lab 4.hex" v="-mthumb -march=armv6-m -Wl,-Map,${OutputDir}/${ProjectShortName}.map -T .\Generated_Source\PSoC4\cm0gcc.ld -g -specs=nano.specs &quot;-u _printf_float&quot; &quot;&quot; -Wl,--gc-sections" />
 </name>
 </genericCmdLineData>
-<codeGenCmdLineTag v="-.appdatapath &quot;C:\Users\Heidi\AppData\Local\Cypress Semiconductor\PSoC Creator\3.1&quot; -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p &quot;C:\Users\Heidi\Desktop\BLE Lab 4\BLE Lab 4.cydsn\BLE Lab 4.cyprj&quot; -d CY8C4247LQI-BL483 -s &quot;C:\Users\Heidi\Desktop\BLE Lab 4\BLE Lab 4.cydsn\Generated_Source\PSoC4&quot; -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE" />
+<codeGenCmdLineTag v="-.appdatapath &quot;C:\Users\Heidi\AppData\Local\Cypress Semiconductor\PSoC Creator\3.1&quot; -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p &quot;C:\Users\Heidi\Desktop\BLE_Lab_4\BLE Lab 4.cydsn\BLE Lab 4.cyprj&quot; -d CY8C4247LQI-BL483 -s &quot;C:\Users\Heidi\Desktop\BLE_Lab_4\BLE Lab 4.cydsn\Generated_Source\PSoC4&quot; -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE" />
 </CyGuid_b0374e30-ce3a-47f2-ad85-821643292c68>
 </dataGuid>
 <dataGuid v="925cc1e1-309e-4e08-b0a1-09a83c35b157">
@@ -1325,6 +1338,8 @@
 <v>.\Generated_Source\PSoC4\CapSense_SampleClk.c</v>
 <v>.\Generated_Source\PSoC4\CapSense_SampleClk.h</v>
 <v>.\Generated_Source\PSoC4\CapSense_Sns_aliases.h</v>
+<v>.\Generated_Source\PSoC4\CapSense_Sns.c</v>
+<v>.\Generated_Source\PSoC4\CapSense_Sns.h</v>
 <v>.\Generated_Source\PSoC4\CapSense_SenseClk.c</v>
 <v>.\Generated_Source\PSoC4\CapSense_SenseClk.h</v>
 </gen_list>
@@ -1341,15 +1356,20 @@
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\3.1\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\3.1\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif</v>
 </warp_dep>
-<deps_time v="131226115407639546" />
+<deps_time v="131226218805094697" />
 <top_block v="TopDesign" />
 <last_generation v="7" />
 </CyGuid_925cc1e1-309e-4e08-b0a1-09a83c35b157>
 </dataGuid>
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
-<deps_time v="131226115450510855" />
+<deps_time v="131226218842417068" />
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
+</dataGuid>
+<dataGuid v="504337dd-7d07-4bc7-9057-90e60cf6c469">
+<CyGuid_504337dd-7d07-4bc7-9057-90e60cf6c469 type_name="CyDesigner.Common.Debugger.CyBreakpointList" version="1">
+<debugger_breakpoint_list />
+</CyGuid_504337dd-7d07-4bc7-9057-90e60cf6c469>
 </dataGuid>
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>

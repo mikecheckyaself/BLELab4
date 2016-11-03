@@ -28,16 +28,12 @@
 #include "CapSense_SampleClk.h"
 
 /* Constants set by Customizer */
-#define CapSense_TOTAL_SENSOR_COUNT            (5u)
-#define CapSense_TOTAL_SCANSLOT_COUNT          (5u)
+#define CapSense_TOTAL_SENSOR_COUNT            (1u)
+#define CapSense_TOTAL_SCANSLOT_COUNT          (1u)
 #define CapSense_INDEX_TABLE_SIZE              (0u)
 
 /* Define Sensors */
-#define CapSense_SENSOR_LINEARSLIDER0_E0__LS    (0u)
-#define CapSense_SENSOR_LINEARSLIDER0_E1__LS    (1u)
-#define CapSense_SENSOR_LINEARSLIDER0_E2__LS    (2u)
-#define CapSense_SENSOR_LINEARSLIDER0_E3__LS    (3u)
-#define CapSense_SENSOR_LINEARSLIDER0_E4__LS    (4u)
+#define CapSense_SENSOR_PROXIMITYSENSOR0_0__PROX    (0u)
 
 #define CapSense_TOTAL_SENSOR_MASK (((CapSense_TOTAL_SENSOR_COUNT - 1u) / 8u) + 1u)	
 
@@ -56,7 +52,7 @@ CY_ISR_PROTO(CapSense_ISR);
 #define CapSense_IS_COMPLEX_SCANSLOTS       (0u)
 #define CapSense_COMPLEX_SCANSLOTS_NUM      (0u)
 #define CapSense_DEDICATED_SENSORS_NUM      (0u)
-#define CapSense_PORT_PIN_CONFIG_TBL_ZISE   (5u)
+#define CapSense_PORT_PIN_CONFIG_TBL_ZISE   (1u)
 
 #define CapSense_IDAC_CNT                   (2u)
 #define CapSense_IDAC1_POLARITY             (0u)
@@ -65,11 +61,11 @@ CY_ISR_PROTO(CapSense_ISR);
 
 #define CapSense_MULTIPLE_FREQUENCY_SET     (1u)
 #define CapSense_FILTER_ENABLE			    (0u)
-#define CapSense_PRS_OPTIONS                (0u)
+#define CapSense_PRS_OPTIONS                (3u)
 
 #define CapSense_WATER_PROOF                (0u)
 
-#define CapSense_TUNING_METHOD              (2u)
+#define CapSense_TUNING_METHOD              (1u)
 #define CapSense_TUNER_API_GENERATE         (0u)
 
 #define CapSense_CSHL_API_GENERATE          (1u)
@@ -80,7 +76,7 @@ CY_ISR_PROTO(CapSense_ISR);
 #define CapSense_CSH_TANK_ENABLE            (0u)
 
 #define CapSense_SHIELD_DELAY               (0u)
-#define CapSense_AUTOCALIBRATION_ENABLE		(0u)
+#define CapSense_AUTOCALIBRATION_ENABLE		(1u)
 
 #define CapSense_IS_OVERSAMPLING_EN         (1u)
 

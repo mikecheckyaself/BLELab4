@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccLSlvrK.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
   30:.\Generated_Source\PSoC4/BLUE.c **** ********************************************************************************
   31:.\Generated_Source\PSoC4/BLUE.c **** *
   32:.\Generated_Source\PSoC4/BLUE.c **** * Summary:
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 2
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccLSlvrK.s 			page 2
 
 
   33:.\Generated_Source\PSoC4/BLUE.c **** *  Assign a new value to the digital port's data output register.  
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
   47:.\Generated_Source\PSoC4/BLUE.c **** }
   66              		.loc 1 47 0
   67 003c BD46     		mov	sp, r7
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 3
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccLSlvrK.s 			page 3
 
 
   68 003e 04B0     		add	sp, sp, #16
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
   95              		.cfi_def_cfa_register 7
   96 0006 021C     		mov	r2, r0
   97 0008 FB1D     		add	r3, r7, #7
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 4
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccLSlvrK.s 			page 4
 
 
   98 000a 1A70     		strb	r2, [r3]
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
   96:.\Generated_Source\PSoC4/BLUE.c **** *******************************************************************************/
   97:.\Generated_Source\PSoC4/BLUE.c **** uint8 BLUE_Read(void) 
   98:.\Generated_Source\PSoC4/BLUE.c **** {
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 5
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccLSlvrK.s 			page 5
 
 
  131              		.loc 1 98 0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
  118:.\Generated_Source\PSoC4/BLUE.c **** {
  166              		.loc 1 118 0
  167              		.cfi_startproc
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 6
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccLSlvrK.s 			page 6
 
 
  168 0000 80B5     		push	{r7, lr}
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
  140:.\Generated_Source\PSoC4/BLUE.c ****     *******************************************************************************/
  141:.\Generated_Source\PSoC4/BLUE.c ****     uint8 BLUE_ClearInterrupt(void) 
  142:.\Generated_Source\PSoC4/BLUE.c ****     {
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 7
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccLSlvrK.s 			page 7
 
 
  201              		.loc 1 142 0
@@ -416,48 +416,48 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
  249 0006 00000000 		.4byte	.Ldebug_abbrev0
  250 000a 04       		.byte	0x4
  251 000b 01       		.uleb128 0x1
- 252 000c AD000000 		.4byte	.LASF24
+ 252 000c A2000000 		.4byte	.LASF24
  253 0010 01       		.byte	0x1
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 8
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccLSlvrK.s 			page 8
 
 
- 254 0011 4A010000 		.4byte	.LASF25
- 255 0015 AF010000 		.4byte	.LASF26
+ 254 0011 3F010000 		.4byte	.LASF25
+ 255 0015 98010000 		.4byte	.LASF26
  256 0019 00000000 		.4byte	.Ldebug_ranges0+0
  257 001d 00000000 		.4byte	0
  258 0021 00000000 		.4byte	.Ldebug_line0
  259 0025 02       		.uleb128 0x2
  260 0026 01       		.byte	0x1
  261 0027 06       		.byte	0x6
- 262 0028 A3010000 		.4byte	.LASF0
+ 262 0028 26000000 		.4byte	.LASF0
  263 002c 02       		.uleb128 0x2
  264 002d 01       		.byte	0x1
  265 002e 08       		.byte	0x8
- 266 002f 3D000000 		.4byte	.LASF1
+ 266 002f 32000000 		.4byte	.LASF1
  267 0033 02       		.uleb128 0x2
  268 0034 02       		.byte	0x2
  269 0035 05       		.byte	0x5
- 270 0036 8A010000 		.4byte	.LASF2
+ 270 0036 7F010000 		.4byte	.LASF2
  271 003a 02       		.uleb128 0x2
  272 003b 02       		.byte	0x2
  273 003c 07       		.byte	0x7
- 274 003d 63000000 		.4byte	.LASF3
+ 274 003d 58000000 		.4byte	.LASF3
  275 0041 02       		.uleb128 0x2
  276 0042 04       		.byte	0x4
  277 0043 05       		.byte	0x5
- 278 0044 9A010000 		.4byte	.LASF4
+ 278 0044 8F010000 		.4byte	.LASF4
  279 0048 02       		.uleb128 0x2
  280 0049 04       		.byte	0x4
  281 004a 07       		.byte	0x7
- 282 004b 51000000 		.4byte	.LASF5
+ 282 004b 46000000 		.4byte	.LASF5
  283 004f 02       		.uleb128 0x2
  284 0050 08       		.byte	0x8
  285 0051 05       		.byte	0x5
- 286 0052 6A010000 		.4byte	.LASF6
+ 286 0052 5F010000 		.4byte	.LASF6
  287 0056 02       		.uleb128 0x2
  288 0057 08       		.byte	0x8
  289 0058 07       		.byte	0x7
- 290 0059 26000000 		.4byte	.LASF7
+ 290 0059 C9010000 		.4byte	.LASF7
  291 005d 03       		.uleb128 0x3
  292 005e 04       		.byte	0x4
  293 005f 05       		.byte	0x5
@@ -465,20 +465,20 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
  295 0064 02       		.uleb128 0x2
  296 0065 04       		.byte	0x4
  297 0066 07       		.byte	0x7
- 298 0067 A0000000 		.4byte	.LASF8
+ 298 0067 95000000 		.4byte	.LASF8
  299 006b 04       		.uleb128 0x4
- 300 006c 94010000 		.4byte	.LASF9
+ 300 006c 89010000 		.4byte	.LASF9
  301 0070 02       		.byte	0x2
  302 0071 A1       		.byte	0xa1
  303 0072 2C000000 		.4byte	0x2c
  304 0076 04       		.uleb128 0x4
- 305 0077 99000000 		.4byte	.LASF10
+ 305 0077 8E000000 		.4byte	.LASF10
  306 007b 02       		.byte	0x2
  307 007c A3       		.byte	0xa3
  308 007d 48000000 		.4byte	0x48
  309 0081 02       		.uleb128 0x2
  310 0082 04       		.byte	0x4
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 9
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccLSlvrK.s 			page 9
 
 
  311 0083 04       		.byte	0x4
@@ -486,11 +486,11 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
  313 0088 02       		.uleb128 0x2
  314 0089 08       		.byte	0x8
  315 008a 04       		.byte	0x4
- 316 008b 88000000 		.4byte	.LASF12
+ 316 008b 7D000000 		.4byte	.LASF12
  317 008f 02       		.uleb128 0x2
  318 0090 01       		.byte	0x1
  319 0091 08       		.byte	0x8
- 320 0092 85010000 		.4byte	.LASF13
+ 320 0092 7A010000 		.4byte	.LASF13
  321 0096 05       		.uleb128 0x5
  322 0097 14000000 		.4byte	.LASF14
  323 009b 02       		.byte	0x2
@@ -499,7 +499,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
  326 00a2 06       		.uleb128 0x6
  327 00a3 76000000 		.4byte	0x76
  328 00a7 07       		.uleb128 0x7
- 329 00a8 2E010000 		.4byte	.LASF15
+ 329 00a8 23010000 		.4byte	.LASF15
  330 00ac 01       		.byte	0x1
  331 00ad 2A       		.byte	0x2a
  332 00ae 00000000 		.4byte	.LFB0
@@ -516,7 +516,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
  343 00c8 91       		.byte	0x91
  344 00c9 6F       		.sleb128 -17
  345 00ca 09       		.uleb128 0x9
- 346 00cb 4B000000 		.4byte	.LASF22
+ 346 00cb 40000000 		.4byte	.LASF22
  347 00cf 01       		.byte	0x1
  348 00d0 2C       		.byte	0x2c
  349 00d1 6B000000 		.4byte	0x6b
@@ -525,7 +525,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
  352 00d7 77       		.sleb128 -9
  353 00d8 00       		.byte	0
  354 00d9 07       		.uleb128 0x7
- 355 00da 76000000 		.4byte	.LASF16
+ 355 00da 6B000000 		.4byte	.LASF16
  356 00de 01       		.byte	0x1
  357 00df 49       		.byte	0x49
  358 00e0 00000000 		.4byte	.LFB1
@@ -534,11 +534,11 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
  361 00e9 9C       		.byte	0x9c
  362 00ea FD000000 		.4byte	0xfd
  363 00ee 08       		.uleb128 0x8
- 364 00ef 29010000 		.4byte	.LASF18
+ 364 00ef 1E010000 		.4byte	.LASF18
  365 00f3 01       		.byte	0x1
  366 00f4 49       		.byte	0x49
  367 00f5 6B000000 		.4byte	0x6b
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 10
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccLSlvrK.s 			page 10
 
 
  368 00f9 02       		.uleb128 0x2
@@ -546,7 +546,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
  370 00fb 77       		.sleb128 -9
  371 00fc 00       		.byte	0
  372 00fd 0A       		.uleb128 0xa
- 373 00fe 8F000000 		.4byte	.LASF19
+ 373 00fe 84000000 		.4byte	.LASF19
  374 0102 01       		.byte	0x1
  375 0103 61       		.byte	0x61
  376 0104 6B000000 		.4byte	0x6b
@@ -555,7 +555,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
  379 0110 01       		.uleb128 0x1
  380 0111 9C       		.byte	0x9c
  381 0112 0A       		.uleb128 0xa
- 382 0113 39010000 		.4byte	.LASF20
+ 382 0113 2E010000 		.4byte	.LASF20
  383 0117 01       		.byte	0x1
  384 0118 75       		.byte	0x75
  385 0119 6B000000 		.4byte	0x6b
@@ -573,7 +573,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
  397 013a 01       		.uleb128 0x1
  398 013b 9C       		.byte	0x9c
  399 013c 09       		.uleb128 0x9
- 400 013d 78010000 		.4byte	.LASF23
+ 400 013d 6D010000 		.4byte	.LASF23
  401 0141 01       		.byte	0x1
  402 0142 8F       		.byte	0x8f
  403 0143 6B000000 		.4byte	0x6b
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
  422 000b 55       		.uleb128 0x55
  423 000c 17       		.uleb128 0x17
  424 000d 11       		.uleb128 0x11
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 11
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccLSlvrK.s 			page 11
 
 
  425 000e 01       		.uleb128 0x1
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
  479 0044 35       		.uleb128 0x35
  480 0045 00       		.byte	0
  481 0046 49       		.uleb128 0x49
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 12
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccLSlvrK.s 			page 12
 
 
  482 0047 13       		.uleb128 0x13
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
  536 007e 02       		.uleb128 0x2
  537 007f 18       		.uleb128 0x18
  538 0080 00       		.byte	0
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 13
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccLSlvrK.s 			page 13
 
 
  539 0081 00       		.byte	0
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
  593 0004 0200     		.2byte	0x2
  594 0006 00000000 		.4byte	.Ldebug_info0
  595 000a 04       		.byte	0x4
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 14
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccLSlvrK.s 			page 14
 
 
  596 000b 00       		.byte	0
@@ -832,127 +832,127 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 1
  634              	.LASF11:
  635 0020 666C6F61 		.ascii	"float\000"
  635      7400
- 636              	.LASF7:
- 637 0026 6C6F6E67 		.ascii	"long long unsigned int\000"
- 637      206C6F6E 
- 637      6720756E 
- 637      7369676E 
- 637      65642069 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 15
-
-
+ 636              	.LASF0:
+ 637 0026 7369676E 		.ascii	"signed char\000"
+ 637      65642063 
+ 637      68617200 
  638              	.LASF1:
- 639 003d 756E7369 		.ascii	"unsigned char\000"
+ 639 0032 756E7369 		.ascii	"unsigned char\000"
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccLSlvrK.s 			page 15
+
+
  639      676E6564 
  639      20636861 
  639      7200
  640              	.LASF22:
- 641 004b 64725661 		.ascii	"drVal\000"
+ 641 0040 64725661 		.ascii	"drVal\000"
  641      6C00
  642              	.LASF5:
- 643 0051 6C6F6E67 		.ascii	"long unsigned int\000"
+ 643 0046 6C6F6E67 		.ascii	"long unsigned int\000"
  643      20756E73 
  643      69676E65 
  643      6420696E 
  643      7400
  644              	.LASF3:
- 645 0063 73686F72 		.ascii	"short unsigned int\000"
+ 645 0058 73686F72 		.ascii	"short unsigned int\000"
  645      7420756E 
  645      7369676E 
  645      65642069 
  645      6E7400
  646              	.LASF16:
- 647 0076 424C5545 		.ascii	"BLUE_SetDriveMode\000"
+ 647 006b 424C5545 		.ascii	"BLUE_SetDriveMode\000"
  647      5F536574 
  647      44726976 
  647      654D6F64 
  647      6500
  648              	.LASF12:
- 649 0088 646F7562 		.ascii	"double\000"
+ 649 007d 646F7562 		.ascii	"double\000"
  649      6C6500
  650              	.LASF19:
- 651 008f 424C5545 		.ascii	"BLUE_Read\000"
+ 651 0084 424C5545 		.ascii	"BLUE_Read\000"
  651      5F526561 
  651      6400
  652              	.LASF10:
- 653 0099 75696E74 		.ascii	"uint32\000"
+ 653 008e 75696E74 		.ascii	"uint32\000"
  653      333200
  654              	.LASF8:
- 655 00a0 756E7369 		.ascii	"unsigned int\000"
+ 655 0095 756E7369 		.ascii	"unsigned int\000"
  655      676E6564 
  655      20696E74 
  655      00
  656              	.LASF24:
- 657 00ad 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
+ 657 00a2 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
  657      4320342E 
  657      382E3420 
  657      32303134 
  657      30353236 
- 658 00e0 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m0 -mthumb -g -O"
+ 658 00d5 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m0 -mthumb -g -O"
  658      20726576 
  658      6973696F 
  658      6E203231 
  658      31333538 
- 659 0113 30202D66 		.ascii	"0 -ffunction-sections\000"
+ 659 0108 30202D66 		.ascii	"0 -ffunction-sections\000"
  659      66756E63 
  659      74696F6E 
  659      2D736563 
  659      74696F6E 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cczSEum7.s 			page 16
-
-
  660              	.LASF18:
- 661 0129 6D6F6465 		.ascii	"mode\000"
+ 661 011e 6D6F6465 		.ascii	"mode\000"
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccLSlvrK.s 			page 16
+
+
  661      00
  662              	.LASF15:
- 663 012e 424C5545 		.ascii	"BLUE_Write\000"
+ 663 0123 424C5545 		.ascii	"BLUE_Write\000"
  663      5F577269 
  663      746500
  664              	.LASF20:
- 665 0139 424C5545 		.ascii	"BLUE_ReadDataReg\000"
+ 665 012e 424C5545 		.ascii	"BLUE_ReadDataReg\000"
  665      5F526561 
  665      64446174 
  665      61526567 
  665      00
  666              	.LASF25:
- 667 014a 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\BLUE.c\000"
+ 667 013f 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\BLUE.c\000"
  667      6E657261 
  667      7465645F 
  667      536F7572 
  667      63655C50 
  668              	.LASF6:
- 669 016a 6C6F6E67 		.ascii	"long long int\000"
+ 669 015f 6C6F6E67 		.ascii	"long long int\000"
  669      206C6F6E 
  669      6720696E 
  669      7400
  670              	.LASF23:
- 671 0178 6D61736B 		.ascii	"maskedStatus\000"
+ 671 016d 6D61736B 		.ascii	"maskedStatus\000"
  671      65645374 
  671      61747573 
  671      00
  672              	.LASF13:
- 673 0185 63686172 		.ascii	"char\000"
+ 673 017a 63686172 		.ascii	"char\000"
  673      00
  674              	.LASF2:
- 675 018a 73686F72 		.ascii	"short int\000"
+ 675 017f 73686F72 		.ascii	"short int\000"
  675      7420696E 
  675      7400
  676              	.LASF9:
- 677 0194 75696E74 		.ascii	"uint8\000"
+ 677 0189 75696E74 		.ascii	"uint8\000"
  677      3800
  678              	.LASF4:
- 679 019a 6C6F6E67 		.ascii	"long int\000"
+ 679 018f 6C6F6E67 		.ascii	"long int\000"
  679      20696E74 
  679      00
- 680              	.LASF0:
- 681 01a3 7369676E 		.ascii	"signed char\000"
- 681      65642063 
- 681      68617200 
- 682              	.LASF26:
- 683 01af 433A5C55 		.ascii	"C:\\Users\\Heidi\\Desktop\\BLE Lab 4\\BLE Lab 4.cyd"
- 683      73657273 
- 683      5C486569 
- 683      64695C44 
- 683      65736B74 
- 684 01dd 736E00   		.ascii	"sn\000"
+ 680              	.LASF26:
+ 681 0198 433A5C55 		.ascii	"C:\\Users\\Heidi\\Desktop\\BLE_Lab_4\\BLE Lab 4.cyd"
+ 681      73657273 
+ 681      5C486569 
+ 681      64695C44 
+ 681      65736B74 
+ 682 01c6 736E00   		.ascii	"sn\000"
+ 683              	.LASF7:
+ 684 01c9 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 684      206C6F6E 
+ 684      6720756E 
+ 684      7369676E 
+ 684      65642069 
  685              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.8.4 20140526 (release) [ARM/embedded-4_8-br

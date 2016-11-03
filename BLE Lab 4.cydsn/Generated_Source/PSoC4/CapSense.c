@@ -62,52 +62,45 @@ uint8 CapSense_sensorEnableMaskBackup[(((CapSense_TOTAL_SENSOR_COUNT - 1u) / 8u)
 
 /* Configured constants and arrays by Customizer */
 uint8 CapSense_sensorEnableMask[(((CapSense_TOTAL_SENSOR_COUNT - 1u) / 8u) + 1u)] = {
-0x1Fu, };
+0x0u, };
 
 reg32 * CapSense_pcTable[] = {
-    (reg32 *)CapSense_Sns__LinearSlider0_e0__LS__PC, 
-    (reg32 *)CapSense_Sns__LinearSlider0_e1__LS__PC, 
-    (reg32 *)CapSense_Sns__LinearSlider0_e2__LS__PC, 
-    (reg32 *)CapSense_Sns__LinearSlider0_e3__LS__PC, 
-    (reg32 *)CapSense_Sns__LinearSlider0_e4__LS__PC, 
+    (reg32 *)CapSense_Sns__ProximitySensor0_0__PROX__PC, 
 };
 
 const uint8 CapSense_portTable[] = {
-    CapSense_Sns__LinearSlider0_e0__LS__PORT, 
-    CapSense_Sns__LinearSlider0_e1__LS__PORT, 
-    CapSense_Sns__LinearSlider0_e2__LS__PORT, 
-    CapSense_Sns__LinearSlider0_e3__LS__PORT, 
-    CapSense_Sns__LinearSlider0_e4__LS__PORT, 
+    CapSense_Sns__ProximitySensor0_0__PROX__PORT, 
 };
 
 const uint32 CapSense_maskTable[] = {
-    CapSense_Sns__LinearSlider0_e0__LS__MASK, 
-    CapSense_Sns__LinearSlider0_e1__LS__MASK, 
-    CapSense_Sns__LinearSlider0_e2__LS__MASK, 
-    CapSense_Sns__LinearSlider0_e3__LS__MASK, 
-    CapSense_Sns__LinearSlider0_e4__LS__MASK, 
+    CapSense_Sns__ProximitySensor0_0__PROX__MASK, 
 };
 
 const uint8 CapSense_pinShiftTbl[] = {
-    (uint8) CapSense_Sns__LinearSlider0_e0__LS__SHIFT, 
-    (uint8) CapSense_Sns__LinearSlider0_e1__LS__SHIFT, 
-    (uint8) CapSense_Sns__LinearSlider0_e2__LS__SHIFT, 
-    (uint8) CapSense_Sns__LinearSlider0_e3__LS__SHIFT, 
-    (uint8) CapSense_Sns__LinearSlider0_e4__LS__SHIFT, 
+    (uint8) CapSense_Sns__ProximitySensor0_0__PROX__SHIFT, 
 };
 
-uint8 CapSense_modulationIDAC[CapSense_TOTAL_SENSOR_COUNT];
-uint8 CapSense_compensationIDAC[CapSense_TOTAL_SENSOR_COUNT];
+uint8 CapSense_modulationIDAC[CapSense_TOTAL_SENSOR_COUNT] = {
+    80u, 
+};
+uint8 CapSense_compensationIDAC[CapSense_TOTAL_SENSOR_COUNT] = {
+    80u, 
+};
 
 uint32 CapSense_widgetResolution[CapSense_RESOLUTIONS_TBL_SIZE] = {
-    CapSense_RESOLUTION_12_BITS,
+    CapSense_RESOLUTION_16_BITS,
 };
 
-uint8 CapSense_senseClkDividerVal[CapSense_TOTAL_SCANSLOT_COUNT];
-uint8 CapSense_sampleClkDividerVal[CapSense_TOTAL_SCANSLOT_COUNT];
+uint8 CapSense_senseClkDividerVal[CapSense_TOTAL_SCANSLOT_COUNT] = {
+    2u, 
+};
+uint8 CapSense_sampleClkDividerVal[CapSense_TOTAL_SCANSLOT_COUNT] = {
+    2u, 
+};
+
 
 const uint8 CapSense_widgetNumber[CapSense_TOTAL_SENSOR_COUNT] = {
-    0u, 0u, 0u, 0u, 0u, /* LinearSlider0__LS */
+    0u, /* ProximitySensor0__PROX */
 };
 
 

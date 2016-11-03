@@ -1,5 +1,5 @@
--- Project:   C:\Users\Heidi\Desktop\BLE Lab 4\BLE Lab 4.cydsn\BLE Lab 4.cyprj
--- Generated: 11/02/2016 21:52:19
+-- Project:   C:\Users\Heidi\Desktop\BLE_Lab_4\BLE Lab 4.cydsn\BLE Lab 4.cyprj
+-- Generated: 11/03/2016 00:44:39
 -- PSoC Creator  3.1 SP3
 
 ENTITY \BLE Lab 4\ IS
@@ -33,12 +33,12 @@ ARCHITECTURE __DEFAULT__ OF \BLE Lab 4\ IS
     SIGNAL ClockBlock_SYSCLK : bit;
     SIGNAL ClockBlock_WCO : bit;
     SIGNAL GREEN(0)__PA : bit;
-    SIGNAL Net_104 : bit;
-    ATTRIBUTE placement_force OF Net_104 : SIGNAL IS "U(1,0,B)1";
-    SIGNAL Net_105 : bit;
-    ATTRIBUTE placement_force OF Net_105 : SIGNAL IS "U(1,0,B)0";
-    SIGNAL Net_108 : bit;
-    ATTRIBUTE placement_force OF Net_108 : SIGNAL IS "U(0,0,A)0";
+    SIGNAL Net_128 : bit;
+    ATTRIBUTE placement_force OF Net_128 : SIGNAL IS "U(0,0,A)0";
+    SIGNAL Net_129 : bit;
+    ATTRIBUTE placement_force OF Net_129 : SIGNAL IS "U(1,0,B)0";
+    SIGNAL Net_130 : bit;
+    ATTRIBUTE placement_force OF Net_130 : SIGNAL IS "U(1,0,B)1";
     SIGNAL Net_21_digital : bit;
     ATTRIBUTE udbclken_assigned OF Net_21_digital : SIGNAL IS "True";
     ATTRIBUTE global_signal OF Net_21_digital : SIGNAL IS true;
@@ -53,10 +53,6 @@ ARCHITECTURE __DEFAULT__ OF \BLE Lab 4\ IS
     SIGNAL \CapSense:Net_429_ff4\ : bit;
     ATTRIBUTE global_signal OF \CapSense:Net_429_ff4\ : SIGNAL IS true;
     SIGNAL \\\CapSense:Sns(0)\\__PA\ : bit;
-    SIGNAL \\\CapSense:Sns(1)\\__PA\ : bit;
-    SIGNAL \\\CapSense:Sns(2)\\__PA\ : bit;
-    SIGNAL \\\CapSense:Sns(3)\\__PA\ : bit;
-    SIGNAL \\\CapSense:Sns(4)\\__PA\ : bit;
     SIGNAL \PRS_1:ce0\ : bit;
     SIGNAL \PRS_1:ce1\ : bit;
     SIGNAL \PRS_1:cl0\ : bit;
@@ -101,12 +97,12 @@ ARCHITECTURE __DEFAULT__ OF \BLE Lab 4\ IS
     ATTRIBUTE Location OF ClockGenBlock : LABEL IS "F(CLK_GEN,0)";
     ATTRIBUTE lib_model OF GREEN(0) : LABEL IS "iocell2";
     ATTRIBUTE Location OF GREEN(0) : LABEL IS "P3[6]";
-    ATTRIBUTE lib_model OF Net_104 : LABEL IS "macrocell1";
-    ATTRIBUTE Location OF Net_104 : LABEL IS "U(1,0)";
-    ATTRIBUTE lib_model OF Net_105 : LABEL IS "macrocell2";
-    ATTRIBUTE Location OF Net_105 : LABEL IS "U(1,0)";
-    ATTRIBUTE lib_model OF Net_108 : LABEL IS "macrocell3";
-    ATTRIBUTE Location OF Net_108 : LABEL IS "U(0,0)";
+    ATTRIBUTE lib_model OF Net_128 : LABEL IS "macrocell1";
+    ATTRIBUTE Location OF Net_128 : LABEL IS "U(0,0)";
+    ATTRIBUTE lib_model OF Net_129 : LABEL IS "macrocell2";
+    ATTRIBUTE Location OF Net_129 : LABEL IS "U(1,0)";
+    ATTRIBUTE lib_model OF Net_130 : LABEL IS "macrocell3";
+    ATTRIBUTE Location OF Net_130 : LABEL IS "U(1,0)";
     ATTRIBUTE lib_model OF RED(0) : LABEL IS "iocell3";
     ATTRIBUTE Location OF RED(0) : LABEL IS "P2[6]";
     ATTRIBUTE Location OF \BLE:bless_isr\ : LABEL IS "[IntrHod=(0)][IntrId=(12)]";
@@ -118,15 +114,7 @@ ARCHITECTURE __DEFAULT__ OF \BLE Lab 4\ IS
     ATTRIBUTE Location OF \CapSense:IDAC2:cy_psoc4_idac\ : LABEL IS "F(CSIDAC7,0)";
     ATTRIBUTE Location OF \CapSense:ISR\ : LABEL IS "[IntrHod=(0)][IntrId=(16)]";
     ATTRIBUTE lib_model OF \CapSense:Sns(0)\ : LABEL IS "iocell5";
-    ATTRIBUTE Location OF \CapSense:Sns(0)\ : LABEL IS "P2[1]";
-    ATTRIBUTE lib_model OF \CapSense:Sns(1)\ : LABEL IS "iocell6";
-    ATTRIBUTE Location OF \CapSense:Sns(1)\ : LABEL IS "P2[2]";
-    ATTRIBUTE lib_model OF \CapSense:Sns(2)\ : LABEL IS "iocell7";
-    ATTRIBUTE Location OF \CapSense:Sns(2)\ : LABEL IS "P2[3]";
-    ATTRIBUTE lib_model OF \CapSense:Sns(3)\ : LABEL IS "iocell8";
-    ATTRIBUTE Location OF \CapSense:Sns(3)\ : LABEL IS "P2[4]";
-    ATTRIBUTE lib_model OF \CapSense:Sns(4)\ : LABEL IS "iocell9";
-    ATTRIBUTE Location OF \CapSense:Sns(4)\ : LABEL IS "P2[5]";
+    ATTRIBUTE Location OF \CapSense:Sns(0)\ : LABEL IS "P2[0]";
     ATTRIBUTE lib_model OF \PRS_1:SyncCtl:ControlReg\ : LABEL IS "controlcell1";
     ATTRIBUTE Location OF \PRS_1:SyncCtl:ControlReg\ : LABEL IS "U(1,0)";
     ATTRIBUTE lib_model OF \PRS_1:enable_final_reg\ : LABEL IS "macrocell4";
@@ -517,7 +505,7 @@ BEGIN
         PORT MAP(
             pa_out => BLUE(0)__PA,
             oe => open,
-            pin_input => Net_108,
+            pin_input => Net_128,
             pad_out => BLUE(0)_PAD,
             pad_in => BLUE(0)_PAD,
             in_clock => open,
@@ -642,7 +630,7 @@ BEGIN
         PORT MAP(
             pa_out => GREEN(0)__PA,
             oe => open,
-            pin_input => Net_105,
+            pin_input => Net_129,
             pad_out => GREEN(0)_PAD,
             pad_in => GREEN(0)_PAD,
             in_clock => open,
@@ -652,38 +640,38 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
-    Net_104:macrocell
+    Net_128:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2) + (main_0 * main_2)")
         PORT MAP(
-            q => Net_104,
+            q => Net_128,
             clock_0 => Net_21_digital,
-            clk_en => \PRS_1:enable_final_reg\,
-            main_0 => \PRS_1:compare_type0\,
-            main_1 => \PRS_1:ce0\,
-            main_2 => \PRS_1:cl0\);
+            clk_en => \PRS_2:enable_final_reg\,
+            main_0 => \PRS_2:compare_type0\,
+            main_1 => \PRS_2:ce0\,
+            main_2 => \PRS_2:cl0\);
 
-    Net_105:macrocell
+    Net_129:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2) + (main_0 * main_2)")
         PORT MAP(
-            q => Net_105,
+            q => Net_129,
             clock_0 => Net_21_digital,
             clk_en => \PRS_1:enable_final_reg\,
             main_0 => \PRS_1:compare_type1\,
             main_1 => \PRS_1:ce1\,
             main_2 => \PRS_1:cl1\);
 
-    Net_108:macrocell
+    Net_130:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2) + (main_0 * main_2)")
         PORT MAP(
-            q => Net_108,
+            q => Net_130,
             clock_0 => Net_21_digital,
-            clk_en => \PRS_2:enable_final_reg\,
-            main_0 => \PRS_2:compare_type0\,
-            main_1 => \PRS_2:ce0\,
-            main_2 => \PRS_2:cl0\);
+            clk_en => \PRS_1:enable_final_reg\,
+            main_0 => \PRS_1:compare_type0\,
+            main_1 => \PRS_1:ce0\,
+            main_2 => \PRS_1:cl0\);
 
     RED:logicalport
         GENERIC MAP(
@@ -766,7 +754,7 @@ BEGIN
         PORT MAP(
             pa_out => RED(0)__PA,
             oe => open,
-            pin_input => Net_104,
+            pin_input => Net_130,
             pad_out => RED(0)_PAD,
             pad_in => RED(0)_PAD,
             in_clock => open,
@@ -793,7 +781,7 @@ BEGIN
             is_cmod_charge => 0,
             is_csh_charge => 0,
             is_mutual => 0,
-            sensors_count => 5,
+            sensors_count => 1,
             shield_count => 1)
         PORT MAP(
             sense_out => \CapSense:Net_329\,
@@ -931,134 +919,62 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
-    \CapSense:Sns(1)\:iocell
-        GENERIC MAP(
-            in_sync_mode => 0,
-            out_sync_mode => 0,
-            oe_sync_mode => 0,
-            logicalport => "\CapSense:Sns\",
-            logicalport_pin_id => 1,
-            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000010")
-        PORT MAP(
-            pa_out => \\\CapSense:Sns(1)\\__PA\,
-            oe => open,
-            in_clock => open,
-            in_clock_en => '1',
-            in_reset => '0',
-            out_clock => open,
-            out_clock_en => '1',
-            out_reset => '0');
-
-    \CapSense:Sns(2)\:iocell
-        GENERIC MAP(
-            in_sync_mode => 0,
-            out_sync_mode => 0,
-            oe_sync_mode => 0,
-            logicalport => "\CapSense:Sns\",
-            logicalport_pin_id => 2,
-            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000010")
-        PORT MAP(
-            pa_out => \\\CapSense:Sns(2)\\__PA\,
-            oe => open,
-            in_clock => open,
-            in_clock_en => '1',
-            in_reset => '0',
-            out_clock => open,
-            out_clock_en => '1',
-            out_reset => '0');
-
-    \CapSense:Sns(3)\:iocell
-        GENERIC MAP(
-            in_sync_mode => 0,
-            out_sync_mode => 0,
-            oe_sync_mode => 0,
-            logicalport => "\CapSense:Sns\",
-            logicalport_pin_id => 3,
-            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000010")
-        PORT MAP(
-            pa_out => \\\CapSense:Sns(3)\\__PA\,
-            oe => open,
-            in_clock => open,
-            in_clock_en => '1',
-            in_reset => '0',
-            out_clock => open,
-            out_clock_en => '1',
-            out_reset => '0');
-
-    \CapSense:Sns(4)\:iocell
-        GENERIC MAP(
-            in_sync_mode => 0,
-            out_sync_mode => 0,
-            oe_sync_mode => 0,
-            logicalport => "\CapSense:Sns\",
-            logicalport_pin_id => 4,
-            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000010")
-        PORT MAP(
-            pa_out => \\\CapSense:Sns(4)\\__PA\,
-            oe => open,
-            in_clock => open,
-            in_clock_en => '1',
-            in_reset => '0',
-            out_clock => open,
-            out_clock_en => '1',
-            out_reset => '0');
-
     \CapSense:Sns\:logicalport
         GENERIC MAP(
-            drive_mode => "000000000000000",
-            ibuf_enabled => "00000",
+            drive_mode => "000",
+            ibuf_enabled => "0",
             id => "a33902c3-866f-48f3-b672-ce35db5c9faf/73b612cd-240c-4d8e-8340-ea28aabf4b11",
-            init_dr_st => "11111",
-            input_buffer_sel => "0000000000",
+            init_dr_st => "1",
+            input_buffer_sel => "00",
             input_clk_en => 0,
-            input_sync => "11111",
-            input_sync_mode => "00000",
-            intr_mode => "0000000000",
+            input_sync => "1",
+            input_sync_mode => "0",
+            intr_mode => "00",
             invert_in_clock => 0,
             invert_in_clock_en => 0,
             invert_in_reset => 0,
             invert_out_clock => 0,
             invert_out_clock_en => 0,
             invert_out_reset => 0,
-            io_voltage => ",,,,",
+            io_voltage => "",
             layout_mode => "NONCONTIGUOUS",
-            oe_conn => "00000",
+            oe_conn => "0",
             oe_reset => 0,
-            oe_sync => "00000",
+            oe_sync => "0",
             output_clk_en => 0,
-            output_clock_mode => "00000",
-            output_conn => "00000",
-            output_mode => "00000",
+            output_clock_mode => "0",
+            output_conn => "0",
+            output_mode => "0",
             output_reset => 0,
-            output_sync => "00000",
-            ovt_hyst_trim => "00000",
-            ovt_needed => "00000",
-            ovt_slew_control => "0000000000",
+            output_sync => "0",
+            ovt_hyst_trim => "0",
+            ovt_needed => "0",
+            ovt_slew_control => "00",
             pa_in_clock => -1,
             pa_in_clock_en => -1,
             pa_in_reset => -1,
             pa_out_clock => -1,
             pa_out_clock_en => -1,
             pa_out_reset => -1,
-            pin_aliases => "LinearSlider0_e0__LS,LinearSlider0_e1__LS,LinearSlider0_e2__LS,LinearSlider0_e3__LS,LinearSlider0_e4__LS",
-            pin_mode => "AAAAA",
+            pin_aliases => "ProximitySensor0_0__PROX",
+            pin_mode => "A",
             por_state => 4,
             port_alias_group => "",
             port_alias_required => 0,
             sio_group_cnt => 0,
             sio_hifreq => "",
-            sio_hyst => "11111",
+            sio_hyst => "1",
             sio_ibuf => "00000000",
-            sio_info => "0000000000",
+            sio_info => "00",
             sio_obuf => "00000000",
             sio_refsel => "00000000",
             sio_vtrip => "00000000",
-            slew_rate => "00000",
+            slew_rate => "0",
             spanning => 1,
             sw_only => 0,
-            use_annotation => "00000",
-            vtrip => "1010101010",
-            width => 5,
+            use_annotation => "0",
+            vtrip => "10",
+            width => 1,
             in_clk_inv => 0,
             in_clken_inv => 0,
             in_clken_mode => 1,

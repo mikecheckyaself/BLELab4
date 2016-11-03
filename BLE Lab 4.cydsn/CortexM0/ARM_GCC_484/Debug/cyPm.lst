@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
   30:.\Generated_Source\PSoC4/cyPm.c **** *  its main clock can be removed. It is identical to Active from a peripheral
   31:.\Generated_Source\PSoC4/cyPm.c **** *  point of view. Any enabled interrupts can cause wakeup from the  Sleep mode.
   32:.\Generated_Source\PSoC4/cyPm.c **** *
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 2
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 2
 
 
   33:.\Generated_Source\PSoC4/cyPm.c **** * Parameters:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
   53:.\Generated_Source\PSoC4/cyPm.c **** }
   60              		.loc 1 53 0
   61 0028 BD46     		mov	sp, r7
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 3
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 3
 
 
   62 002a 03B0     		add	sp, sp, #12
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
   90              		.cfi_def_cfa_register 7
   80:.\Generated_Source\PSoC4/cyPm.c ****     uint8 interruptState;
   81:.\Generated_Source\PSoC4/cyPm.c ****     #if(CY_IP_SRSSV2)
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 4
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 4
 
 
   82:.\Generated_Source\PSoC4/cyPm.c ****         volatile uint32 clkSelectReg;
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  107:.\Generated_Source\PSoC4/cyPm.c ****         CySysClkWriteSysclkDiv(CY_SYS_CLK_SYSCLK_DIV4);
  120              		.loc 1 107 0
  121 0038 0220     		mov	r0, #2
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 5
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 5
 
 
  122 003a FFF7FEFF 		bl	CySysClkWriteSysclkDiv
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  160              	CySysPmHibernate:
  161              	.LFB4:
  124:.\Generated_Source\PSoC4/cyPm.c **** 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 6
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 6
 
 
  125:.\Generated_Source\PSoC4/cyPm.c **** 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  176 000c 031C     		mov	r3, r0
  177 000e 2370     		strb	r3, [r4]
  165:.\Generated_Source\PSoC4/cyPm.c **** 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 7
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 7
 
 
  166:.\Generated_Source\PSoC4/cyPm.c ****         /* Device enters Hibernate mode when CPU asserts SLEEPDEEP signal */
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  211              	
  212              	@ 0 "" 2
  187:.\Generated_Source\PSoC4/cyPm.c **** 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 8
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 8
 
 
  188:.\Generated_Source\PSoC4/cyPm.c ****         CyExitCriticalSection(interruptState);
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  212:.\Generated_Source\PSoC4/cyPm.c ****     *  explicitly with CySysPmUnfreezeIo() function call.
  213:.\Generated_Source\PSoC4/cyPm.c ****     *
  214:.\Generated_Source\PSoC4/cyPm.c ****     * Parameters:
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 9
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 9
 
 
  215:.\Generated_Source\PSoC4/cyPm.c ****     *  None
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  239:.\Generated_Source\PSoC4/cyPm.c ****         CY_NOP;
  273              		.loc 1 239 0
  274              	@ 239 ".\Generated_Source\PSoC4\cyPm.c" 1
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 10
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 10
 
 
  275 002c C046     		NOP
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  261:.\Generated_Source\PSoC4/cyPm.c ****     *
  262:.\Generated_Source\PSoC4/cyPm.c ****     * Parameters:
  263:.\Generated_Source\PSoC4/cyPm.c ****     *  polarity: Wakeup pin active level:
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 11
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 11
 
 
  264:.\Generated_Source\PSoC4/cyPm.c ****     *   Value    Define                          Level
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  344 002c 064A     		ldr	r2, .L16+4
  345 002e 0A40     		and	r2, r1
  346              	.L15:
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 12
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 12
 
 
  278:.\Generated_Source\PSoC4/cyPm.c ****         CY_PM_PWR_STOP_REG = (CY_PM_STOP_WAKEUP_ACTIVE_LOW != polarity) ?
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  305:.\Generated_Source\PSoC4/cyPm.c ****     *******************************************************************************/
  306:.\Generated_Source\PSoC4/cyPm.c ****     uint32 CySysPmGetResetReason(void)
  307:.\Generated_Source\PSoC4/cyPm.c ****     {
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 13
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 13
 
 
  376              		.loc 1 307 0
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  406              		.loc 1 315 0
  407 0024 05E0     		b	.L23
  408              	.L20:
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 14
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 14
 
 
  319:.\Generated_Source\PSoC4/cyPm.c ****             reason = CY_PM_RESET_REASON_WAKEUP_HIB;
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  345:.\Generated_Source\PSoC4/cyPm.c ****     *
  346:.\Generated_Source\PSoC4/cyPm.c ****     * Parameters:
  347:.\Generated_Source\PSoC4/cyPm.c ****     *  None
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 15
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 15
 
 
  348:.\Generated_Source\PSoC4/cyPm.c ****     *
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  475 0026 0B49     		ldr	r1, .L29+8
  476 0028 0A43     		orr	r2, r1
  477 002a 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 16
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 16
 
 
  370:.\Generated_Source\PSoC4/cyPm.c **** 
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  385:.\Generated_Source\PSoC4/cyPm.c ****     /*******************************************************************************
  386:.\Generated_Source\PSoC4/cyPm.c ****     * Function Name: CySysPmUnfreezeIo
  387:.\Generated_Source\PSoC4/cyPm.c ****     ********************************************************************************
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 17
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 17
 
 
  388:.\Generated_Source\PSoC4/cyPm.c ****     *
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  413:.\Generated_Source\PSoC4/cyPm.c ****         /* If reading after writing, read this register three times to delay
  414:.\Generated_Source\PSoC4/cyPm.c ****         *  enough time for internal settling.
  415:.\Generated_Source\PSoC4/cyPm.c ****         */
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 18
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 18
 
 
  416:.\Generated_Source\PSoC4/cyPm.c ****         (void) CY_PM_PWR_STOP_REG;
@@ -1070,48 +1070,48 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  583 0006 00000000 		.4byte	.Ldebug_abbrev0
  584 000a 04       		.byte	0x4
  585 000b 01       		.uleb128 0x1
- 586 000c 5C000000 		.4byte	.LASF26
+ 586 000c 8D000000 		.4byte	.LASF26
  587 0010 01       		.byte	0x1
- 588 0011 B3010000 		.4byte	.LASF27
- 589 0015 13020000 		.4byte	.LASF28
+ 588 0011 E4010000 		.4byte	.LASF27
+ 589 0015 56000000 		.4byte	.LASF28
  590 0019 00000000 		.4byte	.Ldebug_ranges0+0
  591 001d 00000000 		.4byte	0
  592 0021 00000000 		.4byte	.Ldebug_line0
  593 0025 02       		.uleb128 0x2
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 19
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 19
 
 
  594 0026 01       		.byte	0x1
  595 0027 06       		.byte	0x6
- 596 0028 F7010000 		.4byte	.LASF0
+ 596 0028 28020000 		.4byte	.LASF0
  597 002c 02       		.uleb128 0x2
  598 002d 01       		.byte	0x1
  599 002e 08       		.byte	0x8
- 600 002f D8000000 		.4byte	.LASF1
+ 600 002f 09010000 		.4byte	.LASF1
  601 0033 02       		.uleb128 0x2
  602 0034 02       		.byte	0x2
  603 0035 05       		.byte	0x5
- 604 0036 D3010000 		.4byte	.LASF2
+ 604 0036 04020000 		.4byte	.LASF2
  605 003a 02       		.uleb128 0x2
  606 003b 02       		.byte	0x2
  607 003c 07       		.byte	0x7
- 608 003d 32000000 		.4byte	.LASF3
+ 608 003d 43000000 		.4byte	.LASF3
  609 0041 02       		.uleb128 0x2
  610 0042 04       		.byte	0x4
  611 0043 05       		.byte	0x5
- 612 0044 EE010000 		.4byte	.LASF4
+ 612 0044 1F020000 		.4byte	.LASF4
  613 0048 02       		.uleb128 0x2
  614 0049 04       		.byte	0x4
  615 004a 07       		.byte	0x7
- 616 004b F5000000 		.4byte	.LASF5
+ 616 004b 26010000 		.4byte	.LASF5
  617 004f 02       		.uleb128 0x2
  618 0050 08       		.byte	0x8
  619 0051 05       		.byte	0x5
- 620 0052 93010000 		.4byte	.LASF6
+ 620 0052 C4010000 		.4byte	.LASF6
  621 0056 02       		.uleb128 0x2
  622 0057 08       		.byte	0x8
  623 0058 07       		.byte	0x7
- 624 0059 4D010000 		.4byte	.LASF7
+ 624 0059 7E010000 		.4byte	.LASF7
  625 005d 03       		.uleb128 0x3
  626 005e 04       		.byte	0x4
  627 005f 05       		.byte	0x5
@@ -1119,37 +1119,37 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  629 0064 02       		.uleb128 0x2
  630 0065 04       		.byte	0x4
  631 0066 07       		.byte	0x7
- 632 0067 40010000 		.4byte	.LASF8
+ 632 0067 71010000 		.4byte	.LASF8
  633 006b 04       		.uleb128 0x4
- 634 006c 07010000 		.4byte	.LASF9
+ 634 006c 38010000 		.4byte	.LASF9
  635 0070 02       		.byte	0x2
  636 0071 A1       		.byte	0xa1
  637 0072 2C000000 		.4byte	0x2c
  638 0076 04       		.uleb128 0x4
- 639 0077 32010000 		.4byte	.LASF10
+ 639 0077 63010000 		.4byte	.LASF10
  640 007b 02       		.byte	0x2
  641 007c A2       		.byte	0xa2
  642 007d 3A000000 		.4byte	0x3a
  643 0081 04       		.uleb128 0x4
- 644 0082 39010000 		.4byte	.LASF11
+ 644 0082 6A010000 		.4byte	.LASF11
  645 0086 02       		.byte	0x2
  646 0087 A3       		.byte	0xa3
  647 0088 48000000 		.4byte	0x48
  648 008c 02       		.uleb128 0x2
  649 008d 04       		.byte	0x4
  650 008e 04       		.byte	0x4
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 20
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 20
 
 
- 651 008f 56000000 		.4byte	.LASF12
+ 651 008f 87000000 		.4byte	.LASF12
  652 0093 02       		.uleb128 0x2
  653 0094 08       		.byte	0x8
  654 0095 04       		.byte	0x4
- 655 0096 19010000 		.4byte	.LASF13
+ 655 0096 4A010000 		.4byte	.LASF13
  656 009a 02       		.uleb128 0x2
  657 009b 01       		.byte	0x1
  658 009c 08       		.byte	0x8
- 659 009d A1010000 		.4byte	.LASF14
+ 659 009d D2010000 		.4byte	.LASF14
  660 00a1 05       		.uleb128 0x5
  661 00a2 00000000 		.4byte	.LASF15
  662 00a6 02       		.byte	0x2
@@ -1167,9 +1167,9 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  674 00c3 02       		.uleb128 0x2
  675 00c4 04       		.byte	0x4
  676 00c5 07       		.byte	0x7
- 677 00c6 8A010000 		.4byte	.LASF17
+ 677 00c6 BB010000 		.4byte	.LASF17
  678 00ca 07       		.uleb128 0x7
- 679 00cb 25000000 		.4byte	.LASF18
+ 679 00cb 36000000 		.4byte	.LASF18
  680 00cf 01       		.byte	0x1
  681 00d0 28       		.byte	0x28
  682 00d1 00000000 		.4byte	.LFB2
@@ -1178,7 +1178,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  685 00da 9C       		.byte	0x9c
  686 00db EE000000 		.4byte	0xee
  687 00df 08       		.uleb128 0x8
- 688 00e0 E6000000 		.4byte	.LASF20
+ 688 00e0 17010000 		.4byte	.LASF20
  689 00e4 01       		.byte	0x1
  690 00e5 2A       		.byte	0x2a
  691 00e6 6B000000 		.4byte	0x6b
@@ -1187,7 +1187,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  694 00ec 6F       		.sleb128 -17
  695 00ed 00       		.byte	0
  696 00ee 07       		.uleb128 0x7
- 697 00ef DD010000 		.4byte	.LASF19
+ 697 00ef 0E020000 		.4byte	.LASF19
  698 00f3 01       		.byte	0x1
  699 00f4 4E       		.byte	0x4e
  700 00f5 00000000 		.4byte	.LFB3
@@ -1196,9 +1196,9 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  703 00fe 9C       		.byte	0x9c
  704 00ff 20010000 		.4byte	0x120
  705 0103 08       		.uleb128 0x8
- 706 0104 E6000000 		.4byte	.LASF20
+ 706 0104 17010000 		.4byte	.LASF20
  707 0108 01       		.byte	0x1
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 21
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 21
 
 
  708 0109 50       		.byte	0x50
@@ -1207,7 +1207,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  711 010f 91       		.byte	0x91
  712 0110 6F       		.sleb128 -17
  713 0111 08       		.uleb128 0x8
- 714 0112 A6010000 		.4byte	.LASF21
+ 714 0112 D7010000 		.4byte	.LASF21
  715 0116 01       		.byte	0x1
  716 0117 52       		.byte	0x52
  717 0118 BE000000 		.4byte	0xbe
@@ -1216,7 +1216,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  720 011e 68       		.sleb128 -24
  721 011f 00       		.byte	0
  722 0120 07       		.uleb128 0x7
- 723 0121 45000000 		.4byte	.LASF22
+ 723 0121 25000000 		.4byte	.LASF22
  724 0125 01       		.byte	0x1
  725 0126 A0       		.byte	0xa0
  726 0127 00000000 		.4byte	.LFB4
@@ -1225,7 +1225,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  729 0130 9C       		.byte	0x9c
  730 0131 44010000 		.4byte	0x144
  731 0135 08       		.uleb128 0x8
- 732 0136 E6000000 		.4byte	.LASF20
+ 732 0136 17010000 		.4byte	.LASF20
  733 013a 01       		.byte	0x1
  734 013b A2       		.byte	0xa2
  735 013c 6B000000 		.4byte	0x6b
@@ -1234,7 +1234,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  738 0142 6F       		.sleb128 -17
  739 0143 00       		.byte	0
  740 0144 09       		.uleb128 0x9
- 741 0145 0D010000 		.4byte	.LASF29
+ 741 0145 3E010000 		.4byte	.LASF29
  742 0149 01       		.byte	0x1
  743 014a DD       		.byte	0xdd
  744 014b 00000000 		.4byte	.LFB5
@@ -1251,18 +1251,18 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  755 0166 9C       		.byte	0x9c
  756 0167 8A010000 		.4byte	0x18a
  757 016b 0B       		.uleb128 0xb
- 758 016c 6B010000 		.4byte	.LASF30
+ 758 016c 9C010000 		.4byte	.LASF30
  759 0170 01       		.byte	0x1
  760 0171 1001     		.2byte	0x110
  761 0173 81000000 		.4byte	0x81
  762 0177 02       		.uleb128 0x2
  763 0178 91       		.byte	0x91
  764 0179 64       		.sleb128 -28
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 22
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 22
 
 
  765 017a 0C       		.uleb128 0xc
- 766 017b E6000000 		.4byte	.LASF20
+ 766 017b 17010000 		.4byte	.LASF20
  767 017f 01       		.byte	0x1
  768 0180 1201     		.2byte	0x112
  769 0182 6B000000 		.4byte	0x6b
@@ -1271,7 +1271,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  772 0188 6F       		.sleb128 -17
  773 0189 00       		.byte	0
  774 018a 0D       		.uleb128 0xd
- 775 018b 74010000 		.4byte	.LASF31
+ 775 018b A5010000 		.4byte	.LASF31
  776 018f 01       		.byte	0x1
  777 0190 3201     		.2byte	0x132
  778 0192 81000000 		.4byte	0x81
@@ -1281,7 +1281,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  782 019f 9C       		.byte	0x9c
  783 01a0 B4010000 		.4byte	0x1b4
  784 01a4 0C       		.uleb128 0xc
- 785 01a5 64010000 		.4byte	.LASF24
+ 785 01a5 95010000 		.4byte	.LASF24
  786 01a9 01       		.byte	0x1
  787 01aa 3401     		.2byte	0x134
  788 01ac 81000000 		.4byte	0x81
@@ -1290,7 +1290,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  791 01b2 74       		.sleb128 -12
  792 01b3 00       		.byte	0
  793 01b4 0A       		.uleb128 0xa
- 794 01b5 03020000 		.4byte	.LASF25
+ 794 01b5 34020000 		.4byte	.LASF25
  795 01b9 01       		.byte	0x1
  796 01ba 6101     		.2byte	0x161
  797 01bc 00000000 		.4byte	.LFB8
@@ -1299,7 +1299,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  800 01c5 9C       		.byte	0x9c
  801 01c6 DA010000 		.4byte	0x1da
  802 01ca 0C       		.uleb128 0xc
- 803 01cb E6000000 		.4byte	.LASF20
+ 803 01cb 17010000 		.4byte	.LASF20
  804 01cf 01       		.byte	0x1
  805 01d0 6301     		.2byte	0x163
  806 01d2 6B000000 		.4byte	0x6b
@@ -1308,7 +1308,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  809 01d8 6F       		.sleb128 -17
  810 01d9 00       		.byte	0
  811 01da 0E       		.uleb128 0xe
- 812 01db 20010000 		.4byte	.LASF32
+ 812 01db 51010000 		.4byte	.LASF32
  813 01df 01       		.byte	0x1
  814 01e0 9101     		.2byte	0x191
  815 01e2 00000000 		.4byte	.LFB9
@@ -1316,9 +1316,9 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  817 01ea 01       		.uleb128 0x1
  818 01eb 9C       		.byte	0x9c
  819 01ec 0C       		.uleb128 0xc
- 820 01ed E6000000 		.4byte	.LASF20
+ 820 01ed 17010000 		.4byte	.LASF20
  821 01f1 01       		.byte	0x1
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 23
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 23
 
 
  822 01f2 9301     		.2byte	0x193
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  876 002d 0E       		.uleb128 0xe
  877 002e 3A       		.uleb128 0x3a
  878 002f 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 24
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 24
 
 
  879 0030 3B       		.uleb128 0x3b
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  933 0067 03       		.uleb128 0x3
  934 0068 0E       		.uleb128 0xe
  935 0069 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 25
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 25
 
 
  936 006a 0B       		.uleb128 0xb
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  990 00a2 13       		.uleb128 0x13
  991 00a3 00       		.byte	0
  992 00a4 00       		.byte	0
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 26
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 26
 
 
  993 00a5 0B       		.uleb128 0xb
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  1047 00dc 13       		.uleb128 0x13
  1048 00dd 00       		.byte	0
  1049 00de 00       		.byte	0
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 27
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 27
 
 
  1050 00df 0E       		.uleb128 0xe
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  1104 0008 00000000 		.4byte	.LFB3
  1105 000c 6C000000 		.4byte	.LFE3
  1106 0010 00000000 		.4byte	.LFB4
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 28
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 28
 
 
  1107 0014 6C000000 		.4byte	.LFE4
@@ -1653,164 +1653,164 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 1
  1128      65745761 
  1128      6B657570 
  1128      506F6C61 
- 1129              	.LASF18:
- 1130 0025 43795379 		.ascii	"CySysPmSleep\000"
- 1130      73506D53 
- 1130      6C656570 
+ 1129              	.LASF22:
+ 1130 0025 43795379 		.ascii	"CySysPmHibernate\000"
+ 1130      73506D48 
+ 1130      69626572 
+ 1130      6E617465 
  1130      00
- 1131              	.LASF3:
- 1132 0032 73686F72 		.ascii	"short unsigned int\000"
- 1132      7420756E 
- 1132      7369676E 
- 1132      65642069 
- 1132      6E7400
- 1133              	.LASF22:
- 1134 0045 43795379 		.ascii	"CySysPmHibernate\000"
- 1134      73506D48 
- 1134      69626572 
- 1134      6E617465 
- 1134      00
- 1135              	.LASF12:
- 1136 0056 666C6F61 		.ascii	"float\000"
- 1136      7400
- 1137              	.LASF26:
- 1138 005c 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
- 1138      4320342E 
- 1138      382E3420 
- 1138      32303134 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 29
+ 1131              	.LASF18:
+ 1132 0036 43795379 		.ascii	"CySysPmSleep\000"
+ 1132      73506D53 
+ 1132      6C656570 
+ 1132      00
+ 1133              	.LASF3:
+ 1134 0043 73686F72 		.ascii	"short unsigned int\000"
+ 1134      7420756E 
+ 1134      7369676E 
+ 1134      65642069 
+ 1134      6E7400
+ 1135              	.LASF28:
+ 1136 0056 433A5C55 		.ascii	"C:\\Users\\Heidi\\Desktop\\BLE_Lab_4\\BLE Lab 4.cyd"
+ 1136      73657273 
+ 1136      5C486569 
+ 1136      64695C44 
+ 1136      65736B74 
+ 1137 0084 736E00   		.ascii	"sn\000"
+ 1138              	.LASF12:
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 29
 
 
- 1138      30353236 
- 1139 008f 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m0 -mthumb -g -O"
- 1139      20726576 
- 1139      6973696F 
- 1139      6E203231 
- 1139      31333538 
- 1140 00c2 30202D66 		.ascii	"0 -ffunction-sections\000"
- 1140      66756E63 
- 1140      74696F6E 
- 1140      2D736563 
- 1140      74696F6E 
- 1141              	.LASF1:
- 1142 00d8 756E7369 		.ascii	"unsigned char\000"
- 1142      676E6564 
- 1142      20636861 
- 1142      7200
- 1143              	.LASF20:
- 1144 00e6 696E7465 		.ascii	"interruptState\000"
- 1144      72727570 
- 1144      74537461 
- 1144      746500
- 1145              	.LASF5:
- 1146 00f5 6C6F6E67 		.ascii	"long unsigned int\000"
- 1146      20756E73 
- 1146      69676E65 
- 1146      6420696E 
- 1146      7400
- 1147              	.LASF9:
- 1148 0107 75696E74 		.ascii	"uint8\000"
- 1148      3800
- 1149              	.LASF29:
- 1150 010d 43795379 		.ascii	"CySysPmStop\000"
- 1150      73506D53 
- 1150      746F7000 
- 1151              	.LASF13:
- 1152 0119 646F7562 		.ascii	"double\000"
- 1152      6C6500
- 1153              	.LASF32:
- 1154 0120 43795379 		.ascii	"CySysPmUnfreezeIo\000"
- 1154      73506D55 
- 1154      6E667265 
- 1154      657A6549 
- 1154      6F00
- 1155              	.LASF10:
- 1156 0132 75696E74 		.ascii	"uint16\000"
- 1156      313600
- 1157              	.LASF11:
- 1158 0139 75696E74 		.ascii	"uint32\000"
- 1158      333200
- 1159              	.LASF8:
- 1160 0140 756E7369 		.ascii	"unsigned int\000"
- 1160      676E6564 
- 1160      20696E74 
- 1160      00
- 1161              	.LASF7:
- 1162 014d 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1162      206C6F6E 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 30
+ 1139 0087 666C6F61 		.ascii	"float\000"
+ 1139      7400
+ 1140              	.LASF26:
+ 1141 008d 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
+ 1141      4320342E 
+ 1141      382E3420 
+ 1141      32303134 
+ 1141      30353236 
+ 1142 00c0 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m0 -mthumb -g -O"
+ 1142      20726576 
+ 1142      6973696F 
+ 1142      6E203231 
+ 1142      31333538 
+ 1143 00f3 30202D66 		.ascii	"0 -ffunction-sections\000"
+ 1143      66756E63 
+ 1143      74696F6E 
+ 1143      2D736563 
+ 1143      74696F6E 
+ 1144              	.LASF1:
+ 1145 0109 756E7369 		.ascii	"unsigned char\000"
+ 1145      676E6564 
+ 1145      20636861 
+ 1145      7200
+ 1146              	.LASF20:
+ 1147 0117 696E7465 		.ascii	"interruptState\000"
+ 1147      72727570 
+ 1147      74537461 
+ 1147      746500
+ 1148              	.LASF5:
+ 1149 0126 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1149      20756E73 
+ 1149      69676E65 
+ 1149      6420696E 
+ 1149      7400
+ 1150              	.LASF9:
+ 1151 0138 75696E74 		.ascii	"uint8\000"
+ 1151      3800
+ 1152              	.LASF29:
+ 1153 013e 43795379 		.ascii	"CySysPmStop\000"
+ 1153      73506D53 
+ 1153      746F7000 
+ 1154              	.LASF13:
+ 1155 014a 646F7562 		.ascii	"double\000"
+ 1155      6C6500
+ 1156              	.LASF32:
+ 1157 0151 43795379 		.ascii	"CySysPmUnfreezeIo\000"
+ 1157      73506D55 
+ 1157      6E667265 
+ 1157      657A6549 
+ 1157      6F00
+ 1158              	.LASF10:
+ 1159 0163 75696E74 		.ascii	"uint16\000"
+ 1159      313600
+ 1160              	.LASF11:
+ 1161 016a 75696E74 		.ascii	"uint32\000"
+ 1161      333200
+ 1162              	.LASF8:
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 30
 
 
- 1162      6720756E 
- 1162      7369676E 
- 1162      65642069 
- 1163              	.LASF24:
- 1164 0164 72656173 		.ascii	"reason\000"
- 1164      6F6E00
- 1165              	.LASF30:
- 1166 016b 706F6C61 		.ascii	"polarity\000"
- 1166      72697479 
- 1166      00
- 1167              	.LASF31:
- 1168 0174 43795379 		.ascii	"CySysPmGetResetReason\000"
- 1168      73506D47 
- 1168      65745265 
- 1168      73657452 
- 1168      6561736F 
- 1169              	.LASF17:
- 1170 018a 73697A65 		.ascii	"sizetype\000"
- 1170      74797065 
- 1170      00
- 1171              	.LASF6:
- 1172 0193 6C6F6E67 		.ascii	"long long int\000"
- 1172      206C6F6E 
- 1172      6720696E 
- 1172      7400
- 1173              	.LASF14:
- 1174 01a1 63686172 		.ascii	"char\000"
- 1174      00
- 1175              	.LASF21:
- 1176 01a6 636C6B53 		.ascii	"clkSelectReg\000"
- 1176      656C6563 
- 1176      74526567 
- 1176      00
- 1177              	.LASF27:
- 1178 01b3 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\cyPm.c\000"
- 1178      6E657261 
- 1178      7465645F 
- 1178      536F7572 
- 1178      63655C50 
- 1179              	.LASF2:
- 1180 01d3 73686F72 		.ascii	"short int\000"
- 1180      7420696E 
- 1180      7400
- 1181              	.LASF19:
- 1182 01dd 43795379 		.ascii	"CySysPmDeepSleep\000"
- 1182      73506D44 
- 1182      65657053 
- 1182      6C656570 
- 1182      00
- 1183              	.LASF4:
- 1184 01ee 6C6F6E67 		.ascii	"long int\000"
- 1184      20696E74 
- 1184      00
- 1185              	.LASF0:
- 1186 01f7 7369676E 		.ascii	"signed char\000"
- 1186      65642063 
- 1186      68617200 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc53p8Xg.s 			page 31
+ 1163 0171 756E7369 		.ascii	"unsigned int\000"
+ 1163      676E6564 
+ 1163      20696E74 
+ 1163      00
+ 1164              	.LASF7:
+ 1165 017e 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1165      206C6F6E 
+ 1165      6720756E 
+ 1165      7369676E 
+ 1165      65642069 
+ 1166              	.LASF24:
+ 1167 0195 72656173 		.ascii	"reason\000"
+ 1167      6F6E00
+ 1168              	.LASF30:
+ 1169 019c 706F6C61 		.ascii	"polarity\000"
+ 1169      72697479 
+ 1169      00
+ 1170              	.LASF31:
+ 1171 01a5 43795379 		.ascii	"CySysPmGetResetReason\000"
+ 1171      73506D47 
+ 1171      65745265 
+ 1171      73657452 
+ 1171      6561736F 
+ 1172              	.LASF17:
+ 1173 01bb 73697A65 		.ascii	"sizetype\000"
+ 1173      74797065 
+ 1173      00
+ 1174              	.LASF6:
+ 1175 01c4 6C6F6E67 		.ascii	"long long int\000"
+ 1175      206C6F6E 
+ 1175      6720696E 
+ 1175      7400
+ 1176              	.LASF14:
+ 1177 01d2 63686172 		.ascii	"char\000"
+ 1177      00
+ 1178              	.LASF21:
+ 1179 01d7 636C6B53 		.ascii	"clkSelectReg\000"
+ 1179      656C6563 
+ 1179      74526567 
+ 1179      00
+ 1180              	.LASF27:
+ 1181 01e4 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\cyPm.c\000"
+ 1181      6E657261 
+ 1181      7465645F 
+ 1181      536F7572 
+ 1181      63655C50 
+ 1182              	.LASF2:
+ 1183 0204 73686F72 		.ascii	"short int\000"
+ 1183      7420696E 
+ 1183      7400
+ 1184              	.LASF19:
+ 1185 020e 43795379 		.ascii	"CySysPmDeepSleep\000"
+ 1185      73506D44 
+ 1185      65657053 
+ 1185      6C656570 
+ 1185      00
+ 1186              	.LASF4:
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cccKLrTW.s 			page 31
 
 
- 1187              	.LASF25:
- 1188 0203 43795379 		.ascii	"CySysPmFreezeIo\000"
- 1188      73506D46 
- 1188      7265657A 
- 1188      65496F00 
- 1189              	.LASF28:
- 1190 0213 433A5C55 		.ascii	"C:\\Users\\Heidi\\Desktop\\BLE Lab 4\\BLE Lab 4.cyd"
- 1190      73657273 
- 1190      5C486569 
- 1190      64695C44 
- 1190      65736B74 
- 1191 0241 736E00   		.ascii	"sn\000"
+ 1187 021f 6C6F6E67 		.ascii	"long int\000"
+ 1187      20696E74 
+ 1187      00
+ 1188              	.LASF0:
+ 1189 0228 7369676E 		.ascii	"signed char\000"
+ 1189      65642063 
+ 1189      68617200 
+ 1190              	.LASF25:
+ 1191 0234 43795379 		.ascii	"CySysPmFreezeIo\000"
+ 1191      73506D46 
+ 1191      7265657A 
+ 1191      65496F00 
  1192              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.8.4 20140526 (release) [ARM/embedded-4_8-br

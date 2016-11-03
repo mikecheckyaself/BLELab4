@@ -44,13 +44,30 @@
 *****************************************************************************/
 #include <main.h>
 #include <BLEApplications.h>
+/*'deviceConnected' flag is used by application to know whether a Central device  
+* has been connected. This is updated in BLE event callback */
+extern uint8 deviceConnected;
+
+/*'startNotification' flag is set when the central device writes to CCC (Client  
+* Characteristic Configuration) of the CapSense proximity characteristic to 
+* enable notifications */
+extern uint8 startNotification;	
+
+/* 'restartAdvertisement' flag is used to restart advertisement */
+extern uint8 restartAdvertisement;
+
+/* 'initializeCapSenseBaseline' flag is used to call the function once that initializes 
+* all CapSense baseline. The baseline is initialized when the first advertisement 
+* is started. This is done so that any external disturbance while powering the kit does 
+* not infliuence the baseline value, that may cause wrong readings. */
+uint8 initializeCapSenseBaseline = TRUE;
 
 
 /*****************************************************************************
 * Function Prototypes
 *****************************************************************************/
 static void InitializeSystem(void);
-static void HandleCapSenseSlider(void);
+static void HandleCapSenseProximity(void);
 
 
 /*****************************************************************************
@@ -80,23 +97,55 @@ int main()
     {
         /*Process event callback to handle BLE events. The events generated and 
 		* used for this application are inside the 'CustomEventHandler' routine*/
-        CyBle_ProcessEvents();
-		
-		if(TRUE == deviceConnected)
+        if(TRUE == deviceConnected) 
 		{
-            /* When the Client Characteristic Configuration descriptor (CCCD) is
-             * written by Central device for enabling/disabling notifications, 
-             * then the same descriptor value has to be explicitly updated in 
-             * application so that it reflects the correct value when the 
-             * descriptor is read */
+			/* After the connection, send new connection parameter to the Client device 
+			* to run the BLE communication on desired interval. This affects the data rate 
+			* and power consumption. High connection interval will have lower data rate but 
+			* lower power consumption. Low connection interval will have higher data rate at
+			* expense of higher power. This function is called only once per connection. */
+			UpdateConnectionParam();
+			
+			/* When the Client Characteristic Configuration descriptor (CCCD) is written
+			* by Central device for enabling/disabling notifications, then the same
+			* descriptor value has to be explicitly updated in application so that
+			* it reflects the correct value when the descriptor is read */
 			UpdateNotificationCCCD();
 			
-			/* Send CapSense Slider data when respective notification is enabled */
-			if(TRUE == sendCapSenseSliderNotifications)
+			/* If CapSense Initialize Baseline API has not been called yet, call the
+			* API and reset the flag. */
+			if(initializeCapSenseBaseline)
 			{
-				/* Check for CapSense slider swipe and send data accordingly */
-				HandleCapSenseSlider();
+				/* Reset 'initializeCapSenseBaseline' flag*/
+				initializeCapSenseBaseline = FALSE;
+				
+				/* Initialize all CapSense Baseline */
+				CapSense_InitializeAllBaselines();
 			}
+			
+			/* Send proximity data when notifications are enabled */
+			if(startNotification & CCCD_NTF_BIT_MASK)
+			{
+				/*Check for CapSense proximity change and report to BLE central device*/
+				HandleCapSenseProximity();
+			}
+		}
+
+		#ifdef ENABLE_LOW_POWER_MODE
+			/* Put system to Deep sleep, including BLESS, and wakeup on interrupt. 
+			* The source of the interrupt can be either BLESS Link Layer in case of 
+			* BLE advertisement and connection or by User Button press during BLE 
+			* disconnection */
+			HandleLowPowerMode();
+		#endif
+		
+		if(restartAdvertisement)
+		{
+			/* Reset 'restartAdvertisement' flag*/
+			restartAdvertisement = FALSE;
+			
+			/* Start Advertisement and enter Discoverable mode*/
+			CyBle_GappStartAdvertisement(CYBLE_ADVERTISING_FAST);	
 		}
     }	
 }
@@ -138,14 +187,25 @@ void InitializeSystem(void)
 	RED_SetDriveMode(RED_DM_STRONG);
 	GREEN_SetDriveMode(GREEN_DM_STRONG);
 	BLUE_SetDriveMode(BLUE_DM_STRONG);
+    
+    /* Set drive mode of the status LED pin to Strong*/
+	//RED_SetDriveMode(RED_DM_STRONG);	
 	
+    
 	/* Initialize CapSense component and initialize baselines*/
-	CapSense_Start();
+	
 	CapSense_InitializeAllBaselines();
+    #ifdef CAPSENSE_ENABLED
+	/* Enable the proximity widget explicitly and start CapSense component. 
+	* Initialization of the baseline is done when the first connection 
+	* happens  */
+	CapSense_EnableWidget(CapSense_PROXIMITYSENSOR0__PROX);
+	CapSense_Start();
+	#endif
 }
 
 
-/*******************************************************************************
+/**************************f*****************************************************
 * Function Name: HandleCapSenseSlider
 ********************************************************************************
 * Summary:
@@ -159,40 +219,53 @@ void InitializeSystem(void)
 *  void
 *
 *******************************************************************************/
-void HandleCapSenseSlider(void)
+void HandleCapSenseProximity(void)
 {
-	/* Last read CapSense slider position value */
-	static uint16 lastPosition;	
-	
-	/* Present slider position read by CapSense */
-	uint16 sliderPosition;
+	#ifdef CAPSENSE_ENABLED
+	/* Static variable used as counter for reading the new proximity value */
+	static uint16 proxCounter = TRUE;			
+			
+	/* Static variable to store last proximity value */
+	static uint8 lastProximityValue = MAX_PROX_VALUE;
 		
-	/* Update CapSense baseline for next reading*/
-	CapSense_UpdateEnabledBaselines();	
+	/* 'proximityValue' stores the proximity value read from CapSense component */
+	uint8 proximityValue;
+    uint8 myData[4];
 		
-	/* Scan the slider widget */
-	CapSense_ScanEnabledWidgets();			
-	
-	/* Wait for CapSense scanning to be complete. This could take about 5 ms */
-	while(CapSense_IsBusy());
-	
-	/* Read the finger position on the slider */
-	sliderPosition = CapSense_GetCentroidPos(CapSense_LINEARSLIDER0__LS);	
-
-	/*If finger is detected on the slider*/
-	if((sliderPosition != NO_FINGER) && (sliderPosition <= SLIDER_MAX_VALUE))
+	/* Check if proxCounter has reached its counting value */
+	if(FALSE == (--proxCounter))			
 	{
-        /* If finger position on the slider is changed then send data as BLE 
-         * notifications */
-        if(sliderPosition != lastPosition)
+		/* Set 'proxCounter' to the PROX_COUNTER_VALUE. This counter prevents sending 
+		   of large number of CapSense proximity data to BLE Central device */
+		proxCounter = PROX_COUNTER_VALUE;
+
+		/* Scan the Proximity Widget */
+		CapSense_ScanWidget(CapSense_PROXIMITYSENSOR0__PROX);				
+		
+		/* Wait for CapSense scanning to be complete. This could take about 5 ms */
+		while(CapSense_IsBusy())
 		{
-			/* Update global variable with present finger position on slider*/
-			lastPosition = sliderPosition;
+		}
+		
+		/* Update CapSense Baseline */
+		CapSense_UpdateEnabledBaselines();			
 
-			SendCapSenseNotification((uint8)sliderPosition);
-
-		}	
-	}	
+		/* Get the Diffcount between proximity raw data and baseline */
+		proximityValue = CapSense_GetDiffCountData(CapSense_PROXIMITYSENSOR0__PROX);
+		
+		/* Check if the proximity data is different from previous */
+		if(lastProximityValue != proximityValue)				
+		{
+			/* Send the proximity data to BLE central device by notifications*/
+			SendDataOverCapSenseNotification(&proximityValue);
+            myData[0] = proximityValue;  myData[1] = proximityValue/2; myData[2] = proximityValue/4; myData[3] = proximityValue+56;
+			SendDataOverCapSenseNotification(myData);
+			
+			/* Update present proximity value */
+			lastProximityValue = proximityValue;					
+		}
+	}
+	#endif
 }
 
 /* [] END OF FILE */

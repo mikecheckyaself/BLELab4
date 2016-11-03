@@ -57,6 +57,7 @@
 #define RGB_LED_CHAR_INDEX              (0x00)
 #define CAPSENSE_SLIDER_CHAR_HANDLE		(0x000E)
 #define RGB_LED_CHAR_HANDLE				(0x0013)
+#define CYBLE_CAPSENSE_CAPSENSE_PROXIMITY_CHAR_HANDLE   (0x000Eu) /* Handle of CapSense Proximity characteristic */
 
 #define CAPSENSE_CCC_HANDLE				(0x000F)
 
@@ -78,6 +79,42 @@
 
 #define MTU_XCHANGE_DATA_LEN			(0x0020)
 
+    /* Data length of CapSense Proximity data sent over notification */
+#define CAPSENSE_NOTIFICATION_DATA_LEN		1
+
+/* Bit mask for notification bit in CCCD (Client Characteristic 
+* Configuration Descriptor) written by Client device. */
+#define CCCD_NTF_BIT_MASK					0x01
+
+						
+
+/* Connection Update Parameter values to modify connection interval. These values
+* are sent as part of CyBle_L2capLeConnectionParamUpdateRequest() which requests
+* Client to update the existing Connection Interval to new value. Increasing 
+* connection interval will reduce data rate but will also reduce power consumption.
+* These numbers will influence power consumption */
+
+/* Minimum connection interval = CONN_PARAM_UPDATE_MIN_CONN_INTERVAL * 1.25 ms*/
+#define CONN_PARAM_UPDATE_MIN_CONN_INTERVAL	50        	
+/* Maximum connection interval = CONN_PARAM_UPDATE_MAX_CONN_INTERVAL * 1.25 ms */
+#define CONN_PARAM_UPDATE_MAX_CONN_INTERVAL	60        	
+/* Slave latency = Number of connection events */
+#define CONN_PARAM_UPDATE_SLAVE_LATENCY		0          
+/* Supervision timeout = CONN_PARAM_UPDATE_SUPRV_TIMEOUT * 10*/
+#define CONN_PARAM_UPDATE_SUPRV_TIMEOUT		200      
+
+/* LED Blink rate values for different stages of BLE connection */
+#ifdef ENABLE_LOW_POWER_MODE
+#define	LED_ADV_BLINK_PERIOD_ON			5
+#define LED_ADV_BLINK_PERIOD_OFF		20
+#else
+#define	LED_ADV_BLINK_PERIOD_ON			10000
+#define LED_ADV_BLINK_PERIOD_OFF		15000
+    
+    /* Macros for LED ON and OFF values */
+#define LED_ON							0x00
+#define LED_OFF							0x01
+#endif
 
 /*****************************************************************************
 * Extern variables
@@ -93,7 +130,9 @@ void CustomEventHandler(uint32 event, void * eventParam);
 void UpdateNotificationCCCD(void);
 void UpdateRGBled(void);
 void SendCapSenseNotification(uint8 CapSenseSliderData);
-
+void SendDataOverCapSenseNotification(uint8 * proximityValue);
+void UpdateConnectionParam(void); 
+void HandleStatusLED(void);
 
 #endif  /* #if !defined(_BLE_APPLICATIONS_H) */
 

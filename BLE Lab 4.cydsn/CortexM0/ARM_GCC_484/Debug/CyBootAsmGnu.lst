@@ -3801,7 +3801,7 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  321              	.set BLUE__0__MASK, 0x80
  322              	.set BLUE__0__OUT_SEL, CYREG_UDB_PA3_CFG10
  323              	.set BLUE__0__OUT_SEL_SHIFT, 14
- 324              	.set BLUE__0__OUT_SEL_VAL, 1
+ 324              	.set BLUE__0__OUT_SEL_VAL, 0
  325              	.set BLUE__0__PA__CFG0, CYREG_UDB_PA3_CFG0
  326              	.set BLUE__0__PA__CFG1, CYREG_UDB_PA3_CFG1
  327              	.set BLUE__0__PA__CFG10, CYREG_UDB_PA3_CFG10
@@ -3870,7 +3870,7 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  387              	.set GREEN__0__MASK, 0x40
  388              	.set GREEN__0__OUT_SEL, CYREG_UDB_PA3_CFG10
  389              	.set GREEN__0__OUT_SEL_SHIFT, 12
- 390              	.set GREEN__0__OUT_SEL_VAL, 0
+ 390              	.set GREEN__0__OUT_SEL_VAL, 1
  391              	.set GREEN__0__PA__CFG0, CYREG_UDB_PA3_CFG0
  392              	.set GREEN__0__PA__CFG1, CYREG_UDB_PA3_CFG1
  393              	.set GREEN__0__PA__CFG10, CYREG_UDB_PA3_CFG10
@@ -4113,13 +4113,13 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  618              	.set CapSense_Sns__0__DR_INV, CYREG_GPIO_PRT2_DR_INV
  619              	.set CapSense_Sns__0__DR_SET, CYREG_GPIO_PRT2_DR_SET
  620              	.set CapSense_Sns__0__HSIOM, CYREG_HSIOM_PORT_SEL2
- 621              	.set CapSense_Sns__0__HSIOM_MASK, 0x000000F0
- 622              	.set CapSense_Sns__0__HSIOM_SHIFT, 4
+ 621              	.set CapSense_Sns__0__HSIOM_MASK, 0x0000000F
+ 622              	.set CapSense_Sns__0__HSIOM_SHIFT, 0
  623              	.set CapSense_Sns__0__INTCFG, CYREG_GPIO_PRT2_INTR_CFG
  624              	.set CapSense_Sns__0__INTR, CYREG_GPIO_PRT2_INTR
  625              	.set CapSense_Sns__0__INTR_CFG, CYREG_GPIO_PRT2_INTR_CFG
  626              	.set CapSense_Sns__0__INTSTAT, CYREG_GPIO_PRT2_INTR
- 627              	.set CapSense_Sns__0__MASK, 0x02
+ 627              	.set CapSense_Sns__0__MASK, 0x01
  628              	.set CapSense_Sns__0__PA__CFG0, CYREG_UDB_PA2_CFG0
  629              	.set CapSense_Sns__0__PA__CFG1, CYREG_UDB_PA2_CFG1
  630              	.set CapSense_Sns__0__PA__CFG10, CYREG_UDB_PA2_CFG10
@@ -4142,439 +4142,185 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
 
 
  646              	.set CapSense_Sns__0__PS, CYREG_GPIO_PRT2_PS
- 647              	.set CapSense_Sns__0__SHIFT, 1
- 648              	.set CapSense_Sns__1__DR, CYREG_GPIO_PRT2_DR
- 649              	.set CapSense_Sns__1__DR_CLR, CYREG_GPIO_PRT2_DR_CLR
- 650              	.set CapSense_Sns__1__DR_INV, CYREG_GPIO_PRT2_DR_INV
- 651              	.set CapSense_Sns__1__DR_SET, CYREG_GPIO_PRT2_DR_SET
- 652              	.set CapSense_Sns__1__HSIOM, CYREG_HSIOM_PORT_SEL2
- 653              	.set CapSense_Sns__1__HSIOM_MASK, 0x00000F00
- 654              	.set CapSense_Sns__1__HSIOM_SHIFT, 8
- 655              	.set CapSense_Sns__1__INTCFG, CYREG_GPIO_PRT2_INTR_CFG
- 656              	.set CapSense_Sns__1__INTR, CYREG_GPIO_PRT2_INTR
- 657              	.set CapSense_Sns__1__INTR_CFG, CYREG_GPIO_PRT2_INTR_CFG
- 658              	.set CapSense_Sns__1__INTSTAT, CYREG_GPIO_PRT2_INTR
- 659              	.set CapSense_Sns__1__MASK, 0x04
- 660              	.set CapSense_Sns__1__PA__CFG0, CYREG_UDB_PA2_CFG0
- 661              	.set CapSense_Sns__1__PA__CFG1, CYREG_UDB_PA2_CFG1
- 662              	.set CapSense_Sns__1__PA__CFG10, CYREG_UDB_PA2_CFG10
- 663              	.set CapSense_Sns__1__PA__CFG11, CYREG_UDB_PA2_CFG11
- 664              	.set CapSense_Sns__1__PA__CFG12, CYREG_UDB_PA2_CFG12
- 665              	.set CapSense_Sns__1__PA__CFG13, CYREG_UDB_PA2_CFG13
- 666              	.set CapSense_Sns__1__PA__CFG14, CYREG_UDB_PA2_CFG14
- 667              	.set CapSense_Sns__1__PA__CFG2, CYREG_UDB_PA2_CFG2
- 668              	.set CapSense_Sns__1__PA__CFG3, CYREG_UDB_PA2_CFG3
- 669              	.set CapSense_Sns__1__PA__CFG4, CYREG_UDB_PA2_CFG4
- 670              	.set CapSense_Sns__1__PA__CFG5, CYREG_UDB_PA2_CFG5
- 671              	.set CapSense_Sns__1__PA__CFG6, CYREG_UDB_PA2_CFG6
- 672              	.set CapSense_Sns__1__PA__CFG7, CYREG_UDB_PA2_CFG7
- 673              	.set CapSense_Sns__1__PA__CFG8, CYREG_UDB_PA2_CFG8
- 674              	.set CapSense_Sns__1__PA__CFG9, CYREG_UDB_PA2_CFG9
- 675              	.set CapSense_Sns__1__PC, CYREG_GPIO_PRT2_PC
- 676              	.set CapSense_Sns__1__PC2, CYREG_GPIO_PRT2_PC2
- 677              	.set CapSense_Sns__1__PORT, 2
- 678              	.set CapSense_Sns__1__PS, CYREG_GPIO_PRT2_PS
- 679              	.set CapSense_Sns__1__SHIFT, 2
- 680              	.set CapSense_Sns__2__DR, CYREG_GPIO_PRT2_DR
- 681              	.set CapSense_Sns__2__DR_CLR, CYREG_GPIO_PRT2_DR_CLR
- 682              	.set CapSense_Sns__2__DR_INV, CYREG_GPIO_PRT2_DR_INV
- 683              	.set CapSense_Sns__2__DR_SET, CYREG_GPIO_PRT2_DR_SET
- 684              	.set CapSense_Sns__2__HSIOM, CYREG_HSIOM_PORT_SEL2
- 685              	.set CapSense_Sns__2__HSIOM_MASK, 0x0000F000
- 686              	.set CapSense_Sns__2__HSIOM_SHIFT, 12
- 687              	.set CapSense_Sns__2__INTCFG, CYREG_GPIO_PRT2_INTR_CFG
- 688              	.set CapSense_Sns__2__INTR, CYREG_GPIO_PRT2_INTR
- 689              	.set CapSense_Sns__2__INTR_CFG, CYREG_GPIO_PRT2_INTR_CFG
- 690              	.set CapSense_Sns__2__INTSTAT, CYREG_GPIO_PRT2_INTR
- 691              	.set CapSense_Sns__2__MASK, 0x08
- 692              	.set CapSense_Sns__2__PA__CFG0, CYREG_UDB_PA2_CFG0
- 693              	.set CapSense_Sns__2__PA__CFG1, CYREG_UDB_PA2_CFG1
- 694              	.set CapSense_Sns__2__PA__CFG10, CYREG_UDB_PA2_CFG10
- 695              	.set CapSense_Sns__2__PA__CFG11, CYREG_UDB_PA2_CFG11
- 696              	.set CapSense_Sns__2__PA__CFG12, CYREG_UDB_PA2_CFG12
- 697              	.set CapSense_Sns__2__PA__CFG13, CYREG_UDB_PA2_CFG13
- 698              	.set CapSense_Sns__2__PA__CFG14, CYREG_UDB_PA2_CFG14
- 699              	.set CapSense_Sns__2__PA__CFG2, CYREG_UDB_PA2_CFG2
- 700              	.set CapSense_Sns__2__PA__CFG3, CYREG_UDB_PA2_CFG3
- 701              	.set CapSense_Sns__2__PA__CFG4, CYREG_UDB_PA2_CFG4
- 702              	.set CapSense_Sns__2__PA__CFG5, CYREG_UDB_PA2_CFG5
+ 647              	.set CapSense_Sns__0__SHIFT, 0
+ 648              	.set CapSense_Sns__DR, CYREG_GPIO_PRT2_DR
+ 649              	.set CapSense_Sns__DR_CLR, CYREG_GPIO_PRT2_DR_CLR
+ 650              	.set CapSense_Sns__DR_INV, CYREG_GPIO_PRT2_DR_INV
+ 651              	.set CapSense_Sns__DR_SET, CYREG_GPIO_PRT2_DR_SET
+ 652              	.set CapSense_Sns__INTCFG, CYREG_GPIO_PRT2_INTR_CFG
+ 653              	.set CapSense_Sns__INTR, CYREG_GPIO_PRT2_INTR
+ 654              	.set CapSense_Sns__INTR_CFG, CYREG_GPIO_PRT2_INTR_CFG
+ 655              	.set CapSense_Sns__INTSTAT, CYREG_GPIO_PRT2_INTR
+ 656              	.set CapSense_Sns__MASK, 0x01
+ 657              	.set CapSense_Sns__PA__CFG0, CYREG_UDB_PA2_CFG0
+ 658              	.set CapSense_Sns__PA__CFG1, CYREG_UDB_PA2_CFG1
+ 659              	.set CapSense_Sns__PA__CFG10, CYREG_UDB_PA2_CFG10
+ 660              	.set CapSense_Sns__PA__CFG11, CYREG_UDB_PA2_CFG11
+ 661              	.set CapSense_Sns__PA__CFG12, CYREG_UDB_PA2_CFG12
+ 662              	.set CapSense_Sns__PA__CFG13, CYREG_UDB_PA2_CFG13
+ 663              	.set CapSense_Sns__PA__CFG14, CYREG_UDB_PA2_CFG14
+ 664              	.set CapSense_Sns__PA__CFG2, CYREG_UDB_PA2_CFG2
+ 665              	.set CapSense_Sns__PA__CFG3, CYREG_UDB_PA2_CFG3
+ 666              	.set CapSense_Sns__PA__CFG4, CYREG_UDB_PA2_CFG4
+ 667              	.set CapSense_Sns__PA__CFG5, CYREG_UDB_PA2_CFG5
+ 668              	.set CapSense_Sns__PA__CFG6, CYREG_UDB_PA2_CFG6
+ 669              	.set CapSense_Sns__PA__CFG7, CYREG_UDB_PA2_CFG7
+ 670              	.set CapSense_Sns__PA__CFG8, CYREG_UDB_PA2_CFG8
+ 671              	.set CapSense_Sns__PA__CFG9, CYREG_UDB_PA2_CFG9
+ 672              	.set CapSense_Sns__PC, CYREG_GPIO_PRT2_PC
+ 673              	.set CapSense_Sns__PC2, CYREG_GPIO_PRT2_PC2
+ 674              	.set CapSense_Sns__PORT, 2
+ 675              	.set CapSense_Sns__ProximitySensor0_0__PROX__DR, CYREG_GPIO_PRT2_DR
+ 676              	.set CapSense_Sns__ProximitySensor0_0__PROX__DR_CLR, CYREG_GPIO_PRT2_DR_CLR
+ 677              	.set CapSense_Sns__ProximitySensor0_0__PROX__DR_INV, CYREG_GPIO_PRT2_DR_INV
+ 678              	.set CapSense_Sns__ProximitySensor0_0__PROX__DR_SET, CYREG_GPIO_PRT2_DR_SET
+ 679              	.set CapSense_Sns__ProximitySensor0_0__PROX__INTCFG, CYREG_GPIO_PRT2_INTR_CFG
+ 680              	.set CapSense_Sns__ProximitySensor0_0__PROX__INTR, CYREG_GPIO_PRT2_INTR
+ 681              	.set CapSense_Sns__ProximitySensor0_0__PROX__INTR_CFG, CYREG_GPIO_PRT2_INTR_CFG
+ 682              	.set CapSense_Sns__ProximitySensor0_0__PROX__INTSTAT, CYREG_GPIO_PRT2_INTR
+ 683              	.set CapSense_Sns__ProximitySensor0_0__PROX__MASK, 0x01
+ 684              	.set CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG0, CYREG_UDB_PA2_CFG0
+ 685              	.set CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG1, CYREG_UDB_PA2_CFG1
+ 686              	.set CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG10, CYREG_UDB_PA2_CFG10
+ 687              	.set CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG11, CYREG_UDB_PA2_CFG11
+ 688              	.set CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG12, CYREG_UDB_PA2_CFG12
+ 689              	.set CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG13, CYREG_UDB_PA2_CFG13
+ 690              	.set CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG14, CYREG_UDB_PA2_CFG14
+ 691              	.set CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG2, CYREG_UDB_PA2_CFG2
+ 692              	.set CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG3, CYREG_UDB_PA2_CFG3
+ 693              	.set CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG4, CYREG_UDB_PA2_CFG4
+ 694              	.set CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG5, CYREG_UDB_PA2_CFG5
+ 695              	.set CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG6, CYREG_UDB_PA2_CFG6
+ 696              	.set CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG7, CYREG_UDB_PA2_CFG7
+ 697              	.set CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG8, CYREG_UDB_PA2_CFG8
+ 698              	.set CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG9, CYREG_UDB_PA2_CFG9
+ 699              	.set CapSense_Sns__ProximitySensor0_0__PROX__PC, CYREG_GPIO_PRT2_PC
+ 700              	.set CapSense_Sns__ProximitySensor0_0__PROX__PC2, CYREG_GPIO_PRT2_PC2
+ 701              	.set CapSense_Sns__ProximitySensor0_0__PROX__PORT, 2
+ 702              	.set CapSense_Sns__ProximitySensor0_0__PROX__PS, CYREG_GPIO_PRT2_PS
 ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 71
 
 
- 703              	.set CapSense_Sns__2__PA__CFG6, CYREG_UDB_PA2_CFG6
- 704              	.set CapSense_Sns__2__PA__CFG7, CYREG_UDB_PA2_CFG7
- 705              	.set CapSense_Sns__2__PA__CFG8, CYREG_UDB_PA2_CFG8
- 706              	.set CapSense_Sns__2__PA__CFG9, CYREG_UDB_PA2_CFG9
- 707              	.set CapSense_Sns__2__PC, CYREG_GPIO_PRT2_PC
- 708              	.set CapSense_Sns__2__PC2, CYREG_GPIO_PRT2_PC2
- 709              	.set CapSense_Sns__2__PORT, 2
- 710              	.set CapSense_Sns__2__PS, CYREG_GPIO_PRT2_PS
- 711              	.set CapSense_Sns__2__SHIFT, 3
- 712              	.set CapSense_Sns__3__DR, CYREG_GPIO_PRT2_DR
- 713              	.set CapSense_Sns__3__DR_CLR, CYREG_GPIO_PRT2_DR_CLR
- 714              	.set CapSense_Sns__3__DR_INV, CYREG_GPIO_PRT2_DR_INV
- 715              	.set CapSense_Sns__3__DR_SET, CYREG_GPIO_PRT2_DR_SET
- 716              	.set CapSense_Sns__3__HSIOM, CYREG_HSIOM_PORT_SEL2
- 717              	.set CapSense_Sns__3__HSIOM_MASK, 0x000F0000
- 718              	.set CapSense_Sns__3__HSIOM_SHIFT, 16
- 719              	.set CapSense_Sns__3__INTCFG, CYREG_GPIO_PRT2_INTR_CFG
- 720              	.set CapSense_Sns__3__INTR, CYREG_GPIO_PRT2_INTR
- 721              	.set CapSense_Sns__3__INTR_CFG, CYREG_GPIO_PRT2_INTR_CFG
- 722              	.set CapSense_Sns__3__INTSTAT, CYREG_GPIO_PRT2_INTR
- 723              	.set CapSense_Sns__3__MASK, 0x10
- 724              	.set CapSense_Sns__3__PA__CFG0, CYREG_UDB_PA2_CFG0
- 725              	.set CapSense_Sns__3__PA__CFG1, CYREG_UDB_PA2_CFG1
- 726              	.set CapSense_Sns__3__PA__CFG10, CYREG_UDB_PA2_CFG10
- 727              	.set CapSense_Sns__3__PA__CFG11, CYREG_UDB_PA2_CFG11
- 728              	.set CapSense_Sns__3__PA__CFG12, CYREG_UDB_PA2_CFG12
- 729              	.set CapSense_Sns__3__PA__CFG13, CYREG_UDB_PA2_CFG13
- 730              	.set CapSense_Sns__3__PA__CFG14, CYREG_UDB_PA2_CFG14
- 731              	.set CapSense_Sns__3__PA__CFG2, CYREG_UDB_PA2_CFG2
- 732              	.set CapSense_Sns__3__PA__CFG3, CYREG_UDB_PA2_CFG3
- 733              	.set CapSense_Sns__3__PA__CFG4, CYREG_UDB_PA2_CFG4
- 734              	.set CapSense_Sns__3__PA__CFG5, CYREG_UDB_PA2_CFG5
- 735              	.set CapSense_Sns__3__PA__CFG6, CYREG_UDB_PA2_CFG6
- 736              	.set CapSense_Sns__3__PA__CFG7, CYREG_UDB_PA2_CFG7
- 737              	.set CapSense_Sns__3__PA__CFG8, CYREG_UDB_PA2_CFG8
- 738              	.set CapSense_Sns__3__PA__CFG9, CYREG_UDB_PA2_CFG9
- 739              	.set CapSense_Sns__3__PC, CYREG_GPIO_PRT2_PC
- 740              	.set CapSense_Sns__3__PC2, CYREG_GPIO_PRT2_PC2
- 741              	.set CapSense_Sns__3__PORT, 2
- 742              	.set CapSense_Sns__3__PS, CYREG_GPIO_PRT2_PS
- 743              	.set CapSense_Sns__3__SHIFT, 4
- 744              	.set CapSense_Sns__4__DR, CYREG_GPIO_PRT2_DR
- 745              	.set CapSense_Sns__4__DR_CLR, CYREG_GPIO_PRT2_DR_CLR
- 746              	.set CapSense_Sns__4__DR_INV, CYREG_GPIO_PRT2_DR_INV
- 747              	.set CapSense_Sns__4__DR_SET, CYREG_GPIO_PRT2_DR_SET
- 748              	.set CapSense_Sns__4__HSIOM, CYREG_HSIOM_PORT_SEL2
- 749              	.set CapSense_Sns__4__HSIOM_MASK, 0x00F00000
- 750              	.set CapSense_Sns__4__HSIOM_SHIFT, 20
- 751              	.set CapSense_Sns__4__INTCFG, CYREG_GPIO_PRT2_INTR_CFG
- 752              	.set CapSense_Sns__4__INTR, CYREG_GPIO_PRT2_INTR
- 753              	.set CapSense_Sns__4__INTR_CFG, CYREG_GPIO_PRT2_INTR_CFG
- 754              	.set CapSense_Sns__4__INTSTAT, CYREG_GPIO_PRT2_INTR
- 755              	.set CapSense_Sns__4__MASK, 0x20
- 756              	.set CapSense_Sns__4__PA__CFG0, CYREG_UDB_PA2_CFG0
- 757              	.set CapSense_Sns__4__PA__CFG1, CYREG_UDB_PA2_CFG1
- 758              	.set CapSense_Sns__4__PA__CFG10, CYREG_UDB_PA2_CFG10
- 759              	.set CapSense_Sns__4__PA__CFG11, CYREG_UDB_PA2_CFG11
+ 703              	.set CapSense_Sns__ProximitySensor0_0__PROX__SHIFT, 0
+ 704              	.set CapSense_Sns__PS, CYREG_GPIO_PRT2_PS
+ 705              	.set CapSense_Sns__SHIFT, 0
+ 706              	
+ 707              	/* PRS_Clock */
+ 708              	.set PRS_Clock__CTRL_REGISTER, CYREG_PERI_PCLK_CTL11
+ 709              	.set PRS_Clock__DIV_ID, 0x00000042
+ 710              	.set PRS_Clock__DIV_REGISTER, CYREG_PERI_DIV_16_CTL02
+ 711              	.set PRS_Clock__PA_DIV_ID, 0x000000FF
+ 712              	
+ 713              	/* Miscellaneous */
+ 714              	.set CYDEV_BCLK__HFCLK__HZ, 12000000
+ 715              	.set CYDEV_BCLK__HFCLK__KHZ, 12000
+ 716              	.set CYDEV_BCLK__HFCLK__MHZ, 12
+ 717              	.set CYDEV_BCLK__SYSCLK__HZ, 12000000
+ 718              	.set CYDEV_BCLK__SYSCLK__KHZ, 12000
+ 719              	.set CYDEV_BCLK__SYSCLK__MHZ, 12
+ 720              	.set CYDEV_CHIP_DIE_LEOPARD, 1
+ 721              	.set CYDEV_CHIP_DIE_PANTHER, 6
+ 722              	.set CYDEV_CHIP_DIE_PSOC4A, 3
+ 723              	.set CYDEV_CHIP_DIE_PSOC5LP, 5
+ 724              	.set CYDEV_CHIP_DIE_UNKNOWN, 0
+ 725              	.set CYDEV_CHIP_FAMILY_PSOC3, 1
+ 726              	.set CYDEV_CHIP_FAMILY_PSOC4, 2
+ 727              	.set CYDEV_CHIP_FAMILY_PSOC5, 3
+ 728              	.set CYDEV_CHIP_FAMILY_UNKNOWN, 0
+ 729              	.set CYDEV_CHIP_FAMILY_USED, CYDEV_CHIP_FAMILY_PSOC4
+ 730              	.set CYDEV_CHIP_JTAG_ID, 0x0E34119E
+ 731              	.set CYDEV_CHIP_MEMBER_3A, 1
+ 732              	.set CYDEV_CHIP_MEMBER_4A, 3
+ 733              	.set CYDEV_CHIP_MEMBER_4D, 2
+ 734              	.set CYDEV_CHIP_MEMBER_4F, 4
+ 735              	.set CYDEV_CHIP_MEMBER_5A, 6
+ 736              	.set CYDEV_CHIP_MEMBER_5B, 5
+ 737              	.set CYDEV_CHIP_MEMBER_UNKNOWN, 0
+ 738              	.set CYDEV_CHIP_MEMBER_USED, CYDEV_CHIP_MEMBER_4F
+ 739              	.set CYDEV_CHIP_DIE_EXPECT, CYDEV_CHIP_MEMBER_USED
+ 740              	.set CYDEV_CHIP_DIE_ACTUAL, CYDEV_CHIP_DIE_EXPECT
+ 741              	.set CYDEV_CHIP_REV_LEOPARD_ES1, 0
+ 742              	.set CYDEV_CHIP_REV_LEOPARD_ES2, 1
+ 743              	.set CYDEV_CHIP_REV_LEOPARD_ES3, 3
+ 744              	.set CYDEV_CHIP_REV_LEOPARD_PRODUCTION, 3
+ 745              	.set CYDEV_CHIP_REV_PANTHER_ES0, 0
+ 746              	.set CYDEV_CHIP_REV_PANTHER_ES1, 1
+ 747              	.set CYDEV_CHIP_REV_PANTHER_PRODUCTION, 1
+ 748              	.set CYDEV_CHIP_REV_PSOC4A_ES0, 17
+ 749              	.set CYDEV_CHIP_REV_PSOC4A_PRODUCTION, 17
+ 750              	.set CYDEV_CHIP_REV_PSOC5LP_ES0, 0
+ 751              	.set CYDEV_CHIP_REV_PSOC5LP_PRODUCTION, 0
+ 752              	.set CYDEV_CHIP_REVISION_3A_ES1, 0
+ 753              	.set CYDEV_CHIP_REVISION_3A_ES2, 1
+ 754              	.set CYDEV_CHIP_REVISION_3A_ES3, 3
+ 755              	.set CYDEV_CHIP_REVISION_3A_PRODUCTION, 3
+ 756              	.set CYDEV_CHIP_REVISION_4A_ES0, 17
+ 757              	.set CYDEV_CHIP_REVISION_4A_PRODUCTION, 17
+ 758              	.set CYDEV_CHIP_REVISION_4D_PRODUCTION, 0
+ 759              	.set CYDEV_CHIP_REVISION_4F_PRODUCTION, 0
 ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 72
 
 
- 760              	.set CapSense_Sns__4__PA__CFG12, CYREG_UDB_PA2_CFG12
- 761              	.set CapSense_Sns__4__PA__CFG13, CYREG_UDB_PA2_CFG13
- 762              	.set CapSense_Sns__4__PA__CFG14, CYREG_UDB_PA2_CFG14
- 763              	.set CapSense_Sns__4__PA__CFG2, CYREG_UDB_PA2_CFG2
- 764              	.set CapSense_Sns__4__PA__CFG3, CYREG_UDB_PA2_CFG3
- 765              	.set CapSense_Sns__4__PA__CFG4, CYREG_UDB_PA2_CFG4
- 766              	.set CapSense_Sns__4__PA__CFG5, CYREG_UDB_PA2_CFG5
- 767              	.set CapSense_Sns__4__PA__CFG6, CYREG_UDB_PA2_CFG6
- 768              	.set CapSense_Sns__4__PA__CFG7, CYREG_UDB_PA2_CFG7
- 769              	.set CapSense_Sns__4__PA__CFG8, CYREG_UDB_PA2_CFG8
- 770              	.set CapSense_Sns__4__PA__CFG9, CYREG_UDB_PA2_CFG9
- 771              	.set CapSense_Sns__4__PC, CYREG_GPIO_PRT2_PC
- 772              	.set CapSense_Sns__4__PC2, CYREG_GPIO_PRT2_PC2
- 773              	.set CapSense_Sns__4__PORT, 2
- 774              	.set CapSense_Sns__4__PS, CYREG_GPIO_PRT2_PS
- 775              	.set CapSense_Sns__4__SHIFT, 5
- 776              	.set CapSense_Sns__DR, CYREG_GPIO_PRT2_DR
- 777              	.set CapSense_Sns__DR_CLR, CYREG_GPIO_PRT2_DR_CLR
- 778              	.set CapSense_Sns__DR_INV, CYREG_GPIO_PRT2_DR_INV
- 779              	.set CapSense_Sns__DR_SET, CYREG_GPIO_PRT2_DR_SET
- 780              	.set CapSense_Sns__INTCFG, CYREG_GPIO_PRT2_INTR_CFG
- 781              	.set CapSense_Sns__INTR, CYREG_GPIO_PRT2_INTR
- 782              	.set CapSense_Sns__INTR_CFG, CYREG_GPIO_PRT2_INTR_CFG
- 783              	.set CapSense_Sns__INTSTAT, CYREG_GPIO_PRT2_INTR
- 784              	.set CapSense_Sns__LinearSlider0_e0__LS__DR, CYREG_GPIO_PRT2_DR
- 785              	.set CapSense_Sns__LinearSlider0_e0__LS__DR_CLR, CYREG_GPIO_PRT2_DR_CLR
- 786              	.set CapSense_Sns__LinearSlider0_e0__LS__DR_INV, CYREG_GPIO_PRT2_DR_INV
- 787              	.set CapSense_Sns__LinearSlider0_e0__LS__DR_SET, CYREG_GPIO_PRT2_DR_SET
- 788              	.set CapSense_Sns__LinearSlider0_e0__LS__INTCFG, CYREG_GPIO_PRT2_INTR_CFG
- 789              	.set CapSense_Sns__LinearSlider0_e0__LS__INTR, CYREG_GPIO_PRT2_INTR
- 790              	.set CapSense_Sns__LinearSlider0_e0__LS__INTR_CFG, CYREG_GPIO_PRT2_INTR_CFG
- 791              	.set CapSense_Sns__LinearSlider0_e0__LS__INTSTAT, CYREG_GPIO_PRT2_INTR
- 792              	.set CapSense_Sns__LinearSlider0_e0__LS__MASK, 0x02
- 793              	.set CapSense_Sns__LinearSlider0_e0__LS__PA__CFG0, CYREG_UDB_PA2_CFG0
- 794              	.set CapSense_Sns__LinearSlider0_e0__LS__PA__CFG1, CYREG_UDB_PA2_CFG1
- 795              	.set CapSense_Sns__LinearSlider0_e0__LS__PA__CFG10, CYREG_UDB_PA2_CFG10
- 796              	.set CapSense_Sns__LinearSlider0_e0__LS__PA__CFG11, CYREG_UDB_PA2_CFG11
- 797              	.set CapSense_Sns__LinearSlider0_e0__LS__PA__CFG12, CYREG_UDB_PA2_CFG12
- 798              	.set CapSense_Sns__LinearSlider0_e0__LS__PA__CFG13, CYREG_UDB_PA2_CFG13
- 799              	.set CapSense_Sns__LinearSlider0_e0__LS__PA__CFG14, CYREG_UDB_PA2_CFG14
- 800              	.set CapSense_Sns__LinearSlider0_e0__LS__PA__CFG2, CYREG_UDB_PA2_CFG2
- 801              	.set CapSense_Sns__LinearSlider0_e0__LS__PA__CFG3, CYREG_UDB_PA2_CFG3
- 802              	.set CapSense_Sns__LinearSlider0_e0__LS__PA__CFG4, CYREG_UDB_PA2_CFG4
- 803              	.set CapSense_Sns__LinearSlider0_e0__LS__PA__CFG5, CYREG_UDB_PA2_CFG5
- 804              	.set CapSense_Sns__LinearSlider0_e0__LS__PA__CFG6, CYREG_UDB_PA2_CFG6
- 805              	.set CapSense_Sns__LinearSlider0_e0__LS__PA__CFG7, CYREG_UDB_PA2_CFG7
- 806              	.set CapSense_Sns__LinearSlider0_e0__LS__PA__CFG8, CYREG_UDB_PA2_CFG8
- 807              	.set CapSense_Sns__LinearSlider0_e0__LS__PA__CFG9, CYREG_UDB_PA2_CFG9
- 808              	.set CapSense_Sns__LinearSlider0_e0__LS__PC, CYREG_GPIO_PRT2_PC
- 809              	.set CapSense_Sns__LinearSlider0_e0__LS__PC2, CYREG_GPIO_PRT2_PC2
- 810              	.set CapSense_Sns__LinearSlider0_e0__LS__PORT, 2
- 811              	.set CapSense_Sns__LinearSlider0_e0__LS__PS, CYREG_GPIO_PRT2_PS
- 812              	.set CapSense_Sns__LinearSlider0_e0__LS__SHIFT, 1
- 813              	.set CapSense_Sns__LinearSlider0_e1__LS__DR, CYREG_GPIO_PRT2_DR
- 814              	.set CapSense_Sns__LinearSlider0_e1__LS__DR_CLR, CYREG_GPIO_PRT2_DR_CLR
- 815              	.set CapSense_Sns__LinearSlider0_e1__LS__DR_INV, CYREG_GPIO_PRT2_DR_INV
- 816              	.set CapSense_Sns__LinearSlider0_e1__LS__DR_SET, CYREG_GPIO_PRT2_DR_SET
-ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 73
-
-
- 817              	.set CapSense_Sns__LinearSlider0_e1__LS__INTCFG, CYREG_GPIO_PRT2_INTR_CFG
- 818              	.set CapSense_Sns__LinearSlider0_e1__LS__INTR, CYREG_GPIO_PRT2_INTR
- 819              	.set CapSense_Sns__LinearSlider0_e1__LS__INTR_CFG, CYREG_GPIO_PRT2_INTR_CFG
- 820              	.set CapSense_Sns__LinearSlider0_e1__LS__INTSTAT, CYREG_GPIO_PRT2_INTR
- 821              	.set CapSense_Sns__LinearSlider0_e1__LS__MASK, 0x04
- 822              	.set CapSense_Sns__LinearSlider0_e1__LS__PA__CFG0, CYREG_UDB_PA2_CFG0
- 823              	.set CapSense_Sns__LinearSlider0_e1__LS__PA__CFG1, CYREG_UDB_PA2_CFG1
- 824              	.set CapSense_Sns__LinearSlider0_e1__LS__PA__CFG10, CYREG_UDB_PA2_CFG10
- 825              	.set CapSense_Sns__LinearSlider0_e1__LS__PA__CFG11, CYREG_UDB_PA2_CFG11
- 826              	.set CapSense_Sns__LinearSlider0_e1__LS__PA__CFG12, CYREG_UDB_PA2_CFG12
- 827              	.set CapSense_Sns__LinearSlider0_e1__LS__PA__CFG13, CYREG_UDB_PA2_CFG13
- 828              	.set CapSense_Sns__LinearSlider0_e1__LS__PA__CFG14, CYREG_UDB_PA2_CFG14
- 829              	.set CapSense_Sns__LinearSlider0_e1__LS__PA__CFG2, CYREG_UDB_PA2_CFG2
- 830              	.set CapSense_Sns__LinearSlider0_e1__LS__PA__CFG3, CYREG_UDB_PA2_CFG3
- 831              	.set CapSense_Sns__LinearSlider0_e1__LS__PA__CFG4, CYREG_UDB_PA2_CFG4
- 832              	.set CapSense_Sns__LinearSlider0_e1__LS__PA__CFG5, CYREG_UDB_PA2_CFG5
- 833              	.set CapSense_Sns__LinearSlider0_e1__LS__PA__CFG6, CYREG_UDB_PA2_CFG6
- 834              	.set CapSense_Sns__LinearSlider0_e1__LS__PA__CFG7, CYREG_UDB_PA2_CFG7
- 835              	.set CapSense_Sns__LinearSlider0_e1__LS__PA__CFG8, CYREG_UDB_PA2_CFG8
- 836              	.set CapSense_Sns__LinearSlider0_e1__LS__PA__CFG9, CYREG_UDB_PA2_CFG9
- 837              	.set CapSense_Sns__LinearSlider0_e1__LS__PC, CYREG_GPIO_PRT2_PC
- 838              	.set CapSense_Sns__LinearSlider0_e1__LS__PC2, CYREG_GPIO_PRT2_PC2
- 839              	.set CapSense_Sns__LinearSlider0_e1__LS__PORT, 2
- 840              	.set CapSense_Sns__LinearSlider0_e1__LS__PS, CYREG_GPIO_PRT2_PS
- 841              	.set CapSense_Sns__LinearSlider0_e1__LS__SHIFT, 2
- 842              	.set CapSense_Sns__LinearSlider0_e2__LS__DR, CYREG_GPIO_PRT2_DR
- 843              	.set CapSense_Sns__LinearSlider0_e2__LS__DR_CLR, CYREG_GPIO_PRT2_DR_CLR
- 844              	.set CapSense_Sns__LinearSlider0_e2__LS__DR_INV, CYREG_GPIO_PRT2_DR_INV
- 845              	.set CapSense_Sns__LinearSlider0_e2__LS__DR_SET, CYREG_GPIO_PRT2_DR_SET
- 846              	.set CapSense_Sns__LinearSlider0_e2__LS__INTCFG, CYREG_GPIO_PRT2_INTR_CFG
- 847              	.set CapSense_Sns__LinearSlider0_e2__LS__INTR, CYREG_GPIO_PRT2_INTR
- 848              	.set CapSense_Sns__LinearSlider0_e2__LS__INTR_CFG, CYREG_GPIO_PRT2_INTR_CFG
- 849              	.set CapSense_Sns__LinearSlider0_e2__LS__INTSTAT, CYREG_GPIO_PRT2_INTR
- 850              	.set CapSense_Sns__LinearSlider0_e2__LS__MASK, 0x08
- 851              	.set CapSense_Sns__LinearSlider0_e2__LS__PA__CFG0, CYREG_UDB_PA2_CFG0
- 852              	.set CapSense_Sns__LinearSlider0_e2__LS__PA__CFG1, CYREG_UDB_PA2_CFG1
- 853              	.set CapSense_Sns__LinearSlider0_e2__LS__PA__CFG10, CYREG_UDB_PA2_CFG10
- 854              	.set CapSense_Sns__LinearSlider0_e2__LS__PA__CFG11, CYREG_UDB_PA2_CFG11
- 855              	.set CapSense_Sns__LinearSlider0_e2__LS__PA__CFG12, CYREG_UDB_PA2_CFG12
- 856              	.set CapSense_Sns__LinearSlider0_e2__LS__PA__CFG13, CYREG_UDB_PA2_CFG13
- 857              	.set CapSense_Sns__LinearSlider0_e2__LS__PA__CFG14, CYREG_UDB_PA2_CFG14
- 858              	.set CapSense_Sns__LinearSlider0_e2__LS__PA__CFG2, CYREG_UDB_PA2_CFG2
- 859              	.set CapSense_Sns__LinearSlider0_e2__LS__PA__CFG3, CYREG_UDB_PA2_CFG3
- 860              	.set CapSense_Sns__LinearSlider0_e2__LS__PA__CFG4, CYREG_UDB_PA2_CFG4
- 861              	.set CapSense_Sns__LinearSlider0_e2__LS__PA__CFG5, CYREG_UDB_PA2_CFG5
- 862              	.set CapSense_Sns__LinearSlider0_e2__LS__PA__CFG6, CYREG_UDB_PA2_CFG6
- 863              	.set CapSense_Sns__LinearSlider0_e2__LS__PA__CFG7, CYREG_UDB_PA2_CFG7
- 864              	.set CapSense_Sns__LinearSlider0_e2__LS__PA__CFG8, CYREG_UDB_PA2_CFG8
- 865              	.set CapSense_Sns__LinearSlider0_e2__LS__PA__CFG9, CYREG_UDB_PA2_CFG9
- 866              	.set CapSense_Sns__LinearSlider0_e2__LS__PC, CYREG_GPIO_PRT2_PC
- 867              	.set CapSense_Sns__LinearSlider0_e2__LS__PC2, CYREG_GPIO_PRT2_PC2
- 868              	.set CapSense_Sns__LinearSlider0_e2__LS__PORT, 2
- 869              	.set CapSense_Sns__LinearSlider0_e2__LS__PS, CYREG_GPIO_PRT2_PS
- 870              	.set CapSense_Sns__LinearSlider0_e2__LS__SHIFT, 3
- 871              	.set CapSense_Sns__LinearSlider0_e3__LS__DR, CYREG_GPIO_PRT2_DR
- 872              	.set CapSense_Sns__LinearSlider0_e3__LS__DR_CLR, CYREG_GPIO_PRT2_DR_CLR
- 873              	.set CapSense_Sns__LinearSlider0_e3__LS__DR_INV, CYREG_GPIO_PRT2_DR_INV
-ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 74
-
-
- 874              	.set CapSense_Sns__LinearSlider0_e3__LS__DR_SET, CYREG_GPIO_PRT2_DR_SET
- 875              	.set CapSense_Sns__LinearSlider0_e3__LS__INTCFG, CYREG_GPIO_PRT2_INTR_CFG
- 876              	.set CapSense_Sns__LinearSlider0_e3__LS__INTR, CYREG_GPIO_PRT2_INTR
- 877              	.set CapSense_Sns__LinearSlider0_e3__LS__INTR_CFG, CYREG_GPIO_PRT2_INTR_CFG
- 878              	.set CapSense_Sns__LinearSlider0_e3__LS__INTSTAT, CYREG_GPIO_PRT2_INTR
- 879              	.set CapSense_Sns__LinearSlider0_e3__LS__MASK, 0x10
- 880              	.set CapSense_Sns__LinearSlider0_e3__LS__PA__CFG0, CYREG_UDB_PA2_CFG0
- 881              	.set CapSense_Sns__LinearSlider0_e3__LS__PA__CFG1, CYREG_UDB_PA2_CFG1
- 882              	.set CapSense_Sns__LinearSlider0_e3__LS__PA__CFG10, CYREG_UDB_PA2_CFG10
- 883              	.set CapSense_Sns__LinearSlider0_e3__LS__PA__CFG11, CYREG_UDB_PA2_CFG11
- 884              	.set CapSense_Sns__LinearSlider0_e3__LS__PA__CFG12, CYREG_UDB_PA2_CFG12
- 885              	.set CapSense_Sns__LinearSlider0_e3__LS__PA__CFG13, CYREG_UDB_PA2_CFG13
- 886              	.set CapSense_Sns__LinearSlider0_e3__LS__PA__CFG14, CYREG_UDB_PA2_CFG14
- 887              	.set CapSense_Sns__LinearSlider0_e3__LS__PA__CFG2, CYREG_UDB_PA2_CFG2
- 888              	.set CapSense_Sns__LinearSlider0_e3__LS__PA__CFG3, CYREG_UDB_PA2_CFG3
- 889              	.set CapSense_Sns__LinearSlider0_e3__LS__PA__CFG4, CYREG_UDB_PA2_CFG4
- 890              	.set CapSense_Sns__LinearSlider0_e3__LS__PA__CFG5, CYREG_UDB_PA2_CFG5
- 891              	.set CapSense_Sns__LinearSlider0_e3__LS__PA__CFG6, CYREG_UDB_PA2_CFG6
- 892              	.set CapSense_Sns__LinearSlider0_e3__LS__PA__CFG7, CYREG_UDB_PA2_CFG7
- 893              	.set CapSense_Sns__LinearSlider0_e3__LS__PA__CFG8, CYREG_UDB_PA2_CFG8
- 894              	.set CapSense_Sns__LinearSlider0_e3__LS__PA__CFG9, CYREG_UDB_PA2_CFG9
- 895              	.set CapSense_Sns__LinearSlider0_e3__LS__PC, CYREG_GPIO_PRT2_PC
- 896              	.set CapSense_Sns__LinearSlider0_e3__LS__PC2, CYREG_GPIO_PRT2_PC2
- 897              	.set CapSense_Sns__LinearSlider0_e3__LS__PORT, 2
- 898              	.set CapSense_Sns__LinearSlider0_e3__LS__PS, CYREG_GPIO_PRT2_PS
- 899              	.set CapSense_Sns__LinearSlider0_e3__LS__SHIFT, 4
- 900              	.set CapSense_Sns__LinearSlider0_e4__LS__DR, CYREG_GPIO_PRT2_DR
- 901              	.set CapSense_Sns__LinearSlider0_e4__LS__DR_CLR, CYREG_GPIO_PRT2_DR_CLR
- 902              	.set CapSense_Sns__LinearSlider0_e4__LS__DR_INV, CYREG_GPIO_PRT2_DR_INV
- 903              	.set CapSense_Sns__LinearSlider0_e4__LS__DR_SET, CYREG_GPIO_PRT2_DR_SET
- 904              	.set CapSense_Sns__LinearSlider0_e4__LS__INTCFG, CYREG_GPIO_PRT2_INTR_CFG
- 905              	.set CapSense_Sns__LinearSlider0_e4__LS__INTR, CYREG_GPIO_PRT2_INTR
- 906              	.set CapSense_Sns__LinearSlider0_e4__LS__INTR_CFG, CYREG_GPIO_PRT2_INTR_CFG
- 907              	.set CapSense_Sns__LinearSlider0_e4__LS__INTSTAT, CYREG_GPIO_PRT2_INTR
- 908              	.set CapSense_Sns__LinearSlider0_e4__LS__MASK, 0x20
- 909              	.set CapSense_Sns__LinearSlider0_e4__LS__PA__CFG0, CYREG_UDB_PA2_CFG0
- 910              	.set CapSense_Sns__LinearSlider0_e4__LS__PA__CFG1, CYREG_UDB_PA2_CFG1
- 911              	.set CapSense_Sns__LinearSlider0_e4__LS__PA__CFG10, CYREG_UDB_PA2_CFG10
- 912              	.set CapSense_Sns__LinearSlider0_e4__LS__PA__CFG11, CYREG_UDB_PA2_CFG11
- 913              	.set CapSense_Sns__LinearSlider0_e4__LS__PA__CFG12, CYREG_UDB_PA2_CFG12
- 914              	.set CapSense_Sns__LinearSlider0_e4__LS__PA__CFG13, CYREG_UDB_PA2_CFG13
- 915              	.set CapSense_Sns__LinearSlider0_e4__LS__PA__CFG14, CYREG_UDB_PA2_CFG14
- 916              	.set CapSense_Sns__LinearSlider0_e4__LS__PA__CFG2, CYREG_UDB_PA2_CFG2
- 917              	.set CapSense_Sns__LinearSlider0_e4__LS__PA__CFG3, CYREG_UDB_PA2_CFG3
- 918              	.set CapSense_Sns__LinearSlider0_e4__LS__PA__CFG4, CYREG_UDB_PA2_CFG4
- 919              	.set CapSense_Sns__LinearSlider0_e4__LS__PA__CFG5, CYREG_UDB_PA2_CFG5
- 920              	.set CapSense_Sns__LinearSlider0_e4__LS__PA__CFG6, CYREG_UDB_PA2_CFG6
- 921              	.set CapSense_Sns__LinearSlider0_e4__LS__PA__CFG7, CYREG_UDB_PA2_CFG7
- 922              	.set CapSense_Sns__LinearSlider0_e4__LS__PA__CFG8, CYREG_UDB_PA2_CFG8
- 923              	.set CapSense_Sns__LinearSlider0_e4__LS__PA__CFG9, CYREG_UDB_PA2_CFG9
- 924              	.set CapSense_Sns__LinearSlider0_e4__LS__PC, CYREG_GPIO_PRT2_PC
- 925              	.set CapSense_Sns__LinearSlider0_e4__LS__PC2, CYREG_GPIO_PRT2_PC2
- 926              	.set CapSense_Sns__LinearSlider0_e4__LS__PORT, 2
- 927              	.set CapSense_Sns__LinearSlider0_e4__LS__PS, CYREG_GPIO_PRT2_PS
- 928              	.set CapSense_Sns__LinearSlider0_e4__LS__SHIFT, 5
- 929              	.set CapSense_Sns__PA__CFG0, CYREG_UDB_PA2_CFG0
- 930              	.set CapSense_Sns__PA__CFG1, CYREG_UDB_PA2_CFG1
-ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 75
-
-
- 931              	.set CapSense_Sns__PA__CFG10, CYREG_UDB_PA2_CFG10
- 932              	.set CapSense_Sns__PA__CFG11, CYREG_UDB_PA2_CFG11
- 933              	.set CapSense_Sns__PA__CFG12, CYREG_UDB_PA2_CFG12
- 934              	.set CapSense_Sns__PA__CFG13, CYREG_UDB_PA2_CFG13
- 935              	.set CapSense_Sns__PA__CFG14, CYREG_UDB_PA2_CFG14
- 936              	.set CapSense_Sns__PA__CFG2, CYREG_UDB_PA2_CFG2
- 937              	.set CapSense_Sns__PA__CFG3, CYREG_UDB_PA2_CFG3
- 938              	.set CapSense_Sns__PA__CFG4, CYREG_UDB_PA2_CFG4
- 939              	.set CapSense_Sns__PA__CFG5, CYREG_UDB_PA2_CFG5
- 940              	.set CapSense_Sns__PA__CFG6, CYREG_UDB_PA2_CFG6
- 941              	.set CapSense_Sns__PA__CFG7, CYREG_UDB_PA2_CFG7
- 942              	.set CapSense_Sns__PA__CFG8, CYREG_UDB_PA2_CFG8
- 943              	.set CapSense_Sns__PA__CFG9, CYREG_UDB_PA2_CFG9
- 944              	.set CapSense_Sns__PC, CYREG_GPIO_PRT2_PC
- 945              	.set CapSense_Sns__PC2, CYREG_GPIO_PRT2_PC2
- 946              	.set CapSense_Sns__PORT, 2
- 947              	.set CapSense_Sns__PS, CYREG_GPIO_PRT2_PS
- 948              	
- 949              	/* PRS_Clock */
- 950              	.set PRS_Clock__CTRL_REGISTER, CYREG_PERI_PCLK_CTL11
- 951              	.set PRS_Clock__DIV_ID, 0x00000042
- 952              	.set PRS_Clock__DIV_REGISTER, CYREG_PERI_DIV_16_CTL02
- 953              	.set PRS_Clock__PA_DIV_ID, 0x000000FF
- 954              	
- 955              	/* Miscellaneous */
- 956              	.set CYDEV_BCLK__HFCLK__HZ, 12000000
- 957              	.set CYDEV_BCLK__HFCLK__KHZ, 12000
- 958              	.set CYDEV_BCLK__HFCLK__MHZ, 12
- 959              	.set CYDEV_BCLK__SYSCLK__HZ, 12000000
- 960              	.set CYDEV_BCLK__SYSCLK__KHZ, 12000
- 961              	.set CYDEV_BCLK__SYSCLK__MHZ, 12
- 962              	.set CYDEV_CHIP_DIE_LEOPARD, 1
- 963              	.set CYDEV_CHIP_DIE_PANTHER, 6
- 964              	.set CYDEV_CHIP_DIE_PSOC4A, 3
- 965              	.set CYDEV_CHIP_DIE_PSOC5LP, 5
- 966              	.set CYDEV_CHIP_DIE_UNKNOWN, 0
- 967              	.set CYDEV_CHIP_FAMILY_PSOC3, 1
- 968              	.set CYDEV_CHIP_FAMILY_PSOC4, 2
- 969              	.set CYDEV_CHIP_FAMILY_PSOC5, 3
- 970              	.set CYDEV_CHIP_FAMILY_UNKNOWN, 0
- 971              	.set CYDEV_CHIP_FAMILY_USED, CYDEV_CHIP_FAMILY_PSOC4
- 972              	.set CYDEV_CHIP_JTAG_ID, 0x0E34119E
- 973              	.set CYDEV_CHIP_MEMBER_3A, 1
- 974              	.set CYDEV_CHIP_MEMBER_4A, 3
- 975              	.set CYDEV_CHIP_MEMBER_4D, 2
- 976              	.set CYDEV_CHIP_MEMBER_4F, 4
- 977              	.set CYDEV_CHIP_MEMBER_5A, 6
- 978              	.set CYDEV_CHIP_MEMBER_5B, 5
- 979              	.set CYDEV_CHIP_MEMBER_UNKNOWN, 0
- 980              	.set CYDEV_CHIP_MEMBER_USED, CYDEV_CHIP_MEMBER_4F
- 981              	.set CYDEV_CHIP_DIE_EXPECT, CYDEV_CHIP_MEMBER_USED
- 982              	.set CYDEV_CHIP_DIE_ACTUAL, CYDEV_CHIP_DIE_EXPECT
- 983              	.set CYDEV_CHIP_REV_LEOPARD_ES1, 0
- 984              	.set CYDEV_CHIP_REV_LEOPARD_ES2, 1
- 985              	.set CYDEV_CHIP_REV_LEOPARD_ES3, 3
- 986              	.set CYDEV_CHIP_REV_LEOPARD_PRODUCTION, 3
- 987              	.set CYDEV_CHIP_REV_PANTHER_ES0, 0
-ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 76
-
-
- 988              	.set CYDEV_CHIP_REV_PANTHER_ES1, 1
- 989              	.set CYDEV_CHIP_REV_PANTHER_PRODUCTION, 1
- 990              	.set CYDEV_CHIP_REV_PSOC4A_ES0, 17
- 991              	.set CYDEV_CHIP_REV_PSOC4A_PRODUCTION, 17
- 992              	.set CYDEV_CHIP_REV_PSOC5LP_ES0, 0
- 993              	.set CYDEV_CHIP_REV_PSOC5LP_PRODUCTION, 0
- 994              	.set CYDEV_CHIP_REVISION_3A_ES1, 0
- 995              	.set CYDEV_CHIP_REVISION_3A_ES2, 1
- 996              	.set CYDEV_CHIP_REVISION_3A_ES3, 3
- 997              	.set CYDEV_CHIP_REVISION_3A_PRODUCTION, 3
- 998              	.set CYDEV_CHIP_REVISION_4A_ES0, 17
- 999              	.set CYDEV_CHIP_REVISION_4A_PRODUCTION, 17
- 1000              	.set CYDEV_CHIP_REVISION_4D_PRODUCTION, 0
- 1001              	.set CYDEV_CHIP_REVISION_4F_PRODUCTION, 0
- 1002              	.set CYDEV_CHIP_REVISION_5A_ES0, 0
- 1003              	.set CYDEV_CHIP_REVISION_5A_ES1, 1
- 1004              	.set CYDEV_CHIP_REVISION_5A_PRODUCTION, 1
- 1005              	.set CYDEV_CHIP_REVISION_5B_ES0, 0
- 1006              	.set CYDEV_CHIP_REVISION_5B_PRODUCTION, 0
- 1007              	.set CYDEV_CHIP_REVISION_USED, CYDEV_CHIP_REVISION_4F_PRODUCTION
- 1008              	.set CYDEV_CHIP_REV_EXPECT, CYDEV_CHIP_REVISION_USED
- 1009              	.set CYDEV_CONFIG_READ_ACCELERATOR, 1
- 1010              	.set CYDEV_CONFIG_UNUSED_IO_AllowButWarn, 0
- 1011              	.set CYDEV_CONFIG_UNUSED_IO, CYDEV_CONFIG_UNUSED_IO_AllowButWarn
- 1012              	.set CYDEV_CONFIG_UNUSED_IO_AllowWithInfo, 1
- 1013              	.set CYDEV_CONFIG_UNUSED_IO_Disallowed, 2
- 1014              	.set CYDEV_CONFIGURATION_COMPRESSED, 1
- 1015              	.set CYDEV_CONFIGURATION_MODE_COMPRESSED, 0
- 1016              	.set CYDEV_CONFIGURATION_MODE, CYDEV_CONFIGURATION_MODE_COMPRESSED
- 1017              	.set CYDEV_CONFIGURATION_MODE_DMA, 2
- 1018              	.set CYDEV_CONFIGURATION_MODE_UNCOMPRESSED, 1
- 1019              	.set CYDEV_DEBUG_PROTECT_KILL, 4
- 1020              	.set CYDEV_DEBUG_PROTECT_OPEN, 1
- 1021              	.set CYDEV_DEBUG_PROTECT, CYDEV_DEBUG_PROTECT_OPEN
- 1022              	.set CYDEV_DEBUG_PROTECT_PROTECTED, 2
- 1023              	.set CYDEV_DEBUGGING_DPS_Disable, 3
- 1024              	.set CYDEV_DEBUGGING_DPS_SWD, 2
- 1025              	.set CYDEV_DEBUGGING_DPS, CYDEV_DEBUGGING_DPS_SWD
- 1026              	.set CYDEV_DEBUGGING_ENABLE, 1
- 1027              	.set CYDEV_HEAP_SIZE, 0x80
- 1028              	.set CYDEV_PROJ_TYPE, 0
- 1029              	.set CYDEV_PROJ_TYPE_BOOTLOADER, 1
- 1030              	.set CYDEV_PROJ_TYPE_LOADABLE, 2
- 1031              	.set CYDEV_PROJ_TYPE_MULTIAPPBOOTLOADER, 3
- 1032              	.set CYDEV_PROJ_TYPE_STANDARD, 0
- 1033              	.set CYDEV_STACK_SIZE, 0x0800
- 1034              	.set CYDEV_USE_BUNDLED_CMSIS, 1
- 1035              	.set CYDEV_VARIABLE_VDDA, 1
- 1036              	.set CYDEV_VDDA_MV, 3300
- 1037              	.set CYDEV_VDDD_MV, 3300
- 1038              	.set CYDEV_VDDR_MV, 3300
- 1039              	.set CYIPBLOCK_m0s8bless_VERSION, 1
- 1040              	.set CYIPBLOCK_m0s8cpussv2_VERSION, 1
- 1041              	.set CYIPBLOCK_m0s8csd_VERSION, 1
- 1042              	.set CYIPBLOCK_m0s8ioss_VERSION, 1
- 1043              	.set CYIPBLOCK_m0s8lcd_VERSION, 2
- 1044              	.set CYIPBLOCK_m0s8lpcomp_VERSION, 2
-ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 77
-
-
- 1045              	.set CYIPBLOCK_m0s8peri_VERSION, 1
- 1046              	.set CYIPBLOCK_m0s8scb_VERSION, 2
- 1047              	.set CYIPBLOCK_m0s8srssv2_VERSION, 1
- 1048              	.set CYIPBLOCK_m0s8tcpwm_VERSION, 2
- 1049              	.set CYIPBLOCK_m0s8udbif_VERSION, 1
- 1050              	.set CYIPBLOCK_s8pass4al_VERSION, 1
- 1051              	.set CYDEV_BOOTLOADER_ENABLE, 0
- 1052              	.endif
+ 760              	.set CYDEV_CHIP_REVISION_5A_ES0, 0
+ 761              	.set CYDEV_CHIP_REVISION_5A_ES1, 1
+ 762              	.set CYDEV_CHIP_REVISION_5A_PRODUCTION, 1
+ 763              	.set CYDEV_CHIP_REVISION_5B_ES0, 0
+ 764              	.set CYDEV_CHIP_REVISION_5B_PRODUCTION, 0
+ 765              	.set CYDEV_CHIP_REVISION_USED, CYDEV_CHIP_REVISION_4F_PRODUCTION
+ 766              	.set CYDEV_CHIP_REV_EXPECT, CYDEV_CHIP_REVISION_USED
+ 767              	.set CYDEV_CONFIG_READ_ACCELERATOR, 1
+ 768              	.set CYDEV_CONFIG_UNUSED_IO_AllowButWarn, 0
+ 769              	.set CYDEV_CONFIG_UNUSED_IO, CYDEV_CONFIG_UNUSED_IO_AllowButWarn
+ 770              	.set CYDEV_CONFIG_UNUSED_IO_AllowWithInfo, 1
+ 771              	.set CYDEV_CONFIG_UNUSED_IO_Disallowed, 2
+ 772              	.set CYDEV_CONFIGURATION_COMPRESSED, 1
+ 773              	.set CYDEV_CONFIGURATION_MODE_COMPRESSED, 0
+ 774              	.set CYDEV_CONFIGURATION_MODE, CYDEV_CONFIGURATION_MODE_COMPRESSED
+ 775              	.set CYDEV_CONFIGURATION_MODE_DMA, 2
+ 776              	.set CYDEV_CONFIGURATION_MODE_UNCOMPRESSED, 1
+ 777              	.set CYDEV_DEBUG_PROTECT_KILL, 4
+ 778              	.set CYDEV_DEBUG_PROTECT_OPEN, 1
+ 779              	.set CYDEV_DEBUG_PROTECT, CYDEV_DEBUG_PROTECT_OPEN
+ 780              	.set CYDEV_DEBUG_PROTECT_PROTECTED, 2
+ 781              	.set CYDEV_DEBUGGING_DPS_Disable, 3
+ 782              	.set CYDEV_DEBUGGING_DPS_SWD, 2
+ 783              	.set CYDEV_DEBUGGING_DPS, CYDEV_DEBUGGING_DPS_SWD
+ 784              	.set CYDEV_DEBUGGING_ENABLE, 1
+ 785              	.set CYDEV_HEAP_SIZE, 0x80
+ 786              	.set CYDEV_PROJ_TYPE, 0
+ 787              	.set CYDEV_PROJ_TYPE_BOOTLOADER, 1
+ 788              	.set CYDEV_PROJ_TYPE_LOADABLE, 2
+ 789              	.set CYDEV_PROJ_TYPE_MULTIAPPBOOTLOADER, 3
+ 790              	.set CYDEV_PROJ_TYPE_STANDARD, 0
+ 791              	.set CYDEV_STACK_SIZE, 0x0800
+ 792              	.set CYDEV_USE_BUNDLED_CMSIS, 1
+ 793              	.set CYDEV_VARIABLE_VDDA, 1
+ 794              	.set CYDEV_VDDA_MV, 3300
+ 795              	.set CYDEV_VDDD_MV, 3300
+ 796              	.set CYDEV_VDDR_MV, 3300
+ 797              	.set CYIPBLOCK_m0s8bless_VERSION, 1
+ 798              	.set CYIPBLOCK_m0s8cpussv2_VERSION, 1
+ 799              	.set CYIPBLOCK_m0s8csd_VERSION, 1
+ 800              	.set CYIPBLOCK_m0s8ioss_VERSION, 1
+ 801              	.set CYIPBLOCK_m0s8lcd_VERSION, 2
+ 802              	.set CYIPBLOCK_m0s8lpcomp_VERSION, 2
+ 803              	.set CYIPBLOCK_m0s8peri_VERSION, 1
+ 804              	.set CYIPBLOCK_m0s8scb_VERSION, 2
+ 805              	.set CYIPBLOCK_m0s8srssv2_VERSION, 1
+ 806              	.set CYIPBLOCK_m0s8tcpwm_VERSION, 2
+ 807              	.set CYIPBLOCK_m0s8udbif_VERSION, 1
+ 808              	.set CYIPBLOCK_s8pass4al_VERSION, 1
+ 809              	.set CYDEV_BOOTLOADER_ENABLE, 0
+ 810              	.endif
   19              	
   20              	
   21              	/*******************************************************************************
   22              	* Function Name: CyDelayCycles
   23              	********************************************************************************
   24              	*
+ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 73
+
+
   25              	* Summary:
   26              	*  Delays for the specified number of cycles.
   27              	*
@@ -4618,9 +4364,6 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
   65              	* Summary:
   66              	*  CyEnterCriticalSection disables interrupts and returns a value indicating
   67              	*  whether interrupts were previously enabled (the actual value depends on
-ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 78
-
-
   68              	*  whether the device is PSoC 3 or PSoC 5).
   69              	*
   70              	*  Note Implementation of CyEnterCriticalSection manipulates the IRQ enable bit
@@ -4635,6 +4378,9 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
   79              	* Return:
   80              	*  uint8
   81              	*   Returns 0 if interrupts were previously enabled or 1 if interrupts
+ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 74
+
+
   82              	*   were previously disabled.
   83              	*
   84              	*******************************************************************************/
@@ -4678,6 +4424,3 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  122              	.endfunc
  123              	
  124              	.end
-ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 79
-
-

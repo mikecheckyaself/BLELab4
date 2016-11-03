@@ -53,27 +53,27 @@
 ***************************************/
 
 /* Widgets constants definition */
-#define CapSense_LINEARSLIDER0__LS        (0u)
+#define CapSense_PROXIMITYSENSOR0__PROX        (0u)
 
 #define CapSense_TOTAL_DIPLEXED_SLIDERS_COUNT        (0u)
-#define CapSense_TOTAL_LINEAR_SLIDERS_COUNT          (1u)
+#define CapSense_TOTAL_LINEAR_SLIDERS_COUNT          (0u)
 #define CapSense_TOTAL_RADIAL_SLIDERS_COUNT          (0u)
 #define CapSense_TOTAL_TOUCH_PADS_COUNT              (0u)
 #define CapSense_TOTAL_TOUCH_PADS_BASIC_COUNT        (0u)
 #define CapSense_TOTAL_TRACKPAD_GESTURES_COUNT       (0u)
-#define CapSense_TOTAL_BUTTONS_COUNT                 (0u)
+#define CapSense_TOTAL_BUTTONS_COUNT                 (1u)
 #define CapSense_TOTAL_MATRIX_BUTTONS_COUNT          (0u)
 #define CapSense_TOTAL_GENERICS_COUNT                (0u)
 
-#define CapSense_POS_FILTERS_MASK                    (0x8u)
-#define CapSense_LINEAR_SLIDERS_POS_FILTERS_MASK     (0x8u)
+#define CapSense_POS_FILTERS_MASK                    (0x0u)
+#define CapSense_LINEAR_SLIDERS_POS_FILTERS_MASK     (0x0u)
 #define CapSense_RADIAL_SLIDERS_POS_FILTERS_MASK     (0x0u)
 #define CapSense_TOUCH_PADS_POS_FILTERS_MASK         (0x0u)
 #define CapSense_TRACKPAD_GEST_POS_FILTERS_MASK      (0x0u)
 
-#define CapSense_UNUSED_DEBOUNCE_COUNTER_INDEX       (0u)
+#define CapSense_UNUSED_DEBOUNCE_COUNTER_INDEX       (1u)
 
-#define CapSense_TOTAL_PROX_SENSORS_COUNT            (0u)
+#define CapSense_TOTAL_PROX_SENSORS_COUNT            (1u)
 
 #define CapSense_END_OF_SLIDERS_INDEX                (0u)
 #define CapSense_END_OF_TOUCH_PAD_INDEX              (0u)

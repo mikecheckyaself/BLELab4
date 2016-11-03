@@ -32,60 +32,12 @@
 #define CapSense_Sns_0_DR		(CapSense_Sns__0__DR)
 #define CapSense_Sns_0_SHIFT	(CapSense_Sns__0__SHIFT)
 
-#define CapSense_Sns_1		(CapSense_Sns__1__PC)
-#define CapSense_Sns_1_PS		(CapSense_Sns__1__PS)
-#define CapSense_Sns_1_PC		(CapSense_Sns__1__PC)
-#define CapSense_Sns_1_DR		(CapSense_Sns__1__DR)
-#define CapSense_Sns_1_SHIFT	(CapSense_Sns__1__SHIFT)
 
-#define CapSense_Sns_2		(CapSense_Sns__2__PC)
-#define CapSense_Sns_2_PS		(CapSense_Sns__2__PS)
-#define CapSense_Sns_2_PC		(CapSense_Sns__2__PC)
-#define CapSense_Sns_2_DR		(CapSense_Sns__2__DR)
-#define CapSense_Sns_2_SHIFT	(CapSense_Sns__2__SHIFT)
-
-#define CapSense_Sns_3		(CapSense_Sns__3__PC)
-#define CapSense_Sns_3_PS		(CapSense_Sns__3__PS)
-#define CapSense_Sns_3_PC		(CapSense_Sns__3__PC)
-#define CapSense_Sns_3_DR		(CapSense_Sns__3__DR)
-#define CapSense_Sns_3_SHIFT	(CapSense_Sns__3__SHIFT)
-
-#define CapSense_Sns_4		(CapSense_Sns__4__PC)
-#define CapSense_Sns_4_PS		(CapSense_Sns__4__PS)
-#define CapSense_Sns_4_PC		(CapSense_Sns__4__PC)
-#define CapSense_Sns_4_DR		(CapSense_Sns__4__DR)
-#define CapSense_Sns_4_SHIFT	(CapSense_Sns__4__SHIFT)
-
-
-#define CapSense_Sns_LinearSlider0_e0__LS		(CapSense_Sns__LinearSlider0_e0__LS__PC)
-#define CapSense_Sns_LinearSlider0_e0__LS_PS		(CapSense_Sns__LinearSlider0_e0__LS__PS)
-#define CapSense_Sns_LinearSlider0_e0__LS_PC		(CapSense_Sns__LinearSlider0_e0__LS__PC)
-#define CapSense_Sns_LinearSlider0_e0__LS_DR		(CapSense_Sns__LinearSlider0_e0__LS__DR)
-#define CapSense_Sns_LinearSlider0_e0__LS_SHIFT	(CapSense_Sns__LinearSlider0_e0__LS__SHIFT)
-
-#define CapSense_Sns_LinearSlider0_e1__LS		(CapSense_Sns__LinearSlider0_e1__LS__PC)
-#define CapSense_Sns_LinearSlider0_e1__LS_PS		(CapSense_Sns__LinearSlider0_e1__LS__PS)
-#define CapSense_Sns_LinearSlider0_e1__LS_PC		(CapSense_Sns__LinearSlider0_e1__LS__PC)
-#define CapSense_Sns_LinearSlider0_e1__LS_DR		(CapSense_Sns__LinearSlider0_e1__LS__DR)
-#define CapSense_Sns_LinearSlider0_e1__LS_SHIFT	(CapSense_Sns__LinearSlider0_e1__LS__SHIFT)
-
-#define CapSense_Sns_LinearSlider0_e2__LS		(CapSense_Sns__LinearSlider0_e2__LS__PC)
-#define CapSense_Sns_LinearSlider0_e2__LS_PS		(CapSense_Sns__LinearSlider0_e2__LS__PS)
-#define CapSense_Sns_LinearSlider0_e2__LS_PC		(CapSense_Sns__LinearSlider0_e2__LS__PC)
-#define CapSense_Sns_LinearSlider0_e2__LS_DR		(CapSense_Sns__LinearSlider0_e2__LS__DR)
-#define CapSense_Sns_LinearSlider0_e2__LS_SHIFT	(CapSense_Sns__LinearSlider0_e2__LS__SHIFT)
-
-#define CapSense_Sns_LinearSlider0_e3__LS		(CapSense_Sns__LinearSlider0_e3__LS__PC)
-#define CapSense_Sns_LinearSlider0_e3__LS_PS		(CapSense_Sns__LinearSlider0_e3__LS__PS)
-#define CapSense_Sns_LinearSlider0_e3__LS_PC		(CapSense_Sns__LinearSlider0_e3__LS__PC)
-#define CapSense_Sns_LinearSlider0_e3__LS_DR		(CapSense_Sns__LinearSlider0_e3__LS__DR)
-#define CapSense_Sns_LinearSlider0_e3__LS_SHIFT	(CapSense_Sns__LinearSlider0_e3__LS__SHIFT)
-
-#define CapSense_Sns_LinearSlider0_e4__LS		(CapSense_Sns__LinearSlider0_e4__LS__PC)
-#define CapSense_Sns_LinearSlider0_e4__LS_PS		(CapSense_Sns__LinearSlider0_e4__LS__PS)
-#define CapSense_Sns_LinearSlider0_e4__LS_PC		(CapSense_Sns__LinearSlider0_e4__LS__PC)
-#define CapSense_Sns_LinearSlider0_e4__LS_DR		(CapSense_Sns__LinearSlider0_e4__LS__DR)
-#define CapSense_Sns_LinearSlider0_e4__LS_SHIFT	(CapSense_Sns__LinearSlider0_e4__LS__SHIFT)
+#define CapSense_Sns_ProximitySensor0_0__PROX		(CapSense_Sns__ProximitySensor0_0__PROX__PC)
+#define CapSense_Sns_ProximitySensor0_0__PROX_PS		(CapSense_Sns__ProximitySensor0_0__PROX__PS)
+#define CapSense_Sns_ProximitySensor0_0__PROX_PC		(CapSense_Sns__ProximitySensor0_0__PROX__PC)
+#define CapSense_Sns_ProximitySensor0_0__PROX_DR		(CapSense_Sns__ProximitySensor0_0__PROX__DR)
+#define CapSense_Sns_ProximitySensor0_0__PROX_SHIFT	(CapSense_Sns__ProximitySensor0_0__PROX__SHIFT)
 
 
 #endif /* End Pins CapSense_Sns_ALIASES_H */
