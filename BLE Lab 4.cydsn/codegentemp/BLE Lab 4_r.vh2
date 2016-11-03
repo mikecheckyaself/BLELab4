@@ -1,5 +1,5 @@
 -- Project:   BLE Lab 4
--- Generated: 11/03/2016 00:44:38
+-- Generated: 11/03/2016 11:50:15
 -- PSoC Creator  3.1 SP3
 
 ENTITY \BLE Lab 4\ IS
@@ -33,12 +33,12 @@ ARCHITECTURE __DEFAULT__ OF \BLE Lab 4\ IS
     SIGNAL ClockBlock_SYSCLK : bit;
     SIGNAL ClockBlock_WCO : bit;
     SIGNAL GREEN(0)__PA : bit;
-    SIGNAL Net_128 : bit;
-    ATTRIBUTE placement_force OF Net_128 : SIGNAL IS "U(0,0,A)0";
-    SIGNAL Net_129 : bit;
-    ATTRIBUTE placement_force OF Net_129 : SIGNAL IS "U(1,0,B)0";
-    SIGNAL Net_130 : bit;
-    ATTRIBUTE placement_force OF Net_130 : SIGNAL IS "U(1,0,B)1";
+    SIGNAL Net_104 : bit;
+    ATTRIBUTE placement_force OF Net_104 : SIGNAL IS "U(1,0,B)1";
+    SIGNAL Net_105 : bit;
+    ATTRIBUTE placement_force OF Net_105 : SIGNAL IS "U(1,0,B)0";
+    SIGNAL Net_108 : bit;
+    ATTRIBUTE placement_force OF Net_108 : SIGNAL IS "U(0,0,A)0";
     SIGNAL Net_21_digital : bit;
     ATTRIBUTE udbclken_assigned OF Net_21_digital : SIGNAL IS "True";
     ATTRIBUTE global_signal OF Net_21_digital : SIGNAL IS true;
@@ -97,12 +97,12 @@ ARCHITECTURE __DEFAULT__ OF \BLE Lab 4\ IS
     ATTRIBUTE Location OF ClockGenBlock : LABEL IS "F(CLK_GEN,0)";
     ATTRIBUTE lib_model OF GREEN(0) : LABEL IS "iocell2";
     ATTRIBUTE Location OF GREEN(0) : LABEL IS "P3[6]";
-    ATTRIBUTE lib_model OF Net_128 : LABEL IS "macrocell1";
-    ATTRIBUTE Location OF Net_128 : LABEL IS "U(0,0)";
-    ATTRIBUTE lib_model OF Net_129 : LABEL IS "macrocell2";
-    ATTRIBUTE Location OF Net_129 : LABEL IS "U(1,0)";
-    ATTRIBUTE lib_model OF Net_130 : LABEL IS "macrocell3";
-    ATTRIBUTE Location OF Net_130 : LABEL IS "U(1,0)";
+    ATTRIBUTE lib_model OF Net_104 : LABEL IS "macrocell1";
+    ATTRIBUTE Location OF Net_104 : LABEL IS "U(1,0)";
+    ATTRIBUTE lib_model OF Net_105 : LABEL IS "macrocell2";
+    ATTRIBUTE Location OF Net_105 : LABEL IS "U(1,0)";
+    ATTRIBUTE lib_model OF Net_108 : LABEL IS "macrocell3";
+    ATTRIBUTE Location OF Net_108 : LABEL IS "U(0,0)";
     ATTRIBUTE lib_model OF RED(0) : LABEL IS "iocell3";
     ATTRIBUTE Location OF RED(0) : LABEL IS "P2[6]";
     ATTRIBUTE Location OF \BLE:bless_isr\ : LABEL IS "[IntrHod=(0)][IntrId=(12)]";
@@ -114,7 +114,7 @@ ARCHITECTURE __DEFAULT__ OF \BLE Lab 4\ IS
     ATTRIBUTE Location OF \CapSense:IDAC2:cy_psoc4_idac\ : LABEL IS "F(CSIDAC7,0)";
     ATTRIBUTE Location OF \CapSense:ISR\ : LABEL IS "[IntrHod=(0)][IntrId=(16)]";
     ATTRIBUTE lib_model OF \CapSense:Sns(0)\ : LABEL IS "iocell5";
-    ATTRIBUTE Location OF \CapSense:Sns(0)\ : LABEL IS "P2[0]";
+    ATTRIBUTE Location OF \CapSense:Sns(0)\ : LABEL IS "P2[1]";
     ATTRIBUTE lib_model OF \PRS_1:SyncCtl:ControlReg\ : LABEL IS "controlcell1";
     ATTRIBUTE Location OF \PRS_1:SyncCtl:ControlReg\ : LABEL IS "U(1,0)";
     ATTRIBUTE lib_model OF \PRS_1:enable_final_reg\ : LABEL IS "macrocell4";
@@ -505,7 +505,7 @@ BEGIN
         PORT MAP(
             pa_out => BLUE(0)__PA,
             oe => open,
-            pin_input => Net_128,
+            pin_input => Net_108,
             pad_out => BLUE(0)_PAD,
             pad_in => BLUE(0)_PAD,
             in_clock => open,
@@ -616,7 +616,7 @@ BEGIN
         PORT MAP(
             pa_out => GREEN(0)__PA,
             oe => open,
-            pin_input => Net_129,
+            pin_input => Net_105,
             pad_out => GREEN(0)_PAD,
             pad_in => GREEN(0)_PAD,
             in_clock => open,
@@ -626,38 +626,38 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
-    Net_128:macrocell
+    Net_104:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2) + (main_0 * main_2)")
         PORT MAP(
-            q => Net_128,
+            q => Net_104,
             clock_0 => Net_21_digital,
-            clk_en => \PRS_2:enable_final_reg\,
-            main_0 => \PRS_2:compare_type0\,
-            main_1 => \PRS_2:ce0\,
-            main_2 => \PRS_2:cl0\);
+            clk_en => \PRS_1:enable_final_reg\,
+            main_0 => \PRS_1:compare_type0\,
+            main_1 => \PRS_1:ce0\,
+            main_2 => \PRS_1:cl0\);
 
-    Net_129:macrocell
+    Net_105:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2) + (main_0 * main_2)")
         PORT MAP(
-            q => Net_129,
+            q => Net_105,
             clock_0 => Net_21_digital,
             clk_en => \PRS_1:enable_final_reg\,
             main_0 => \PRS_1:compare_type1\,
             main_1 => \PRS_1:ce1\,
             main_2 => \PRS_1:cl1\);
 
-    Net_130:macrocell
+    Net_108:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2) + (main_0 * main_2)")
         PORT MAP(
-            q => Net_130,
+            q => Net_108,
             clock_0 => Net_21_digital,
-            clk_en => \PRS_1:enable_final_reg\,
-            main_0 => \PRS_1:compare_type0\,
-            main_1 => \PRS_1:ce0\,
-            main_2 => \PRS_1:cl0\);
+            clk_en => \PRS_2:enable_final_reg\,
+            main_0 => \PRS_2:compare_type0\,
+            main_1 => \PRS_2:ce0\,
+            main_2 => \PRS_2:cl0\);
 
     RED:logicalport
         GENERIC MAP(
@@ -740,7 +740,7 @@ BEGIN
         PORT MAP(
             pa_out => RED(0)__PA,
             oe => open,
-            pin_input => Net_130,
+            pin_input => Net_104,
             pad_out => RED(0)_PAD,
             pad_in => RED(0)_PAD,
             in_clock => open,

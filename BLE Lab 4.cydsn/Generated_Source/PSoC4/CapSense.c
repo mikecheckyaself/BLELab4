@@ -80,24 +80,15 @@ const uint8 CapSense_pinShiftTbl[] = {
     (uint8) CapSense_Sns__ProximitySensor0_0__PROX__SHIFT, 
 };
 
-uint8 CapSense_modulationIDAC[CapSense_TOTAL_SENSOR_COUNT] = {
-    80u, 
-};
-uint8 CapSense_compensationIDAC[CapSense_TOTAL_SENSOR_COUNT] = {
-    80u, 
-};
+uint8 CapSense_modulationIDAC[CapSense_TOTAL_SENSOR_COUNT];
+uint8 CapSense_compensationIDAC[CapSense_TOTAL_SENSOR_COUNT];
 
 uint32 CapSense_widgetResolution[CapSense_RESOLUTIONS_TBL_SIZE] = {
-    CapSense_RESOLUTION_16_BITS,
+    CapSense_RESOLUTION_12_BITS,
 };
 
-uint8 CapSense_senseClkDividerVal[CapSense_TOTAL_SCANSLOT_COUNT] = {
-    2u, 
-};
-uint8 CapSense_sampleClkDividerVal[CapSense_TOTAL_SCANSLOT_COUNT] = {
-    2u, 
-};
-
+uint8 CapSense_senseClkDividerVal[CapSense_TOTAL_SCANSLOT_COUNT];
+uint8 CapSense_sampleClkDividerVal[CapSense_TOTAL_SCANSLOT_COUNT];
 
 const uint8 CapSense_widgetNumber[CapSense_TOTAL_SENSOR_COUNT] = {
     0u, /* ProximitySensor0__PROX */

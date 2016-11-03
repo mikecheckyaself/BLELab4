@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BLE Lab 4\BLE Lab 4\BLE Lab 4.cydwr">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BLE Lab 4\BLE Lab 4\Header Files\main.h">
 <ExpandedNodeIds>
 <v>BLE Lab 4</v>
 <v>BLE Lab 4\BLE Lab 4</v>
@@ -64,6 +64,8 @@
 <v>BLE Lab 4\BLE Lab 4\Generated_Source\PSoC4\CapSense\CapSense_IP.h</v>
 <v>BLE Lab 4\BLE Lab 4\Generated_Source\PSoC4\CapSense\CapSense_PM.c</v>
 <v>BLE Lab 4\BLE Lab 4\Generated_Source\PSoC4\CapSense\CapSense_PVT.h</v>
+<v>BLE Lab 4\BLE Lab 4\Generated_Source\PSoC4\CapSense\CapSense_SMS.c</v>
+<v>BLE Lab 4\BLE Lab 4\Generated_Source\PSoC4\CapSense\CapSense_SMS.h</v>
 <v>BLE Lab 4\BLE Lab 4\Generated_Source\PSoC4\CapSense\CapSense_TunerHelper.c</v>
 <v>BLE Lab 4\BLE Lab 4\Generated_Source\PSoC4\CapSense\CapSense_TunerHelper.h</v>
 <v>BLE Lab 4\BLE Lab 4\Generated_Source\PSoC4\CapSense_SampleClk</v>
@@ -180,11 +182,12 @@
 <v>BLE Lab 4\BLE Lab 4\Generated_Source\PSoC4\CapSense\CapSense_IP.h</v>
 <v>BLE Lab 4\BLE Lab 4\Generated_Source\PSoC4\CapSense\CapSense_PM.c</v>
 <v>BLE Lab 4\BLE Lab 4\Generated_Source\PSoC4\CapSense\CapSense_PVT.h</v>
+<v>BLE Lab 4\BLE Lab 4\Generated_Source\PSoC4\CapSense\CapSense_SMS.c</v>
+<v>BLE Lab 4\BLE Lab 4\Generated_Source\PSoC4\CapSense\CapSense_SMS.h</v>
 <v>BLE Lab 4\BLE Lab 4\Generated_Source\PSoC4\CapSense\CapSense_TunerHelper.c</v>
 <v>BLE Lab 4\BLE Lab 4\Generated_Source\PSoC4\CapSense\CapSense_TunerHelper.h</v>
 <v>BLE Lab 4\BLE Lab 4\Generated_Source\PSoC4\CapSense_SampleClk</v>
 <v>BLE Lab 4\BLE Lab 4\Generated_Source\PSoC4\CapSense_SampleClk\CapSense_SampleClk.c</v>
-<v>BLE Lab 4\BLE Lab 4\Generated_Source\PSoC4\CapSense_SampleClk\CapSense_SampleClk.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BLE Lab 4\BLE Lab 4">
@@ -224,6 +227,7 @@
 <v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\CapSense_PM.lst</v>
 <v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\CapSense_SampleClk.lst</v>
 <v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\CapSense_SenseClk.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\CapSense_SMS.lst</v>
 <v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\CapSense_Sns.lst</v>
 <v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\CapSense_TunerHelper.lst</v>
 <v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\Cm0Start.lst</v>
@@ -251,6 +255,47 @@
 <VisibleNodeIds>
 <v>BLE Lab 4</v>
 <v>BLE Lab 4\BLE Lab 4</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_bless_isr.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_custom.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_eventHandler.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_gatt.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_HAL_INT.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_HAL_PVT.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\BLEApplications.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\BLUE.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\CapSense.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\CapSense_CSHL.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\CapSense_INT.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\CapSense_PM.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\CapSense_SampleClk.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\CapSense_SenseClk.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\CapSense_SMS.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\CapSense_Sns.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\CapSense_TunerHelper.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\Cm0Start.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\CyFlash.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\CyLib.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\cymetadata.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\cyPm.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\cyutils.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\GREEN.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\main.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\PRS_1.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\PRS_1_PM.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\PRS_2.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\PRS_2_PM.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\PRS_Clock.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\Listing Files\RED.lst</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\BLE Lab 4.elf</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\BLE Lab 4.hex</v>
+<v>BLE Lab 4\BLE Lab 4\CortexM0\ARM_GCC_484\Debug\BLE Lab 4.map</v>
 <v>BLE Lab 4\BLE Lab 4\BLE Lab 4.rpt</v>
 <v>BLE Lab 4\BLE Lab 4\BLE Lab 4_timing.html</v>
 </VisibleNodeIds>
@@ -299,9 +344,6 @@
 <name v=".\BLE Lab 4.cydsn\BLE Lab 4.cydwr" />
 <name v=".\BLE Lab 4.cydsn\main.c" />
 <name v=".\BLE Lab 4.cydsn\main.h" />
-<name v=".\BLE Lab 4.cydsn\BLEApplications.c" />
-<name v=".\BLE Lab 4.cydsn\BLEApplications.h" />
-<name v=".\BLE Lab 4.cydsn\Generated_Source\PSoC4\BLE_custom.h" />
 </OpenDocs>
 <config v="" />
 <AutoUpdate v="true" />

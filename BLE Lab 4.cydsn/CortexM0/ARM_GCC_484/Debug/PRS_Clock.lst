@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccQiKWjS.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
   30:.\Generated_Source\PSoC4/PRS_Clock.c **** *
   31:.\Generated_Source\PSoC4/PRS_Clock.c **** * Parameters:
   32:.\Generated_Source\PSoC4/PRS_Clock.c **** *  alignClkDiv:  The divider to which phase alignment is performed when the
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 2
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccQiKWjS.s 			page 2
 
 
   33:.\Generated_Source\PSoC4/PRS_Clock.c **** *    clock is started.
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
   60              		.align	2
   61              	.L3:
   62 0024 00000140 		.word	1073807360
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 3
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccQiKWjS.s 			page 3
 
 
   63 0028 42000080 		.word	-2147483582
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
   94:.\Generated_Source\PSoC4/PRS_Clock.c **** *******************************************************************************/
   95:.\Generated_Source\PSoC4/PRS_Clock.c **** void PRS_Clock_Stop(void)
   96:.\Generated_Source\PSoC4/PRS_Clock.c **** {
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 4
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccQiKWjS.s 			page 4
 
 
   75              		.loc 1 96 0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
  110              		.code	16
  111              		.thumb_func
  112              		.type	PRS_Clock_SetFractionalDividerRegister, %function
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 5
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccQiKWjS.s 			page 5
 
 
  113              	PRS_Clock_SetFractionalDividerRegister:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
  146:.\Generated_Source\PSoC4/PRS_Clock.c ****         ((uint32)((uint32)clkDivider <<  PRS_Clock_DIV_INT_SHIFT) & PRS_Clock_DIV_INT_MASK) |
  137              		.loc 1 146 0
  138 001c BB1D     		add	r3, r7, #6
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 6
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccQiKWjS.s 			page 6
 
 
  139 001e 1B88     		ldrh	r3, [r3]
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
  161:.\Generated_Source\PSoC4/PRS_Clock.c **** /*******************************************************************************
  162:.\Generated_Source\PSoC4/PRS_Clock.c **** * Function Name: PRS_Clock_GetDividerRegister
  163:.\Generated_Source\PSoC4/PRS_Clock.c **** ********************************************************************************
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 7
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccQiKWjS.s 			page 7
 
 
  164:.\Generated_Source\PSoC4/PRS_Clock.c **** *
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
  182:.\Generated_Source\PSoC4/PRS_Clock.c **** 
  183:.\Generated_Source\PSoC4/PRS_Clock.c **** /*******************************************************************************
  184:.\Generated_Source\PSoC4/PRS_Clock.c **** * Function Name: PRS_Clock_GetFractionalDividerRegister
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 8
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccQiKWjS.s 			page 8
 
 
  185:.\Generated_Source\PSoC4/PRS_Clock.c **** ********************************************************************************
@@ -472,48 +472,48 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
  237 0006 00000000 		.4byte	.Ldebug_abbrev0
  238 000a 04       		.byte	0x4
  239 000b 01       		.uleb128 0x1
- 240 000c FE000000 		.4byte	.LASF25
+ 240 000c 38010000 		.4byte	.LASF25
  241 0010 01       		.byte	0x1
- 242 0011 B4010000 		.4byte	.LASF26
- 243 0015 E8010000 		.4byte	.LASF27
+ 242 0011 EE010000 		.4byte	.LASF26
+ 243 0015 5C000000 		.4byte	.LASF27
  244 0019 00000000 		.4byte	.Ldebug_ranges0+0
  245 001d 00000000 		.4byte	0
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 9
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccQiKWjS.s 			page 9
 
 
  246 0021 00000000 		.4byte	.Ldebug_line0
  247 0025 02       		.uleb128 0x2
  248 0026 01       		.byte	0x1
  249 0027 06       		.byte	0x6
- 250 0028 62000000 		.4byte	.LASF0
+ 250 0028 22020000 		.4byte	.LASF0
  251 002c 02       		.uleb128 0x2
  252 002d 01       		.byte	0x1
  253 002e 08       		.byte	0x8
- 254 002f 6E000000 		.4byte	.LASF1
+ 254 002f A8000000 		.4byte	.LASF1
  255 0033 02       		.uleb128 0x2
  256 0034 02       		.byte	0x2
  257 0035 05       		.byte	0x5
- 258 0036 AA010000 		.4byte	.LASF2
+ 258 0036 E4010000 		.4byte	.LASF2
  259 003a 02       		.uleb128 0x2
  260 003b 02       		.byte	0x2
  261 003c 07       		.byte	0x7
- 262 003d 8E000000 		.4byte	.LASF3
+ 262 003d C8000000 		.4byte	.LASF3
  263 0041 02       		.uleb128 0x2
  264 0042 04       		.byte	0x4
  265 0043 05       		.byte	0x5
- 266 0044 DF010000 		.4byte	.LASF4
+ 266 0044 19020000 		.4byte	.LASF4
  267 0048 02       		.uleb128 0x2
  268 0049 04       		.byte	0x4
  269 004a 07       		.byte	0x7
- 270 004b 7C000000 		.4byte	.LASF5
+ 270 004b B6000000 		.4byte	.LASF5
  271 004f 02       		.uleb128 0x2
  272 0050 08       		.byte	0x8
  273 0051 05       		.byte	0x5
- 274 0052 7A010000 		.4byte	.LASF6
+ 274 0052 B4010000 		.4byte	.LASF6
  275 0056 02       		.uleb128 0x2
  276 0057 08       		.byte	0x8
  277 0058 07       		.byte	0x7
- 278 0059 2B020000 		.4byte	.LASF7
+ 278 0059 91000000 		.4byte	.LASF7
  279 005d 03       		.uleb128 0x3
  280 005e 04       		.byte	0x4
  281 005f 05       		.byte	0x5
@@ -521,37 +521,37 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
  283 0064 02       		.uleb128 0x2
  284 0065 04       		.byte	0x4
  285 0066 07       		.byte	0x7
- 286 0067 F1000000 		.4byte	.LASF8
+ 286 0067 2B010000 		.4byte	.LASF8
  287 006b 04       		.uleb128 0x4
- 288 006c D9010000 		.4byte	.LASF9
+ 288 006c 13020000 		.4byte	.LASF9
  289 0070 02       		.byte	0x2
  290 0071 A1       		.byte	0xa1
  291 0072 2C000000 		.4byte	0x2c
  292 0076 04       		.uleb128 0x4
- 293 0077 E3000000 		.4byte	.LASF10
+ 293 0077 1D010000 		.4byte	.LASF10
  294 007b 02       		.byte	0x2
  295 007c A2       		.byte	0xa2
  296 007d 3A000000 		.4byte	0x3a
  297 0081 04       		.uleb128 0x4
- 298 0082 EA000000 		.4byte	.LASF11
+ 298 0082 24010000 		.4byte	.LASF11
  299 0086 02       		.byte	0x2
  300 0087 A3       		.byte	0xa3
  301 0088 48000000 		.4byte	0x48
  302 008c 02       		.uleb128 0x2
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 10
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccQiKWjS.s 			page 10
 
 
  303 008d 04       		.byte	0x4
  304 008e 04       		.byte	0x4
- 305 008f 5C000000 		.4byte	.LASF12
+ 305 008f 8B000000 		.4byte	.LASF12
  306 0093 02       		.uleb128 0x2
  307 0094 08       		.byte	0x8
  308 0095 04       		.byte	0x4
- 309 0096 BB000000 		.4byte	.LASF13
+ 309 0096 F5000000 		.4byte	.LASF13
  310 009a 02       		.uleb128 0x2
  311 009b 01       		.byte	0x1
  312 009c 08       		.byte	0x8
- 313 009d 88010000 		.4byte	.LASF14
+ 313 009d C2010000 		.4byte	.LASF14
  314 00a1 05       		.uleb128 0x5
  315 00a2 00000000 		.4byte	.LASF15
  316 00a6 02       		.byte	0x2
@@ -560,7 +560,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
  319 00ad 06       		.uleb128 0x6
  320 00ae 81000000 		.4byte	0x81
  321 00b2 07       		.uleb128 0x7
- 322 00b3 19020000 		.4byte	.LASF16
+ 322 00b3 2E020000 		.4byte	.LASF16
  323 00b7 01       		.byte	0x1
  324 00b8 27       		.byte	0x27
  325 00b9 00000000 		.4byte	.LFB0
@@ -569,7 +569,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
  328 00c2 9C       		.byte	0x9c
  329 00c3 D6000000 		.4byte	0xd6
  330 00c7 08       		.uleb128 0x8
- 331 00c8 C9000000 		.4byte	.LASF18
+ 331 00c8 03010000 		.4byte	.LASF18
  332 00cc 01       		.byte	0x1
  333 00cd 27       		.byte	0x27
  334 00ce 81000000 		.4byte	0x81
@@ -578,7 +578,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
  337 00d4 74       		.sleb128 -12
  338 00d5 00       		.byte	0
  339 00d6 09       		.uleb128 0x9
- 340 00d7 A1000000 		.4byte	.LASF28
+ 340 00d7 DB000000 		.4byte	.LASF28
  341 00db 01       		.byte	0x1
  342 00dc 5F       		.byte	0x5f
  343 00dd 00000000 		.4byte	.LFB1
@@ -595,10 +595,10 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
  354 00f7 9C       		.byte	0x9c
  355 00f8 35010000 		.4byte	0x135
  356 00fc 08       		.uleb128 0x8
- 357 00fd B0000000 		.4byte	.LASF19
+ 357 00fd EA000000 		.4byte	.LASF19
  358 0101 01       		.byte	0x1
  359 0102 86       		.byte	0x86
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 11
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccQiKWjS.s 			page 11
 
 
  360 0103 76000000 		.4byte	0x76
@@ -606,7 +606,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
  362 0108 91       		.byte	0x91
  363 0109 6E       		.sleb128 -18
  364 010a 08       		.uleb128 0x8
- 365 010b D5000000 		.4byte	.LASF20
+ 365 010b 0F010000 		.4byte	.LASF20
  366 010f 01       		.byte	0x1
  367 0110 86       		.byte	0x86
  368 0111 6B000000 		.4byte	0x6b
@@ -622,7 +622,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
  378 0124 91       		.byte	0x91
  379 0125 74       		.sleb128 -12
  380 0126 0A       		.uleb128 0xa
- 381 0127 C2000000 		.4byte	.LASF22
+ 381 0127 FC000000 		.4byte	.LASF22
  382 012b 01       		.byte	0x1
  383 012c 89       		.byte	0x89
  384 012d 81000000 		.4byte	0x81
@@ -631,7 +631,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
  387 0133 70       		.sleb128 -16
  388 0134 00       		.byte	0
  389 0135 0B       		.uleb128 0xb
- 390 0136 8D010000 		.4byte	.LASF23
+ 390 0136 C7010000 		.4byte	.LASF23
  391 013a 01       		.byte	0x1
  392 013b B0       		.byte	0xb0
  393 013c 76000000 		.4byte	0x76
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
  414 0004 0E       		.uleb128 0xe
  415 0005 13       		.uleb128 0x13
  416 0006 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 12
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccQiKWjS.s 			page 12
 
 
  417 0007 03       		.uleb128 0x3
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
  471 003d 3B       		.uleb128 0x3b
  472 003e 05       		.uleb128 0x5
  473 003f 49       		.uleb128 0x49
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 13
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccQiKWjS.s 			page 13
 
 
  474 0040 13       		.uleb128 0x13
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
  528 0077 19       		.uleb128 0x19
  529 0078 03       		.uleb128 0x3
  530 0079 0E       		.uleb128 0xe
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 14
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccQiKWjS.s 			page 14
 
 
  531 007a 3A       		.uleb128 0x3a
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
  585 00b2 00       		.byte	0
  586 00b3 00       		.byte	0
  587 00b4 00       		.byte	0
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 15
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccQiKWjS.s 			page 15
 
 
  588              		.section	.debug_aranges,"",%progbits
@@ -898,140 +898,140 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 1
  632 0035 5052535F 		.ascii	"PRS_Clock_SetFractionalDividerRegister\000"
  632      436C6F63 
  632      6B5F5365 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 16
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccQiKWjS.s 			page 16
 
 
  632      74467261 
  632      6374696F 
- 633              	.LASF12:
- 634 005c 666C6F61 		.ascii	"float\000"
- 634      7400
- 635              	.LASF0:
- 636 0062 7369676E 		.ascii	"signed char\000"
- 636      65642063 
- 636      68617200 
- 637              	.LASF1:
- 638 006e 756E7369 		.ascii	"unsigned char\000"
- 638      676E6564 
- 638      20636861 
- 638      7200
- 639              	.LASF5:
- 640 007c 6C6F6E67 		.ascii	"long unsigned int\000"
- 640      20756E73 
- 640      69676E65 
- 640      6420696E 
- 640      7400
- 641              	.LASF3:
- 642 008e 73686F72 		.ascii	"short unsigned int\000"
- 642      7420756E 
- 642      7369676E 
- 642      65642069 
- 642      6E7400
- 643              	.LASF28:
- 644 00a1 5052535F 		.ascii	"PRS_Clock_Stop\000"
- 644      436C6F63 
- 644      6B5F5374 
- 644      6F7000
- 645              	.LASF19:
- 646 00b0 636C6B44 		.ascii	"clkDivider\000"
- 646      69766964 
- 646      657200
- 647              	.LASF13:
- 648 00bb 646F7562 		.ascii	"double\000"
- 648      6C6500
- 649              	.LASF22:
- 650 00c2 72656756 		.ascii	"regVal\000"
- 650      616C00
- 651              	.LASF18:
- 652 00c9 616C6967 		.ascii	"alignClkDiv\000"
- 652      6E436C6B 
- 652      44697600 
- 653              	.LASF20:
- 654 00d5 636C6B46 		.ascii	"clkFractional\000"
- 654      72616374 
- 654      696F6E61 
- 654      6C00
- 655              	.LASF10:
- 656 00e3 75696E74 		.ascii	"uint16\000"
- 656      313600
- 657              	.LASF11:
- 658 00ea 75696E74 		.ascii	"uint32\000"
- 658      333200
- 659              	.LASF8:
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 17
+ 633              	.LASF27:
+ 634 005c 433A5C55 		.ascii	"C:\\Users\\Heidi\\Desktop\\BLELab4\\BLE Lab 4.cydsn"
+ 634      73657273 
+ 634      5C486569 
+ 634      64695C44 
+ 634      65736B74 
+ 635 008a 00       		.ascii	"\000"
+ 636              	.LASF12:
+ 637 008b 666C6F61 		.ascii	"float\000"
+ 637      7400
+ 638              	.LASF7:
+ 639 0091 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 639      206C6F6E 
+ 639      6720756E 
+ 639      7369676E 
+ 639      65642069 
+ 640              	.LASF1:
+ 641 00a8 756E7369 		.ascii	"unsigned char\000"
+ 641      676E6564 
+ 641      20636861 
+ 641      7200
+ 642              	.LASF5:
+ 643 00b6 6C6F6E67 		.ascii	"long unsigned int\000"
+ 643      20756E73 
+ 643      69676E65 
+ 643      6420696E 
+ 643      7400
+ 644              	.LASF3:
+ 645 00c8 73686F72 		.ascii	"short unsigned int\000"
+ 645      7420756E 
+ 645      7369676E 
+ 645      65642069 
+ 645      6E7400
+ 646              	.LASF28:
+ 647 00db 5052535F 		.ascii	"PRS_Clock_Stop\000"
+ 647      436C6F63 
+ 647      6B5F5374 
+ 647      6F7000
+ 648              	.LASF19:
+ 649 00ea 636C6B44 		.ascii	"clkDivider\000"
+ 649      69766964 
+ 649      657200
+ 650              	.LASF13:
+ 651 00f5 646F7562 		.ascii	"double\000"
+ 651      6C6500
+ 652              	.LASF22:
+ 653 00fc 72656756 		.ascii	"regVal\000"
+ 653      616C00
+ 654              	.LASF18:
+ 655 0103 616C6967 		.ascii	"alignClkDiv\000"
+ 655      6E436C6B 
+ 655      44697600 
+ 656              	.LASF20:
+ 657 010f 636C6B46 		.ascii	"clkFractional\000"
+ 657      72616374 
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccQiKWjS.s 			page 17
 
 
- 660 00f1 756E7369 		.ascii	"unsigned int\000"
- 660      676E6564 
- 660      20696E74 
- 660      00
- 661              	.LASF25:
- 662 00fe 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
- 662      4320342E 
- 662      382E3420 
- 662      32303134 
- 662      30353236 
- 663 0131 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m0 -mthumb -g -O"
- 663      20726576 
- 663      6973696F 
- 663      6E203231 
- 663      31333538 
- 664 0164 30202D66 		.ascii	"0 -ffunction-sections\000"
- 664      66756E63 
- 664      74696F6E 
- 664      2D736563 
- 664      74696F6E 
- 665              	.LASF6:
- 666 017a 6C6F6E67 		.ascii	"long long int\000"
- 666      206C6F6E 
- 666      6720696E 
- 666      7400
- 667              	.LASF14:
- 668 0188 63686172 		.ascii	"char\000"
- 668      00
- 669              	.LASF23:
- 670 018d 5052535F 		.ascii	"PRS_Clock_GetDividerRegister\000"
- 670      436C6F63 
- 670      6B5F4765 
- 670      74446976 
- 670      69646572 
- 671              	.LASF2:
- 672 01aa 73686F72 		.ascii	"short int\000"
- 672      7420696E 
- 672      7400
- 673              	.LASF26:
- 674 01b4 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\PRS_Clock.c\000"
- 674      6E657261 
- 674      7465645F 
- 674      536F7572 
- 674      63655C50 
- 675              	.LASF9:
- 676 01d9 75696E74 		.ascii	"uint8\000"
- 676      3800
- 677              	.LASF4:
- 678 01df 6C6F6E67 		.ascii	"long int\000"
- 678      20696E74 
- 678      00
- 679              	.LASF27:
- 680 01e8 433A5C55 		.ascii	"C:\\Users\\Heidi\\Desktop\\BLE_Lab_4\\BLE Lab 4.cyd"
- 680      73657273 
- 680      5C486569 
- 680      64695C44 
- 680      65736B74 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cc7V5PFl.s 			page 18
+ 657      696F6E61 
+ 657      6C00
+ 658              	.LASF10:
+ 659 011d 75696E74 		.ascii	"uint16\000"
+ 659      313600
+ 660              	.LASF11:
+ 661 0124 75696E74 		.ascii	"uint32\000"
+ 661      333200
+ 662              	.LASF8:
+ 663 012b 756E7369 		.ascii	"unsigned int\000"
+ 663      676E6564 
+ 663      20696E74 
+ 663      00
+ 664              	.LASF25:
+ 665 0138 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
+ 665      4320342E 
+ 665      382E3420 
+ 665      32303134 
+ 665      30353236 
+ 666 016b 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m0 -mthumb -g -O"
+ 666      20726576 
+ 666      6973696F 
+ 666      6E203231 
+ 666      31333538 
+ 667 019e 30202D66 		.ascii	"0 -ffunction-sections\000"
+ 667      66756E63 
+ 667      74696F6E 
+ 667      2D736563 
+ 667      74696F6E 
+ 668              	.LASF6:
+ 669 01b4 6C6F6E67 		.ascii	"long long int\000"
+ 669      206C6F6E 
+ 669      6720696E 
+ 669      7400
+ 670              	.LASF14:
+ 671 01c2 63686172 		.ascii	"char\000"
+ 671      00
+ 672              	.LASF23:
+ 673 01c7 5052535F 		.ascii	"PRS_Clock_GetDividerRegister\000"
+ 673      436C6F63 
+ 673      6B5F4765 
+ 673      74446976 
+ 673      69646572 
+ 674              	.LASF2:
+ 675 01e4 73686F72 		.ascii	"short int\000"
+ 675      7420696E 
+ 675      7400
+ 676              	.LASF26:
+ 677 01ee 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\PRS_Clock.c\000"
+ 677      6E657261 
+ 677      7465645F 
+ 677      536F7572 
+ 677      63655C50 
+ 678              	.LASF9:
+ 679 0213 75696E74 		.ascii	"uint8\000"
+ 679      3800
+ 680              	.LASF4:
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccQiKWjS.s 			page 18
 
 
- 681 0216 736E00   		.ascii	"sn\000"
- 682              	.LASF16:
- 683 0219 5052535F 		.ascii	"PRS_Clock_StartEx\000"
- 683      436C6F63 
- 683      6B5F5374 
- 683      61727445 
- 683      7800
- 684              	.LASF7:
- 685 022b 6C6F6E67 		.ascii	"long long unsigned int\000"
- 685      206C6F6E 
- 685      6720756E 
- 685      7369676E 
- 685      65642069 
+ 681 0219 6C6F6E67 		.ascii	"long int\000"
+ 681      20696E74 
+ 681      00
+ 682              	.LASF0:
+ 683 0222 7369676E 		.ascii	"signed char\000"
+ 683      65642063 
+ 683      68617200 
+ 684              	.LASF16:
+ 685 022e 5052535F 		.ascii	"PRS_Clock_StartEx\000"
+ 685      436C6F63 
+ 685      6B5F5374 
+ 685      61727445 
+ 685      7800
  686              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.8.4 20140526 (release) [ARM/embedded-4_8-br

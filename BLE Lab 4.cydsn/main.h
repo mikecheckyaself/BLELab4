@@ -51,7 +51,6 @@
 * Macros 
 *****************************************************************************/
 #define CAPSENSE_ENABLED
-#define CapSense_SENSOR_PROX0__PROX     
 #define BLE_ENABLED
 
 #define RED_INDEX						(0)
@@ -70,16 +69,6 @@
 #define RGB_LED_MAX_VAL					(255)
 #define RGB_LED_OFF						(255)
 #define RGB_LED_ON						(0)
-    
-    /* CapSense Proximity value ranges from 0-255*/
-#define MAX_PROX_VALUE						0xFF
-    
-    
-
-/* Counter value for reading proximity data. This counter prevents pushing 
-* large number of CapSense proximity data to connected BLE Client. Modify
-* this counter to change the rate of notification of proximity data*/
-#define PROX_COUNTER_VALUE					5
 
 
 #endif  /* #if !defined(_MAIN_H) */

@@ -1,6 +1,6 @@
 -- ======================================================================
 -- BLE Lab 4.ctl generated from BLE Lab 4
--- 11/03/2016 at 00:44
+-- 11/03/2016 at 11:50
 -- This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 -- ======================================================================
 

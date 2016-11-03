@@ -321,7 +321,7 @@
 #define BLUE__0__MASK 0x80u
 #define BLUE__0__OUT_SEL CYREG_UDB_PA3_CFG10
 #define BLUE__0__OUT_SEL_SHIFT 14u
-#define BLUE__0__OUT_SEL_VAL 0u
+#define BLUE__0__OUT_SEL_VAL 1u
 #define BLUE__0__PA__CFG0 CYREG_UDB_PA3_CFG0
 #define BLUE__0__PA__CFG1 CYREG_UDB_PA3_CFG1
 #define BLUE__0__PA__CFG10 CYREG_UDB_PA3_CFG10
@@ -387,7 +387,7 @@
 #define GREEN__0__MASK 0x40u
 #define GREEN__0__OUT_SEL CYREG_UDB_PA3_CFG10
 #define GREEN__0__OUT_SEL_SHIFT 12u
-#define GREEN__0__OUT_SEL_VAL 1u
+#define GREEN__0__OUT_SEL_VAL 0u
 #define GREEN__0__PA__CFG0 CYREG_UDB_PA3_CFG0
 #define GREEN__0__PA__CFG1 CYREG_UDB_PA3_CFG1
 #define GREEN__0__PA__CFG10 CYREG_UDB_PA3_CFG10
@@ -618,13 +618,13 @@
 #define CapSense_Sns__0__DR_INV CYREG_GPIO_PRT2_DR_INV
 #define CapSense_Sns__0__DR_SET CYREG_GPIO_PRT2_DR_SET
 #define CapSense_Sns__0__HSIOM CYREG_HSIOM_PORT_SEL2
-#define CapSense_Sns__0__HSIOM_MASK 0x0000000Fu
-#define CapSense_Sns__0__HSIOM_SHIFT 0u
+#define CapSense_Sns__0__HSIOM_MASK 0x000000F0u
+#define CapSense_Sns__0__HSIOM_SHIFT 4u
 #define CapSense_Sns__0__INTCFG CYREG_GPIO_PRT2_INTR_CFG
 #define CapSense_Sns__0__INTR CYREG_GPIO_PRT2_INTR
 #define CapSense_Sns__0__INTR_CFG CYREG_GPIO_PRT2_INTR_CFG
 #define CapSense_Sns__0__INTSTAT CYREG_GPIO_PRT2_INTR
-#define CapSense_Sns__0__MASK 0x01u
+#define CapSense_Sns__0__MASK 0x02u
 #define CapSense_Sns__0__PA__CFG0 CYREG_UDB_PA2_CFG0
 #define CapSense_Sns__0__PA__CFG1 CYREG_UDB_PA2_CFG1
 #define CapSense_Sns__0__PA__CFG10 CYREG_UDB_PA2_CFG10
@@ -644,7 +644,7 @@
 #define CapSense_Sns__0__PC2 CYREG_GPIO_PRT2_PC2
 #define CapSense_Sns__0__PORT 2u
 #define CapSense_Sns__0__PS CYREG_GPIO_PRT2_PS
-#define CapSense_Sns__0__SHIFT 0
+#define CapSense_Sns__0__SHIFT 1
 #define CapSense_Sns__DR CYREG_GPIO_PRT2_DR
 #define CapSense_Sns__DR_CLR CYREG_GPIO_PRT2_DR_CLR
 #define CapSense_Sns__DR_INV CYREG_GPIO_PRT2_DR_INV
@@ -653,7 +653,7 @@
 #define CapSense_Sns__INTR CYREG_GPIO_PRT2_INTR
 #define CapSense_Sns__INTR_CFG CYREG_GPIO_PRT2_INTR_CFG
 #define CapSense_Sns__INTSTAT CYREG_GPIO_PRT2_INTR
-#define CapSense_Sns__MASK 0x01u
+#define CapSense_Sns__MASK 0x02u
 #define CapSense_Sns__PA__CFG0 CYREG_UDB_PA2_CFG0
 #define CapSense_Sns__PA__CFG1 CYREG_UDB_PA2_CFG1
 #define CapSense_Sns__PA__CFG10 CYREG_UDB_PA2_CFG10
@@ -680,7 +680,7 @@
 #define CapSense_Sns__ProximitySensor0_0__PROX__INTR CYREG_GPIO_PRT2_INTR
 #define CapSense_Sns__ProximitySensor0_0__PROX__INTR_CFG CYREG_GPIO_PRT2_INTR_CFG
 #define CapSense_Sns__ProximitySensor0_0__PROX__INTSTAT CYREG_GPIO_PRT2_INTR
-#define CapSense_Sns__ProximitySensor0_0__PROX__MASK 0x01u
+#define CapSense_Sns__ProximitySensor0_0__PROX__MASK 0x02u
 #define CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG0 CYREG_UDB_PA2_CFG0
 #define CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG1 CYREG_UDB_PA2_CFG1
 #define CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG10 CYREG_UDB_PA2_CFG10
@@ -700,9 +700,9 @@
 #define CapSense_Sns__ProximitySensor0_0__PROX__PC2 CYREG_GPIO_PRT2_PC2
 #define CapSense_Sns__ProximitySensor0_0__PROX__PORT 2u
 #define CapSense_Sns__ProximitySensor0_0__PROX__PS CYREG_GPIO_PRT2_PS
-#define CapSense_Sns__ProximitySensor0_0__PROX__SHIFT 0
+#define CapSense_Sns__ProximitySensor0_0__PROX__SHIFT 1
 #define CapSense_Sns__PS CYREG_GPIO_PRT2_PS
-#define CapSense_Sns__SHIFT 0
+#define CapSense_Sns__SHIFT 1
 
 /* PRS_Clock */
 #define PRS_Clock__CTRL_REGISTER CYREG_PERI_PCLK_CTL11

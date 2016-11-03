@@ -2,7 +2,7 @@
 --	Conversion of BLE Lab 4.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Thu Nov 03 00:44:37 2016
+--	Thu Nov 03 11:50:14 2016
 --
 
 USE cypress.cypress.all;
@@ -13,7 +13,7 @@ END top_RTL;
 --------------------------------------------------------
 ARCHITECTURE R_T_L OF top_RTL IS
 SIGNAL tmpOE__GREEN_net_0 : bit;
-SIGNAL Net_129 : bit;
+SIGNAL Net_105 : bit;
 SIGNAL tmpFB_0__GREEN_net_0 : bit;
 SIGNAL tmpIO_0__GREEN_net_0 : bit;
 TERMINAL tmpSIOVREF__GREEN_net_0 : bit;
@@ -21,7 +21,7 @@ SIGNAL zero : bit;
 SIGNAL one : bit;
 SIGNAL tmpINTERRUPT_0__GREEN_net_0 : bit;
 SIGNAL tmpOE__RED_net_0 : bit;
-SIGNAL Net_130 : bit;
+SIGNAL Net_104 : bit;
 SIGNAL tmpFB_0__RED_net_0 : bit;
 SIGNAL tmpIO_0__RED_net_0 : bit;
 TERMINAL tmpSIOVREF__RED_net_0 : bit;
@@ -56,8 +56,8 @@ SIGNAL \PRS_2:Pd1a\ : bit;
 SIGNAL \PRS_2:ce1\ : bit;
 SIGNAL \PRS_2:cl1\ : bit;
 SIGNAL \PRS_2:Pd1b\ : bit;
-SIGNAL Net_128 : bit;
-SIGNAL Net_131 : bit;
+SIGNAL Net_108 : bit;
+SIGNAL Net_109 : bit;
 SIGNAL \PRS_2:sC8:PrISMdp:z0\ : bit;
 ATTRIBUTE port_state_att of \PRS_2:sC8:PrISMdp:z0\:SIGNAL IS 2;
 SIGNAL \PRS_2:sC8:PrISMdp:ff0\ : bit;
@@ -88,7 +88,7 @@ SIGNAL \PRS_2:sC8:PrISMdp:cl0_reg\ : bit;
 ATTRIBUTE port_state_att of \PRS_2:sC8:PrISMdp:cl0_reg\:SIGNAL IS 2;
 SIGNAL \PRS_2:sC8:PrISMdp:z0_reg\ : bit;
 ATTRIBUTE port_state_att of \PRS_2:sC8:PrISMdp:z0_reg\:SIGNAL IS 2;
-SIGNAL Net_133 : bit;
+SIGNAL Net_111 : bit;
 SIGNAL \PRS_2:sC8:PrISMdp:ce1_reg\ : bit;
 ATTRIBUTE port_state_att of \PRS_2:sC8:PrISMdp:ce1_reg\:SIGNAL IS 2;
 SIGNAL \PRS_2:sC8:PrISMdp:cl1_reg\ : bit;
@@ -101,7 +101,7 @@ SIGNAL \PRS_2:sC8:PrISMdp:ov_msb_reg\ : bit;
 ATTRIBUTE port_state_att of \PRS_2:sC8:PrISMdp:ov_msb_reg\:SIGNAL IS 2;
 SIGNAL \PRS_2:sC8:PrISMdp:co_msb_reg\ : bit;
 ATTRIBUTE port_state_att of \PRS_2:sC8:PrISMdp:co_msb_reg\:SIGNAL IS 2;
-SIGNAL Net_132 : bit;
+SIGNAL Net_110 : bit;
 SIGNAL \PRS_2:sC8:PrISMdp:so_reg\ : bit;
 ATTRIBUTE port_state_att of \PRS_2:sC8:PrISMdp:so_reg\:SIGNAL IS 2;
 SIGNAL \PRS_2:sC8:PrISMdp:f0_bus_stat_reg\ : bit;
@@ -168,7 +168,7 @@ SIGNAL \PRS_1:sC8:PrISMdp:cl0_reg\ : bit;
 ATTRIBUTE port_state_att of \PRS_1:sC8:PrISMdp:cl0_reg\:SIGNAL IS 2;
 SIGNAL \PRS_1:sC8:PrISMdp:z0_reg\ : bit;
 ATTRIBUTE port_state_att of \PRS_1:sC8:PrISMdp:z0_reg\:SIGNAL IS 2;
-SIGNAL Net_135 : bit;
+SIGNAL Net_107 : bit;
 SIGNAL \PRS_1:sC8:PrISMdp:ce1_reg\ : bit;
 ATTRIBUTE port_state_att of \PRS_1:sC8:PrISMdp:ce1_reg\:SIGNAL IS 2;
 SIGNAL \PRS_1:sC8:PrISMdp:cl1_reg\ : bit;
@@ -181,7 +181,7 @@ SIGNAL \PRS_1:sC8:PrISMdp:ov_msb_reg\ : bit;
 ATTRIBUTE port_state_att of \PRS_1:sC8:PrISMdp:ov_msb_reg\:SIGNAL IS 2;
 SIGNAL \PRS_1:sC8:PrISMdp:co_msb_reg\ : bit;
 ATTRIBUTE port_state_att of \PRS_1:sC8:PrISMdp:co_msb_reg\:SIGNAL IS 2;
-SIGNAL Net_134 : bit;
+SIGNAL Net_106 : bit;
 SIGNAL \PRS_1:sC8:PrISMdp:so_reg\ : bit;
 ATTRIBUTE port_state_att of \PRS_1:sC8:PrISMdp:so_reg\:SIGNAL IS 2;
 SIGNAL \PRS_1:sC8:PrISMdp:f0_bus_stat_reg\ : bit;
@@ -227,12 +227,12 @@ SIGNAL \CapSense:tmpINTERRUPT_0__Sns_net_0\ : bit;
 SIGNAL \CapSense:IDAC1:Net_3\ : bit;
 SIGNAL \CapSense:Net_545\ : bit;
 SIGNAL \CapSense:Net_544\ : bit;
-SIGNAL Net_129D : bit;
-SIGNAL Net_130D : bit;
+SIGNAL Net_105D : bit;
+SIGNAL Net_104D : bit;
 SIGNAL \PRS_2:enable_final_reg\\D\ : bit;
 SIGNAL \PRS_2:reset_reg\\D\ : bit;
-SIGNAL Net_128D : bit;
-SIGNAL Net_131D : bit;
+SIGNAL Net_108D : bit;
+SIGNAL Net_109D : bit;
 SIGNAL \PRS_1:enable_final_reg\\D\ : bit;
 SIGNAL \PRS_1:reset_reg\\D\ : bit;
 BEGIN
@@ -241,19 +241,19 @@ zero <=  ('0') ;
 
 tmpOE__GREEN_net_0 <=  ('1') ;
 
-Net_128D <= ((not \PRS_2:reset_reg\ and not \PRS_2:cl0\ and \PRS_2:ce0\)
+Net_108D <= ((not \PRS_2:reset_reg\ and not \PRS_2:cl0\ and \PRS_2:ce0\)
 	OR (not \PRS_2:reset_reg\ and not \PRS_2:cl0\ and \PRS_2:compare_type0\)
 	OR (not \PRS_2:compare_type0\ and not \PRS_2:reset_reg\ and \PRS_2:cl0\));
 
-Net_131D <= ((not \PRS_2:reset_reg\ and not \PRS_2:cl1\ and \PRS_2:ce1\)
+Net_109D <= ((not \PRS_2:reset_reg\ and not \PRS_2:cl1\ and \PRS_2:ce1\)
 	OR (not \PRS_2:reset_reg\ and not \PRS_2:cl1\ and \PRS_2:compare_type1\)
 	OR (not \PRS_2:compare_type1\ and not \PRS_2:reset_reg\ and \PRS_2:cl1\));
 
-Net_130D <= ((not \PRS_1:reset_reg\ and not \PRS_1:cl0\ and \PRS_1:ce0\)
+Net_104D <= ((not \PRS_1:reset_reg\ and not \PRS_1:cl0\ and \PRS_1:ce0\)
 	OR (not \PRS_1:reset_reg\ and not \PRS_1:cl0\ and \PRS_1:compare_type0\)
 	OR (not \PRS_1:compare_type0\ and not \PRS_1:reset_reg\ and \PRS_1:cl0\));
 
-Net_129D <= ((not \PRS_1:reset_reg\ and not \PRS_1:cl1\ and \PRS_1:ce1\)
+Net_105D <= ((not \PRS_1:reset_reg\ and not \PRS_1:cl1\ and \PRS_1:ce1\)
 	OR (not \PRS_1:reset_reg\ and not \PRS_1:cl1\ and \PRS_1:compare_type1\)
 	OR (not \PRS_1:compare_type1\ and not \PRS_1:reset_reg\ and \PRS_1:cl1\));
 
@@ -313,7 +313,7 @@ GREEN:cy_psoc3_pins_v1_10
 		ovt_hyst_trim=>"0",
 		input_buffer_sel=>"00")
 	PORT MAP(oe=>(tmpOE__GREEN_net_0),
-		y=>Net_129,
+		y=>Net_105,
 		fb=>(tmpFB_0__GREEN_net_0),
 		analog=>(open),
 		io=>(tmpIO_0__GREEN_net_0),
@@ -382,7 +382,7 @@ RED:cy_psoc3_pins_v1_10
 		ovt_hyst_trim=>"0",
 		input_buffer_sel=>"00")
 	PORT MAP(oe=>(tmpOE__GREEN_net_0),
-		y=>Net_130,
+		y=>Net_104,
 		fb=>(tmpFB_0__RED_net_0),
 		analog=>(open),
 		io=>(tmpIO_0__RED_net_0),
@@ -475,14 +475,14 @@ PRS_Clock:cy_clock_v1_0
 		ce0_reg=>open,
 		cl0_reg=>open,
 		z0_reg=>open,
-		ff0_reg=>Net_133,
+		ff0_reg=>Net_111,
 		ce1_reg=>open,
 		cl1_reg=>open,
 		z1_reg=>open,
 		ff1_reg=>open,
 		ov_msb_reg=>open,
 		co_msb_reg=>open,
-		cmsb_reg=>Net_132,
+		cmsb_reg=>Net_110,
 		so_reg=>open,
 		f0_bus_stat_reg=>open,
 		f0_blk_stat_reg=>open,
@@ -581,14 +581,14 @@ PRS_Clock:cy_clock_v1_0
 		ce0_reg=>open,
 		cl0_reg=>open,
 		z0_reg=>open,
-		ff0_reg=>Net_135,
+		ff0_reg=>Net_107,
 		ce1_reg=>open,
 		cl1_reg=>open,
 		z1_reg=>open,
 		ff1_reg=>open,
 		ov_msb_reg=>open,
 		co_msb_reg=>open,
-		cmsb_reg=>Net_134,
+		cmsb_reg=>Net_106,
 		so_reg=>open,
 		f0_bus_stat_reg=>open,
 		f0_blk_stat_reg=>open,
@@ -673,7 +673,7 @@ BLUE:cy_psoc3_pins_v1_10
 		ovt_hyst_trim=>"0",
 		input_buffer_sel=>"00")
 	PORT MAP(oe=>(tmpOE__GREEN_net_0),
-		y=>Net_128,
+		y=>Net_108,
 		fb=>(tmpFB_0__BLUE_net_0),
 		analog=>(open),
 		io=>(tmpIO_0__BLUE_net_0),
@@ -893,14 +893,14 @@ BLUE:cy_psoc3_pins_v1_10
 		is_digital=>'0')
 	PORT MAP(clock_out=>\CapSense:Net_429\,
 		dig_domain_out=>open);
-Net_129:cy_dff
-	PORT MAP(d=>Net_129D,
+Net_105:cy_dff
+	PORT MAP(d=>Net_105D,
 		clk=>\PRS_1:clock_op\,
-		q=>Net_129);
-Net_130:cy_dff
-	PORT MAP(d=>Net_130D,
+		q=>Net_105);
+Net_104:cy_dff
+	PORT MAP(d=>Net_104D,
 		clk=>\PRS_1:clock_op\,
-		q=>Net_130);
+		q=>Net_104);
 \PRS_2:enable_final_reg\:cy_dff
 	PORT MAP(d=>\PRS_2:ctrl_enable\,
 		clk=>\PRS_2:clock_cnt\,
@@ -909,14 +909,14 @@ Net_130:cy_dff
 	PORT MAP(d=>zero,
 		clk=>\PRS_2:clock_op\,
 		q=>\PRS_2:reset_reg\);
-Net_128:cy_dff
-	PORT MAP(d=>Net_128D,
+Net_108:cy_dff
+	PORT MAP(d=>Net_108D,
 		clk=>\PRS_2:clock_op\,
-		q=>Net_128);
-Net_131:cy_dff
-	PORT MAP(d=>Net_131D,
+		q=>Net_108);
+Net_109:cy_dff
+	PORT MAP(d=>Net_109D,
 		clk=>\PRS_2:clock_op\,
-		q=>Net_131);
+		q=>Net_109);
 \PRS_1:enable_final_reg\:cy_dff
 	PORT MAP(d=>\PRS_1:ctrl_enable\,
 		clk=>\PRS_1:clock_cnt\,

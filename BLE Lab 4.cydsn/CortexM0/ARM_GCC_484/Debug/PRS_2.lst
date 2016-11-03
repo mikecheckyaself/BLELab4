@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
   24:.\Generated_Source\PSoC4/PRS_2.c **** ***************************************/
   25:.\Generated_Source\PSoC4/PRS_2.c **** 
   26:.\Generated_Source\PSoC4/PRS_2.c **** uint8 PRS_2_initVar = 0u;
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 2
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 2
 
 
   27:.\Generated_Source\PSoC4/PRS_2.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
   61:.\Generated_Source\PSoC4/PRS_2.c ****     }
   62:.\Generated_Source\PSoC4/PRS_2.c ****     PRS_2_Enable();
   52              		.loc 1 62 0
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 3
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 3
 
 
   53 0016 FFF7FEFF 		bl	PRS_2_Enable
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
   86:.\Generated_Source\PSoC4/PRS_2.c ****     /* Writes Seed value, polynom value and density provided by customizer */
   87:.\Generated_Source\PSoC4/PRS_2.c ****     PRS_2_WriteSeed(PRS_2_SEED);
   84              		.loc 1 87 0
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 4
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 4
 
 
   85 0006 FF20     		mov	r0, #255
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  123 0050 1A70     		strb	r2, [r3]
  104:.\Generated_Source\PSoC4/PRS_2.c ****         #endif /* End PRS_2_COMPARE0 */    
  105:.\Generated_Source\PSoC4/PRS_2.c ****     
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 5
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 5
 
 
  106:.\Generated_Source\PSoC4/PRS_2.c ****         #if(PRS_2_GREATERTHAN_OR_EQUAL == PRS_2_COMPARE1)
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  130:.\Generated_Source\PSoC4/PRS_2.c **** {
  154              		.loc 1 130 0
  155              		.cfi_startproc
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 6
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 6
 
 
  156 0000 80B5     		push	{r7, lr}
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  151:.\Generated_Source\PSoC4/PRS_2.c **** *******************************************************************************/
  152:.\Generated_Source\PSoC4/PRS_2.c **** void PRS_2_Stop(void) 
  153:.\Generated_Source\PSoC4/PRS_2.c **** {
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 7
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 7
 
 
  190              		.loc 1 153 0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  172:.\Generated_Source\PSoC4/PRS_2.c ****     * Parameters:
  173:.\Generated_Source\PSoC4/PRS_2.c ****     *  pulse0Type: Selected pulse density type.
  174:.\Generated_Source\PSoC4/PRS_2.c ****     *
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 8
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 8
 
 
  175:.\Generated_Source\PSoC4/PRS_2.c ****     * Return:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  265              		.loc 1 189 0
  266 0036 BD46     		mov	sp, r7
  267 0038 02B0     		add	sp, sp, #8
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 9
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 9
 
 
  268              		@ sp needed
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  302 0012 08D1     		bne	.L20
  210:.\Generated_Source\PSoC4/PRS_2.c ****         {
  211:.\Generated_Source\PSoC4/PRS_2.c ****             PRS_2_CONTROL_REG |= PRS_2_CTRL_COMPARE_TYPE1_GREATER_THAN_OR_EQUAL;
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 10
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 10
 
 
  303              		.loc 1 211 0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  225:.\Generated_Source\PSoC4/PRS_2.c **** *
  226:.\Generated_Source\PSoC4/PRS_2.c **** * Summary:
  227:.\Generated_Source\PSoC4/PRS_2.c **** *  Reads the PrISM Seed register.
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 11
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 11
 
 
  228:.\Generated_Source\PSoC4/PRS_2.c **** *
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  250:.\Generated_Source\PSoC4/PRS_2.c **** *  seed: Seed register value.
  251:.\Generated_Source\PSoC4/PRS_2.c **** *
  252:.\Generated_Source\PSoC4/PRS_2.c **** * Return:
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 12
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 12
 
 
  253:.\Generated_Source\PSoC4/PRS_2.c **** *  None.
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  419              		.align	2
  420              		.global	PRS_2_ReadPolynomial
  421              		.code	16
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 13
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 13
 
 
  422              		.thumb_func
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  456              	PRS_2_WritePolynomial:
  457              	.LFB11:
  284:.\Generated_Source\PSoC4/PRS_2.c **** 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 14
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 14
 
 
  285:.\Generated_Source\PSoC4/PRS_2.c **** 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  491              		.code	16
  492              		.thumb_func
  493              		.type	PRS_2_ReadPulse0, %function
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 15
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 15
 
 
  494              	PRS_2_ReadPulse0:
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  326:.\Generated_Source\PSoC4/PRS_2.c **** 
  327:.\Generated_Source\PSoC4/PRS_2.c **** 
  328:.\Generated_Source\PSoC4/PRS_2.c **** /*******************************************************************************
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 16
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 16
 
 
  329:.\Generated_Source\PSoC4/PRS_2.c **** * FUNCTION NAME:   PRS_2_WritePulse0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  564              	PRS_2_ReadPulse1:
  565              	.LFB14:
  347:.\Generated_Source\PSoC4/PRS_2.c **** 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 17
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 17
 
 
  348:.\Generated_Source\PSoC4/PRS_2.c **** 
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  370:.\Generated_Source\PSoC4/PRS_2.c **** * FUNCTION NAME:   PRS_2_WritePulse1
  371:.\Generated_Source\PSoC4/PRS_2.c **** ********************************************************************************
  372:.\Generated_Source\PSoC4/PRS_2.c **** *
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 18
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 18
 
 
  373:.\Generated_Source\PSoC4/PRS_2.c **** * Summary:
@@ -1076,28 +1076,28 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  635 0006 00000000 		.4byte	.Ldebug_abbrev0
  636 000a 04       		.byte	0x4
  637 000b 01       		.uleb128 0x1
- 638 000c B5000000 		.4byte	.LASF35
+ 638 000c B3000000 		.4byte	.LASF35
  639 0010 01       		.byte	0x1
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 19
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 19
 
 
- 640 0011 8B020000 		.4byte	.LASF36
- 641 0015 56000000 		.4byte	.LASF37
+ 640 0011 89020000 		.4byte	.LASF36
+ 641 0015 41000000 		.4byte	.LASF37
  642 0019 00000000 		.4byte	.Ldebug_ranges0+0
  643 001d 00000000 		.4byte	0
  644 0021 00000000 		.4byte	.Ldebug_line0
  645 0025 02       		.uleb128 0x2
  646 0026 01       		.byte	0x1
  647 0027 06       		.byte	0x6
- 648 0028 7F020000 		.4byte	.LASF0
+ 648 0028 7D020000 		.4byte	.LASF0
  649 002c 02       		.uleb128 0x2
  650 002d 01       		.byte	0x1
  651 002e 08       		.byte	0x8
- 652 002f 31010000 		.4byte	.LASF1
+ 652 002f 2F010000 		.4byte	.LASF1
  653 0033 02       		.uleb128 0x2
  654 0034 02       		.byte	0x2
  655 0035 05       		.byte	0x5
- 656 0036 45020000 		.4byte	.LASF2
+ 656 0036 43020000 		.4byte	.LASF2
  657 003a 02       		.uleb128 0x2
  658 003b 02       		.byte	0x2
  659 003c 07       		.byte	0x7
@@ -1105,19 +1105,19 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  661 0041 02       		.uleb128 0x2
  662 0042 04       		.byte	0x4
  663 0043 05       		.byte	0x5
- 664 0044 64020000 		.4byte	.LASF4
+ 664 0044 62020000 		.4byte	.LASF4
  665 0048 02       		.uleb128 0x2
  666 0049 04       		.byte	0x4
  667 004a 07       		.byte	0x7
- 668 004b 44010000 		.4byte	.LASF5
+ 668 004b 42010000 		.4byte	.LASF5
  669 004f 02       		.uleb128 0x2
  670 0050 08       		.byte	0x8
  671 0051 05       		.byte	0x5
- 672 0052 F7010000 		.4byte	.LASF6
+ 672 0052 F5010000 		.4byte	.LASF6
  673 0056 02       		.uleb128 0x2
  674 0057 08       		.byte	0x8
  675 0058 07       		.byte	0x7
- 676 0059 CA010000 		.4byte	.LASF7
+ 676 0059 C8010000 		.4byte	.LASF7
  677 005d 03       		.uleb128 0x3
  678 005e 04       		.byte	0x4
  679 005f 05       		.byte	0x5
@@ -1125,29 +1125,29 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  681 0064 02       		.uleb128 0x2
  682 0065 04       		.byte	0x4
  683 0066 07       		.byte	0x7
- 684 0067 BD010000 		.4byte	.LASF8
+ 684 0067 BB010000 		.4byte	.LASF8
  685 006b 04       		.uleb128 0x4
- 686 006c 56010000 		.4byte	.LASF12
+ 686 006c 54010000 		.4byte	.LASF12
  687 0070 02       		.byte	0x2
  688 0071 A1       		.byte	0xa1
  689 0072 2C000000 		.4byte	0x2c
  690 0076 02       		.uleb128 0x2
  691 0077 04       		.byte	0x4
  692 0078 04       		.byte	0x4
- 693 0079 AF000000 		.4byte	.LASF9
+ 693 0079 AD000000 		.4byte	.LASF9
  694 007d 02       		.uleb128 0x2
  695 007e 08       		.byte	0x8
  696 007f 04       		.byte	0x4
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 20
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 20
 
 
- 697 0080 6D010000 		.4byte	.LASF10
+ 697 0080 6B010000 		.4byte	.LASF10
  698 0084 02       		.uleb128 0x2
  699 0085 01       		.byte	0x1
  700 0086 08       		.byte	0x8
- 701 0087 19020000 		.4byte	.LASF11
+ 701 0087 17020000 		.4byte	.LASF11
  702 008b 05       		.uleb128 0x5
- 703 008c 3F010000 		.4byte	.LASF13
+ 703 008c 3D010000 		.4byte	.LASF13
  704 0090 02       		.byte	0x2
  705 0091 4B01     		.2byte	0x14b
  706 0093 97000000 		.4byte	0x97
@@ -1156,9 +1156,9 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  709 009c 02       		.uleb128 0x2
  710 009d 04       		.byte	0x4
  711 009e 07       		.byte	0x7
- 712 009f E1010000 		.4byte	.LASF14
+ 712 009f DF010000 		.4byte	.LASF14
  713 00a3 07       		.uleb128 0x7
- 714 00a4 B1010000 		.4byte	.LASF15
+ 714 00a4 AF010000 		.4byte	.LASF15
  715 00a8 01       		.byte	0x1
  716 00a9 36       		.byte	0x36
  717 00aa 00000000 		.4byte	.LFB2
@@ -1166,7 +1166,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  719 00b2 01       		.uleb128 0x1
  720 00b3 9C       		.byte	0x9c
  721 00b4 08       		.uleb128 0x8
- 722 00b5 3A020000 		.4byte	.LASF18
+ 722 00b5 38020000 		.4byte	.LASF18
  723 00b9 01       		.byte	0x1
  724 00ba 52       		.byte	0x52
  725 00bb 00000000 		.4byte	.LFB3
@@ -1175,7 +1175,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  728 00c4 9C       		.byte	0x9c
  729 00c5 D8000000 		.4byte	0xd8
  730 00c9 09       		.uleb128 0x9
- 731 00ca 5C010000 		.4byte	.LASF38
+ 731 00ca 5A010000 		.4byte	.LASF38
  732 00ce 01       		.byte	0x1
  733 00cf 54       		.byte	0x54
  734 00d0 6B000000 		.4byte	0x6b
@@ -1184,7 +1184,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  737 00d6 6F       		.sleb128 -17
  738 00d7 00       		.byte	0
  739 00d8 0A       		.uleb128 0xa
- 740 00d9 EA010000 		.4byte	.LASF16
+ 740 00d9 E8010000 		.4byte	.LASF16
  741 00dd 01       		.byte	0x1
  742 00de 81       		.byte	0x81
  743 00df 00000000 		.4byte	.LFB4
@@ -1198,12 +1198,12 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  751 00f0 00000000 		.4byte	.LFB5
  752 00f4 1C000000 		.4byte	.LFE5-.LFB5
  753 00f8 01       		.uleb128 0x1
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 21
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 21
 
 
  754 00f9 9C       		.byte	0x9c
  755 00fa 0B       		.uleb128 0xb
- 756 00fb 05020000 		.4byte	.LASF19
+ 756 00fb 03020000 		.4byte	.LASF19
  757 00ff 01       		.byte	0x1
  758 0100 B3       		.byte	0xb3
  759 0101 00000000 		.4byte	.LFB6
@@ -1212,7 +1212,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  762 010a 9C       		.byte	0x9c
  763 010b 1E010000 		.4byte	0x11e
  764 010f 0C       		.uleb128 0xc
- 765 0110 A4000000 		.4byte	.LASF21
+ 765 0110 A2000000 		.4byte	.LASF21
  766 0114 01       		.byte	0x1
  767 0115 B3       		.byte	0xb3
  768 0116 6B000000 		.4byte	0x6b
@@ -1221,7 +1221,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  771 011c 77       		.sleb128 -9
  772 011d 00       		.byte	0
  773 011e 0B       		.uleb128 0xb
- 774 011f AC020000 		.4byte	.LASF20
+ 774 011f AA020000 		.4byte	.LASF20
  775 0123 01       		.byte	0x1
  776 0124 CF       		.byte	0xcf
  777 0125 00000000 		.4byte	.LFB7
@@ -1230,7 +1230,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  780 012e 9C       		.byte	0x9c
  781 012f 42010000 		.4byte	0x142
  782 0133 0C       		.uleb128 0xc
- 783 0134 90010000 		.4byte	.LASF22
+ 783 0134 8E010000 		.4byte	.LASF22
  784 0138 01       		.byte	0x1
  785 0139 CF       		.byte	0xcf
  786 013a 6B000000 		.4byte	0x6b
@@ -1239,7 +1239,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  789 0140 77       		.sleb128 -9
  790 0141 00       		.byte	0
  791 0142 0D       		.uleb128 0xd
- 792 0143 87000000 		.4byte	.LASF25
+ 792 0143 85000000 		.4byte	.LASF25
  793 0147 01       		.byte	0x1
  794 0148 EC       		.byte	0xec
  795 0149 6B000000 		.4byte	0x6b
@@ -1248,7 +1248,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  798 0155 01       		.uleb128 0x1
  799 0156 9C       		.byte	0x9c
  800 0157 0E       		.uleb128 0xe
- 801 0158 54020000 		.4byte	.LASF23
+ 801 0158 52020000 		.4byte	.LASF23
  802 015c 01       		.byte	0x1
  803 015d 0001     		.2byte	0x100
  804 015f 00000000 		.4byte	.LFB9
@@ -1257,8 +1257,8 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  807 0168 9C       		.byte	0x9c
  808 0169 7D010000 		.4byte	0x17d
  809 016d 0F       		.uleb128 0xf
- 810 016e 4F020000 		.4byte	.LASF24
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 22
+ 810 016e 4D020000 		.4byte	.LASF24
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 22
 
 
  811 0172 01       		.byte	0x1
@@ -1269,7 +1269,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  816 017b 77       		.sleb128 -9
  817 017c 00       		.byte	0
  818 017d 10       		.uleb128 0x10
- 819 017e 41000000 		.4byte	.LASF26
+ 819 017e 70000000 		.4byte	.LASF26
  820 0182 01       		.byte	0x1
  821 0183 1801     		.2byte	0x118
  822 0185 6B000000 		.4byte	0x6b
@@ -1278,7 +1278,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  825 0191 01       		.uleb128 0x1
  826 0192 9C       		.byte	0x9c
  827 0193 0E       		.uleb128 0xe
- 828 0194 9B010000 		.4byte	.LASF27
+ 828 0194 99010000 		.4byte	.LASF27
  829 0198 01       		.byte	0x1
  830 0199 2C01     		.2byte	0x12c
  831 019b 00000000 		.4byte	.LFB11
@@ -1287,7 +1287,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  834 01a4 9C       		.byte	0x9c
  835 01a5 B9010000 		.4byte	0x1b9
  836 01a9 0F       		.uleb128 0xf
- 837 01aa 85010000 		.4byte	.LASF28
+ 837 01aa 83010000 		.4byte	.LASF28
  838 01ae 01       		.byte	0x1
  839 01af 2C01     		.2byte	0x12c
  840 01b1 6B000000 		.4byte	0x6b
@@ -1296,7 +1296,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  843 01b7 77       		.sleb128 -9
  844 01b8 00       		.byte	0
  845 01b9 10       		.uleb128 0x10
- 846 01ba 74010000 		.4byte	.LASF29
+ 846 01ba 72010000 		.4byte	.LASF29
  847 01be 01       		.byte	0x1
  848 01bf 4201     		.2byte	0x142
  849 01c1 6B000000 		.4byte	0x6b
@@ -1314,11 +1314,11 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  861 01e0 9C       		.byte	0x9c
  862 01e1 F5010000 		.4byte	0x1f5
  863 01e5 0F       		.uleb128 0xf
- 864 01e6 1E020000 		.4byte	.LASF31
+ 864 01e6 1C020000 		.4byte	.LASF31
  865 01ea 01       		.byte	0x1
  866 01eb 5601     		.2byte	0x156
  867 01ed 6B000000 		.4byte	0x6b
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 23
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 23
 
 
  868 01f1 02       		.uleb128 0x2
@@ -1335,7 +1335,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  879 0209 01       		.uleb128 0x1
  880 020a 9C       		.byte	0x9c
  881 020b 0E       		.uleb128 0xe
- 882 020c 6D020000 		.4byte	.LASF33
+ 882 020c 6B020000 		.4byte	.LASF33
  883 0210 01       		.byte	0x1
  884 0211 7F01     		.2byte	0x17f
  885 0213 00000000 		.4byte	.LFB15
@@ -1344,7 +1344,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  888 021c 9C       		.byte	0x9c
  889 021d 31020000 		.4byte	0x231
  890 0221 0F       		.uleb128 0xf
- 891 0222 2C020000 		.4byte	.LASF34
+ 891 0222 2A020000 		.4byte	.LASF34
  892 0226 01       		.byte	0x1
  893 0227 7F01     		.2byte	0x17f
  894 0229 6B000000 		.4byte	0x6b
@@ -1353,7 +1353,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  897 022f 77       		.sleb128 -9
  898 0230 00       		.byte	0
  899 0231 11       		.uleb128 0x11
- 900 0232 96000000 		.4byte	.LASF39
+ 900 0232 94000000 		.4byte	.LASF39
  901 0236 01       		.byte	0x1
  902 0237 1A       		.byte	0x1a
  903 0238 6B000000 		.4byte	0x6b
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  922 000c 17       		.uleb128 0x17
  923 000d 11       		.uleb128 0x11
  924 000e 01       		.uleb128 0x1
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 24
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 24
 
 
  925 000f 10       		.uleb128 0x10
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  979 0045 00       		.byte	0
  980 0046 49       		.uleb128 0x49
  981 0047 13       		.uleb128 0x13
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 25
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 25
 
 
  982 0048 00       		.byte	0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  1036 0080 0E       		.uleb128 0xe
  1037 0081 3A       		.uleb128 0x3a
  1038 0082 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 26
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 26
 
 
  1039 0083 3B       		.uleb128 0x3b
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  1093 00bb 00       		.byte	0
  1094 00bc 00       		.byte	0
  1095 00bd 0C       		.uleb128 0xc
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 27
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 27
 
 
  1096 00be 05       		.uleb128 0x5
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  1150 00f5 12       		.uleb128 0x12
  1151 00f6 06       		.uleb128 0x6
  1152 00f7 40       		.uleb128 0x40
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 28
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 28
 
 
  1153 00f8 18       		.uleb128 0x18
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  1207 0130 3B       		.uleb128 0x3b
  1208 0131 0B       		.uleb128 0xb
  1209 0132 49       		.uleb128 0x49
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 29
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 29
 
 
  1210 0133 13       		.uleb128 0x13
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  1264 0018 00000000 		.4byte	.LFB5
  1265 001c 1C000000 		.4byte	.LFE5
  1266 0020 00000000 		.4byte	.LFB6
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 30
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 30
 
 
  1267 0024 40000000 		.4byte	.LFE6
@@ -1791,194 +1791,194 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 1
  1298      7369676E 
  1298      65642069 
  1298      6E7400
- 1299              	.LASF26:
- 1300 0041 5052535F 		.ascii	"PRS_2_ReadPolynomial\000"
- 1300      325F5265 
- 1300      6164506F 
- 1300      6C796E6F 
- 1300      6D69616C 
- 1301              	.LASF37:
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 31
+ 1299              	.LASF37:
+ 1300 0041 433A5C55 		.ascii	"C:\\Users\\Heidi\\Desktop\\BLELab4\\BLE Lab 4.cydsn"
+ 1300      73657273 
+ 1300      5C486569 
+ 1300      64695C44 
+ 1300      65736B74 
+ 1301 006f 00       		.ascii	"\000"
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 31
 
 
- 1302 0056 433A5C55 		.ascii	"C:\\Users\\Heidi\\Desktop\\BLE_Lab_4\\BLE Lab 4.cyd"
- 1302      73657273 
- 1302      5C486569 
- 1302      64695C44 
- 1302      65736B74 
- 1303 0084 736E00   		.ascii	"sn\000"
+ 1302              	.LASF26:
+ 1303 0070 5052535F 		.ascii	"PRS_2_ReadPolynomial\000"
+ 1303      325F5265 
+ 1303      6164506F 
+ 1303      6C796E6F 
+ 1303      6D69616C 
  1304              	.LASF25:
- 1305 0087 5052535F 		.ascii	"PRS_2_ReadSeed\000"
+ 1305 0085 5052535F 		.ascii	"PRS_2_ReadSeed\000"
  1305      325F5265 
  1305      61645365 
  1305      656400
  1306              	.LASF39:
- 1307 0096 5052535F 		.ascii	"PRS_2_initVar\000"
+ 1307 0094 5052535F 		.ascii	"PRS_2_initVar\000"
  1307      325F696E 
  1307      69745661 
  1307      7200
  1308              	.LASF21:
- 1309 00a4 70756C73 		.ascii	"pulse0Type\000"
+ 1309 00a2 70756C73 		.ascii	"pulse0Type\000"
  1309      65305479 
  1309      706500
  1310              	.LASF9:
- 1311 00af 666C6F61 		.ascii	"float\000"
+ 1311 00ad 666C6F61 		.ascii	"float\000"
  1311      7400
  1312              	.LASF35:
- 1313 00b5 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
+ 1313 00b3 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
  1313      4320342E 
  1313      382E3420 
  1313      32303134 
  1313      30353236 
- 1314 00e8 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m0 -mthumb -g -O"
+ 1314 00e6 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m0 -mthumb -g -O"
  1314      20726576 
  1314      6973696F 
  1314      6E203231 
  1314      31333538 
- 1315 011b 30202D66 		.ascii	"0 -ffunction-sections\000"
+ 1315 0119 30202D66 		.ascii	"0 -ffunction-sections\000"
  1315      66756E63 
  1315      74696F6E 
  1315      2D736563 
  1315      74696F6E 
  1316              	.LASF1:
- 1317 0131 756E7369 		.ascii	"unsigned char\000"
+ 1317 012f 756E7369 		.ascii	"unsigned char\000"
  1317      676E6564 
  1317      20636861 
  1317      7200
  1318              	.LASF13:
- 1319 013f 72656738 		.ascii	"reg8\000"
+ 1319 013d 72656738 		.ascii	"reg8\000"
  1319      00
  1320              	.LASF5:
- 1321 0144 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1321 0142 6C6F6E67 		.ascii	"long unsigned int\000"
  1321      20756E73 
  1321      69676E65 
  1321      6420696E 
  1321      7400
  1322              	.LASF12:
- 1323 0156 75696E74 		.ascii	"uint8\000"
+ 1323 0154 75696E74 		.ascii	"uint8\000"
  1323      3800
  1324              	.LASF38:
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 32
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 32
 
 
- 1325 015c 656E6162 		.ascii	"enableInterrupts\000"
+ 1325 015a 656E6162 		.ascii	"enableInterrupts\000"
  1325      6C65496E 
  1325      74657272 
  1325      75707473 
  1325      00
  1326              	.LASF10:
- 1327 016d 646F7562 		.ascii	"double\000"
+ 1327 016b 646F7562 		.ascii	"double\000"
  1327      6C6500
  1328              	.LASF29:
- 1329 0174 5052535F 		.ascii	"PRS_2_ReadPulse0\000"
+ 1329 0172 5052535F 		.ascii	"PRS_2_ReadPulse0\000"
  1329      325F5265 
  1329      61645075 
  1329      6C736530 
  1329      00
  1330              	.LASF28:
- 1331 0185 706F6C79 		.ascii	"polynomial\000"
+ 1331 0183 706F6C79 		.ascii	"polynomial\000"
  1331      6E6F6D69 
  1331      616C00
  1332              	.LASF22:
- 1333 0190 70756C73 		.ascii	"pulse1Type\000"
+ 1333 018e 70756C73 		.ascii	"pulse1Type\000"
  1333      65315479 
  1333      706500
  1334              	.LASF27:
- 1335 019b 5052535F 		.ascii	"PRS_2_WritePolynomial\000"
+ 1335 0199 5052535F 		.ascii	"PRS_2_WritePolynomial\000"
  1335      325F5772 
  1335      69746550 
  1335      6F6C796E 
  1335      6F6D6961 
  1336              	.LASF15:
- 1337 01b1 5052535F 		.ascii	"PRS_2_Start\000"
+ 1337 01af 5052535F 		.ascii	"PRS_2_Start\000"
  1337      325F5374 
  1337      61727400 
  1338              	.LASF8:
- 1339 01bd 756E7369 		.ascii	"unsigned int\000"
+ 1339 01bb 756E7369 		.ascii	"unsigned int\000"
  1339      676E6564 
  1339      20696E74 
  1339      00
  1340              	.LASF7:
- 1341 01ca 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1341 01c8 6C6F6E67 		.ascii	"long long unsigned int\000"
  1341      206C6F6E 
  1341      6720756E 
  1341      7369676E 
  1341      65642069 
  1342              	.LASF14:
- 1343 01e1 73697A65 		.ascii	"sizetype\000"
+ 1343 01df 73697A65 		.ascii	"sizetype\000"
  1343      74797065 
  1343      00
  1344              	.LASF16:
- 1345 01ea 5052535F 		.ascii	"PRS_2_Enable\000"
+ 1345 01e8 5052535F 		.ascii	"PRS_2_Enable\000"
  1345      325F456E 
  1345      61626C65 
  1345      00
  1346              	.LASF6:
- 1347 01f7 6C6F6E67 		.ascii	"long long int\000"
+ 1347 01f5 6C6F6E67 		.ascii	"long long int\000"
  1347      206C6F6E 
  1347      6720696E 
  1347      7400
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 33
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 33
 
 
  1348              	.LASF19:
- 1349 0205 5052535F 		.ascii	"PRS_2_SetPulse0Mode\000"
+ 1349 0203 5052535F 		.ascii	"PRS_2_SetPulse0Mode\000"
  1349      325F5365 
  1349      7450756C 
  1349      7365304D 
  1349      6F646500 
  1350              	.LASF11:
- 1351 0219 63686172 		.ascii	"char\000"
+ 1351 0217 63686172 		.ascii	"char\000"
  1351      00
  1352              	.LASF31:
- 1353 021e 70756C73 		.ascii	"pulseDensity0\000"
+ 1353 021c 70756C73 		.ascii	"pulseDensity0\000"
  1353      6544656E 
  1353      73697479 
  1353      3000
  1354              	.LASF34:
- 1355 022c 70756C73 		.ascii	"pulseDensity1\000"
+ 1355 022a 70756C73 		.ascii	"pulseDensity1\000"
  1355      6544656E 
  1355      73697479 
  1355      3100
  1356              	.LASF18:
- 1357 023a 5052535F 		.ascii	"PRS_2_Init\000"
+ 1357 0238 5052535F 		.ascii	"PRS_2_Init\000"
  1357      325F496E 
  1357      697400
  1358              	.LASF2:
- 1359 0245 73686F72 		.ascii	"short int\000"
+ 1359 0243 73686F72 		.ascii	"short int\000"
  1359      7420696E 
  1359      7400
  1360              	.LASF24:
- 1361 024f 73656564 		.ascii	"seed\000"
+ 1361 024d 73656564 		.ascii	"seed\000"
  1361      00
  1362              	.LASF23:
- 1363 0254 5052535F 		.ascii	"PRS_2_WriteSeed\000"
+ 1363 0252 5052535F 		.ascii	"PRS_2_WriteSeed\000"
  1363      325F5772 
  1363      69746553 
  1363      65656400 
  1364              	.LASF4:
- 1365 0264 6C6F6E67 		.ascii	"long int\000"
+ 1365 0262 6C6F6E67 		.ascii	"long int\000"
  1365      20696E74 
  1365      00
  1366              	.LASF33:
- 1367 026d 5052535F 		.ascii	"PRS_2_WritePulse1\000"
+ 1367 026b 5052535F 		.ascii	"PRS_2_WritePulse1\000"
  1367      325F5772 
  1367      69746550 
  1367      756C7365 
  1367      3100
  1368              	.LASF0:
- 1369 027f 7369676E 		.ascii	"signed char\000"
+ 1369 027d 7369676E 		.ascii	"signed char\000"
  1369      65642063 
  1369      68617200 
  1370              	.LASF36:
- 1371 028b 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\PRS_2.c\000"
+ 1371 0289 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\PRS_2.c\000"
  1371      6E657261 
  1371      7465645F 
  1371      536F7572 
  1371      63655C50 
  1372              	.LASF20:
- 1373 02ac 5052535F 		.ascii	"PRS_2_SetPulse1Mode\000"
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\cctvQQdq.s 			page 34
+ 1373 02aa 5052535F 		.ascii	"PRS_2_SetPulse1Mode\000"
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccwKs6OW.s 			page 34
 
 
  1373      325F5365 

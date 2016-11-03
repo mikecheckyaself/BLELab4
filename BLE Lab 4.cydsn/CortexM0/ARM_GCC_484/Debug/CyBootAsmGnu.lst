@@ -3801,7 +3801,7 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  321              	.set BLUE__0__MASK, 0x80
  322              	.set BLUE__0__OUT_SEL, CYREG_UDB_PA3_CFG10
  323              	.set BLUE__0__OUT_SEL_SHIFT, 14
- 324              	.set BLUE__0__OUT_SEL_VAL, 0
+ 324              	.set BLUE__0__OUT_SEL_VAL, 1
  325              	.set BLUE__0__PA__CFG0, CYREG_UDB_PA3_CFG0
  326              	.set BLUE__0__PA__CFG1, CYREG_UDB_PA3_CFG1
  327              	.set BLUE__0__PA__CFG10, CYREG_UDB_PA3_CFG10
@@ -3870,7 +3870,7 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  387              	.set GREEN__0__MASK, 0x40
  388              	.set GREEN__0__OUT_SEL, CYREG_UDB_PA3_CFG10
  389              	.set GREEN__0__OUT_SEL_SHIFT, 12
- 390              	.set GREEN__0__OUT_SEL_VAL, 1
+ 390              	.set GREEN__0__OUT_SEL_VAL, 0
  391              	.set GREEN__0__PA__CFG0, CYREG_UDB_PA3_CFG0
  392              	.set GREEN__0__PA__CFG1, CYREG_UDB_PA3_CFG1
  393              	.set GREEN__0__PA__CFG10, CYREG_UDB_PA3_CFG10
@@ -4113,13 +4113,13 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  618              	.set CapSense_Sns__0__DR_INV, CYREG_GPIO_PRT2_DR_INV
  619              	.set CapSense_Sns__0__DR_SET, CYREG_GPIO_PRT2_DR_SET
  620              	.set CapSense_Sns__0__HSIOM, CYREG_HSIOM_PORT_SEL2
- 621              	.set CapSense_Sns__0__HSIOM_MASK, 0x0000000F
- 622              	.set CapSense_Sns__0__HSIOM_SHIFT, 0
+ 621              	.set CapSense_Sns__0__HSIOM_MASK, 0x000000F0
+ 622              	.set CapSense_Sns__0__HSIOM_SHIFT, 4
  623              	.set CapSense_Sns__0__INTCFG, CYREG_GPIO_PRT2_INTR_CFG
  624              	.set CapSense_Sns__0__INTR, CYREG_GPIO_PRT2_INTR
  625              	.set CapSense_Sns__0__INTR_CFG, CYREG_GPIO_PRT2_INTR_CFG
  626              	.set CapSense_Sns__0__INTSTAT, CYREG_GPIO_PRT2_INTR
- 627              	.set CapSense_Sns__0__MASK, 0x01
+ 627              	.set CapSense_Sns__0__MASK, 0x02
  628              	.set CapSense_Sns__0__PA__CFG0, CYREG_UDB_PA2_CFG0
  629              	.set CapSense_Sns__0__PA__CFG1, CYREG_UDB_PA2_CFG1
  630              	.set CapSense_Sns__0__PA__CFG10, CYREG_UDB_PA2_CFG10
@@ -4142,7 +4142,7 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
 
 
  646              	.set CapSense_Sns__0__PS, CYREG_GPIO_PRT2_PS
- 647              	.set CapSense_Sns__0__SHIFT, 0
+ 647              	.set CapSense_Sns__0__SHIFT, 1
  648              	.set CapSense_Sns__DR, CYREG_GPIO_PRT2_DR
  649              	.set CapSense_Sns__DR_CLR, CYREG_GPIO_PRT2_DR_CLR
  650              	.set CapSense_Sns__DR_INV, CYREG_GPIO_PRT2_DR_INV
@@ -4151,7 +4151,7 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  653              	.set CapSense_Sns__INTR, CYREG_GPIO_PRT2_INTR
  654              	.set CapSense_Sns__INTR_CFG, CYREG_GPIO_PRT2_INTR_CFG
  655              	.set CapSense_Sns__INTSTAT, CYREG_GPIO_PRT2_INTR
- 656              	.set CapSense_Sns__MASK, 0x01
+ 656              	.set CapSense_Sns__MASK, 0x02
  657              	.set CapSense_Sns__PA__CFG0, CYREG_UDB_PA2_CFG0
  658              	.set CapSense_Sns__PA__CFG1, CYREG_UDB_PA2_CFG1
  659              	.set CapSense_Sns__PA__CFG10, CYREG_UDB_PA2_CFG10
@@ -4178,7 +4178,7 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  680              	.set CapSense_Sns__ProximitySensor0_0__PROX__INTR, CYREG_GPIO_PRT2_INTR
  681              	.set CapSense_Sns__ProximitySensor0_0__PROX__INTR_CFG, CYREG_GPIO_PRT2_INTR_CFG
  682              	.set CapSense_Sns__ProximitySensor0_0__PROX__INTSTAT, CYREG_GPIO_PRT2_INTR
- 683              	.set CapSense_Sns__ProximitySensor0_0__PROX__MASK, 0x01
+ 683              	.set CapSense_Sns__ProximitySensor0_0__PROX__MASK, 0x02
  684              	.set CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG0, CYREG_UDB_PA2_CFG0
  685              	.set CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG1, CYREG_UDB_PA2_CFG1
  686              	.set CapSense_Sns__ProximitySensor0_0__PROX__PA__CFG10, CYREG_UDB_PA2_CFG10
@@ -4201,9 +4201,9 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
 ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 71
 
 
- 703              	.set CapSense_Sns__ProximitySensor0_0__PROX__SHIFT, 0
+ 703              	.set CapSense_Sns__ProximitySensor0_0__PROX__SHIFT, 1
  704              	.set CapSense_Sns__PS, CYREG_GPIO_PRT2_PS
- 705              	.set CapSense_Sns__SHIFT, 0
+ 705              	.set CapSense_Sns__SHIFT, 1
  706              	
  707              	/* PRS_Clock */
  708              	.set PRS_Clock__CTRL_REGISTER, CYREG_PERI_PCLK_CTL11

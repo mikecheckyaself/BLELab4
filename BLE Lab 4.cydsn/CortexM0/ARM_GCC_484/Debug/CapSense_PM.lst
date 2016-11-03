@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccArzRDL.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
   26:.\Generated_Source\PSoC4/CapSense_PM.c **** * Function Name: CapSense_SaveConfig
   27:.\Generated_Source\PSoC4/CapSense_PM.c **** ********************************************************************************
   28:.\Generated_Source\PSoC4/CapSense_PM.c **** *
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 2
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccArzRDL.s 			page 2
 
 
   29:.\Generated_Source\PSoC4/CapSense_PM.c **** * Summary:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
   60              		.section	.text.CapSense_Sleep,"ax",%progbits
   61              		.align	2
   62              		.global	CapSense_Sleep
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 3
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccArzRDL.s 			page 3
 
 
   63              		.code	16
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
   82:.\Generated_Source\PSoC4/CapSense_PM.c **** 	#if(CapSense_IDAC_CNT == 2u)
   83:.\Generated_Source\PSoC4/CapSense_PM.c **** 		CapSense_CSD_CFG_REG &= ~(CapSense_CSD_CFG_ENABLE);
   88              		.loc 1 83 0
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 4
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccArzRDL.s 			page 4
 
 
   89 001a 064B     		ldr	r3, .L6
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
  108:.\Generated_Source\PSoC4/CapSense_PM.c **** *
  109:.\Generated_Source\PSoC4/CapSense_PM.c **** * Global Variables:
  110:.\Generated_Source\PSoC4/CapSense_PM.c **** *  CapSense_backup - used to save the component state before entering the sleep 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 5
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccArzRDL.s 			page 5
 
 
  111:.\Generated_Source\PSoC4/CapSense_PM.c **** *  mode and none-retention registers.
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
  142              		.loc 1 141 0
  143              		.cfi_startproc
  144 0000 80B5     		push	{r7, lr}
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 6
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccArzRDL.s 			page 6
 
 
  145              		.cfi_def_cfa_offset 8
@@ -352,40 +352,40 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
  183 0006 00000000 		.4byte	.Ldebug_abbrev0
  184 000a 04       		.byte	0x4
  185 000b 01       		.uleb128 0x1
- 186 000c BF000000 		.4byte	.LASF21
+ 186 000c BD000000 		.4byte	.LASF21
  187 0010 01       		.byte	0x1
- 188 0011 72010000 		.4byte	.LASF22
+ 188 0011 70010000 		.4byte	.LASF22
  189 0015 48000000 		.4byte	.LASF23
  190 0019 00000000 		.4byte	.Ldebug_ranges0+0
  191 001d 00000000 		.4byte	0
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 7
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccArzRDL.s 			page 7
 
 
  192 0021 00000000 		.4byte	.Ldebug_line0
  193 0025 02       		.uleb128 0x2
  194 0026 01       		.byte	0x1
  195 0027 06       		.byte	0x6
- 196 0028 B2010000 		.4byte	.LASF0
+ 196 0028 B0010000 		.4byte	.LASF0
  197 002c 02       		.uleb128 0x2
  198 002d 01       		.byte	0x1
  199 002e 08       		.byte	0x8
- 200 002f 3B010000 		.4byte	.LASF1
+ 200 002f 39010000 		.4byte	.LASF1
  201 0033 02       		.uleb128 0x2
  202 0034 02       		.byte	0x2
  203 0035 05       		.byte	0x5
- 204 0036 D4010000 		.4byte	.LASF2
+ 204 0036 D2010000 		.4byte	.LASF2
  205 003a 02       		.uleb128 0x2
  206 003b 02       		.byte	0x2
  207 003c 07       		.byte	0x7
- 208 003d 9F010000 		.4byte	.LASF3
+ 208 003d 9D010000 		.4byte	.LASF3
  209 0041 02       		.uleb128 0x2
  210 0042 04       		.byte	0x4
  211 0043 05       		.byte	0x5
- 212 0044 69010000 		.4byte	.LASF4
+ 212 0044 67010000 		.4byte	.LASF4
  213 0048 02       		.uleb128 0x2
  214 0049 04       		.byte	0x4
  215 004a 07       		.byte	0x7
- 216 004b 7F000000 		.4byte	.LASF5
+ 216 004b 7D000000 		.4byte	.LASF5
  217 004f 02       		.uleb128 0x2
  218 0050 08       		.byte	0x8
  219 0051 05       		.byte	0x5
@@ -393,7 +393,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
  221 0056 02       		.uleb128 0x2
  222 0057 08       		.byte	0x8
  223 0058 07       		.byte	0x7
- 224 0059 91000000 		.4byte	.LASF7
+ 224 0059 8F000000 		.4byte	.LASF7
  225 005d 03       		.uleb128 0x3
  226 005e 04       		.byte	0x4
  227 005f 05       		.byte	0x5
@@ -401,9 +401,9 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
  229 0064 02       		.uleb128 0x2
  230 0065 04       		.byte	0x4
  231 0066 07       		.byte	0x7
- 232 0067 DE010000 		.4byte	.LASF8
+ 232 0067 DC010000 		.4byte	.LASF8
  233 006b 04       		.uleb128 0x4
- 234 006c 79000000 		.4byte	.LASF9
+ 234 006c 77000000 		.4byte	.LASF9
  235 0070 02       		.byte	0x2
  236 0071 A1       		.byte	0xa1
  237 0072 2C000000 		.4byte	0x2c
@@ -415,20 +415,20 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
  243 0081 02       		.uleb128 0x2
  244 0082 04       		.byte	0x4
  245 0083 04       		.byte	0x4
- 246 0084 CE010000 		.4byte	.LASF11
+ 246 0084 CC010000 		.4byte	.LASF11
  247 0088 02       		.uleb128 0x2
  248 0089 08       		.byte	0x8
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 8
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccArzRDL.s 			page 8
 
 
  249 008a 04       		.byte	0x4
- 250 008b 62010000 		.4byte	.LASF12
+ 250 008b 60010000 		.4byte	.LASF12
  251 008f 02       		.uleb128 0x2
  252 0090 01       		.byte	0x1
  253 0091 08       		.byte	0x8
- 254 0092 49010000 		.4byte	.LASF13
+ 254 0092 47010000 		.4byte	.LASF13
  255 0096 05       		.uleb128 0x5
- 256 0097 99010000 		.4byte	.LASF14
+ 256 0097 97010000 		.4byte	.LASF14
  257 009b 02       		.byte	0x2
  258 009c 4D01     		.2byte	0x14d
  259 009e A2000000 		.4byte	0xa2
@@ -437,7 +437,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
  262 00a7 02       		.uleb128 0x2
  263 00a8 04       		.byte	0x4
  264 00a9 07       		.byte	0x7
- 265 00aa EB010000 		.4byte	.LASF15
+ 265 00aa E9010000 		.4byte	.LASF15
  266 00ae 07       		.uleb128 0x7
  267 00af 01       		.byte	0x1
  268 00b0 03       		.byte	0x3
@@ -456,7 +456,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
  281 00c9 8C       		.byte	0x8c
  282 00ca AE000000 		.4byte	0xae
  283 00ce 09       		.uleb128 0x9
- 284 00cf 4E010000 		.4byte	.LASF17
+ 284 00cf 4C010000 		.4byte	.LASF17
  285 00d3 01       		.byte	0x1
  286 00d4 2E       		.byte	0x2e
  287 00d5 00000000 		.4byte	.LFB35
@@ -464,7 +464,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
  289 00dd 01       		.uleb128 0x1
  290 00de 9C       		.byte	0x9c
  291 00df 0A       		.uleb128 0xa
- 292 00e0 F4010000 		.4byte	.LASF18
+ 292 00e0 F2010000 		.4byte	.LASF18
  293 00e4 01       		.byte	0x1
  294 00e5 49       		.byte	0x49
  295 00e6 00000000 		.4byte	.LFB36
@@ -472,13 +472,13 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
  297 00ee 01       		.uleb128 0x1
  298 00ef 9C       		.byte	0x9c
  299 00f0 09       		.uleb128 0x9
- 300 00f1 A8000000 		.4byte	.LASF19
+ 300 00f1 A6000000 		.4byte	.LASF19
  301 00f5 01       		.byte	0x1
  302 00f6 72       		.byte	0x72
  303 00f7 00000000 		.4byte	.LFB37
  304 00fb 08000000 		.4byte	.LFE37-.LFB37
  305 00ff 01       		.uleb128 0x1
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 9
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccArzRDL.s 			page 9
 
 
  306 0100 9C       		.byte	0x9c
@@ -491,7 +491,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
  313 0110 01       		.uleb128 0x1
  314 0111 9C       		.byte	0x9c
  315 0112 0B       		.uleb128 0xb
- 316 0113 BE010000 		.4byte	.LASF25
+ 316 0113 BC010000 		.4byte	.LASF25
  317 0117 01       		.byte	0x1
  318 0118 13       		.byte	0x13
  319 0119 C3000000 		.4byte	0xc3
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
  360 0022 0B       		.uleb128 0xb
  361 0023 3E       		.uleb128 0x3e
  362 0024 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 10
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccArzRDL.s 			page 10
 
 
  363 0025 03       		.uleb128 0x3
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
  417 005b 0E       		.uleb128 0xe
  418 005c 3A       		.uleb128 0x3a
  419 005d 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 11
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccArzRDL.s 			page 11
 
 
  420 005e 3B       		.uleb128 0x3b
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
  474 0096 0B       		.uleb128 0xb
  475 0097 34       		.uleb128 0x34
  476 0098 00       		.byte	0
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 12
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccArzRDL.s 			page 12
 
 
  477 0099 03       		.uleb128 0x3
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
  524      7400
  525              	.LASF10:
  526 000e 75696E74 		.ascii	"uint32\000"
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 13
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccArzRDL.s 			page 13
 
 
  526      333200
@@ -738,118 +738,118 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 1
  532      4B55505F 
  532      53545255 
  533              	.LASF23:
- 534 0048 433A5C55 		.ascii	"C:\\Users\\Heidi\\Desktop\\BLE_Lab_4\\BLE Lab 4.cyd"
+ 534 0048 433A5C55 		.ascii	"C:\\Users\\Heidi\\Desktop\\BLELab4\\BLE Lab 4.cydsn"
  534      73657273 
  534      5C486569 
  534      64695C44 
  534      65736B74 
- 535 0076 736E00   		.ascii	"sn\000"
+ 535 0076 00       		.ascii	"\000"
  536              	.LASF9:
- 537 0079 75696E74 		.ascii	"uint8\000"
+ 537 0077 75696E74 		.ascii	"uint8\000"
  537      3800
  538              	.LASF5:
- 539 007f 6C6F6E67 		.ascii	"long unsigned int\000"
+ 539 007d 6C6F6E67 		.ascii	"long unsigned int\000"
  539      20756E73 
  539      69676E65 
  539      6420696E 
  539      7400
  540              	.LASF7:
- 541 0091 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 541 008f 6C6F6E67 		.ascii	"long long unsigned int\000"
  541      206C6F6E 
  541      6720756E 
  541      7369676E 
  541      65642069 
  542              	.LASF19:
- 543 00a8 43617053 		.ascii	"CapSense_RestoreConfig\000"
+ 543 00a6 43617053 		.ascii	"CapSense_RestoreConfig\000"
  543      656E7365 
  543      5F526573 
  543      746F7265 
  543      436F6E66 
  544              	.LASF21:
- 545 00bf 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
+ 545 00bd 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
  545      4320342E 
  545      382E3420 
  545      32303134 
  545      30353236 
- 546 00f2 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m0 -mthumb -g -O"
+ 546 00f0 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m0 -mthumb -g -O"
  546      20726576 
  546      6973696F 
  546      6E203231 
  546      31333538 
- 547 0125 30202D66 		.ascii	"0 -ffunction-sections\000"
+ 547 0123 30202D66 		.ascii	"0 -ffunction-sections\000"
  547      66756E63 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 14
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccArzRDL.s 			page 14
 
 
  547      74696F6E 
  547      2D736563 
  547      74696F6E 
  548              	.LASF1:
- 549 013b 756E7369 		.ascii	"unsigned char\000"
+ 549 0139 756E7369 		.ascii	"unsigned char\000"
  549      676E6564 
  549      20636861 
  549      7200
  550              	.LASF13:
- 551 0149 63686172 		.ascii	"char\000"
+ 551 0147 63686172 		.ascii	"char\000"
  551      00
  552              	.LASF17:
- 553 014e 43617053 		.ascii	"CapSense_SaveConfig\000"
+ 553 014c 43617053 		.ascii	"CapSense_SaveConfig\000"
  553      656E7365 
  553      5F536176 
  553      65436F6E 
  553      66696700 
  554              	.LASF12:
- 555 0162 646F7562 		.ascii	"double\000"
+ 555 0160 646F7562 		.ascii	"double\000"
  555      6C6500
  556              	.LASF4:
- 557 0169 6C6F6E67 		.ascii	"long int\000"
+ 557 0167 6C6F6E67 		.ascii	"long int\000"
  557      20696E74 
  557      00
  558              	.LASF22:
- 559 0172 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\CapSense_PM.c\000"
+ 559 0170 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\CapSense_PM.c\000"
  559      6E657261 
  559      7465645F 
  559      536F7572 
  559      63655C50 
  560              	.LASF14:
- 561 0199 72656733 		.ascii	"reg32\000"
+ 561 0197 72656733 		.ascii	"reg32\000"
  561      3200
  562              	.LASF3:
- 563 019f 73686F72 		.ascii	"short unsigned int\000"
+ 563 019d 73686F72 		.ascii	"short unsigned int\000"
  563      7420756E 
  563      7369676E 
  563      65642069 
  563      6E7400
  564              	.LASF0:
- 565 01b2 7369676E 		.ascii	"signed char\000"
+ 565 01b0 7369676E 		.ascii	"signed char\000"
  565      65642063 
  565      68617200 
  566              	.LASF25:
- 567 01be 43617053 		.ascii	"CapSense_backup\000"
+ 567 01bc 43617053 		.ascii	"CapSense_backup\000"
  567      656E7365 
  567      5F626163 
  567      6B757000 
  568              	.LASF11:
- 569 01ce 666C6F61 		.ascii	"float\000"
+ 569 01cc 666C6F61 		.ascii	"float\000"
  569      7400
  570              	.LASF2:
- 571 01d4 73686F72 		.ascii	"short int\000"
+ 571 01d2 73686F72 		.ascii	"short int\000"
  571      7420696E 
  571      7400
  572              	.LASF8:
- 573 01de 756E7369 		.ascii	"unsigned int\000"
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccMqroYj.s 			page 15
+ 573 01dc 756E7369 		.ascii	"unsigned int\000"
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccArzRDL.s 			page 15
 
 
  573      676E6564 
  573      20696E74 
  573      00
  574              	.LASF15:
- 575 01eb 73697A65 		.ascii	"sizetype\000"
+ 575 01e9 73697A65 		.ascii	"sizetype\000"
  575      74797065 
  575      00
  576              	.LASF18:
- 577 01f4 43617053 		.ascii	"CapSense_Sleep\000"
+ 577 01f2 43617053 		.ascii	"CapSense_Sleep\000"
  577      656E7365 
  577      5F536C65 
  577      657000

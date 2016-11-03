@@ -61,11 +61,11 @@ CY_ISR_PROTO(CapSense_ISR);
 
 #define CapSense_MULTIPLE_FREQUENCY_SET     (1u)
 #define CapSense_FILTER_ENABLE			    (0u)
-#define CapSense_PRS_OPTIONS                (3u)
+#define CapSense_PRS_OPTIONS                (0u)
 
 #define CapSense_WATER_PROOF                (0u)
 
-#define CapSense_TUNING_METHOD              (1u)
+#define CapSense_TUNING_METHOD              (2u)
 #define CapSense_TUNER_API_GENERATE         (0u)
 
 #define CapSense_CSHL_API_GENERATE          (1u)
@@ -76,7 +76,7 @@ CY_ISR_PROTO(CapSense_ISR);
 #define CapSense_CSH_TANK_ENABLE            (0u)
 
 #define CapSense_SHIELD_DELAY               (0u)
-#define CapSense_AUTOCALIBRATION_ENABLE		(1u)
+#define CapSense_AUTOCALIBRATION_ENABLE		(0u)
 
 #define CapSense_IS_OVERSAMPLING_EN         (1u)
 

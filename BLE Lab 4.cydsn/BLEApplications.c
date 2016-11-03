@@ -68,36 +68,6 @@ uint8 deviceConnected = FALSE;
 /* This flag is used to let application update the CCCD value for correct read 
 * operation by connected Central device */
 uint8 updateNotificationCCCAttribute = FALSE;
-	
-
-/*'startNotification' flag is set when the central device writes to CCC (Client 
-* Characteristic Configuration) of the CapSense proximity characteristic to 
-*enable notifications */
-uint8 startNotification = FALSE;		
-
-/* 'connectionHandle' is handle to store BLE connection parameters */
-CYBLE_CONN_HANDLE_T  				connectionHandle;	
-
-/* 'restartAdvertisement' flag provided the present state of power mode in firmware */
-uint8 restartAdvertisement = FALSE;
-
-
-/* This flag is used to let application send a L2CAP connection update request
-* to Central device */
-static uint8 isConnectionUpdateRequested = TRUE;
-
-static CYBLE_GAP_CONN_UPDATE_PARAM_T ConnectionParam =
-{
-    CONN_PARAM_UPDATE_MIN_CONN_INTERVAL,  		      
-    CONN_PARAM_UPDATE_MAX_CONN_INTERVAL,		       
-    CONN_PARAM_UPDATE_SLAVE_LATENCY,			    
-    CONN_PARAM_UPDATE_SUPRV_TIMEOUT 			         	
-};
-
-
-/* Status flag for the Stack Busy state. This flag is used to notify the application 
-* whether there is stack buffer free to push more data or not */
-uint8 busyStatus = 0;
 
 
 
@@ -222,34 +192,6 @@ void CustomEventHandler(uint32 event, void * eventParam)
 }
 
 
-
-/*******************************************************************************
-* Function Name: UpdateConnectionParam
-********************************************************************************
-* Summary:
-*        Send the Connection Update Request to Client device after connection 
-* and modify the connection interval for low power operation.
-*
-* Parameters:
-*	void
-*
-* Return:
-*  void
-*
-*******************************************************************************/
-void UpdateConnectionParam(void)
-{
-	/* If device is connected and Update connection parameter not updated yet,
-	* then send the Connection Parameter Update request to Client. */
-    if(deviceConnected && isConnectionUpdateRequested)
-	{
-		/* Reset the flag to indicate that connection Update request has been sent */
-		isConnectionUpdateRequested = FALSE;
-		
-		/* Send Connection Update request with set Parameter */
-		CyBle_L2capLeConnectionParamUpdateRequest(connectionHandle.bdHandle, &ConnectionParam);
-	}
-}
 /*******************************************************************************
 * Function Name: SendCapSenseNotification
 ********************************************************************************
@@ -265,53 +207,19 @@ void UpdateConnectionParam(void)
 *  void
 *
 *******************************************************************************/
-void SendDataOverCapSenseNotification( uint8 * proximityValue)
+void SendCapSenseNotification(uint8 CapSenseSliderData)
 {
-	/* 'notificationHandle' is handle to store notification data parameters */
-	CYBLE_GATTS_HANDLE_VALUE_NTF_T		notificationHandle; 
+	/* 'CapSensenotificationHandle' stores CapSense notification data parameters */
+	CYBLE_GATTS_HANDLE_VALUE_NTF_T		CapSensenotificationHandle;	
 	
-	/* If stack is not busy, then send the notification */
-	if(busyStatus == CYBLE_STACK_STATE_FREE)
-	{
-		/* Update Notification handle with proximity data*/
-		notificationHandle.attrHandle = CYBLE_CAPSENSE_CAPSENSE_PROXIMITY_CHAR_HANDLE;				
-		notificationHandle.value.val = proximityValue;
-		notificationHandle.value.len = CAPSENSE_NOTIFICATION_DATA_LEN;
-		
-		/* Report data to BLE component for sending data by notifications*/
-		CyBle_GattsNotification(connectionHandle,&notificationHandle);
-	}
-    
-	// send barometer data
-	if(busyStatus == CYBLE_STACK_STATE_FREE)
-	{
-		/* Update Notification handle with proximity data*/
-		notificationHandle.value.val = proximityValue;
-		notificationHandle.value.len = 4;   // last three bytes junk!!
-		
-		/* Report data to BLE component for sending data by notifications*/
-		CyBle_GattsNotification(connectionHandle,&notificationHandle);
-	}
-    
-    
-    // Also send Humidity data
-	if(busyStatus == CYBLE_STACK_STATE_FREE)
-	{
-		/* Update Notification handle with proximity data*/
-		notificationHandle.value.val = proximityValue;
-		notificationHandle.value.len = 4;  // last three bytes junk!!
-		
-		/* Report data to BLE component for sending data by notifications*/
-		CyBle_GattsNotification(connectionHandle,&notificationHandle);
-	}
-    
-    
-    
-    
-    
-    
+	/* Update notification handle with CapSense slider data*/
+	CapSensenotificationHandle.attrHandle = CAPSENSE_SLIDER_CHAR_HANDLE;				
+	CapSensenotificationHandle.value.val = &CapSenseSliderData;
+	CapSensenotificationHandle.value.len = CAPSENSE_CHAR_DATA_LEN;
+	
+	/* Send notifications. */
+	CyBle_GattsNotification(cyBle_connHandle, &CapSensenotificationHandle);
 }
-
 
 
 /*******************************************************************************
@@ -401,98 +309,6 @@ void UpdateNotificationCCCD(void)
 		CyBle_ProcessEvents();
 	}	
 }
-
-/*******************************************************************************
-* Function Name: HandleStatusLED
-********************************************************************************
-* Summary:
-*        Handle LED status, such as blinking, ON or OFF depending on BLE state.
-*
-* Parameters:
-*  void
-*
-* Return:
-*  void
-*
-*******************************************************************************/
-void HandleStatusLED(void)
-{
-	/* Local static counter to handle the periodic toggling of LED or keeping LED ON
-	* for some time. */
-	static uint32 led_counter = TRUE;
-	
-	/* Local static variable that stores the last BLE state in which firmware was */
-	static uint8 state = 0xFF;
-	
-	/* Flag to indicate that the state of BLE has changed from the last known value */
-	uint8 state_changed = FALSE;
-	
-	if(state != CyBle_GetState())
-	{
-		/* If the present BLE state is different from the new BLE state, set the 
-		* state_changed flag and reset the local counter */
-		state_changed = TRUE;
-				
-		if(CyBle_GetState() == CYBLE_STATE_ADVERTISING)
-		{
-			led_counter = TRUE;
-		}
-	}
-	
-	/* Store the new BLE state into the present state variable */
-	state = CyBle_GetState();
-		
-	switch(state)
-	{
-		case CYBLE_STATE_CONNECTED:
-			/* If the present BLE state is connected, keep the LED ON for
-			* pre-determined time and then switch it OFF in WDT ISR */
-			if(state_changed)
-			{
-				/* Reset the flag for state change */
-				state_changed = FALSE;
-				
-				/* Set the drive mode of LED to Strong to allow driving the LED */
-				RED_SetDriveMode(RED_DM_ALG_HIZ);
-			}
-		break;
-		
-		case CYBLE_STATE_ADVERTISING:
-			/* If the present BLE state is advertising, toggle the LED
-			* at pre-determined period to indicate advertising. */
-			if((--led_counter) == FALSE)
-			{
-				RED_SetDriveMode(RED_DM_STRONG);
-				
-				if(RED_Read() == LED_OFF)
-				{
-					RED_Write(LED_ON);
-					led_counter	= LED_ADV_BLINK_PERIOD_ON;
-				}
-				else
-				{
-					RED_Write(LED_OFF);
-					led_counter	= LED_ADV_BLINK_PERIOD_OFF;
-				}
-			}
-		break;
-		
-		case CYBLE_STATE_DISCONNECTED:
-			/* If the present BLE state is disconnected, switch off LED
-			* and set the drive mode of LED to Hi-Z (Analog)*/
-			RED_Write(LED_OFF);
-			RED_SetDriveMode(RED_DM_ALG_HIZ);
-		break;
-		
-		default:
-
-		break;
-	}
-	
-	/* Reset the state changed flag. */
-	state_changed = FALSE;
-}
-
 
 
 /* [] END OF FILE */

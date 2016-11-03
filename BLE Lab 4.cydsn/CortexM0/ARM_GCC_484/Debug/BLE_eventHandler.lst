@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
   17:.\Generated_Source\PSoC4/BLE_eventHandler.c **** 
   18:.\Generated_Source\PSoC4/BLE_eventHandler.c **** 
   19:.\Generated_Source\PSoC4/BLE_eventHandler.c **** /***************************************
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 2
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 2
 
 
   20:.\Generated_Source\PSoC4/BLE_eventHandler.c **** ##Private Function Prototypes
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
   74:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #endif /* CYBLE_GAP_ROLE_CENTRAL || CYBLE_GAP_ROLE_OBSERVER */
   75:.\Generated_Source\PSoC4/BLE_eventHandler.c **** 
   76:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #if(CYBLE_GATT_ROLE_CLIENT)
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 3
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 3
 
 
   77:.\Generated_Source\PSoC4/BLE_eventHandler.c **** uint8 cyBle_disCount; /* Counter for discovery procedures */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  131:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #endif /* CYBLE_IAS_CLIENT */
  132:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #ifdef CYBLE_LLS_CLIENT
  133:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     {{CYBLE_GATT_INVALID_ATTR_HANDLE_VALUE, CYBLE_GATT_INVALID_ATTR_HANDLE_VALUE}, CYBLE_UUID_LINK_
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 4
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 4
 
 
  134:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #endif /* CYBLE_LLS_CLIENT */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  188:.\Generated_Source\PSoC4/BLE_eventHandler.c **** Return:
  189:.\Generated_Source\PSoC4/BLE_eventHandler.c ****  None
  190:.\Generated_Source\PSoC4/BLE_eventHandler.c **** 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 5
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 5
 
 
  191:.\Generated_Source\PSoC4/BLE_eventHandler.c **** ******************************************************************************/
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  225:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     }
  226:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #endif /* CYBLE_CSCS_SERVER */
  227:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #ifdef CYBLE_CTS_SERVER
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 6
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 6
 
 
  228:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     if((CYBLE_GATT_ERR_NONE == gattErr) && ((cyBle_eventHandlerFlag & CYBLE_CALLBACK) != 0u))
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  282:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     if((CYBLE_GATT_ERR_NONE == gattErr) && ((cyBle_eventHandlerFlag & CYBLE_CALLBACK) != 0u))
  283:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     {
  284:.\Generated_Source\PSoC4/BLE_eventHandler.c ****         gattErr = CyBle_ScpssWriteEventHandler(eventParam);
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 7
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 7
 
 
  285:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     }
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
   88 0046 3A1C     		mov	r2, r7
   89 0048 0F32     		add	r2, r2, #15
   90 004a 1278     		ldrb	r2, [r2]
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 8
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 8
 
 
   91 004c DA70     		strb	r2, [r3, #3]
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  329:.\Generated_Source\PSoC4/BLE_eventHandler.c **** Parameters:
  330:.\Generated_Source\PSoC4/BLE_eventHandler.c ****  CYBLE_CONN_HANDLE_T *eventParam - Pointer to a structure
  331:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     of type 'CYBLE_CONN_HANDLE_T'
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 9
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 9
 
 
  332:.\Generated_Source\PSoC4/BLE_eventHandler.c **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  375:.\Generated_Source\PSoC4/BLE_eventHandler.c ****         {
  376:.\Generated_Source\PSoC4/BLE_eventHandler.c ****             CyBle_LnssConfirmationEventHandler(eventParam);
  377:.\Generated_Source\PSoC4/BLE_eventHandler.c ****         }
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 10
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 10
 
 
  378:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     #endif /* CYBLE_LNS_SERVER */
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  417:.\Generated_Source\PSoC4/BLE_eventHandler.c **** {
  418:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #ifdef CYBLE_ANS_CLIENT
  419:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     CyBle_AnscWriteResponseEventHandler(eventParam);
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 11
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 11
 
 
  420:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #endif /* CYBLE_ANS_CLIENT */
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  474:.\Generated_Source\PSoC4/BLE_eventHandler.c ****         CyBle_HidscWriteResponseEventHandler(eventParam);
  475:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     }
  476:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #endif /* CYBLE_HIDS_CLIENT */
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 12
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 12
 
 
  477:.\Generated_Source\PSoC4/BLE_eventHandler.c **** 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  531:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     }
  532:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #endif /* CYBLE_TPS_CLIENT */
  533:.\Generated_Source\PSoC4/BLE_eventHandler.c **** 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 13
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 13
 
 
  534:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #ifdef CYBLE_UDS_CLIENT
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  588:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     {
  589:.\Generated_Source\PSoC4/BLE_eventHandler.c ****         CyBle_CscscNotificationEventHandler(eventParam);
  590:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     }
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 14
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 14
 
 
  591:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #endif /* CYBLE_CSCS_CLIENT */
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  645:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #endif /* CYBLE_SCPS_CLIENT */
  646:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #ifdef CYBLE_TPS_CLIENT
  647:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     if((cyBle_eventHandlerFlag & CYBLE_CALLBACK) != 0u)
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 15
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 15
 
 
  648:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     {
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  702:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     if((cyBle_eventHandlerFlag & CYBLE_CALLBACK) != 0u)
  703:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     {
  704:.\Generated_Source\PSoC4/BLE_eventHandler.c ****         CyBle_GlscIndicationEventHandler(eventParam);
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 16
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 16
 
 
  705:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     }
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  759:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #endif /* CYBLE_BAS_CLIENT */
  760:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #ifdef CYBLE_BLS_CLIENT
  761:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     if((cyBle_eventHandlerFlag & CYBLE_CALLBACK) != 0u)
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 17
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 17
 
 
  762:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     {
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  816:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     {
  817:.\Generated_Source\PSoC4/BLE_eventHandler.c ****         CyBle_HtscReadResponseEventHandler(eventParam);
  818:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     }
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 18
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 18
 
 
  819:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #endif /* CYBLE_HTS_CLIENT */
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  873:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #endif /* CYBLE_UDS_CLIENT */
  874:.\Generated_Source\PSoC4/BLE_eventHandler.c **** }
  875:.\Generated_Source\PSoC4/BLE_eventHandler.c **** #endif /* CYBLE_GATT_ROLE_CLIENT */
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 19
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 19
 
 
  876:.\Generated_Source\PSoC4/BLE_eventHandler.c **** 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  914:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     #ifdef CYBLE_CPS_CLIENT
  915:.\Generated_Source\PSoC4/BLE_eventHandler.c ****         CyBle_CpscDisconnectEventHandler();
  916:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     #endif /* CYBLE_CPS_CLIENT */
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 20
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 20
 
 
  917:.\Generated_Source\PSoC4/BLE_eventHandler.c **** 
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  187              		.cfi_startproc
  188 0000 80B5     		push	{r7, lr}
  189              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 21
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 21
 
 
  190              		.cfi_offset 7, -8
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  202              		.cfi_endproc
  203              	.LFE5:
  204              		.size	CyBle_TimeOutEventHandler, .-CyBle_TimeOutEventHandler
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 22
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 22
 
 
  205              		.section	.text.CyBle_GattConnectReqHandler,"ax",%progbits
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  221 0004 BD46     		mov	sp, r7
  222              		@ sp needed
  223 0006 80BD     		pop	{r7, pc}
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 23
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 23
 
 
  224              		.cfi_endproc
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  252 0012 9B79     		ldrb	r3, [r3, #6]
  253 0014 002B     		cmp	r3, #0
  254 0016 1CD1     		bne	.L13
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 24
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 24
 
 
 1058:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     {
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  296 0054 0E33     		add	r3, r3, #14
  297 0056 1B78     		ldrb	r3, [r3]
 1069:.\Generated_Source\PSoC4/BLE_eventHandler.c **** }
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 25
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 25
 
 
  298              		.loc 1 1069 0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
 1095:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     
 1096:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     /* Unreferenced variable warning workaround */
 1097:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     if(response != 0u)
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 26
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 26
 
 
 1098:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     {
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
 1126:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     {
 1127:.\Generated_Source\PSoC4/BLE_eventHandler.c ****     }
 1128:.\Generated_Source\PSoC4/BLE_eventHandler.c **** }
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 27
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 27
 
 
  353              		.loc 1 1128 0
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  387 0014 0122     		mov	r2, #1
  388 0016 1343     		orr	r3, r2
  389 0018 DAB2     		uxtb	r2, r3
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 28
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 28
 
 
  390 001a A04B     		ldr	r3, .L50
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  441 0088 66020000 		.word	.L49
  442 008c 66020000 		.word	.L49
  443 0090 66020000 		.word	.L49
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 29
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 29
 
 
  444 0094 66020000 		.word	.L49
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  498 016c 66020000 		.word	.L49
  499 0170 66020000 		.word	.L49
  500 0174 66020000 		.word	.L49
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 30
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 30
 
 
  501 0178 66020000 		.word	.L49
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  541 004e 0C33     		add	r3, r3, #12
  542 0050 0722     		mov	r2, #7
  543 0052 1A70     		strb	r2, [r3]
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 31
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 31
 
 
 1166:.\Generated_Source\PSoC4/BLE_eventHandler.c ****             bleSsPowerLevel.bleSsChId = CYBLE_LL_CONN_CH_TYPE;
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
 1182:.\Generated_Source\PSoC4/BLE_eventHandler.c ****             #if (SILICON_GENERATED_DEVICE_ADDRESS != 0u)
 1183:.\Generated_Source\PSoC4/BLE_eventHandler.c ****                 cyBle_deviceAddress.bdAddr[0] = CYBLE_SFLASH_DIE_X_REG;
  582              		.loc 1 1183 0
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 32
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 32
 
 
  583 009a 834B     		ldr	r3, .L50+12
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
 1199:.\Generated_Source\PSoC4/BLE_eventHandler.c ****             CyBle_TimeOutEventHandler((CYBLE_TO_REASON_CODE_T *)eventParam);
  622              		.loc 1 1199 0
  623 00dc 3B68     		ldr	r3, [r7]
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 33
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 33
 
 
  624 00de 181C     		mov	r0, r3
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  655              		.loc 1 1222 0
  656 010c 6D4B     		ldr	r3, .L50+40
  657 010e 1A78     		ldrb	r2, [r3]
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 34
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 34
 
 
  658 0110 6B4B     		ldr	r3, .L50+36
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  687 013a 0422     		mov	r2, #4
  688 013c 1A70     		strb	r2, [r3]
 1248:.\Generated_Source\PSoC4/BLE_eventHandler.c ****             break;
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 35
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 35
 
 
  689              		.loc 1 1248 0
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  727              	.L44:
 1265:.\Generated_Source\PSoC4/BLE_eventHandler.c ****                 }
 1266:.\Generated_Source\PSoC4/BLE_eventHandler.c ****                 /* When application initiated stop advertisement */
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 36
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 36
 
 
 1267:.\Generated_Source\PSoC4/BLE_eventHandler.c ****                 else if(0u != (cyBle_eventHandlerFlag & CYBLE_STOP_FLAG))
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  767 01ba FFF7FEFF 		bl	CyBle_GappStartAdvertisement
  768 01be 031C     		mov	r3, r0
  769 01c0 002B     		cmp	r3, #0
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 37
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 37
 
 
  770 01c2 03D1     		bne	.L43
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
 1326:.\Generated_Source\PSoC4/BLE_eventHandler.c ****                         }
 1327:.\Generated_Source\PSoC4/BLE_eventHandler.c ****                     #endif /* CYBLE_SLOW_ADV_ENABLED */
 1328:.\Generated_Source\PSoC4/BLE_eventHandler.c ****                     }
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 38
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 38
 
 
 1329:.\Generated_Source\PSoC4/BLE_eventHandler.c ****                 }
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
 1351:.\Generated_Source\PSoC4/BLE_eventHandler.c ****         #endif /* CYBLE_GATT_ROLE_SERVER */
 1352:.\Generated_Source\PSoC4/BLE_eventHandler.c ****         
 1353:.\Generated_Source\PSoC4/BLE_eventHandler.c ****         #if (CYBLE_GATT_ROLE_CLIENT)
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 39
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 39
 
 
 1354:.\Generated_Source\PSoC4/BLE_eventHandler.c ****             CyBle_SetClientState(CYBLE_CLIENT_STATE_CONNECTED);
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  843 0232 3B68     		ldr	r3, [r7]
  844 0234 3A1C     		mov	r2, r7
  845 0236 0E32     		add	r2, r2, #14
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 40
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 40
 
 
  846 0238 1288     		ldrh	r2, [r2]
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
 1409:.\Generated_Source\PSoC4/BLE_eventHandler.c ****             {
 1410:.\Generated_Source\PSoC4/BLE_eventHandler.c ****                 (void)CyBle_PasssWriteCmdEventHandler((CYBLE_GATTS_WRITE_REQ_PARAM_T *)eventParam);
 1411:.\Generated_Source\PSoC4/BLE_eventHandler.c ****             }
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 41
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 41
 
 
 1412:.\Generated_Source\PSoC4/BLE_eventHandler.c ****         #endif /* CYBLE_PASS_SERVER */
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
 1459:.\Generated_Source\PSoC4/BLE_eventHandler.c ****             /* Respond with a Handle Value Confirmation when request handled */
 1460:.\Generated_Source\PSoC4/BLE_eventHandler.c ****             if((cyBle_eventHandlerFlag & CYBLE_CALLBACK) == 0u)
 1461:.\Generated_Source\PSoC4/BLE_eventHandler.c ****             {
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 42
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 42
 
 
 1462:.\Generated_Source\PSoC4/BLE_eventHandler.c ****                 (void)CyBle_GattcConfirmation(((CYBLE_GATTC_HANDLE_VALUE_IND_PARAM_T *)eventParam)-
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  899 028c 1178     		ldrb	r1, [r2]
  900 028e 3A68     		ldr	r2, [r7]
  901 0290 081C     		mov	r0, r1
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 43
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 43
 
 
  902 0292 111C     		mov	r1, r2
@@ -2571,48 +2571,48 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  946 0006 00000000 		.4byte	.Ldebug_abbrev0
  947 000a 04       		.byte	0x4
  948 000b 01       		.uleb128 0x1
- 949 000c 0E110000 		.4byte	.LASF267
+ 949 000c 0C110000 		.4byte	.LASF267
  950 0010 01       		.byte	0x1
- 951 0011 F2040000 		.4byte	.LASF268
- 952 0015 49070000 		.4byte	.LASF269
+ 951 0011 21050000 		.4byte	.LASF268
+ 952 0015 00000000 		.4byte	.LASF269
  953 0019 00000000 		.4byte	.Ldebug_ranges0+0
  954 001d 00000000 		.4byte	0
  955 0021 00000000 		.4byte	.Ldebug_line0
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 44
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 44
 
 
  956 0025 02       		.uleb128 0x2
  957 0026 01       		.byte	0x1
  958 0027 06       		.byte	0x6
- 959 0028 EC050000 		.4byte	.LASF0
+ 959 0028 1B060000 		.4byte	.LASF0
  960 002c 02       		.uleb128 0x2
  961 002d 01       		.byte	0x1
  962 002e 08       		.byte	0x8
- 963 002f 01070000 		.4byte	.LASF1
+ 963 002f 30070000 		.4byte	.LASF1
  964 0033 02       		.uleb128 0x2
  965 0034 02       		.byte	0x2
  966 0035 05       		.byte	0x5
- 967 0036 B3170000 		.4byte	.LASF2
+ 967 0036 B1170000 		.4byte	.LASF2
  968 003a 02       		.uleb128 0x2
  969 003b 02       		.byte	0x2
  970 003c 07       		.byte	0x7
- 971 003d 0A1B0000 		.4byte	.LASF3
+ 971 003d 081B0000 		.4byte	.LASF3
  972 0041 02       		.uleb128 0x2
  973 0042 04       		.byte	0x4
  974 0043 05       		.byte	0x5
- 975 0044 20040000 		.4byte	.LASF4
+ 975 0044 4F040000 		.4byte	.LASF4
  976 0048 02       		.uleb128 0x2
  977 0049 04       		.byte	0x4
  978 004a 07       		.byte	0x7
- 979 004b 210C0000 		.4byte	.LASF5
+ 979 004b 1F0C0000 		.4byte	.LASF5
  980 004f 02       		.uleb128 0x2
  981 0050 08       		.byte	0x8
  982 0051 05       		.byte	0x5
- 983 0052 3E0E0000 		.4byte	.LASF6
+ 983 0052 3C0E0000 		.4byte	.LASF6
  984 0056 02       		.uleb128 0x2
  985 0057 08       		.byte	0x8
  986 0058 07       		.byte	0x7
- 987 0059 AE140000 		.4byte	.LASF7
+ 987 0059 AC140000 		.4byte	.LASF7
  988 005d 03       		.uleb128 0x3
  989 005e 04       		.byte	0x4
  990 005f 05       		.byte	0x5
@@ -2620,43 +2620,43 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  992 0064 02       		.uleb128 0x2
  993 0065 04       		.byte	0x4
  994 0066 07       		.byte	0x7
- 995 0067 85100000 		.4byte	.LASF8
+ 995 0067 83100000 		.4byte	.LASF8
  996 006b 04       		.uleb128 0x4
- 997 006c 55170000 		.4byte	.LASF9
+ 997 006c 53170000 		.4byte	.LASF9
  998 0070 02       		.byte	0x2
  999 0071 A1       		.byte	0xa1
  1000 0072 2C000000 		.4byte	0x2c
  1001 0076 04       		.uleb128 0x4
- 1002 0077 8C1C0000 		.4byte	.LASF10
+ 1002 0077 8A1C0000 		.4byte	.LASF10
  1003 007b 02       		.byte	0x2
  1004 007c A2       		.byte	0xa2
  1005 007d 3A000000 		.4byte	0x3a
  1006 0081 04       		.uleb128 0x4
- 1007 0082 BF000000 		.4byte	.LASF11
+ 1007 0082 EE000000 		.4byte	.LASF11
  1008 0086 02       		.byte	0x2
  1009 0087 A3       		.byte	0xa3
  1010 0088 48000000 		.4byte	0x48
  1011 008c 02       		.uleb128 0x2
  1012 008d 04       		.byte	0x4
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 45
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 45
 
 
  1013 008e 04       		.byte	0x4
- 1014 008f F80F0000 		.4byte	.LASF12
+ 1014 008f F60F0000 		.4byte	.LASF12
  1015 0093 02       		.uleb128 0x2
  1016 0094 08       		.byte	0x8
  1017 0095 04       		.byte	0x4
- 1018 0096 EC0E0000 		.4byte	.LASF13
+ 1018 0096 EA0E0000 		.4byte	.LASF13
  1019 009a 02       		.uleb128 0x2
  1020 009b 01       		.byte	0x1
  1021 009c 08       		.byte	0x8
- 1022 009d 17080000 		.4byte	.LASF14
+ 1022 009d 15080000 		.4byte	.LASF14
  1023 00a1 05       		.uleb128 0x5
  1024 00a2 6B000000 		.4byte	0x6b
  1025 00a6 02       		.uleb128 0x2
  1026 00a7 04       		.byte	0x4
  1027 00a8 07       		.byte	0x7
- 1028 00a9 00000000 		.4byte	.LASF15
+ 1028 00a9 2F000000 		.4byte	.LASF15
  1029 00ad 06       		.uleb128 0x6
  1030 00ae 04       		.byte	0x4
  1031 00af 07       		.uleb128 0x7
@@ -2665,175 +2665,175 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1034 00b2 58       		.byte	0x58
  1035 00b3 1F020000 		.4byte	0x21f
  1036 00b7 08       		.uleb128 0x8
- 1037 00b8 9F080000 		.4byte	.LASF16
+ 1037 00b8 9D080000 		.4byte	.LASF16
  1038 00bc 00       		.sleb128 0
  1039 00bd 08       		.uleb128 0x8
- 1040 00be 8D040000 		.4byte	.LASF17
+ 1040 00be BC040000 		.4byte	.LASF17
  1041 00c2 01       		.sleb128 1
  1042 00c3 08       		.uleb128 0x8
- 1043 00c4 E3140000 		.4byte	.LASF18
+ 1043 00c4 E1140000 		.4byte	.LASF18
  1044 00c8 02       		.sleb128 2
  1045 00c9 08       		.uleb128 0x8
- 1046 00ca 2D060000 		.4byte	.LASF19
+ 1046 00ca 5C060000 		.4byte	.LASF19
  1047 00ce 03       		.sleb128 3
  1048 00cf 08       		.uleb128 0x8
- 1049 00d0 D21B0000 		.4byte	.LASF20
+ 1049 00d0 D01B0000 		.4byte	.LASF20
  1050 00d4 04       		.sleb128 4
  1051 00d5 08       		.uleb128 0x8
- 1052 00d6 E7190000 		.4byte	.LASF21
+ 1052 00d6 E5190000 		.4byte	.LASF21
  1053 00da 05       		.sleb128 5
  1054 00db 08       		.uleb128 0x8
- 1055 00dc A7180000 		.4byte	.LASF22
+ 1055 00dc A5180000 		.4byte	.LASF22
  1056 00e0 20       		.sleb128 32
  1057 00e1 08       		.uleb128 0x8
- 1058 00e2 FF020000 		.4byte	.LASF23
+ 1058 00e2 2E030000 		.4byte	.LASF23
  1059 00e6 21       		.sleb128 33
  1060 00e7 08       		.uleb128 0x8
- 1061 00e8 B20D0000 		.4byte	.LASF24
+ 1061 00e8 B00D0000 		.4byte	.LASF24
  1062 00ec 22       		.sleb128 34
  1063 00ed 08       		.uleb128 0x8
- 1064 00ee A8120000 		.4byte	.LASF25
+ 1064 00ee A6120000 		.4byte	.LASF25
  1065 00f2 23       		.sleb128 35
  1066 00f3 08       		.uleb128 0x8
- 1067 00f4 7F0B0000 		.4byte	.LASF26
+ 1067 00f4 7D0B0000 		.4byte	.LASF26
  1068 00f8 24       		.sleb128 36
  1069 00f9 08       		.uleb128 0x8
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 46
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 46
 
 
- 1070 00fa 9B0B0000 		.4byte	.LASF27
+ 1070 00fa 990B0000 		.4byte	.LASF27
  1071 00fe 25       		.sleb128 37
  1072 00ff 08       		.uleb128 0x8
- 1073 0100 2D170000 		.4byte	.LASF28
+ 1073 0100 2B170000 		.4byte	.LASF28
  1074 0104 26       		.sleb128 38
  1075 0105 08       		.uleb128 0x8
- 1076 0106 4F000000 		.4byte	.LASF29
+ 1076 0106 7E000000 		.4byte	.LASF29
  1077 010a 27       		.sleb128 39
  1078 010b 08       		.uleb128 0x8
- 1079 010c 491C0000 		.4byte	.LASF30
+ 1079 010c 471C0000 		.4byte	.LASF30
  1080 0110 28       		.sleb128 40
  1081 0111 08       		.uleb128 0x8
- 1082 0112 01140000 		.4byte	.LASF31
+ 1082 0112 FF130000 		.4byte	.LASF31
  1083 0116 29       		.sleb128 41
  1084 0117 08       		.uleb128 0x8
- 1085 0118 090D0000 		.4byte	.LASF32
+ 1085 0118 070D0000 		.4byte	.LASF32
  1086 011c 2A       		.sleb128 42
  1087 011d 08       		.uleb128 0x8
- 1088 011e 35120000 		.4byte	.LASF33
+ 1088 011e 33120000 		.4byte	.LASF33
  1089 0122 2B       		.sleb128 43
  1090 0123 08       		.uleb128 0x8
- 1091 0124 2D1A0000 		.4byte	.LASF34
+ 1091 0124 2B1A0000 		.4byte	.LASF34
  1092 0128 2C       		.sleb128 44
  1093 0129 08       		.uleb128 0x8
- 1094 012a 21180000 		.4byte	.LASF35
+ 1094 012a 1F180000 		.4byte	.LASF35
  1095 012e C000     		.sleb128 64
  1096 0130 08       		.uleb128 0x8
- 1097 0131 8F000000 		.4byte	.LASF36
+ 1097 0131 BE000000 		.4byte	.LASF36
  1098 0135 C100     		.sleb128 65
  1099 0137 08       		.uleb128 0x8
- 1100 0138 E71B0000 		.4byte	.LASF37
+ 1100 0138 E51B0000 		.4byte	.LASF37
  1101 013c C200     		.sleb128 66
  1102 013e 08       		.uleb128 0x8
- 1103 013f 1E140000 		.4byte	.LASF38
+ 1103 013f 1C140000 		.4byte	.LASF38
  1104 0143 C300     		.sleb128 67
  1105 0145 08       		.uleb128 0x8
- 1106 0146 0F070000 		.4byte	.LASF39
+ 1106 0146 3E070000 		.4byte	.LASF39
  1107 014a C400     		.sleb128 68
  1108 014c 08       		.uleb128 0x8
- 1109 014d AE060000 		.4byte	.LASF40
+ 1109 014d DD060000 		.4byte	.LASF40
  1110 0151 C500     		.sleb128 69
  1111 0153 08       		.uleb128 0x8
- 1112 0154 CD160000 		.4byte	.LASF41
+ 1112 0154 CB160000 		.4byte	.LASF41
  1113 0158 C600     		.sleb128 70
  1114 015a 08       		.uleb128 0x8
- 1115 015b AF160000 		.4byte	.LASF42
+ 1115 015b AD160000 		.4byte	.LASF42
  1116 015f C700     		.sleb128 71
  1117 0161 08       		.uleb128 0x8
- 1118 0162 F0070000 		.4byte	.LASF43
+ 1118 0162 EE070000 		.4byte	.LASF43
  1119 0166 C800     		.sleb128 72
  1120 0168 08       		.uleb128 0x8
- 1121 0169 1D130000 		.4byte	.LASF44
+ 1121 0169 1B130000 		.4byte	.LASF44
  1122 016d C900     		.sleb128 73
  1123 016f 08       		.uleb128 0x8
- 1124 0170 0A090000 		.4byte	.LASF45
+ 1124 0170 08090000 		.4byte	.LASF45
  1125 0174 CA00     		.sleb128 74
  1126 0176 08       		.uleb128 0x8
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 47
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 47
 
 
- 1127 0177 4C080000 		.4byte	.LASF46
+ 1127 0177 4A080000 		.4byte	.LASF46
  1128 017b CB00     		.sleb128 75
  1129 017d 08       		.uleb128 0x8
- 1130 017e 8E120000 		.4byte	.LASF47
+ 1130 017e 8C120000 		.4byte	.LASF47
  1131 0182 CC00     		.sleb128 76
  1132 0184 08       		.uleb128 0x8
- 1133 0185 FA160000 		.4byte	.LASF48
+ 1133 0185 F8160000 		.4byte	.LASF48
  1134 0189 CD00     		.sleb128 77
  1135 018b 08       		.uleb128 0x8
- 1136 018c 02040000 		.4byte	.LASF49
+ 1136 018c 31040000 		.4byte	.LASF49
  1137 0190 CE00     		.sleb128 78
  1138 0192 08       		.uleb128 0x8
- 1139 0193 92100000 		.4byte	.LASF50
+ 1139 0193 90100000 		.4byte	.LASF50
  1140 0197 CF00     		.sleb128 79
  1141 0199 08       		.uleb128 0x8
- 1142 019a 88180000 		.4byte	.LASF51
+ 1142 019a 86180000 		.4byte	.LASF51
  1143 019e D000     		.sleb128 80
  1144 01a0 08       		.uleb128 0x8
- 1145 01a1 3F090000 		.4byte	.LASF52
+ 1145 01a1 3D090000 		.4byte	.LASF52
  1146 01a5 D100     		.sleb128 81
  1147 01a7 08       		.uleb128 0x8
- 1148 01a8 DE020000 		.4byte	.LASF53
+ 1148 01a8 0D030000 		.4byte	.LASF53
  1149 01ac D200     		.sleb128 82
  1150 01ae 08       		.uleb128 0x8
- 1151 01af A5190000 		.4byte	.LASF54
+ 1151 01af A3190000 		.4byte	.LASF54
  1152 01b3 D300     		.sleb128 83
  1153 01b5 08       		.uleb128 0x8
- 1154 01b6 6B1C0000 		.4byte	.LASF55
+ 1154 01b6 691C0000 		.4byte	.LASF55
  1155 01ba D400     		.sleb128 84
  1156 01bc 08       		.uleb128 0x8
- 1157 01bd CA010000 		.4byte	.LASF56
+ 1157 01bd F9010000 		.4byte	.LASF56
  1158 01c1 D500     		.sleb128 85
  1159 01c3 08       		.uleb128 0x8
- 1160 01c4 9B1A0000 		.4byte	.LASF57
+ 1160 01c4 991A0000 		.4byte	.LASF57
  1161 01c8 F000     		.sleb128 112
  1162 01ca 08       		.uleb128 0x8
- 1163 01cb 040B0000 		.4byte	.LASF58
+ 1163 01cb 020B0000 		.4byte	.LASF58
  1164 01cf F100     		.sleb128 113
  1165 01d1 08       		.uleb128 0x8
- 1166 01d2 6A050000 		.4byte	.LASF59
+ 1166 01d2 99050000 		.4byte	.LASF59
  1167 01d6 F200     		.sleb128 114
  1168 01d8 08       		.uleb128 0x8
- 1169 01d9 6A180000 		.4byte	.LASF60
+ 1169 01d9 68180000 		.4byte	.LASF60
  1170 01dd F300     		.sleb128 115
  1171 01df 08       		.uleb128 0x8
- 1172 01e0 70130000 		.4byte	.LASF61
+ 1172 01e0 6E130000 		.4byte	.LASF61
  1173 01e4 F400     		.sleb128 116
  1174 01e6 08       		.uleb128 0x8
- 1175 01e7 910D0000 		.4byte	.LASF62
+ 1175 01e7 8F0D0000 		.4byte	.LASF62
  1176 01eb F500     		.sleb128 117
  1177 01ed 08       		.uleb128 0x8
- 1178 01ee CF070000 		.4byte	.LASF63
+ 1178 01ee CD070000 		.4byte	.LASF63
  1179 01f2 F600     		.sleb128 118
  1180 01f4 08       		.uleb128 0x8
- 1181 01f5 69150000 		.4byte	.LASF64
+ 1181 01f5 67150000 		.4byte	.LASF64
  1182 01f9 F700     		.sleb128 119
  1183 01fb 08       		.uleb128 0x8
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 48
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 48
 
 
- 1184 01fc EE010000 		.4byte	.LASF65
+ 1184 01fc 1D020000 		.4byte	.LASF65
  1185 0200 F800     		.sleb128 120
  1186 0202 08       		.uleb128 0x8
- 1187 0203 7A070000 		.4byte	.LASF66
+ 1187 0203 78070000 		.4byte	.LASF66
  1188 0207 F900     		.sleb128 121
  1189 0209 08       		.uleb128 0x8
- 1190 020a 251C0000 		.4byte	.LASF67
+ 1190 020a 231C0000 		.4byte	.LASF67
  1191 020e FA00     		.sleb128 122
  1192 0210 08       		.uleb128 0x8
- 1193 0211 150F0000 		.4byte	.LASF68
+ 1193 0211 130F0000 		.4byte	.LASF68
  1194 0215 FA01     		.sleb128 250
  1195 0217 08       		.uleb128 0x8
- 1196 0218 27120000 		.4byte	.LASF69
+ 1196 0218 25120000 		.4byte	.LASF69
  1197 021c FF01     		.sleb128 255
  1198 021e 00       		.byte	0
  1199 021f 09       		.uleb128 0x9
@@ -2842,103 +2842,103 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1202 0222 9A01     		.2byte	0x19a
  1203 0224 EB020000 		.4byte	0x2eb
  1204 0228 08       		.uleb128 0x8
- 1205 0229 59060000 		.4byte	.LASF70
+ 1205 0229 88060000 		.4byte	.LASF70
  1206 022d 00       		.sleb128 0
  1207 022e 08       		.uleb128 0x8
- 1208 022f F5090000 		.4byte	.LASF71
+ 1208 022f F3090000 		.4byte	.LASF71
  1209 0233 01       		.sleb128 1
  1210 0234 08       		.uleb128 0x8
- 1211 0235 B41B0000 		.4byte	.LASF72
+ 1211 0235 B21B0000 		.4byte	.LASF72
  1212 0239 02       		.sleb128 2
  1213 023a 08       		.uleb128 0x8
- 1214 023b 510A0000 		.4byte	.LASF73
+ 1214 023b 4F0A0000 		.4byte	.LASF73
  1215 023f 03       		.sleb128 3
  1216 0240 08       		.uleb128 0x8
- 1217 0241 E70B0000 		.4byte	.LASF74
+ 1217 0241 E50B0000 		.4byte	.LASF74
  1218 0245 04       		.sleb128 4
  1219 0246 08       		.uleb128 0x8
- 1220 0247 CE0E0000 		.4byte	.LASF75
+ 1220 0247 CC0E0000 		.4byte	.LASF75
  1221 024b 05       		.sleb128 5
  1222 024c 08       		.uleb128 0x8
- 1223 024d 4B190000 		.4byte	.LASF76
+ 1223 024d 49190000 		.4byte	.LASF76
  1224 0251 06       		.sleb128 6
  1225 0252 08       		.uleb128 0x8
- 1226 0253 ED080000 		.4byte	.LASF77
+ 1226 0253 EB080000 		.4byte	.LASF77
  1227 0257 07       		.sleb128 7
  1228 0258 08       		.uleb128 0x8
- 1229 0259 C20F0000 		.4byte	.LASF78
+ 1229 0259 C00F0000 		.4byte	.LASF78
  1230 025d 08       		.sleb128 8
  1231 025e 08       		.uleb128 0x8
- 1232 025f CB180000 		.4byte	.LASF79
+ 1232 025f C9180000 		.4byte	.LASF79
  1233 0263 09       		.sleb128 9
  1234 0264 08       		.uleb128 0x8
- 1235 0265 931C0000 		.4byte	.LASF80
+ 1235 0265 911C0000 		.4byte	.LASF80
  1236 0269 0A       		.sleb128 10
  1237 026a 08       		.uleb128 0x8
- 1238 026b 2A030000 		.4byte	.LASF81
+ 1238 026b 59030000 		.4byte	.LASF81
  1239 026f 0B       		.sleb128 11
  1240 0270 08       		.uleb128 0x8
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 49
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 49
 
 
- 1241 0271 D0190000 		.4byte	.LASF82
+ 1241 0271 CE190000 		.4byte	.LASF82
  1242 0275 0C       		.sleb128 12
  1243 0276 08       		.uleb128 0x8
- 1244 0277 C2110000 		.4byte	.LASF83
+ 1244 0277 C0110000 		.4byte	.LASF83
  1245 027b 0D       		.sleb128 13
  1246 027c 08       		.uleb128 0x8
- 1247 027d E00C0000 		.4byte	.LASF84
+ 1247 027d DE0C0000 		.4byte	.LASF84
  1248 0281 0E       		.sleb128 14
  1249 0282 08       		.uleb128 0x8
- 1250 0283 A90E0000 		.4byte	.LASF85
+ 1250 0283 A70E0000 		.4byte	.LASF85
  1251 0287 0F       		.sleb128 15
  1252 0288 08       		.uleb128 0x8
- 1253 0289 80010000 		.4byte	.LASF86
+ 1253 0289 AF010000 		.4byte	.LASF86
  1254 028d 10       		.sleb128 16
  1255 028e 08       		.uleb128 0x8
- 1256 028f 9E0F0000 		.4byte	.LASF87
+ 1256 028f 9C0F0000 		.4byte	.LASF87
  1257 0293 11       		.sleb128 17
  1258 0294 08       		.uleb128 0x8
- 1259 0295 A0040000 		.4byte	.LASF88
+ 1259 0295 CF040000 		.4byte	.LASF88
  1260 0299 12       		.sleb128 18
  1261 029a 08       		.uleb128 0x8
- 1262 029b C4050000 		.4byte	.LASF89
+ 1262 029b F3050000 		.4byte	.LASF89
  1263 029f 13       		.sleb128 19
  1264 02a0 08       		.uleb128 0x8
- 1265 02a1 F30E0000 		.4byte	.LASF90
+ 1265 02a1 F10E0000 		.4byte	.LASF90
  1266 02a5 27       		.sleb128 39
  1267 02a6 08       		.uleb128 0x8
- 1268 02a7 FE0F0000 		.4byte	.LASF91
+ 1268 02a7 FC0F0000 		.4byte	.LASF91
  1269 02ab 28       		.sleb128 40
  1270 02ac 08       		.uleb128 0x8
- 1271 02ad AE010000 		.4byte	.LASF92
+ 1271 02ad DD010000 		.4byte	.LASF92
  1272 02b1 29       		.sleb128 41
  1273 02b2 08       		.uleb128 0x8
- 1274 02b3 F40A0000 		.4byte	.LASF93
+ 1274 02b3 F20A0000 		.4byte	.LASF93
  1275 02b7 FF01     		.sleb128 255
  1276 02b9 08       		.uleb128 0x8
- 1277 02ba B50B0000 		.4byte	.LASF94
+ 1277 02ba B30B0000 		.4byte	.LASF94
  1278 02be 8002     		.sleb128 256
  1279 02c0 08       		.uleb128 0x8
- 1280 02c1 C91A0000 		.4byte	.LASF95
+ 1280 02c1 C71A0000 		.4byte	.LASF95
  1281 02c5 8102     		.sleb128 257
  1282 02c7 08       		.uleb128 0x8
- 1283 02c8 3B0A0000 		.4byte	.LASF96
+ 1283 02c8 390A0000 		.4byte	.LASF96
  1284 02cc 8202     		.sleb128 258
  1285 02ce 08       		.uleb128 0x8
- 1286 02cf E7120000 		.4byte	.LASF97
+ 1286 02cf E5120000 		.4byte	.LASF97
  1287 02d3 8302     		.sleb128 259
  1288 02d5 08       		.uleb128 0x8
- 1289 02d6 CE120000 		.4byte	.LASF98
+ 1289 02d6 CC120000 		.4byte	.LASF98
  1290 02da 8402     		.sleb128 260
  1291 02dc 08       		.uleb128 0x8
- 1292 02dd 1E050000 		.4byte	.LASF99
+ 1292 02dd 4D050000 		.4byte	.LASF99
  1293 02e1 8502     		.sleb128 261
  1294 02e3 08       		.uleb128 0x8
- 1295 02e4 23150000 		.4byte	.LASF100
+ 1295 02e4 21150000 		.4byte	.LASF100
  1296 02e8 8602     		.sleb128 262
  1297 02ea 00       		.byte	0
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 50
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 50
 
 
  1298 02eb 09       		.uleb128 0x9
@@ -2947,35 +2947,35 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1301 02ee 2502     		.2byte	0x225
  1302 02f0 2B030000 		.4byte	0x32b
  1303 02f4 08       		.uleb128 0x8
- 1304 02f5 F8050000 		.4byte	.LASF101
+ 1304 02f5 27060000 		.4byte	.LASF101
  1305 02f9 01       		.sleb128 1
  1306 02fa 08       		.uleb128 0x8
- 1307 02fb CD030000 		.4byte	.LASF102
+ 1307 02fb FC030000 		.4byte	.LASF102
  1308 02ff 02       		.sleb128 2
  1309 0300 08       		.uleb128 0x8
- 1310 0301 CC130000 		.4byte	.LASF103
+ 1310 0301 CA130000 		.4byte	.LASF103
  1311 0305 03       		.sleb128 3
  1312 0306 08       		.uleb128 0x8
- 1313 0307 67030000 		.4byte	.LASF104
+ 1313 0307 96030000 		.4byte	.LASF104
  1314 030b 04       		.sleb128 4
  1315 030c 08       		.uleb128 0x8
- 1316 030d 1C080000 		.4byte	.LASF105
+ 1316 030d 1A080000 		.4byte	.LASF105
  1317 0311 05       		.sleb128 5
  1318 0312 08       		.uleb128 0x8
- 1319 0313 4E0C0000 		.4byte	.LASF106
+ 1319 0313 4C0C0000 		.4byte	.LASF106
  1320 0317 06       		.sleb128 6
  1321 0318 08       		.uleb128 0x8
- 1322 0319 65190000 		.4byte	.LASF107
+ 1322 0319 63190000 		.4byte	.LASF107
  1323 031d 07       		.sleb128 7
  1324 031e 08       		.uleb128 0x8
- 1325 031f 0A0C0000 		.4byte	.LASF108
+ 1325 031f 080C0000 		.4byte	.LASF108
  1326 0323 08       		.sleb128 8
  1327 0324 08       		.uleb128 0x8
- 1328 0325 5C0F0000 		.4byte	.LASF109
+ 1328 0325 5A0F0000 		.4byte	.LASF109
  1329 0329 09       		.sleb128 9
  1330 032a 00       		.byte	0
  1331 032b 0A       		.uleb128 0xa
- 1332 032c D60D0000 		.4byte	.LASF110
+ 1332 032c D40D0000 		.4byte	.LASF110
  1333 0330 03       		.byte	0x3
  1334 0331 2F02     		.2byte	0x22f
  1335 0333 EB020000 		.4byte	0x2eb
@@ -2985,20 +2985,20 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1339 033a 3302     		.2byte	0x233
  1340 033c 53030000 		.4byte	0x353
  1341 0340 08       		.uleb128 0x8
- 1342 0341 7C190000 		.4byte	.LASF111
+ 1342 0341 7A190000 		.4byte	.LASF111
  1343 0345 00       		.sleb128 0
  1344 0346 08       		.uleb128 0x8
- 1345 0347 F8100000 		.4byte	.LASF112
+ 1345 0347 F6100000 		.4byte	.LASF112
  1346 034b 01       		.sleb128 1
  1347 034c 08       		.uleb128 0x8
- 1348 034d 861A0000 		.4byte	.LASF113
+ 1348 034d 841A0000 		.4byte	.LASF113
  1349 0351 02       		.sleb128 2
  1350 0352 00       		.byte	0
  1351 0353 0A       		.uleb128 0xa
- 1352 0354 68060000 		.4byte	.LASF114
+ 1352 0354 97060000 		.4byte	.LASF114
  1353 0358 03       		.byte	0x3
  1354 0359 3A02     		.2byte	0x23a
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 51
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 51
 
 
  1355 035b 37030000 		.4byte	0x337
@@ -3008,20 +3008,20 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1359 0362 3D02     		.2byte	0x23d
  1360 0364 83030000 		.4byte	0x383
  1361 0368 0C       		.uleb128 0xc
- 1362 0369 C6000000 		.4byte	.LASF115
+ 1362 0369 F5000000 		.4byte	.LASF115
  1363 036d 03       		.byte	0x3
  1364 036e 4002     		.2byte	0x240
  1365 0370 2B030000 		.4byte	0x32b
  1366 0374 00       		.byte	0
  1367 0375 0C       		.uleb128 0xc
- 1368 0376 60050000 		.4byte	.LASF116
+ 1368 0376 8F050000 		.4byte	.LASF116
  1369 037a 03       		.byte	0x3
  1370 037b 4202     		.2byte	0x242
  1371 037d 53030000 		.4byte	0x353
  1372 0381 01       		.byte	0x1
  1373 0382 00       		.byte	0
  1374 0383 0A       		.uleb128 0xa
- 1375 0384 6E1A0000 		.4byte	.LASF117
+ 1375 0384 6C1A0000 		.4byte	.LASF117
  1376 0388 03       		.byte	0x3
  1377 0389 4302     		.2byte	0x243
  1378 038b 5F030000 		.4byte	0x35f
@@ -3031,13 +3031,13 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1382 0392 7502     		.2byte	0x275
  1383 0394 B3030000 		.4byte	0x3b3
  1384 0398 0C       		.uleb128 0xc
- 1385 0399 FE180000 		.4byte	.LASF118
+ 1385 0399 FC180000 		.4byte	.LASF118
  1386 039d 03       		.byte	0x3
  1387 039e 7702     		.2byte	0x277
  1388 03a0 B3030000 		.4byte	0x3b3
  1389 03a4 00       		.byte	0
  1390 03a5 0C       		.uleb128 0xc
- 1391 03a6 41020000 		.4byte	.LASF119
+ 1391 03a6 70020000 		.4byte	.LASF119
  1392 03aa 03       		.byte	0x3
  1393 03ab 7802     		.2byte	0x278
  1394 03ad 6B000000 		.4byte	0x6b
@@ -3051,33 +3051,33 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1402 03c1 05       		.byte	0x5
  1403 03c2 00       		.byte	0
  1404 03c3 0A       		.uleb128 0xa
- 1405 03c4 FD150000 		.4byte	.LASF120
+ 1405 03c4 FB150000 		.4byte	.LASF120
  1406 03c8 03       		.byte	0x3
  1407 03c9 7902     		.2byte	0x279
  1408 03cb 8F030000 		.4byte	0x38f
  1409 03cf 07       		.uleb128 0x7
  1410 03d0 01       		.byte	0x1
  1411 03d1 04       		.byte	0x4
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 52
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 52
 
 
  1412 03d2 44       		.byte	0x44
  1413 03d3 F0030000 		.4byte	0x3f0
  1414 03d7 08       		.uleb128 0x8
- 1415 03d8 2A160000 		.4byte	.LASF121
+ 1415 03d8 28160000 		.4byte	.LASF121
  1416 03dc 01       		.sleb128 1
  1417 03dd 08       		.uleb128 0x8
- 1418 03de CB150000 		.4byte	.LASF122
+ 1418 03de C9150000 		.4byte	.LASF122
  1419 03e2 02       		.sleb128 2
  1420 03e3 08       		.uleb128 0x8
- 1421 03e4 131C0000 		.4byte	.LASF123
+ 1421 03e4 111C0000 		.4byte	.LASF123
  1422 03e8 03       		.sleb128 3
  1423 03e9 08       		.uleb128 0x8
- 1424 03ea 9E160000 		.4byte	.LASF124
+ 1424 03ea 9C160000 		.4byte	.LASF124
  1425 03ee 04       		.sleb128 4
  1426 03ef 00       		.byte	0
  1427 03f0 04       		.uleb128 0x4
- 1428 03f1 46020000 		.4byte	.LASF125
+ 1428 03f1 75020000 		.4byte	.LASF125
  1429 03f5 04       		.byte	0x4
  1430 03f6 51       		.byte	0x51
  1431 03f7 CF030000 		.4byte	0x3cf
@@ -3087,16 +3087,16 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1435 03fe B1       		.byte	0xb1
  1436 03ff 1C040000 		.4byte	0x41c
  1437 0403 08       		.uleb128 0x8
- 1438 0404 29040000 		.4byte	.LASF126
+ 1438 0404 58040000 		.4byte	.LASF126
  1439 0408 00       		.sleb128 0
  1440 0409 08       		.uleb128 0x8
- 1441 040a 3F040000 		.4byte	.LASF127
+ 1441 040a 6E040000 		.4byte	.LASF127
  1442 040e 01       		.sleb128 1
  1443 040f 08       		.uleb128 0x8
- 1444 0410 55040000 		.4byte	.LASF128
+ 1444 0410 84040000 		.4byte	.LASF128
  1445 0414 02       		.sleb128 2
  1446 0415 08       		.uleb128 0x8
- 1447 0416 B6090000 		.4byte	.LASF129
+ 1447 0416 B4090000 		.4byte	.LASF129
  1448 041a 0F       		.sleb128 15
  1449 041b 00       		.byte	0
  1450 041c 07       		.uleb128 0x7
@@ -3105,20 +3105,20 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1453 041f CB       		.byte	0xcb
  1454 0420 43040000 		.4byte	0x443
  1455 0424 08       		.uleb128 0x8
- 1456 0425 4A030000 		.4byte	.LASF130
+ 1456 0425 79030000 		.4byte	.LASF130
  1457 0429 00       		.sleb128 0
  1458 042a 08       		.uleb128 0x8
- 1459 042b 0F1A0000 		.4byte	.LASF131
+ 1459 042b 0D1A0000 		.4byte	.LASF131
  1460 042f 01       		.sleb128 1
  1461 0430 08       		.uleb128 0x8
- 1462 0431 81080000 		.4byte	.LASF132
+ 1462 0431 7F080000 		.4byte	.LASF132
  1463 0435 02       		.sleb128 2
  1464 0436 08       		.uleb128 0x8
- 1465 0437 6E000000 		.4byte	.LASF133
+ 1465 0437 9D000000 		.4byte	.LASF133
  1466 043b 03       		.sleb128 3
  1467 043c 08       		.uleb128 0x8
- 1468 043d 3B180000 		.4byte	.LASF134
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 53
+ 1468 043d 39180000 		.4byte	.LASF134
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 53
 
 
  1469 0441 04       		.sleb128 4
@@ -3129,47 +3129,47 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1474 0446 E1       		.byte	0xe1
  1475 0447 9A040000 		.4byte	0x49a
  1476 044b 08       		.uleb128 0x8
- 1477 044c E7130000 		.4byte	.LASF135
+ 1477 044c E5130000 		.4byte	.LASF135
  1478 0450 00       		.sleb128 0
  1479 0451 08       		.uleb128 0x8
- 1480 0452 A3030000 		.4byte	.LASF136
+ 1480 0452 D2030000 		.4byte	.LASF136
  1481 0456 01       		.sleb128 1
  1482 0457 08       		.uleb128 0x8
- 1483 0458 55140000 		.4byte	.LASF137
+ 1483 0458 53140000 		.4byte	.LASF137
  1484 045c 02       		.sleb128 2
  1485 045d 08       		.uleb128 0x8
- 1486 045e 940C0000 		.4byte	.LASF138
+ 1486 045e 920C0000 		.4byte	.LASF138
  1487 0462 03       		.sleb128 3
  1488 0463 08       		.uleb128 0x8
- 1489 0464 811B0000 		.4byte	.LASF139
+ 1489 0464 7F1B0000 		.4byte	.LASF139
  1490 0468 04       		.sleb128 4
  1491 0469 08       		.uleb128 0x8
- 1492 046a 73160000 		.4byte	.LASF140
+ 1492 046a 71160000 		.4byte	.LASF140
  1493 046e 05       		.sleb128 5
  1494 046f 08       		.uleb128 0x8
- 1495 0470 080E0000 		.4byte	.LASF141
+ 1495 0470 060E0000 		.4byte	.LASF141
  1496 0474 06       		.sleb128 6
  1497 0475 08       		.uleb128 0x8
- 1498 0476 690C0000 		.4byte	.LASF142
+ 1498 0476 670C0000 		.4byte	.LASF142
  1499 047a 07       		.sleb128 7
  1500 047b 08       		.uleb128 0x8
- 1501 047c 89020000 		.4byte	.LASF143
+ 1501 047c B8020000 		.4byte	.LASF143
  1502 0480 08       		.sleb128 8
  1503 0481 08       		.uleb128 0x8
- 1504 0482 6A0D0000 		.4byte	.LASF144
+ 1504 0482 680D0000 		.4byte	.LASF144
  1505 0486 09       		.sleb128 9
  1506 0487 08       		.uleb128 0x8
- 1507 0488 A7070000 		.4byte	.LASF145
+ 1507 0488 A5070000 		.4byte	.LASF145
  1508 048c 0A       		.sleb128 10
  1509 048d 08       		.uleb128 0x8
- 1510 048e 5D020000 		.4byte	.LASF146
+ 1510 048e 8C020000 		.4byte	.LASF146
  1511 0492 15       		.sleb128 21
  1512 0493 08       		.uleb128 0x8
- 1513 0494 2A0B0000 		.4byte	.LASF147
+ 1513 0494 280B0000 		.4byte	.LASF147
  1514 0498 18       		.sleb128 24
  1515 0499 00       		.byte	0
  1516 049a 0A       		.uleb128 0xa
- 1517 049b 6F120000 		.4byte	.LASF148
+ 1517 049b 6D120000 		.4byte	.LASF148
  1518 049f 05       		.byte	0x5
  1519 04a0 0D01     		.2byte	0x10d
  1520 04a2 43040000 		.4byte	0x443
@@ -3178,36 +3178,36 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1523 04a8 05       		.byte	0x5
  1524 04a9 2601     		.2byte	0x126
  1525 04ab E4040000 		.4byte	0x4e4
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 54
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 54
 
 
  1526 04af 0C       		.uleb128 0xc
- 1527 04b0 6A170000 		.4byte	.LASF149
+ 1527 04b0 68170000 		.4byte	.LASF149
  1528 04b4 05       		.byte	0x5
  1529 04b5 2F01     		.2byte	0x12f
  1530 04b7 6B000000 		.4byte	0x6b
  1531 04bb 00       		.byte	0
  1532 04bc 0C       		.uleb128 0xc
- 1533 04bd 5F100000 		.4byte	.LASF150
+ 1533 04bd 5D100000 		.4byte	.LASF150
  1534 04c1 05       		.byte	0x5
  1535 04c2 3501     		.2byte	0x135
  1536 04c4 6B000000 		.4byte	0x6b
  1537 04c8 01       		.byte	0x1
  1538 04c9 0C       		.uleb128 0xc
- 1539 04ca 09000000 		.4byte	.LASF151
+ 1539 04ca 38000000 		.4byte	.LASF151
  1540 04ce 05       		.byte	0x5
  1541 04cf 3B01     		.2byte	0x13b
  1542 04d1 6B000000 		.4byte	0x6b
  1543 04d5 02       		.byte	0x2
  1544 04d6 0C       		.uleb128 0xc
- 1545 04d7 BD170000 		.4byte	.LASF152
+ 1545 04d7 BB170000 		.4byte	.LASF152
  1546 04db 05       		.byte	0x5
  1547 04dc 3F01     		.2byte	0x13f
  1548 04de 9A040000 		.4byte	0x49a
  1549 04e2 03       		.byte	0x3
  1550 04e3 00       		.byte	0
  1551 04e4 0A       		.uleb128 0xa
- 1552 04e5 6B080000 		.4byte	.LASF153
+ 1552 04e5 69080000 		.4byte	.LASF153
  1553 04e9 05       		.byte	0x5
  1554 04ea 4101     		.2byte	0x141
  1555 04ec A6040000 		.4byte	0x4a6
@@ -3220,35 +3220,35 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1562 04f9 AD02     		.2byte	0x2ad
  1563 04fb 34050000 		.4byte	0x534
  1564 04ff 0C       		.uleb128 0xc
- 1565 0500 470C0000 		.4byte	.LASF154
+ 1565 0500 450C0000 		.4byte	.LASF154
  1566 0504 05       		.byte	0x5
  1567 0505 B102     		.2byte	0x2b1
  1568 0507 6B000000 		.4byte	0x6b
  1569 050b 00       		.byte	0
  1570 050c 0C       		.uleb128 0xc
- 1571 050d 011B0000 		.4byte	.LASF155
+ 1571 050d FF1A0000 		.4byte	.LASF155
  1572 0511 05       		.byte	0x5
  1573 0512 B702     		.2byte	0x2b7
  1574 0514 76000000 		.4byte	0x76
  1575 0518 02       		.byte	0x2
  1576 0519 0C       		.uleb128 0xc
- 1577 051a 031A0000 		.4byte	.LASF156
+ 1577 051a 011A0000 		.4byte	.LASF156
  1578 051e 05       		.byte	0x5
  1579 051f BC02     		.2byte	0x2bc
  1580 0521 76000000 		.4byte	0x76
  1581 0525 04       		.byte	0x4
  1582 0526 0C       		.uleb128 0xc
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 55
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 55
 
 
- 1583 0527 051C0000 		.4byte	.LASF157
+ 1583 0527 031C0000 		.4byte	.LASF157
  1584 052b 05       		.byte	0x5
  1585 052c C202     		.2byte	0x2c2
  1586 052e 76000000 		.4byte	0x76
  1587 0532 06       		.byte	0x6
  1588 0533 00       		.byte	0
  1589 0534 0A       		.uleb128 0xa
- 1590 0535 81140000 		.4byte	.LASF158
+ 1590 0535 7F140000 		.4byte	.LASF158
  1591 0539 05       		.byte	0x5
  1592 053a C402     		.2byte	0x2c4
  1593 053c F6040000 		.4byte	0x4f6
@@ -3258,94 +3258,94 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1597 0543 48       		.byte	0x48
  1598 0544 FA050000 		.4byte	0x5fa
  1599 0548 08       		.uleb128 0x8
- 1600 0549 E0090000 		.4byte	.LASF159
+ 1600 0549 DE090000 		.4byte	.LASF159
  1601 054d 01       		.sleb128 1
  1602 054e 08       		.uleb128 0x8
- 1603 054f D4080000 		.4byte	.LASF160
+ 1603 054f D2080000 		.4byte	.LASF160
  1604 0553 02       		.sleb128 2
  1605 0554 08       		.uleb128 0x8
- 1606 0555 E9030000 		.4byte	.LASF161
+ 1606 0555 18040000 		.4byte	.LASF161
  1607 0559 03       		.sleb128 3
  1608 055a 08       		.uleb128 0x8
- 1609 055b 14060000 		.4byte	.LASF162
+ 1609 055b 43060000 		.4byte	.LASF162
  1610 055f 04       		.sleb128 4
  1611 0560 08       		.uleb128 0x8
- 1612 0561 3C140000 		.4byte	.LASF163
+ 1612 0561 3A140000 		.4byte	.LASF163
  1613 0565 05       		.sleb128 5
  1614 0566 08       		.uleb128 0x8
- 1615 0567 AA130000 		.4byte	.LASF164
+ 1615 0567 A8130000 		.4byte	.LASF164
  1616 056b 06       		.sleb128 6
  1617 056c 08       		.uleb128 0x8
- 1618 056d 6B040000 		.4byte	.LASF165
+ 1618 056d 9A040000 		.4byte	.LASF165
  1619 0571 07       		.sleb128 7
  1620 0572 08       		.uleb128 0x8
- 1621 0573 54130000 		.4byte	.LASF166
+ 1621 0573 52130000 		.4byte	.LASF166
  1622 0577 08       		.sleb128 8
  1623 0578 08       		.uleb128 0x8
- 1624 0579 B1020000 		.4byte	.LASF167
+ 1624 0579 E0020000 		.4byte	.LASF167
  1625 057d 09       		.sleb128 9
  1626 057e 08       		.uleb128 0x8
- 1627 057f 330C0000 		.4byte	.LASF168
+ 1627 057f 310C0000 		.4byte	.LASF168
  1628 0583 0A       		.sleb128 10
  1629 0584 08       		.uleb128 0x8
- 1630 0585 37190000 		.4byte	.LASF169
+ 1630 0585 35190000 		.4byte	.LASF169
  1631 0589 0B       		.sleb128 11
  1632 058a 08       		.uleb128 0x8
- 1633 058b 11160000 		.4byte	.LASF170
+ 1633 058b 0F160000 		.4byte	.LASF170
  1634 058f 0C       		.sleb128 12
  1635 0590 08       		.uleb128 0x8
- 1636 0591 86050000 		.4byte	.LASF171
+ 1636 0591 B5050000 		.4byte	.LASF171
  1637 0595 0D       		.sleb128 13
  1638 0596 08       		.uleb128 0x8
- 1639 0597 00130000 		.4byte	.LASF172
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 56
+ 1639 0597 FE120000 		.4byte	.LASF172
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 56
 
 
  1640 059b 0E       		.sleb128 14
  1641 059c 08       		.uleb128 0x8
- 1642 059d 24020000 		.4byte	.LASF173
+ 1642 059d 53020000 		.4byte	.LASF173
  1643 05a1 0F       		.sleb128 15
  1644 05a2 08       		.uleb128 0x8
- 1645 05a3 641B0000 		.4byte	.LASF174
+ 1645 05a3 621B0000 		.4byte	.LASF174
  1646 05a7 10       		.sleb128 16
  1647 05a8 08       		.uleb128 0x8
- 1648 05a9 CA0B0000 		.4byte	.LASF175
+ 1648 05a9 C80B0000 		.4byte	.LASF175
  1649 05ad 11       		.sleb128 17
  1650 05ae 08       		.uleb128 0x8
- 1651 05af 9E170000 		.4byte	.LASF176
+ 1651 05af 9C170000 		.4byte	.LASF176
  1652 05b3 12       		.sleb128 18
  1653 05b4 08       		.uleb128 0x8
- 1654 05b5 37080000 		.4byte	.LASF177
+ 1654 05b5 35080000 		.4byte	.LASF177
  1655 05b9 13       		.sleb128 19
  1656 05ba 08       		.uleb128 0x8
- 1657 05bb AA000000 		.4byte	.LASF178
+ 1657 05bb D9000000 		.4byte	.LASF178
  1658 05bf D200     		.sleb128 82
  1659 05c1 08       		.uleb128 0x8
- 1660 05c2 3D010000 		.4byte	.LASF179
+ 1660 05c2 6C010000 		.4byte	.LASF179
  1661 05c6 16       		.sleb128 22
  1662 05c7 08       		.uleb128 0x8
- 1663 05c8 E7110000 		.4byte	.LASF180
+ 1663 05c8 E5110000 		.4byte	.LASF180
  1664 05cc 17       		.sleb128 23
  1665 05cd 08       		.uleb128 0x8
- 1666 05ce 511A0000 		.4byte	.LASF181
+ 1666 05ce 4F1A0000 		.4byte	.LASF181
  1667 05d2 18       		.sleb128 24
  1668 05d3 08       		.uleb128 0x8
- 1669 05d4 D70A0000 		.4byte	.LASF182
+ 1669 05d4 D50A0000 		.4byte	.LASF182
  1670 05d8 19       		.sleb128 25
  1671 05d9 08       		.uleb128 0x8
- 1672 05da C40C0000 		.4byte	.LASF183
+ 1672 05da C20C0000 		.4byte	.LASF183
  1673 05de 1B       		.sleb128 27
  1674 05df 08       		.uleb128 0x8
- 1675 05e0 2D070000 		.4byte	.LASF184
+ 1675 05e0 5C070000 		.4byte	.LASF184
  1676 05e4 1D       		.sleb128 29
  1677 05e5 08       		.uleb128 0x8
- 1678 05e6 12000000 		.4byte	.LASF185
+ 1678 05e6 41000000 		.4byte	.LASF185
  1679 05ea 1E       		.sleb128 30
  1680 05eb 08       		.uleb128 0x8
- 1681 05ec 900A0000 		.4byte	.LASF186
+ 1681 05ec 8E0A0000 		.4byte	.LASF186
  1682 05f0 D201     		.sleb128 210
  1683 05f2 08       		.uleb128 0x8
- 1684 05f3 08150000 		.4byte	.LASF187
+ 1684 05f3 06150000 		.4byte	.LASF187
  1685 05f7 FF01     		.sleb128 255
  1686 05f9 00       		.byte	0
  1687 05fa 07       		.uleb128 0x7
@@ -3354,103 +3354,103 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1690 05fd A4       		.byte	0xa4
  1691 05fe B5060000 		.4byte	0x6b5
  1692 0602 08       		.uleb128 0x8
- 1693 0603 88150000 		.4byte	.LASF188
+ 1693 0603 86150000 		.4byte	.LASF188
  1694 0607 00       		.sleb128 0
  1695 0608 08       		.uleb128 0x8
- 1696 0609 C5140000 		.4byte	.LASF189
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 57
+ 1696 0609 C3140000 		.4byte	.LASF189
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 57
 
 
  1697 060d 01       		.sleb128 1
  1698 060e 08       		.uleb128 0x8
- 1699 060f F6000000 		.4byte	.LASF190
+ 1699 060f 25010000 		.4byte	.LASF190
  1700 0613 02       		.sleb128 2
  1701 0614 08       		.uleb128 0x8
- 1702 0615 DE1A0000 		.4byte	.LASF191
+ 1702 0615 DC1A0000 		.4byte	.LASF191
  1703 0619 03       		.sleb128 3
  1704 061a 08       		.uleb128 0x8
- 1705 061b D7040000 		.4byte	.LASF192
+ 1705 061b 06050000 		.4byte	.LASF192
  1706 061f 04       		.sleb128 4
  1707 0620 08       		.uleb128 0x8
- 1708 0621 B1100000 		.4byte	.LASF193
+ 1708 0621 AF100000 		.4byte	.LASF193
  1709 0625 05       		.sleb128 5
  1710 0626 08       		.uleb128 0x8
- 1711 0627 FC170000 		.4byte	.LASF194
+ 1711 0627 FA170000 		.4byte	.LASF194
  1712 062b 06       		.sleb128 6
  1713 062c 08       		.uleb128 0x8
- 1714 062d 36130000 		.4byte	.LASF195
+ 1714 062d 34130000 		.4byte	.LASF195
  1715 0631 07       		.sleb128 7
  1716 0632 08       		.uleb128 0x8
- 1717 0633 2A100000 		.4byte	.LASF196
+ 1717 0633 28100000 		.4byte	.LASF196
  1718 0637 08       		.sleb128 8
  1719 0638 08       		.uleb128 0x8
- 1720 0639 810E0000 		.4byte	.LASF197
+ 1720 0639 7F0E0000 		.4byte	.LASF197
  1721 063d 09       		.sleb128 9
  1722 063e 08       		.uleb128 0x8
- 1723 063f 04120000 		.4byte	.LASF198
+ 1723 063f 02120000 		.4byte	.LASF198
  1724 0643 0A       		.sleb128 10
  1725 0644 08       		.uleb128 0x8
- 1726 0645 94090000 		.4byte	.LASF199
+ 1726 0645 92090000 		.4byte	.LASF199
  1727 0649 0B       		.sleb128 11
  1728 064a 08       		.uleb128 0x8
- 1729 064b 330F0000 		.4byte	.LASF200
+ 1729 064b 310F0000 		.4byte	.LASF200
  1730 064f 0C       		.sleb128 12
  1731 0650 08       		.uleb128 0x8
- 1732 0651 9F050000 		.4byte	.LASF201
+ 1732 0651 CE050000 		.4byte	.LASF201
  1733 0655 0D       		.sleb128 13
  1734 0656 08       		.uleb128 0x8
- 1735 0657 B6080000 		.4byte	.LASF202
+ 1735 0657 B4080000 		.4byte	.LASF202
  1736 065b 0E       		.sleb128 14
  1737 065c 08       		.uleb128 0x8
- 1738 065d 1D1B0000 		.4byte	.LASF203
+ 1738 065d 1B1B0000 		.4byte	.LASF203
  1739 0661 0F       		.sleb128 15
  1740 0662 08       		.uleb128 0x8
- 1741 0663 5A010000 		.4byte	.LASF204
+ 1741 0663 89010000 		.4byte	.LASF204
  1742 0667 10       		.sleb128 16
  1743 0668 08       		.uleb128 0x8
- 1744 0669 18010000 		.4byte	.LASF205
+ 1744 0669 47010000 		.4byte	.LASF205
  1745 066d 11       		.sleb128 17
  1746 066e 08       		.uleb128 0x8
- 1747 066f 5E090000 		.4byte	.LASF206
+ 1747 066f 5C090000 		.4byte	.LASF206
  1748 0673 8001     		.sleb128 128
  1749 0675 08       		.uleb128 0x8
- 1750 0676 510B0000 		.4byte	.LASF207
+ 1750 0676 4F0B0000 		.4byte	.LASF207
  1751 067a 8001     		.sleb128 128
  1752 067c 08       		.uleb128 0x8
- 1753 067d C5170000 		.4byte	.LASF208
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 58
+ 1753 067d C3170000 		.4byte	.LASF208
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 58
 
 
  1754 0681 8001     		.sleb128 128
  1755 0683 08       		.uleb128 0x8
- 1756 0684 DD150000 		.4byte	.LASF209
+ 1756 0684 DB150000 		.4byte	.LASF209
  1757 0688 8001     		.sleb128 128
  1758 068a 08       		.uleb128 0x8
- 1759 068b 8A110000 		.4byte	.LASF210
+ 1759 068b 88110000 		.4byte	.LASF210
  1760 068f 8001     		.sleb128 128
  1761 0691 08       		.uleb128 0x8
- 1762 0692 AC0A0000 		.4byte	.LASF211
+ 1762 0692 AA0A0000 		.4byte	.LASF211
  1763 0696 8101     		.sleb128 129
  1764 0698 08       		.uleb128 0x8
- 1765 0699 05190000 		.4byte	.LASF212
+ 1765 0699 03190000 		.4byte	.LASF212
  1766 069d A001     		.sleb128 160
  1767 069f 08       		.uleb128 0x8
- 1768 06a0 84060000 		.4byte	.LASF213
+ 1768 06a0 B3060000 		.4byte	.LASF213
  1769 06a4 FD01     		.sleb128 253
  1770 06a6 08       		.uleb128 0x8
- 1771 06a7 710F0000 		.4byte	.LASF214
+ 1771 06a7 6F0F0000 		.4byte	.LASF214
  1772 06ab FE01     		.sleb128 254
  1773 06ad 08       		.uleb128 0x8
- 1774 06ae 8E130000 		.4byte	.LASF215
+ 1774 06ae 8C130000 		.4byte	.LASF215
  1775 06b2 FF01     		.sleb128 255
  1776 06b4 00       		.byte	0
  1777 06b5 0A       		.uleb128 0xa
- 1778 06b6 B5150000 		.4byte	.LASF216
+ 1778 06b6 B3150000 		.4byte	.LASF216
  1779 06ba 06       		.byte	0x6
  1780 06bb 3001     		.2byte	0x130
  1781 06bd FA050000 		.4byte	0x5fa
  1782 06c1 0A       		.uleb128 0xa
- 1783 06c2 3D150000 		.4byte	.LASF217
+ 1783 06c2 3B150000 		.4byte	.LASF217
  1784 06c6 06       		.byte	0x6
  1785 06c7 5201     		.2byte	0x152
  1786 06c9 76000000 		.4byte	0x76
@@ -3460,25 +3460,25 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1790 06d0 5501     		.2byte	0x155
  1791 06d2 F1060000 		.4byte	0x6f1
  1792 06d6 0C       		.uleb128 0xc
- 1793 06d7 9A030000 		.4byte	.LASF218
+ 1793 06d7 C9030000 		.4byte	.LASF218
  1794 06db 06       		.byte	0x6
  1795 06dc 5C01     		.2byte	0x15c
  1796 06de 6B000000 		.4byte	0x6b
  1797 06e2 00       		.byte	0
  1798 06e3 0C       		.uleb128 0xc
- 1799 06e4 AE1B0000 		.4byte	.LASF219
+ 1799 06e4 AC1B0000 		.4byte	.LASF219
  1800 06e8 06       		.byte	0x6
  1801 06e9 6201     		.2byte	0x162
  1802 06eb 6B000000 		.4byte	0x6b
  1803 06ef 01       		.byte	0x1
  1804 06f0 00       		.byte	0
  1805 06f1 0A       		.uleb128 0xa
- 1806 06f2 16030000 		.4byte	.LASF220
+ 1806 06f2 45030000 		.4byte	.LASF220
  1807 06f6 06       		.byte	0x6
  1808 06f7 6401     		.2byte	0x164
  1809 06f9 CD060000 		.4byte	0x6cd
  1810 06fd 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 59
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 59
 
 
  1811 06fe 08       		.byte	0x8
@@ -3498,14 +3498,14 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1825 071b 76000000 		.4byte	0x76
  1826 071f 04       		.byte	0x4
  1827 0720 0C       		.uleb128 0xc
- 1828 0721 5A1B0000 		.4byte	.LASF221
+ 1828 0721 581B0000 		.4byte	.LASF221
  1829 0725 06       		.byte	0x6
  1830 0726 8601     		.2byte	0x186
  1831 0728 76000000 		.4byte	0x76
  1832 072c 06       		.byte	0x6
  1833 072d 00       		.byte	0
  1834 072e 0A       		.uleb128 0xa
- 1835 072f 11020000 		.4byte	.LASF222
+ 1835 072f 40020000 		.4byte	.LASF222
  1836 0733 06       		.byte	0x6
  1837 0734 8801     		.2byte	0x188
  1838 0736 FD060000 		.4byte	0x6fd
@@ -3515,20 +3515,20 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1842 073d 8B01     		.2byte	0x18b
  1843 073f 5E070000 		.4byte	0x75e
  1844 0743 0C       		.uleb128 0xc
- 1845 0744 9C150000 		.4byte	.LASF223
+ 1845 0744 9A150000 		.4byte	.LASF223
  1846 0748 06       		.byte	0x6
  1847 0749 8E01     		.2byte	0x18e
  1848 074b 2E070000 		.4byte	0x72e
  1849 074f 00       		.byte	0
  1850 0750 0C       		.uleb128 0xc
- 1851 0751 54100000 		.4byte	.LASF224
+ 1851 0751 52100000 		.4byte	.LASF224
  1852 0755 06       		.byte	0x6
  1853 0756 9101     		.2byte	0x191
  1854 0758 C1060000 		.4byte	0x6c1
  1855 075c 08       		.byte	0x8
  1856 075d 00       		.byte	0
  1857 075e 0A       		.uleb128 0xa
- 1858 075f 41050000 		.4byte	.LASF225
+ 1858 075f 70050000 		.4byte	.LASF225
  1859 0763 06       		.byte	0x6
  1860 0764 9301     		.2byte	0x193
  1861 0766 3A070000 		.4byte	0x73a
@@ -3538,10 +3538,10 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1865 076d A101     		.2byte	0x1a1
  1866 076f 8E070000 		.4byte	0x78e
  1867 0773 0C       		.uleb128 0xc
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 60
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 60
 
 
- 1868 0774 4E160000 		.4byte	.LASF226
+ 1868 0774 4C160000 		.4byte	.LASF226
  1869 0778 06       		.byte	0x6
  1870 0779 A401     		.2byte	0x1a4
  1871 077b F1060000 		.4byte	0x6f1
@@ -3554,7 +3554,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1878 078c 02       		.byte	0x2
  1879 078d 00       		.byte	0
  1880 078e 0A       		.uleb128 0xa
- 1881 078f DC100000 		.4byte	.LASF227
+ 1881 078f DA100000 		.4byte	.LASF227
  1882 0793 06       		.byte	0x6
  1883 0794 A901     		.2byte	0x1a9
  1884 0796 6A070000 		.4byte	0x76a
@@ -3564,26 +3564,26 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1888 079d 33       		.byte	0x33
  1889 079e C7070000 		.4byte	0x7c7
  1890 07a2 12       		.uleb128 0x12
- 1891 07a3 54100000 		.4byte	.LASF224
+ 1891 07a3 52100000 		.4byte	.LASF224
  1892 07a7 07       		.byte	0x7
  1893 07a8 36       		.byte	0x36
  1894 07a9 C1060000 		.4byte	0x6c1
  1895 07ad 00       		.byte	0
  1896 07ae 12       		.uleb128 0x12
- 1897 07af 23100000 		.4byte	.LASF228
+ 1897 07af 21100000 		.4byte	.LASF228
  1898 07b3 07       		.byte	0x7
  1899 07b4 3C       		.byte	0x3c
  1900 07b5 6B000000 		.4byte	0x6b
  1901 07b9 02       		.byte	0x2
  1902 07ba 12       		.uleb128 0x12
- 1903 07bb 9D070000 		.4byte	.LASF229
+ 1903 07bb 9B070000 		.4byte	.LASF229
  1904 07bf 07       		.byte	0x7
  1905 07c0 3F       		.byte	0x3f
  1906 07c1 B5060000 		.4byte	0x6b5
  1907 07c5 03       		.byte	0x3
  1908 07c6 00       		.byte	0
  1909 07c7 04       		.uleb128 0x4
- 1910 07c8 E9060000 		.4byte	.LASF230
+ 1910 07c8 18070000 		.4byte	.LASF230
  1911 07cc 07       		.byte	0x7
  1912 07cd 41       		.byte	0x41
  1913 07ce 9A070000 		.4byte	0x79a
@@ -3593,28 +3593,28 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1917 07d5 52       		.byte	0x52
  1918 07d6 F3070000 		.4byte	0x7f3
  1919 07da 12       		.uleb128 0x12
- 1920 07db 4E160000 		.4byte	.LASF226
+ 1920 07db 4C160000 		.4byte	.LASF226
  1921 07df 07       		.byte	0x7
  1922 07e0 55       		.byte	0x55
  1923 07e1 F1060000 		.4byte	0x6f1
  1924 07e5 00       		.byte	0
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 61
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 61
 
 
  1925 07e6 12       		.uleb128 0x12
- 1926 07e7 40160000 		.4byte	.LASF231
+ 1926 07e7 3E160000 		.4byte	.LASF231
  1927 07eb 07       		.byte	0x7
  1928 07ec 58       		.byte	0x58
  1929 07ed 5E070000 		.4byte	0x75e
  1930 07f1 04       		.byte	0x4
  1931 07f2 00       		.byte	0
  1932 07f3 04       		.uleb128 0x4
- 1933 07f4 67100000 		.4byte	.LASF232
+ 1933 07f4 65100000 		.4byte	.LASF232
  1934 07f8 07       		.byte	0x7
  1935 07f9 5A       		.byte	0x5a
  1936 07fa D2070000 		.4byte	0x7d2
  1937 07fe 0A       		.uleb128 0xa
- 1938 07ff CD020000 		.4byte	.LASF233
+ 1938 07ff FC020000 		.4byte	.LASF233
  1939 0803 08       		.byte	0x8
  1940 0804 0001     		.2byte	0x100
  1941 0806 0A080000 		.4byte	0x80a
@@ -3634,31 +3634,31 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1955 0823 9505     		.2byte	0x595
  1956 0825 48080000 		.4byte	0x848
  1957 0829 08       		.uleb128 0x8
- 1958 082a D5060000 		.4byte	.LASF234
+ 1958 082a 04070000 		.4byte	.LASF234
  1959 082e 00       		.sleb128 0
  1960 082f 08       		.uleb128 0x8
- 1961 0830 430D0000 		.4byte	.LASF235
+ 1961 0830 410D0000 		.4byte	.LASF235
  1962 0834 01       		.sleb128 1
  1963 0835 08       		.uleb128 0x8
- 1964 0836 441B0000 		.4byte	.LASF236
+ 1964 0836 421B0000 		.4byte	.LASF236
  1965 083a 02       		.sleb128 2
  1966 083b 08       		.uleb128 0x8
- 1967 083c 82030000 		.4byte	.LASF237
+ 1967 083c B1030000 		.4byte	.LASF237
  1968 0840 03       		.sleb128 3
  1969 0841 08       		.uleb128 0x8
- 1970 0842 14170000 		.4byte	.LASF238
+ 1970 0842 12170000 		.4byte	.LASF238
  1971 0846 04       		.sleb128 4
  1972 0847 00       		.byte	0
  1973 0848 0A       		.uleb128 0xa
- 1974 0849 5C180000 		.4byte	.LASF239
+ 1974 0849 5A180000 		.4byte	.LASF239
  1975 084d 09       		.byte	0x9
  1976 084e A305     		.2byte	0x5a3
  1977 0850 20080000 		.4byte	0x820
  1978 0854 15       		.uleb128 0x15
- 1979 0855 2E000000 		.4byte	.LASF242
+ 1979 0855 5D000000 		.4byte	.LASF242
  1980 0859 01       		.byte	0x1
  1981 085a C0       		.byte	0xc0
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 62
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 62
 
 
  1982 085b 00000000 		.4byte	.LFB2
@@ -3667,7 +3667,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1985 0864 9C       		.byte	0x9c
  1986 0865 9F080000 		.4byte	0x89f
  1987 0869 16       		.uleb128 0x16
- 1988 086a 44000000 		.4byte	.LASF244
+ 1988 086a 73000000 		.4byte	.LASF244
  1989 086e 01       		.byte	0x1
  1990 086f C0       		.byte	0xc0
  1991 0870 9F080000 		.4byte	0x89f
@@ -3675,7 +3675,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  1993 0875 91       		.byte	0x91
  1994 0876 64       		.sleb128 -28
  1995 0877 17       		.uleb128 0x17
- 1996 0878 C11A0000 		.4byte	.LASF240
+ 1996 0878 BF1A0000 		.4byte	.LASF240
  1997 087c 01       		.byte	0x1
  1998 087d C2       		.byte	0xc2
  1999 087e B5060000 		.4byte	0x6b5
@@ -3686,7 +3686,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2004 0886 30000000 		.4byte	.LBB2
  2005 088a 2C000000 		.4byte	.LBE2-.LBB2
  2006 088e 19       		.uleb128 0x19
- 2007 088f B8110000 		.4byte	.LASF241
+ 2007 088f B6110000 		.4byte	.LASF241
  2008 0893 01       		.byte	0x1
  2009 0894 3101     		.2byte	0x131
  2010 0896 C7070000 		.4byte	0x7c7
@@ -3699,7 +3699,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2017 08a0 04       		.byte	0x4
  2018 08a1 F3070000 		.4byte	0x7f3
  2019 08a5 1A       		.uleb128 0x1a
- 2020 08a6 E00F0000 		.4byte	.LASF243
+ 2020 08a6 DE0F0000 		.4byte	.LASF243
  2021 08aa 01       		.byte	0x1
  2022 08ab 5101     		.2byte	0x151
  2023 08ad 00000000 		.4byte	.LFB3
@@ -3708,7 +3708,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2026 08b6 9C       		.byte	0x9c
  2027 08b7 CB080000 		.4byte	0x8cb
  2028 08bb 1B       		.uleb128 0x1b
- 2029 08bc 44000000 		.4byte	.LASF244
+ 2029 08bc 73000000 		.4byte	.LASF244
  2030 08c0 01       		.byte	0x1
  2031 08c1 5101     		.2byte	0x151
  2032 08c3 CB080000 		.4byte	0x8cb
@@ -3718,14 +3718,14 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2036 08ca 00       		.byte	0
  2037 08cb 0F       		.uleb128 0xf
  2038 08cc 04       		.byte	0x4
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 63
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 63
 
 
  2039 08cd D1080000 		.4byte	0x8d1
  2040 08d1 1C       		.uleb128 0x1c
  2041 08d2 F1060000 		.4byte	0x6f1
  2042 08d6 1D       		.uleb128 0x1d
- 2043 08d7 4C0E0000 		.4byte	.LASF246
+ 2043 08d7 4A0E0000 		.4byte	.LASF246
  2044 08db 01       		.byte	0x1
  2045 08dc 7C03     		.2byte	0x37c
  2046 08de 00000000 		.4byte	.LFB4
@@ -3733,7 +3733,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2048 08e6 01       		.uleb128 0x1
  2049 08e7 9C       		.byte	0x9c
  2050 08e8 1A       		.uleb128 0x1a
- 2051 08e9 59160000 		.4byte	.LASF245
+ 2051 08e9 57160000 		.4byte	.LASF245
  2052 08ed 01       		.byte	0x1
  2053 08ee B603     		.2byte	0x3b6
  2054 08f0 00000000 		.4byte	.LFB5
@@ -3742,7 +3742,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2057 08f9 9C       		.byte	0x9c
  2058 08fa 0E090000 		.4byte	0x90e
  2059 08fe 1B       		.uleb128 0x1b
- 2060 08ff 44000000 		.4byte	.LASF244
+ 2060 08ff 73000000 		.4byte	.LASF244
  2061 0903 01       		.byte	0x1
  2062 0904 B603     		.2byte	0x3b6
  2063 0906 0E090000 		.4byte	0x90e
@@ -3756,7 +3756,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2071 0914 1C       		.uleb128 0x1c
  2072 0915 F0030000 		.4byte	0x3f0
  2073 0919 1D       		.uleb128 0x1d
- 2074 091a EC0D0000 		.4byte	.LASF247
+ 2074 091a EA0D0000 		.4byte	.LASF247
  2075 091e 01       		.byte	0x1
  2076 091f F203     		.2byte	0x3f2
  2077 0921 00000000 		.4byte	.LFB6
@@ -3764,7 +3764,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2079 0929 01       		.uleb128 0x1
  2080 092a 9C       		.byte	0x9c
  2081 092b 1E       		.uleb128 0x1e
- 2082 092c 54120000 		.4byte	.LASF270
+ 2082 092c 52120000 		.4byte	.LASF270
  2083 0930 01       		.byte	0x1
  2084 0931 1C04     		.2byte	0x41c
  2085 0933 6B000000 		.4byte	0x6b
@@ -3774,11 +3774,11 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2089 0940 9C       		.byte	0x9c
  2090 0941 71090000 		.4byte	0x971
  2091 0945 1B       		.uleb128 0x1b
- 2092 0946 6D0E0000 		.4byte	.LASF248
+ 2092 0946 6B0E0000 		.4byte	.LASF248
  2093 094a 01       		.byte	0x1
  2094 094b 1C04     		.2byte	0x41c
  2095 094d 71090000 		.4byte	0x971
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 64
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 64
 
 
  2096 0951 02       		.uleb128 0x2
@@ -3793,7 +3793,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2105 095f 91       		.byte	0x91
  2106 0960 77       		.sleb128 -9
  2107 0961 19       		.uleb128 0x19
- 2108 0962 F5140000 		.4byte	.LASF249
+ 2108 0962 F3140000 		.4byte	.LASF249
  2109 0966 01       		.byte	0x1
  2110 0967 1F04     		.2byte	0x41f
  2111 0969 6B000000 		.4byte	0x6b
@@ -3807,7 +3807,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2119 0977 1C       		.uleb128 0x1c
  2120 0978 C3030000 		.4byte	0x3c3
  2121 097c 1A       		.uleb128 0x1a
- 2122 097d 73170000 		.4byte	.LASF250
+ 2122 097d 71170000 		.4byte	.LASF250
  2123 0981 01       		.byte	0x1
  2124 0982 4204     		.2byte	0x442
  2125 0984 00000000 		.4byte	.LFB8
@@ -3816,7 +3816,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2128 098d 9C       		.byte	0x9c
  2129 098e A2090000 		.4byte	0x9a2
  2130 0992 1B       		.uleb128 0x1b
- 2131 0993 2E190000 		.4byte	.LASF251
+ 2131 0993 2C190000 		.4byte	.LASF251
  2132 0997 01       		.byte	0x1
  2133 0998 4204     		.2byte	0x442
  2134 099a 76000000 		.4byte	0x76
@@ -3825,7 +3825,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2137 09a0 76       		.sleb128 -10
  2138 09a1 00       		.byte	0
  2139 09a2 1A       		.uleb128 0x1a
- 2140 09a3 130A0000 		.4byte	.LASF252
+ 2140 09a3 110A0000 		.4byte	.LASF252
  2141 09a7 01       		.byte	0x1
  2142 09a8 5E04     		.2byte	0x45e
  2143 09aa 00000000 		.4byte	.LFB9
@@ -3834,11 +3834,11 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2146 09b3 9C       		.byte	0x9c
  2147 09b4 C8090000 		.4byte	0x9c8
  2148 09b8 1B       		.uleb128 0x1b
- 2149 09b9 44000000 		.4byte	.LASF244
+ 2149 09b9 73000000 		.4byte	.LASF244
  2150 09bd 01       		.byte	0x1
  2151 09be 5E04     		.2byte	0x45e
  2152 09c0 C8090000 		.4byte	0x9c8
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 65
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 65
 
 
  2153 09c4 02       		.uleb128 0x2
@@ -3851,7 +3851,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2160 09ce 1C       		.uleb128 0x1c
  2161 09cf 34050000 		.4byte	0x534
  2162 09d3 20       		.uleb128 0x20
- 2163 09d4 46060000 		.4byte	.LASF271
+ 2163 09d4 75060000 		.4byte	.LASF271
  2164 09d8 01       		.byte	0x1
  2165 09d9 7A04     		.2byte	0x47a
  2166 09db 00000000 		.4byte	.LFB10
@@ -3860,7 +3860,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2169 09e4 9C       		.byte	0x9c
  2170 09e5 3E0A0000 		.4byte	0xa3e
  2171 09e9 1B       		.uleb128 0x1b
- 2172 09ea C6190000 		.4byte	.LASF253
+ 2172 09ea C4190000 		.4byte	.LASF253
  2173 09ee 01       		.byte	0x1
  2174 09ef 7A04     		.2byte	0x47a
  2175 09f1 6B000000 		.4byte	0x6b
@@ -3868,7 +3868,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2177 09f6 91       		.byte	0x91
  2178 09f7 6F       		.sleb128 -17
  2179 09f8 1B       		.uleb128 0x1b
- 2180 09f9 44000000 		.4byte	.LASF244
+ 2180 09f9 73000000 		.4byte	.LASF244
  2181 09fd 01       		.byte	0x1
  2182 09fe 7A04     		.2byte	0x47a
  2183 0a00 AD000000 		.4byte	0xad
@@ -3880,7 +3880,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2189 0a0c 34000000 		.4byte	.LBE3-.LBB3
  2190 0a10 240A0000 		.4byte	0xa24
  2191 0a14 19       		.uleb128 0x19
- 2192 0a15 59150000 		.4byte	.LASF254
+ 2192 0a15 57150000 		.4byte	.LASF254
  2193 0a19 01       		.byte	0x1
  2194 0a1a 8704     		.2byte	0x487
  2195 0a1c 83030000 		.4byte	0x383
@@ -3892,25 +3892,25 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2201 0a25 16020000 		.4byte	.LBB4
  2202 0a29 3A000000 		.4byte	.LBE4-.LBB4
  2203 0a2d 19       		.uleb128 0x19
- 2204 0a2e 5C0D0000 		.4byte	.LASF255
+ 2204 0a2e 5A0D0000 		.4byte	.LASF255
  2205 0a32 01       		.byte	0x1
  2206 0a33 5705     		.2byte	0x557
  2207 0a35 76000000 		.4byte	0x76
  2208 0a39 02       		.uleb128 0x2
  2209 0a3a 91       		.byte	0x91
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 66
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 66
 
 
  2210 0a3b 76       		.sleb128 -10
  2211 0a3c 00       		.byte	0
  2212 0a3d 00       		.byte	0
  2213 0a3e 22       		.uleb128 0x22
- 2214 0a3f A2150000 		.4byte	.LASF256
+ 2214 0a3f A0150000 		.4byte	.LASF256
  2215 0a43 08       		.byte	0x8
  2216 0a44 6C01     		.2byte	0x16c
  2217 0a46 FE070000 		.4byte	0x7fe
  2218 0a4a 23       		.uleb128 0x23
- 2219 0a4b 28090000 		.4byte	.LASF257
+ 2219 0a4b 26090000 		.4byte	.LASF257
  2220 0a4f 01       		.byte	0x1
  2221 0a50 41       		.byte	0x41
  2222 0a51 A1000000 		.4byte	0xa1
@@ -3918,12 +3918,12 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2224 0a56 03       		.byte	0x3
  2225 0a57 00000000 		.4byte	cyBle_eventHandlerFlag
  2226 0a5b 22       		.uleb128 0x22
- 2227 0a5c C3040000 		.4byte	.LASF258
+ 2227 0a5c F2040000 		.4byte	.LASF258
  2228 0a60 08       		.byte	0x8
  2229 0a61 6F01     		.2byte	0x16f
  2230 0a63 C3030000 		.4byte	0x3c3
  2231 0a67 22       		.uleb128 0x22
- 2232 0a68 760A0000 		.4byte	.LASF259
+ 2232 0a68 740A0000 		.4byte	.LASF259
  2233 0a6c 08       		.byte	0x8
  2234 0a6d 7001     		.2byte	0x170
  2235 0a6f 730A0000 		.4byte	0xa73
@@ -3931,7 +3931,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2237 0a74 04       		.byte	0x4
  2238 0a75 C3030000 		.4byte	0x3c3
  2239 0a79 23       		.uleb128 0x23
- 2240 0a7a 5B170000 		.4byte	.LASF260
+ 2240 0a7a 59170000 		.4byte	.LASF260
  2241 0a7e 01       		.byte	0x1
  2242 0a7f A7       		.byte	0xa7
  2243 0a80 E4040000 		.4byte	0x4e4
@@ -3946,7 +3946,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2252 0a98 03       		.byte	0x3
  2253 0a99 00       		.byte	0
  2254 0a9a 24       		.uleb128 0x24
- 2255 0a9b 91190000 		.4byte	.LASF261
+ 2255 0a9b 8F190000 		.4byte	.LASF261
  2256 0a9f 0A       		.byte	0xa
  2257 0aa0 B5       		.byte	0xb5
  2258 0aa1 8A0A0000 		.4byte	0xa8a
@@ -3958,25 +3958,25 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2264 0ab3 04       		.byte	0x4
  2265 0ab4 0E       		.uleb128 0xe
  2266 0ab5 A6000000 		.4byte	0xa6
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 67
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 67
 
 
  2267 0ab9 03       		.byte	0x3
  2268 0aba 00       		.byte	0
  2269 0abb 24       		.uleb128 0x24
- 2270 0abc D7000000 		.4byte	.LASF262
+ 2270 0abc 06010000 		.4byte	.LASF262
  2271 0ac0 0A       		.byte	0xa
  2272 0ac1 B6       		.byte	0xb6
  2273 0ac2 C60A0000 		.4byte	0xac6
  2274 0ac6 1C       		.uleb128 0x1c
  2275 0ac7 A50A0000 		.4byte	0xaa5
  2276 0acb 22       		.uleb128 0x22
- 2277 0acc EE160000 		.4byte	.LASF263
+ 2277 0acc EC160000 		.4byte	.LASF263
  2278 0ad0 09       		.byte	0x9
  2279 0ad1 2207     		.2byte	0x722
  2280 0ad3 48080000 		.4byte	0x848
  2281 0ad7 23       		.uleb128 0x23
- 2282 0ad8 CF090000 		.4byte	.LASF264
+ 2282 0ad8 CD090000 		.4byte	.LASF264
  2283 0adc 01       		.byte	0x1
  2284 0add 3F       		.byte	0x3f
  2285 0ade F1060000 		.4byte	0x6f1
@@ -3984,7 +3984,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2287 0ae3 03       		.byte	0x3
  2288 0ae4 00000000 		.4byte	cyBle_connHandle
  2289 0ae8 23       		.uleb128 0x23
- 2290 0ae9 320D0000 		.4byte	.LASF265
+ 2290 0ae9 300D0000 		.4byte	.LASF265
  2291 0aed 01       		.byte	0x1
  2292 0aee 42       		.byte	0x42
  2293 0aef A1000000 		.4byte	0xa1
@@ -3992,7 +3992,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2295 0af4 03       		.byte	0x3
  2296 0af5 00000000 		.4byte	cyBle_busyStatus
  2297 0af9 23       		.uleb128 0x23
- 2298 0afa E0180000 		.4byte	.LASF266
+ 2298 0afa DE180000 		.4byte	.LASF266
  2299 0afe 01       		.byte	0x1
  2300 0aff 45       		.byte	0x45
  2301 0b00 6B000000 		.4byte	0x6b
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2321 000d 11       		.uleb128 0x11
  2322 000e 01       		.uleb128 0x1
  2323 000f 10       		.uleb128 0x10
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 68
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 68
 
 
  2324 0010 17       		.uleb128 0x17
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2378 0046 01       		.byte	0x1
  2379 0047 0B       		.uleb128 0xb
  2380 0048 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 69
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 69
 
 
  2381 0049 3A       		.uleb128 0x3a
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2435 007f 00       		.byte	0
  2436 0080 00       		.byte	0
  2437 0081 0C       		.uleb128 0xc
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 70
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 70
 
 
  2438 0082 0D       		.uleb128 0xd
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2492 00b8 00       		.byte	0
  2493 00b9 00       		.byte	0
  2494 00ba 11       		.uleb128 0x11
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 71
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 71
 
 
  2495 00bb 13       		.uleb128 0x13
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2549 00f1 11       		.uleb128 0x11
  2550 00f2 01       		.uleb128 0x1
  2551 00f3 12       		.uleb128 0x12
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 72
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 72
 
 
  2552 00f4 06       		.uleb128 0x6
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2606 012b 0B       		.uleb128 0xb
  2607 012c 3B       		.uleb128 0x3b
  2608 012d 05       		.uleb128 0x5
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 73
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 73
 
 
  2609 012e 49       		.uleb128 0x49
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2663 0165 03       		.uleb128 0x3
  2664 0166 0E       		.uleb128 0xe
  2665 0167 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 74
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 74
 
 
  2666 0168 0B       		.uleb128 0xb
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2720 01a0 00       		.byte	0
  2721 01a1 20       		.uleb128 0x20
  2722 01a2 2E       		.uleb128 0x2e
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 75
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 75
 
 
  2723 01a3 01       		.byte	0x1
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2777 01da 03       		.uleb128 0x3
  2778 01db 0E       		.uleb128 0xe
  2779 01dc 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 76
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 76
 
 
  2780 01dd 0B       		.uleb128 0xb
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2834 0054 D8020000 		.4byte	.LFE10-.LFB10
  2835 0058 00000000 		.4byte	0
  2836 005c 00000000 		.4byte	0
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 77
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 77
 
 
  2837              		.section	.debug_ranges,"",%progbits
@@ -4590,575 +4590,575 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  2861      00000201 
  2861      FB0E0D00 
  2861      01010101 
- 2862              	.LASF15:
- 2863 0000 73697A65 		.ascii	"sizetype\000"
- 2863      74797065 
- 2863      00
- 2864              	.LASF151:
- 2865 0009 656B6579 		.ascii	"ekeySize\000"
- 2865      53697A65 
- 2865      00
- 2866              	.LASF185:
- 2867 0012 4359424C 		.ascii	"CYBLE_GATT_HANDLE_VALUE_CNF\000"
- 2867      455F4741 
- 2867      54545F48 
- 2867      414E444C 
- 2867      455F5641 
- 2868              	.LASF242:
- 2869 002e 4379426C 		.ascii	"CyBle_WriteReqHandler\000"
- 2869      655F5772 
- 2869      69746552 
- 2869      65714861 
- 2869      6E646C65 
- 2870              	.LASF244:
- 2871 0044 6576656E 		.ascii	"eventParam\000"
- 2871      74506172 
- 2871      616D00
- 2872              	.LASF29:
- 2873 004f 4359424C 		.ascii	"CYBLE_EVT_GAP_DEVICE_CONNECTED\000"
- 2873      455F4556 
- 2873      545F4741 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 78
+ 2862              	.LASF269:
+ 2863 0000 433A5C55 		.ascii	"C:\\Users\\Heidi\\Desktop\\BLELab4\\BLE Lab 4.cydsn"
+ 2863      73657273 
+ 2863      5C486569 
+ 2863      64695C44 
+ 2863      65736B74 
+ 2864 002e 00       		.ascii	"\000"
+ 2865              	.LASF15:
+ 2866 002f 73697A65 		.ascii	"sizetype\000"
+ 2866      74797065 
+ 2866      00
+ 2867              	.LASF151:
+ 2868 0038 656B6579 		.ascii	"ekeySize\000"
+ 2868      53697A65 
+ 2868      00
+ 2869              	.LASF185:
+ 2870 0041 4359424C 		.ascii	"CYBLE_GATT_HANDLE_VALUE_CNF\000"
+ 2870      455F4741 
+ 2870      54545F48 
+ 2870      414E444C 
+ 2870      455F5641 
+ 2871              	.LASF242:
+ 2872 005d 4379426C 		.ascii	"CyBle_WriteReqHandler\000"
+ 2872      655F5772 
+ 2872      69746552 
+ 2872      65714861 
+ 2872      6E646C65 
+ 2873              	.LASF244:
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 78
 
 
- 2873      505F4445 
- 2873      56494345 
- 2874              	.LASF133:
- 2875 006e 4359424C 		.ascii	"CYBLE_GAP_IOCAP_NOINPUT_NOOUTPUT\000"
- 2875      455F4741 
- 2875      505F494F 
- 2875      4341505F 
- 2875      4E4F494E 
- 2876              	.LASF36:
- 2877 008f 4359424C 		.ascii	"CYBLE_EVT_GATT_CONNECT_IND\000"
- 2877      455F4556 
- 2877      545F4741 
- 2877      54545F43 
- 2877      4F4E4E45 
- 2878              	.LASF178:
- 2879 00aa 4359424C 		.ascii	"CYBLE_GATT_WRITE_CMD\000"
- 2879      455F4741 
- 2879      54545F57 
- 2879      52495445 
- 2879      5F434D44 
- 2880              	.LASF11:
- 2881 00bf 75696E74 		.ascii	"uint32\000"
- 2881      333200
- 2882              	.LASF115:
- 2883 00c6 626C6550 		.ascii	"blePwrLevelInDbm\000"
- 2883      77724C65 
- 2883      76656C49 
- 2883      6E44626D 
- 2883      00
- 2884              	.LASF262:
- 2885 00d7 6379426C 		.ascii	"cyBle_attValuesCCCDFlashMemory\000"
- 2885      655F6174 
- 2885      7456616C 
- 2885      75657343 
- 2885      43434446 
- 2886              	.LASF190:
- 2887 00f6 4359424C 		.ascii	"CYBLE_GATT_ERR_READ_NOT_PERMITTED\000"
- 2887      455F4741 
- 2887      54545F45 
- 2887      52525F52 
- 2887      4541445F 
- 2888              	.LASF205:
- 2889 0118 4359424C 		.ascii	"CYBLE_GATT_ERR_INSUFFICIENT_RESOURCE\000"
- 2889      455F4741 
- 2889      54545F45 
- 2889      52525F49 
- 2889      4E535546 
- 2890              	.LASF179:
- 2891 013d 4359424C 		.ascii	"CYBLE_GATT_PREPARE_WRITE_REQ\000"
- 2891      455F4741 
- 2891      54545F50 
- 2891      52455041 
- 2891      52455F57 
- 2892              	.LASF204:
- 2893 015a 4359424C 		.ascii	"CYBLE_GATT_ERR_UNSUPPORTED_GROUP_TYPE\000"
- 2893      455F4741 
- 2893      54545F45 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 79
+ 2874 0073 6576656E 		.ascii	"eventParam\000"
+ 2874      74506172 
+ 2874      616D00
+ 2875              	.LASF29:
+ 2876 007e 4359424C 		.ascii	"CYBLE_EVT_GAP_DEVICE_CONNECTED\000"
+ 2876      455F4556 
+ 2876      545F4741 
+ 2876      505F4445 
+ 2876      56494345 
+ 2877              	.LASF133:
+ 2878 009d 4359424C 		.ascii	"CYBLE_GAP_IOCAP_NOINPUT_NOOUTPUT\000"
+ 2878      455F4741 
+ 2878      505F494F 
+ 2878      4341505F 
+ 2878      4E4F494E 
+ 2879              	.LASF36:
+ 2880 00be 4359424C 		.ascii	"CYBLE_EVT_GATT_CONNECT_IND\000"
+ 2880      455F4556 
+ 2880      545F4741 
+ 2880      54545F43 
+ 2880      4F4E4E45 
+ 2881              	.LASF178:
+ 2882 00d9 4359424C 		.ascii	"CYBLE_GATT_WRITE_CMD\000"
+ 2882      455F4741 
+ 2882      54545F57 
+ 2882      52495445 
+ 2882      5F434D44 
+ 2883              	.LASF11:
+ 2884 00ee 75696E74 		.ascii	"uint32\000"
+ 2884      333200
+ 2885              	.LASF115:
+ 2886 00f5 626C6550 		.ascii	"blePwrLevelInDbm\000"
+ 2886      77724C65 
+ 2886      76656C49 
+ 2886      6E44626D 
+ 2886      00
+ 2887              	.LASF262:
+ 2888 0106 6379426C 		.ascii	"cyBle_attValuesCCCDFlashMemory\000"
+ 2888      655F6174 
+ 2888      7456616C 
+ 2888      75657343 
+ 2888      43434446 
+ 2889              	.LASF190:
+ 2890 0125 4359424C 		.ascii	"CYBLE_GATT_ERR_READ_NOT_PERMITTED\000"
+ 2890      455F4741 
+ 2890      54545F45 
+ 2890      52525F52 
+ 2890      4541445F 
+ 2891              	.LASF205:
+ 2892 0147 4359424C 		.ascii	"CYBLE_GATT_ERR_INSUFFICIENT_RESOURCE\000"
+ 2892      455F4741 
+ 2892      54545F45 
+ 2892      52525F49 
+ 2892      4E535546 
+ 2893              	.LASF179:
+ 2894 016c 4359424C 		.ascii	"CYBLE_GATT_PREPARE_WRITE_REQ\000"
+ 2894      455F4741 
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 79
 
 
- 2893      52525F55 
- 2893      4E535550 
- 2894              	.LASF86:
- 2895 0180 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_CONNECTION_ENTITY_NOT_FOUND\000"
- 2895      455F4552 
- 2895      524F525F 
- 2895      4C324341 
- 2895      505F434F 
- 2896              	.LASF92:
- 2897 01ae 4359424C 		.ascii	"CYBLE_ERROR_MIC_AUTH_FAILED\000"
- 2897      455F4552 
- 2897      524F525F 
- 2897      4D49435F 
- 2897      41555448 
- 2898              	.LASF56:
- 2899 01ca 4359424C 		.ascii	"CYBLE_EVT_GATTS_DATA_SIGNED_CMD_REQ\000"
- 2899      455F4556 
- 2899      545F4741 
- 2899      5454535F 
- 2899      44415441 
- 2900              	.LASF65:
- 2901 01ee 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_RX_CREDIT_IND\000"
- 2901      455F4556 
- 2901      545F4C32 
- 2901      4341505F 
- 2901      43424643 
- 2902              	.LASF222:
- 2903 0211 4359424C 		.ascii	"CYBLE_GATT_VALUE_T\000"
- 2903      455F4741 
- 2903      54545F56 
- 2903      414C5545 
- 2903      5F5400
- 2904              	.LASF173:
- 2905 0224 4359424C 		.ascii	"CYBLE_GATT_READ_MULTIPLE_RSP\000"
- 2905      455F4741 
- 2905      54545F52 
- 2905      4541445F 
- 2905      4D554C54 
- 2906              	.LASF119:
- 2907 0241 74797065 		.ascii	"type\000"
- 2907      00
- 2908              	.LASF125:
- 2909 0246 4359424C 		.ascii	"CYBLE_TO_REASON_CODE_T\000"
- 2909      455F544F 
- 2909      5F524541 
- 2909      534F4E5F 
- 2909      434F4445 
- 2910              	.LASF146:
- 2911 025d 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_AUTHENTICATION_TIMEOUT\000"
- 2911      455F4741 
- 2911      505F4155 
- 2911      54485F45 
- 2911      52524F52 
- 2912              	.LASF143:
- 2913 0289 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_UNSPECIFIED_REASON\000"
- 2913      455F4741 
- 2913      505F4155 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 80
+ 2894      54545F50 
+ 2894      52455041 
+ 2894      52455F57 
+ 2895              	.LASF204:
+ 2896 0189 4359424C 		.ascii	"CYBLE_GATT_ERR_UNSUPPORTED_GROUP_TYPE\000"
+ 2896      455F4741 
+ 2896      54545F45 
+ 2896      52525F55 
+ 2896      4E535550 
+ 2897              	.LASF86:
+ 2898 01af 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_CONNECTION_ENTITY_NOT_FOUND\000"
+ 2898      455F4552 
+ 2898      524F525F 
+ 2898      4C324341 
+ 2898      505F434F 
+ 2899              	.LASF92:
+ 2900 01dd 4359424C 		.ascii	"CYBLE_ERROR_MIC_AUTH_FAILED\000"
+ 2900      455F4552 
+ 2900      524F525F 
+ 2900      4D49435F 
+ 2900      41555448 
+ 2901              	.LASF56:
+ 2902 01f9 4359424C 		.ascii	"CYBLE_EVT_GATTS_DATA_SIGNED_CMD_REQ\000"
+ 2902      455F4556 
+ 2902      545F4741 
+ 2902      5454535F 
+ 2902      44415441 
+ 2903              	.LASF65:
+ 2904 021d 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_RX_CREDIT_IND\000"
+ 2904      455F4556 
+ 2904      545F4C32 
+ 2904      4341505F 
+ 2904      43424643 
+ 2905              	.LASF222:
+ 2906 0240 4359424C 		.ascii	"CYBLE_GATT_VALUE_T\000"
+ 2906      455F4741 
+ 2906      54545F56 
+ 2906      414C5545 
+ 2906      5F5400
+ 2907              	.LASF173:
+ 2908 0253 4359424C 		.ascii	"CYBLE_GATT_READ_MULTIPLE_RSP\000"
+ 2908      455F4741 
+ 2908      54545F52 
+ 2908      4541445F 
+ 2908      4D554C54 
+ 2909              	.LASF119:
+ 2910 0270 74797065 		.ascii	"type\000"
+ 2910      00
+ 2911              	.LASF125:
+ 2912 0275 4359424C 		.ascii	"CYBLE_TO_REASON_CODE_T\000"
+ 2912      455F544F 
+ 2912      5F524541 
+ 2912      534F4E5F 
+ 2912      434F4445 
+ 2913              	.LASF146:
+ 2914 028c 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_AUTHENTICATION_TIMEOUT\000"
+ 2914      455F4741 
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 80
 
 
- 2913      54485F45 
- 2913      52524F52 
- 2914              	.LASF167:
- 2915 02b1 4359424C 		.ascii	"CYBLE_GATT_READ_BY_TYPE_RSP\000"
- 2915      455F4741 
- 2915      54545F52 
- 2915      4541445F 
- 2915      42595F54 
- 2916              	.LASF233:
- 2917 02cd 4359424C 		.ascii	"CYBLE_CALLBACK_T\000"
- 2917      455F4341 
- 2917      4C4C4241 
- 2917      434B5F54 
- 2917      00
- 2918              	.LASF53:
- 2919 02de 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_NTF\000"
- 2919      455F4556 
- 2919      545F4741 
- 2919      5454435F 
- 2919      48414E44 
- 2920              	.LASF23:
- 2921 02ff 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_REQ\000"
- 2921      455F4556 
- 2921      545F4741 
- 2921      505F4155 
- 2921      54485F52 
- 2922              	.LASF220:
- 2923 0316 4359424C 		.ascii	"CYBLE_CONN_HANDLE_T\000"
- 2923      455F434F 
- 2923      4E4E5F48 
- 2923      414E444C 
- 2923      455F5400 
- 2924              	.LASF81:
- 2925 032a 4359424C 		.ascii	"CYBLE_ERROR_BT_ON_NOT_COMPLETED\000"
- 2925      455F4552 
- 2925      524F525F 
- 2925      42545F4F 
- 2925      4E5F4E4F 
- 2926              	.LASF130:
- 2927 034a 4359424C 		.ascii	"CYBLE_GAP_IOCAP_DISPLAY_ONLY\000"
- 2927      455F4741 
- 2927      505F494F 
- 2927      4341505F 
- 2927      44495350 
- 2928              	.LASF104:
- 2929 0367 4359424C 		.ascii	"CYBLE_LL_PWR_LVL_NEG_3_DBM\000"
- 2929      455F4C4C 
- 2929      5F505752 
- 2929      5F4C564C 
- 2929      5F4E4547 
- 2930              	.LASF237:
- 2931 0382 4359424C 		.ascii	"CYBLE_STATE_ADVERTISING\000"
- 2931      455F5354 
- 2931      4154455F 
- 2931      41445645 
- 2931      52544953 
- 2932              	.LASF218:
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 81
+ 2914      505F4155 
+ 2914      54485F45 
+ 2914      52524F52 
+ 2915              	.LASF143:
+ 2916 02b8 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_UNSPECIFIED_REASON\000"
+ 2916      455F4741 
+ 2916      505F4155 
+ 2916      54485F45 
+ 2916      52524F52 
+ 2917              	.LASF167:
+ 2918 02e0 4359424C 		.ascii	"CYBLE_GATT_READ_BY_TYPE_RSP\000"
+ 2918      455F4741 
+ 2918      54545F52 
+ 2918      4541445F 
+ 2918      42595F54 
+ 2919              	.LASF233:
+ 2920 02fc 4359424C 		.ascii	"CYBLE_CALLBACK_T\000"
+ 2920      455F4341 
+ 2920      4C4C4241 
+ 2920      434B5F54 
+ 2920      00
+ 2921              	.LASF53:
+ 2922 030d 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_NTF\000"
+ 2922      455F4556 
+ 2922      545F4741 
+ 2922      5454435F 
+ 2922      48414E44 
+ 2923              	.LASF23:
+ 2924 032e 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_REQ\000"
+ 2924      455F4556 
+ 2924      545F4741 
+ 2924      505F4155 
+ 2924      54485F52 
+ 2925              	.LASF220:
+ 2926 0345 4359424C 		.ascii	"CYBLE_CONN_HANDLE_T\000"
+ 2926      455F434F 
+ 2926      4E4E5F48 
+ 2926      414E444C 
+ 2926      455F5400 
+ 2927              	.LASF81:
+ 2928 0359 4359424C 		.ascii	"CYBLE_ERROR_BT_ON_NOT_COMPLETED\000"
+ 2928      455F4552 
+ 2928      524F525F 
+ 2928      42545F4F 
+ 2928      4E5F4E4F 
+ 2929              	.LASF130:
+ 2930 0379 4359424C 		.ascii	"CYBLE_GAP_IOCAP_DISPLAY_ONLY\000"
+ 2930      455F4741 
+ 2930      505F494F 
+ 2930      4341505F 
+ 2930      44495350 
+ 2931              	.LASF104:
+ 2932 0396 4359424C 		.ascii	"CYBLE_LL_PWR_LVL_NEG_3_DBM\000"
+ 2932      455F4C4C 
+ 2932      5F505752 
+ 2932      5F4C564C 
+ 2932      5F4E4547 
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 81
 
 
- 2933 039a 62644861 		.ascii	"bdHandle\000"
- 2933      6E646C65 
- 2933      00
- 2934              	.LASF136:
- 2935 03a3 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_PASSKEY_ENTRY_FAILED\000"
- 2935      455F4741 
- 2935      505F4155 
- 2935      54485F45 
- 2935      52524F52 
- 2936              	.LASF102:
- 2937 03cd 4359424C 		.ascii	"CYBLE_LL_PWR_LVL_NEG_12_DBM\000"
- 2937      455F4C4C 
- 2937      5F505752 
- 2937      5F4C564C 
- 2937      5F4E4547 
- 2938              	.LASF161:
- 2939 03e9 4359424C 		.ascii	"CYBLE_GATT_XCHNG_MTU_RSP\000"
- 2939      455F4741 
- 2939      54545F58 
- 2939      43484E47 
- 2939      5F4D5455 
- 2940              	.LASF49:
- 2941 0402 4359424C 		.ascii	"CYBLE_EVT_GATTS_WRITE_CMD_REQ\000"
- 2941      455F4556 
- 2941      545F4741 
- 2941      5454535F 
- 2941      57524954 
- 2942              	.LASF4:
- 2943 0420 6C6F6E67 		.ascii	"long int\000"
- 2943      20696E74 
- 2943      00
- 2944              	.LASF126:
- 2945 0429 4359424C 		.ascii	"CYBLE_GAP_SEC_LEVEL_1\000"
- 2945      455F4741 
- 2945      505F5345 
- 2945      435F4C45 
- 2945      56454C5F 
- 2946              	.LASF127:
- 2947 043f 4359424C 		.ascii	"CYBLE_GAP_SEC_LEVEL_2\000"
- 2947      455F4741 
- 2947      505F5345 
- 2947      435F4C45 
- 2947      56454C5F 
- 2948              	.LASF128:
- 2949 0455 4359424C 		.ascii	"CYBLE_GAP_SEC_LEVEL_3\000"
- 2949      455F4741 
- 2949      505F5345 
- 2949      435F4C45 
- 2949      56454C5F 
- 2950              	.LASF165:
- 2951 046b 4359424C 		.ascii	"CYBLE_GATT_FIND_BY_TYPE_VALUE_RSP\000"
- 2951      455F4741 
- 2951      54545F46 
- 2951      494E445F 
- 2951      42595F54 
- 2952              	.LASF17:
- 2953 048d 4359424C 		.ascii	"CYBLE_EVT_STACK_ON\000"
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 82
+ 2933              	.LASF237:
+ 2934 03b1 4359424C 		.ascii	"CYBLE_STATE_ADVERTISING\000"
+ 2934      455F5354 
+ 2934      4154455F 
+ 2934      41445645 
+ 2934      52544953 
+ 2935              	.LASF218:
+ 2936 03c9 62644861 		.ascii	"bdHandle\000"
+ 2936      6E646C65 
+ 2936      00
+ 2937              	.LASF136:
+ 2938 03d2 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_PASSKEY_ENTRY_FAILED\000"
+ 2938      455F4741 
+ 2938      505F4155 
+ 2938      54485F45 
+ 2938      52524F52 
+ 2939              	.LASF102:
+ 2940 03fc 4359424C 		.ascii	"CYBLE_LL_PWR_LVL_NEG_12_DBM\000"
+ 2940      455F4C4C 
+ 2940      5F505752 
+ 2940      5F4C564C 
+ 2940      5F4E4547 
+ 2941              	.LASF161:
+ 2942 0418 4359424C 		.ascii	"CYBLE_GATT_XCHNG_MTU_RSP\000"
+ 2942      455F4741 
+ 2942      54545F58 
+ 2942      43484E47 
+ 2942      5F4D5455 
+ 2943              	.LASF49:
+ 2944 0431 4359424C 		.ascii	"CYBLE_EVT_GATTS_WRITE_CMD_REQ\000"
+ 2944      455F4556 
+ 2944      545F4741 
+ 2944      5454535F 
+ 2944      57524954 
+ 2945              	.LASF4:
+ 2946 044f 6C6F6E67 		.ascii	"long int\000"
+ 2946      20696E74 
+ 2946      00
+ 2947              	.LASF126:
+ 2948 0458 4359424C 		.ascii	"CYBLE_GAP_SEC_LEVEL_1\000"
+ 2948      455F4741 
+ 2948      505F5345 
+ 2948      435F4C45 
+ 2948      56454C5F 
+ 2949              	.LASF127:
+ 2950 046e 4359424C 		.ascii	"CYBLE_GAP_SEC_LEVEL_2\000"
+ 2950      455F4741 
+ 2950      505F5345 
+ 2950      435F4C45 
+ 2950      56454C5F 
+ 2951              	.LASF128:
+ 2952 0484 4359424C 		.ascii	"CYBLE_GAP_SEC_LEVEL_3\000"
+ 2952      455F4741 
+ 2952      505F5345 
+ 2952      435F4C45 
+ 2952      56454C5F 
+ 2953              	.LASF165:
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 82
 
 
- 2953      455F4556 
- 2953      545F5354 
- 2953      41434B5F 
- 2953      4F4E00
- 2954              	.LASF88:
- 2955 04a0 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_PSM_NOT_IN_RANGE\000"
- 2955      455F4552 
- 2955      524F525F 
- 2955      4C324341 
- 2955      505F5053 
- 2956              	.LASF258:
- 2957 04c3 6379426C 		.ascii	"cyBle_deviceAddress\000"
- 2957      655F6465 
- 2957      76696365 
- 2957      41646472 
- 2957      65737300 
- 2958              	.LASF192:
- 2959 04d7 4359424C 		.ascii	"CYBLE_GATT_ERR_INVALID_PDU\000"
- 2959      455F4741 
- 2959      54545F45 
- 2959      52525F49 
- 2959      4E56414C 
- 2960              	.LASF268:
- 2961 04f2 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\BLE_eventHandler.c\000"
- 2961      6E657261 
- 2961      7465645F 
- 2961      536F7572 
- 2961      63655C50 
- 2962              	.LASF99:
- 2963 051e 4359424C 		.ascii	"CYBLE_ERROR_CHAR_IS_NOT_DISCOVERED\000"
- 2963      455F4552 
- 2963      524F525F 
- 2963      43484152 
- 2963      5F49535F 
- 2964              	.LASF225:
- 2965 0541 4359424C 		.ascii	"CYBLE_GATT_HANDLE_VALUE_PAIR_T\000"
- 2965      455F4741 
- 2965      54545F48 
- 2965      414E444C 
- 2965      455F5641 
- 2966              	.LASF116:
- 2967 0560 626C6553 		.ascii	"bleSsChId\000"
- 2967      73436849 
- 2967      6400
- 2968              	.LASF59:
- 2969 056a 4359424C 		.ascii	"CYBLE_EVT_L2CAP_COMMAND_REJ\000"
- 2969      455F4556 
- 2969      545F4C32 
- 2969      4341505F 
- 2969      434F4D4D 
- 2970              	.LASF171:
- 2971 0586 4359424C 		.ascii	"CYBLE_GATT_READ_BLOB_RSP\000"
- 2971      455F4741 
- 2971      54545F52 
- 2971      4541445F 
- 2971      424C4F42 
- 2972              	.LASF201:
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 83
+ 2954 049a 4359424C 		.ascii	"CYBLE_GATT_FIND_BY_TYPE_VALUE_RSP\000"
+ 2954      455F4741 
+ 2954      54545F46 
+ 2954      494E445F 
+ 2954      42595F54 
+ 2955              	.LASF17:
+ 2956 04bc 4359424C 		.ascii	"CYBLE_EVT_STACK_ON\000"
+ 2956      455F4556 
+ 2956      545F5354 
+ 2956      41434B5F 
+ 2956      4F4E00
+ 2957              	.LASF88:
+ 2958 04cf 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_PSM_NOT_IN_RANGE\000"
+ 2958      455F4552 
+ 2958      524F525F 
+ 2958      4C324341 
+ 2958      505F5053 
+ 2959              	.LASF258:
+ 2960 04f2 6379426C 		.ascii	"cyBle_deviceAddress\000"
+ 2960      655F6465 
+ 2960      76696365 
+ 2960      41646472 
+ 2960      65737300 
+ 2961              	.LASF192:
+ 2962 0506 4359424C 		.ascii	"CYBLE_GATT_ERR_INVALID_PDU\000"
+ 2962      455F4741 
+ 2962      54545F45 
+ 2962      52525F49 
+ 2962      4E56414C 
+ 2963              	.LASF268:
+ 2964 0521 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\BLE_eventHandler.c\000"
+ 2964      6E657261 
+ 2964      7465645F 
+ 2964      536F7572 
+ 2964      63655C50 
+ 2965              	.LASF99:
+ 2966 054d 4359424C 		.ascii	"CYBLE_ERROR_CHAR_IS_NOT_DISCOVERED\000"
+ 2966      455F4552 
+ 2966      524F525F 
+ 2966      43484152 
+ 2966      5F49535F 
+ 2967              	.LASF225:
+ 2968 0570 4359424C 		.ascii	"CYBLE_GATT_HANDLE_VALUE_PAIR_T\000"
+ 2968      455F4741 
+ 2968      54545F48 
+ 2968      414E444C 
+ 2968      455F5641 
+ 2969              	.LASF116:
+ 2970 058f 626C6553 		.ascii	"bleSsChId\000"
+ 2970      73436849 
+ 2970      6400
+ 2971              	.LASF59:
+ 2972 0599 4359424C 		.ascii	"CYBLE_EVT_L2CAP_COMMAND_REJ\000"
+ 2972      455F4556 
+ 2972      545F4C32 
+ 2972      4341505F 
+ 2972      434F4D4D 
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 83
 
 
- 2973 059f 4359424C 		.ascii	"CYBLE_GATT_ERR_INVALID_ATTRIBUTE_LEN\000"
- 2973      455F4741 
- 2973      54545F45 
- 2973      52525F49 
- 2973      4E56414C 
- 2974              	.LASF89:
- 2975 05c4 4359424C 		.ascii	"CYBLE_ERROR_GATT_DB_INVALID_ATTR_HANDLE\000"
- 2975      455F4552 
- 2975      524F525F 
- 2975      47415454 
- 2975      5F44425F 
- 2976              	.LASF0:
- 2977 05ec 7369676E 		.ascii	"signed char\000"
- 2977      65642063 
- 2977      68617200 
- 2978              	.LASF101:
- 2979 05f8 4359424C 		.ascii	"CYBLE_LL_PWR_LVL_NEG_18_DBM\000"
- 2979      455F4C4C 
- 2979      5F505752 
- 2979      5F4C564C 
- 2979      5F4E4547 
- 2980              	.LASF162:
- 2981 0614 4359424C 		.ascii	"CYBLE_GATT_FIND_INFO_REQ\000"
- 2981      455F4741 
- 2981      54545F46 
- 2981      494E445F 
- 2981      494E464F 
- 2982              	.LASF19:
- 2983 062d 4359424C 		.ascii	"CYBLE_EVT_HARDWARE_ERROR\000"
- 2983      455F4556 
- 2983      545F4841 
- 2983      52445741 
- 2983      52455F45 
- 2984              	.LASF271:
- 2985 0646 4379426C 		.ascii	"CyBle_EventHandler\000"
- 2985      655F4576 
- 2985      656E7448 
- 2985      616E646C 
- 2985      657200
- 2986              	.LASF70:
- 2987 0659 4359424C 		.ascii	"CYBLE_ERROR_OK\000"
- 2987      455F4552 
- 2987      524F525F 
- 2987      4F4B00
- 2988              	.LASF114:
- 2989 0668 4359424C 		.ascii	"CYBLE_BLESS_PHY_CH_GRP_ID_T\000"
- 2989      455F424C 
- 2989      4553535F 
- 2989      5048595F 
- 2989      43485F47 
- 2990              	.LASF213:
- 2991 0684 4359424C 		.ascii	"CYBLE_GATT_ERR_CCCD_IMPROPERLY_CONFIGURED\000"
- 2991      455F4741 
- 2991      54545F45 
- 2991      52525F43 
- 2991      4343445F 
- 2992              	.LASF40:
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 84
+ 2973              	.LASF171:
+ 2974 05b5 4359424C 		.ascii	"CYBLE_GATT_READ_BLOB_RSP\000"
+ 2974      455F4741 
+ 2974      54545F52 
+ 2974      4541445F 
+ 2974      424C4F42 
+ 2975              	.LASF201:
+ 2976 05ce 4359424C 		.ascii	"CYBLE_GATT_ERR_INVALID_ATTRIBUTE_LEN\000"
+ 2976      455F4741 
+ 2976      54545F45 
+ 2976      52525F49 
+ 2976      4E56414C 
+ 2977              	.LASF89:
+ 2978 05f3 4359424C 		.ascii	"CYBLE_ERROR_GATT_DB_INVALID_ATTR_HANDLE\000"
+ 2978      455F4552 
+ 2978      524F525F 
+ 2978      47415454 
+ 2978      5F44425F 
+ 2979              	.LASF0:
+ 2980 061b 7369676E 		.ascii	"signed char\000"
+ 2980      65642063 
+ 2980      68617200 
+ 2981              	.LASF101:
+ 2982 0627 4359424C 		.ascii	"CYBLE_LL_PWR_LVL_NEG_18_DBM\000"
+ 2982      455F4C4C 
+ 2982      5F505752 
+ 2982      5F4C564C 
+ 2982      5F4E4547 
+ 2983              	.LASF162:
+ 2984 0643 4359424C 		.ascii	"CYBLE_GATT_FIND_INFO_REQ\000"
+ 2984      455F4741 
+ 2984      54545F46 
+ 2984      494E445F 
+ 2984      494E464F 
+ 2985              	.LASF19:
+ 2986 065c 4359424C 		.ascii	"CYBLE_EVT_HARDWARE_ERROR\000"
+ 2986      455F4556 
+ 2986      545F4841 
+ 2986      52445741 
+ 2986      52455F45 
+ 2987              	.LASF271:
+ 2988 0675 4379426C 		.ascii	"CyBle_EventHandler\000"
+ 2988      655F4576 
+ 2988      656E7448 
+ 2988      616E646C 
+ 2988      657200
+ 2989              	.LASF70:
+ 2990 0688 4359424C 		.ascii	"CYBLE_ERROR_OK\000"
+ 2990      455F4552 
+ 2990      524F525F 
+ 2990      4F4B00
+ 2991              	.LASF114:
+ 2992 0697 4359424C 		.ascii	"CYBLE_BLESS_PHY_CH_GRP_ID_T\000"
+ 2992      455F424C 
+ 2992      4553535F 
+ 2992      5048595F 
+ 2992      43485F47 
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 84
 
 
- 2993 06ae 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_GROUP_TYPE_RSP\000"
- 2993      455F4556 
- 2993      545F4741 
- 2993      5454435F 
- 2993      52454144 
- 2994              	.LASF234:
- 2995 06d5 4359424C 		.ascii	"CYBLE_STATE_STOPPED\000"
- 2995      455F5354 
- 2995      4154455F 
- 2995      53544F50 
- 2995      50454400 
- 2996              	.LASF230:
- 2997 06e9 4359424C 		.ascii	"CYBLE_GATTS_ERR_PARAM_T\000"
- 2997      455F4741 
- 2997      5454535F 
- 2997      4552525F 
- 2997      50415241 
- 2998              	.LASF1:
- 2999 0701 756E7369 		.ascii	"unsigned char\000"
- 2999      676E6564 
- 2999      20636861 
- 2999      7200
- 3000              	.LASF39:
- 3001 070f 4359424C 		.ascii	"CYBLE_EVT_GATTC_XCHNG_MTU_RSP\000"
- 3001      455F4556 
- 3001      545F4741 
- 3001      5454435F 
- 3001      5843484E 
- 3002              	.LASF184:
- 3003 072d 4359424C 		.ascii	"CYBLE_GATT_HANDLE_VALUE_IND\000"
- 3003      455F4741 
- 3003      54545F48 
- 3003      414E444C 
- 3003      455F5641 
- 3004              	.LASF269:
- 3005 0749 433A5C55 		.ascii	"C:\\Users\\Heidi\\Desktop\\BLE_Lab_4\\BLE Lab 4.cyd"
- 3005      73657273 
- 3005      5C486569 
- 3005      64695C44 
- 3005      65736B74 
- 3006 0777 736E00   		.ascii	"sn\000"
+ 2993              	.LASF213:
+ 2994 06b3 4359424C 		.ascii	"CYBLE_GATT_ERR_CCCD_IMPROPERLY_CONFIGURED\000"
+ 2994      455F4741 
+ 2994      54545F45 
+ 2994      52525F43 
+ 2994      4343445F 
+ 2995              	.LASF40:
+ 2996 06dd 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_GROUP_TYPE_RSP\000"
+ 2996      455F4556 
+ 2996      545F4741 
+ 2996      5454435F 
+ 2996      52454144 
+ 2997              	.LASF234:
+ 2998 0704 4359424C 		.ascii	"CYBLE_STATE_STOPPED\000"
+ 2998      455F5354 
+ 2998      4154455F 
+ 2998      53544F50 
+ 2998      50454400 
+ 2999              	.LASF230:
+ 3000 0718 4359424C 		.ascii	"CYBLE_GATTS_ERR_PARAM_T\000"
+ 3000      455F4741 
+ 3000      5454535F 
+ 3000      4552525F 
+ 3000      50415241 
+ 3001              	.LASF1:
+ 3002 0730 756E7369 		.ascii	"unsigned char\000"
+ 3002      676E6564 
+ 3002      20636861 
+ 3002      7200
+ 3003              	.LASF39:
+ 3004 073e 4359424C 		.ascii	"CYBLE_EVT_GATTC_XCHNG_MTU_RSP\000"
+ 3004      455F4556 
+ 3004      545F4741 
+ 3004      5454435F 
+ 3004      5843484E 
+ 3005              	.LASF184:
+ 3006 075c 4359424C 		.ascii	"CYBLE_GATT_HANDLE_VALUE_IND\000"
+ 3006      455F4741 
+ 3006      54545F48 
+ 3006      414E444C 
+ 3006      455F5641 
  3007              	.LASF66:
- 3008 077a 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_TX_CREDIT_IND\000"
+ 3008 0778 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_TX_CREDIT_IND\000"
  3008      455F4556 
  3008      545F4C32 
  3008      4341505F 
  3008      43424643 
  3009              	.LASF229:
- 3010 079d 6572726F 		.ascii	"errorCode\000"
+ 3010 079b 6572726F 		.ascii	"errorCode\000"
  3010      72436F64 
  3010      6500
  3011              	.LASF145:
- 3012 07a7 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_INVALID_PARAMETERS\000"
+ 3012 07a5 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_INVALID_PARAMETERS\000"
  3012      455F4741 
  3012      505F4155 
  3012      54485F45 
  3012      52524F52 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 85
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 85
 
 
  3013              	.LASF63:
- 3014 07cf 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_CNF\000"
+ 3014 07cd 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_CNF\000"
  3014      455F4556 
  3014      545F4C32 
  3014      4341505F 
  3014      43424643 
  3015              	.LASF43:
- 3016 07f0 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_BY_TYPE_VALUE_RSP\000"
+ 3016 07ee 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_BY_TYPE_VALUE_RSP\000"
  3016      455F4556 
  3016      545F4741 
  3016      5454435F 
  3016      46494E44 
  3017              	.LASF14:
- 3018 0817 63686172 		.ascii	"char\000"
+ 3018 0815 63686172 		.ascii	"char\000"
  3018      00
  3019              	.LASF105:
- 3020 081c 4359424C 		.ascii	"CYBLE_LL_PWR_LVL_NEG_2_DBM\000"
+ 3020 081a 4359424C 		.ascii	"CYBLE_LL_PWR_LVL_NEG_2_DBM\000"
  3020      455F4C4C 
  3020      5F505752 
  3020      5F4C564C 
  3020      5F4E4547 
  3021              	.LASF177:
- 3022 0837 4359424C 		.ascii	"CYBLE_GATT_WRITE_RSP\000"
+ 3022 0835 4359424C 		.ascii	"CYBLE_GATT_WRITE_RSP\000"
  3022      455F4741 
  3022      54545F57 
  3022      52495445 
  3022      5F525350 
  3023              	.LASF46:
- 3024 084c 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_MULTI_RSP\000"
+ 3024 084a 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_MULTI_RSP\000"
  3024      455F4556 
  3024      545F4741 
  3024      5454435F 
  3024      52454144 
  3025              	.LASF153:
- 3026 086b 4359424C 		.ascii	"CYBLE_GAP_AUTH_INFO_T\000"
+ 3026 0869 4359424C 		.ascii	"CYBLE_GAP_AUTH_INFO_T\000"
  3026      455F4741 
  3026      505F4155 
  3026      54485F49 
  3026      4E464F5F 
  3027              	.LASF132:
- 3028 0881 4359424C 		.ascii	"CYBLE_GAP_IOCAP_KEYBOARD_ONLY\000"
+ 3028 087f 4359424C 		.ascii	"CYBLE_GAP_IOCAP_KEYBOARD_ONLY\000"
  3028      455F4741 
  3028      505F494F 
  3028      4341505F 
  3028      4B455942 
  3029              	.LASF16:
- 3030 089f 4359424C 		.ascii	"CYBLE_EVT_HOST_INVALID\000"
+ 3030 089d 4359424C 		.ascii	"CYBLE_EVT_HOST_INVALID\000"
  3030      455F4556 
  3030      545F484F 
  3030      53545F49 
  3030      4E56414C 
  3031              	.LASF202:
- 3032 08b6 4359424C 		.ascii	"CYBLE_GATT_ERR_UNLIKELY_ERROR\000"
+ 3032 08b4 4359424C 		.ascii	"CYBLE_GATT_ERR_UNLIKELY_ERROR\000"
  3032      455F4741 
  3032      54545F45 
  3032      52525F55 
  3032      4E4C494B 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 86
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 86
 
 
  3033              	.LASF160:
- 3034 08d4 4359424C 		.ascii	"CYBLE_GATT_XCNHG_MTU_REQ\000"
+ 3034 08d2 4359424C 		.ascii	"CYBLE_GATT_XCNHG_MTU_REQ\000"
  3034      455F4741 
  3034      54545F58 
  3034      434E4847 
  3034      5F4D5455 
  3035              	.LASF77:
- 3036 08ed 4359424C 		.ascii	"CYBLE_ERROR_NO_DEVICE_ENTITY\000"
+ 3036 08eb 4359424C 		.ascii	"CYBLE_ERROR_NO_DEVICE_ENTITY\000"
  3036      455F4552 
  3036      524F525F 
  3036      4E4F5F44 
  3036      45564943 
  3037              	.LASF45:
- 3038 090a 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BLOB_RSP\000"
+ 3038 0908 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BLOB_RSP\000"
  3038      455F4556 
  3038      545F4741 
  3038      5454435F 
  3038      52454144 
  3039              	.LASF257:
- 3040 0928 6379426C 		.ascii	"cyBle_eventHandlerFlag\000"
+ 3040 0926 6379426C 		.ascii	"cyBle_eventHandlerFlag\000"
  3040      655F6576 
  3040      656E7448 
  3040      616E646C 
  3040      6572466C 
  3041              	.LASF52:
- 3042 093f 4359424C 		.ascii	"CYBLE_EVT_GATTC_EXEC_WRITE_RSP\000"
+ 3042 093d 4359424C 		.ascii	"CYBLE_EVT_GATTC_EXEC_WRITE_RSP\000"
  3042      455F4556 
  3042      545F4741 
  3042      5454435F 
  3042      45584543 
  3043              	.LASF206:
- 3044 095e 4359424C 		.ascii	"CYBLE_GATT_ERR_HEART_RATE_CONTROL_POINT_NOT_SUPPORT"
+ 3044 095c 4359424C 		.ascii	"CYBLE_GATT_ERR_HEART_RATE_CONTROL_POINT_NOT_SUPPORT"
  3044      455F4741 
  3044      54545F45 
  3044      52525F48 
  3044      45415254 
- 3045 0991 454400   		.ascii	"ED\000"
+ 3045 098f 454400   		.ascii	"ED\000"
  3046              	.LASF199:
- 3047 0994 4359424C 		.ascii	"CYBLE_GATT_ERR_ATTRIBUTE_NOT_LONG\000"
+ 3047 0992 4359424C 		.ascii	"CYBLE_GATT_ERR_ATTRIBUTE_NOT_LONG\000"
  3047      455F4741 
  3047      54545F45 
  3047      52525F41 
  3047      54545249 
  3048              	.LASF129:
- 3049 09b6 4359424C 		.ascii	"CYBLE_GAP_SEC_LEVEL_MASK\000"
+ 3049 09b4 4359424C 		.ascii	"CYBLE_GAP_SEC_LEVEL_MASK\000"
  3049      455F4741 
  3049      505F5345 
  3049      435F4C45 
  3049      56454C5F 
  3050              	.LASF264:
- 3051 09cf 6379426C 		.ascii	"cyBle_connHandle\000"
+ 3051 09cd 6379426C 		.ascii	"cyBle_connHandle\000"
  3051      655F636F 
  3051      6E6E4861 
  3051      6E646C65 
  3051      00
  3052              	.LASF159:
- 3053 09e0 4359424C 		.ascii	"CYBLE_GATT_ERROR_RSP\000"
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 87
+ 3053 09de 4359424C 		.ascii	"CYBLE_GATT_ERROR_RSP\000"
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 87
 
 
  3053      455F4741 
@@ -5166,839 +5166,839 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  3053      52524F52 
  3053      5F525350 
  3054              	.LASF71:
- 3055 09f5 4359424C 		.ascii	"CYBLE_ERROR_INVALID_PARAMETER\000"
+ 3055 09f3 4359424C 		.ascii	"CYBLE_ERROR_INVALID_PARAMETER\000"
  3055      455F4552 
  3055      524F525F 
  3055      494E5641 
  3055      4C49445F 
  3056              	.LASF252:
- 3057 0a13 4379426C 		.ascii	"CyBle_GapConnUpdateCompleteEventHandler\000"
+ 3057 0a11 4379426C 		.ascii	"CyBle_GapConnUpdateCompleteEventHandler\000"
  3057      655F4761 
  3057      70436F6E 
  3057      6E557064 
  3057      61746543 
  3058              	.LASF96:
- 3059 0a3b 4359424C 		.ascii	"CYBLE_DESCR_DISC_DONE\000"
+ 3059 0a39 4359424C 		.ascii	"CYBLE_DESCR_DISC_DONE\000"
  3059      455F4445 
  3059      5343525F 
  3059      44495343 
  3059      5F444F4E 
  3060              	.LASF73:
- 3061 0a51 4359424C 		.ascii	"CYBLE_ERROR_MEMORY_ALLOCATION_FAILED\000"
+ 3061 0a4f 4359424C 		.ascii	"CYBLE_ERROR_MEMORY_ALLOCATION_FAILED\000"
  3061      455F4552 
  3061      524F525F 
  3061      4D454D4F 
  3061      52595F41 
  3062              	.LASF259:
- 3063 0a76 6379426C 		.ascii	"cyBle_sflashDeviceAddress\000"
+ 3063 0a74 6379426C 		.ascii	"cyBle_sflashDeviceAddress\000"
  3063      655F7366 
  3063      6C617368 
  3063      44657669 
  3063      63654164 
  3064              	.LASF186:
- 3065 0a90 4359424C 		.ascii	"CYBLE_GATT_SIGNED_WRITE_CMD\000"
+ 3065 0a8e 4359424C 		.ascii	"CYBLE_GATT_SIGNED_WRITE_CMD\000"
  3065      455F4741 
  3065      54545F53 
  3065      49474E45 
  3065      445F5752 
  3066              	.LASF211:
- 3067 0aac 4359424C 		.ascii	"CYBLE_GATTS_ERR_CCCD_IMPROPERLY_CONFIGURED\000"
+ 3067 0aaa 4359424C 		.ascii	"CYBLE_GATTS_ERR_CCCD_IMPROPERLY_CONFIGURED\000"
  3067      455F4741 
  3067      5454535F 
  3067      4552525F 
  3067      43434344 
  3068              	.LASF182:
- 3069 0ad7 4359424C 		.ascii	"CYBLE_GATT_EXECUTE_WRITE_RSP\000"
+ 3069 0ad5 4359424C 		.ascii	"CYBLE_GATT_EXECUTE_WRITE_RSP\000"
  3069      455F4741 
  3069      54545F45 
  3069      58454355 
  3069      54455F57 
  3070              	.LASF93:
- 3071 0af4 4359424C 		.ascii	"CYBLE_ERROR_MAX\000"
+ 3071 0af2 4359424C 		.ascii	"CYBLE_ERROR_MAX\000"
  3071      455F4552 
  3071      524F525F 
  3071      4D415800 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 88
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 88
 
 
  3072              	.LASF58:
- 3073 0b04 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_RSP\000"
+ 3073 0b02 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_RSP\000"
  3073      455F4556 
  3073      545F4C32 
  3073      4341505F 
  3073      434F4E4E 
  3074              	.LASF147:
- 3075 0b2a 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_LINK_DISCONNECTED\000"
+ 3075 0b28 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_LINK_DISCONNECTED\000"
  3075      455F4741 
  3075      505F4155 
  3075      54485F45 
  3075      52524F52 
  3076              	.LASF207:
- 3077 0b51 4359424C 		.ascii	"CYBLE_GATT_ERR_USER_DATA_ACCESS_NOT_PERMITTED\000"
+ 3077 0b4f 4359424C 		.ascii	"CYBLE_GATT_ERR_USER_DATA_ACCESS_NOT_PERMITTED\000"
  3077      455F4741 
  3077      54545F45 
  3077      52525F55 
  3077      5345525F 
  3078              	.LASF26:
- 3079 0b7f 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_COMPLETE\000"
+ 3079 0b7d 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_COMPLETE\000"
  3079      455F4556 
  3079      545F4741 
  3079      505F4155 
  3079      54485F43 
  3080              	.LASF27:
- 3081 0b9b 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_FAILED\000"
+ 3081 0b99 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_FAILED\000"
  3081      455F4556 
  3081      545F4741 
  3081      505F4155 
  3081      54485F46 
  3082              	.LASF94:
- 3083 0bb5 4359424C 		.ascii	"CYBLE_INCL_DISC_DONE\000"
+ 3083 0bb3 4359424C 		.ascii	"CYBLE_INCL_DISC_DONE\000"
  3083      455F494E 
  3083      434C5F44 
  3083      4953435F 
  3083      444F4E45 
  3084              	.LASF175:
- 3085 0bca 4359424C 		.ascii	"CYBLE_GATT_READ_BY_GROUP_RSP\000"
+ 3085 0bc8 4359424C 		.ascii	"CYBLE_GATT_READ_BY_GROUP_RSP\000"
  3085      455F4741 
  3085      54545F52 
  3085      4541445F 
  3085      42595F47 
  3086              	.LASF74:
- 3087 0be7 4359424C 		.ascii	"CYBLE_ERROR_INSUFFICIENT_RESOURCES\000"
+ 3087 0be5 4359424C 		.ascii	"CYBLE_ERROR_INSUFFICIENT_RESOURCES\000"
  3087      455F4552 
  3087      524F525F 
  3087      494E5355 
  3087      46464943 
  3088              	.LASF108:
- 3089 0c0a 4359424C 		.ascii	"CYBLE_LL_PWR_LVL_3_DBM\000"
+ 3089 0c08 4359424C 		.ascii	"CYBLE_LL_PWR_LVL_3_DBM\000"
  3089      455F4C4C 
  3089      5F505752 
  3089      5F4C564C 
  3089      5F335F44 
  3090              	.LASF5:
- 3091 0c21 6C6F6E67 		.ascii	"long unsigned int\000"
+ 3091 0c1f 6C6F6E67 		.ascii	"long unsigned int\000"
  3091      20756E73 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 89
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 89
 
 
  3091      69676E65 
  3091      6420696E 
  3091      7400
  3092              	.LASF168:
- 3093 0c33 4359424C 		.ascii	"CYBLE_GATT_READ_REQ\000"
+ 3093 0c31 4359424C 		.ascii	"CYBLE_GATT_READ_REQ\000"
  3093      455F4741 
  3093      54545F52 
  3093      4541445F 
  3093      52455100 
  3094              	.LASF154:
- 3095 0c47 73746174 		.ascii	"status\000"
+ 3095 0c45 73746174 		.ascii	"status\000"
  3095      757300
  3096              	.LASF106:
- 3097 0c4e 4359424C 		.ascii	"CYBLE_LL_PWR_LVL_NEG_1_DBM\000"
+ 3097 0c4c 4359424C 		.ascii	"CYBLE_LL_PWR_LVL_NEG_1_DBM\000"
  3097      455F4C4C 
  3097      5F505752 
  3097      5F4C564C 
  3097      5F4E4547 
  3098              	.LASF142:
- 3099 0c69 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_COMMAND_NOT_SUPPORTED\000"
+ 3099 0c67 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_COMMAND_NOT_SUPPORTED\000"
  3099      455F4741 
  3099      505F4155 
  3099      54485F45 
  3099      52524F52 
  3100              	.LASF138:
- 3101 0c94 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_AUTHENTICATION_REQ_NOT_MET\000"
+ 3101 0c92 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_AUTHENTICATION_REQ_NOT_MET\000"
  3101      455F4741 
  3101      505F4155 
  3101      54485F45 
  3101      52524F52 
  3102              	.LASF183:
- 3103 0cc4 4359424C 		.ascii	"CYBLE_GATT_HANDLE_VALUE_NTF\000"
+ 3103 0cc2 4359424C 		.ascii	"CYBLE_GATT_HANDLE_VALUE_NTF\000"
  3103      455F4741 
  3103      54545F48 
  3103      414E444C 
  3103      455F5641 
  3104              	.LASF84:
- 3105 0ce0 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_PSM_ALREADY_REGISTERED\000"
+ 3105 0cde 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_PSM_ALREADY_REGISTERED\000"
  3105      455F4552 
  3105      524F525F 
  3105      4C324341 
  3105      505F5053 
  3106              	.LASF32:
- 3107 0d09 4359424C 		.ascii	"CYBLE_EVT_GAP_CONNECTION_UPDATE_COMPLETE\000"
+ 3107 0d07 4359424C 		.ascii	"CYBLE_EVT_GAP_CONNECTION_UPDATE_COMPLETE\000"
  3107      455F4556 
  3107      545F4741 
  3107      505F434F 
  3107      4E4E4543 
  3108              	.LASF265:
- 3109 0d32 6379426C 		.ascii	"cyBle_busyStatus\000"
+ 3109 0d30 6379426C 		.ascii	"cyBle_busyStatus\000"
  3109      655F6275 
  3109      73795374 
  3109      61747573 
  3109      00
  3110              	.LASF235:
- 3111 0d43 4359424C 		.ascii	"CYBLE_STATE_INITIALIZING\000"
+ 3111 0d41 4359424C 		.ascii	"CYBLE_STATE_INITIALIZING\000"
  3111      455F5354 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 90
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 90
 
 
  3111      4154455F 
  3111      494E4954 
  3111      49414C49 
  3112              	.LASF255:
- 3113 0d5c 6379426C 		.ascii	"cyBle_mtuSize\000"
+ 3113 0d5a 6379426C 		.ascii	"cyBle_mtuSize\000"
  3113      655F6D74 
  3113      7553697A 
  3113      6500
  3114              	.LASF144:
- 3115 0d6a 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_REPEATED_ATTEMPTS\000"
+ 3115 0d68 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_REPEATED_ATTEMPTS\000"
  3115      455F4741 
  3115      505F4155 
  3115      54485F45 
  3115      52524F52 
  3116              	.LASF62:
- 3117 0d91 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_IND\000"
+ 3117 0d8f 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_IND\000"
  3117      455F4556 
  3117      545F4C32 
  3117      4341505F 
  3117      43424643 
  3118              	.LASF24:
- 3119 0db2 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_ENTRY_REQUEST\000"
+ 3119 0db0 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_ENTRY_REQUEST\000"
  3119      455F4556 
  3119      545F4741 
  3119      505F5041 
  3119      53534B45 
  3120              	.LASF110:
- 3121 0dd6 4359424C 		.ascii	"CYBLE_BLESS_PWR_LVL_T\000"
+ 3121 0dd4 4359424C 		.ascii	"CYBLE_BLESS_PWR_LVL_T\000"
  3121      455F424C 
  3121      4553535F 
  3121      5057525F 
  3121      4C564C5F 
  3122              	.LASF247:
- 3123 0dec 4379426C 		.ascii	"CyBle_GattConnectReqHandler\000"
+ 3123 0dea 4379426C 		.ascii	"CyBle_GattConnectReqHandler\000"
  3123      655F4761 
  3123      7474436F 
  3123      6E6E6563 
  3123      74526571 
  3124              	.LASF141:
- 3125 0e08 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_INSUFFICIENT_ENCRYPTION_KEY_SI"
+ 3125 0e06 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_INSUFFICIENT_ENCRYPTION_KEY_SI"
  3125      455F4741 
  3125      505F4155 
  3125      54485F45 
  3125      52524F52 
- 3126 0e3b 5A4500   		.ascii	"ZE\000"
+ 3126 0e39 5A4500   		.ascii	"ZE\000"
  3127              	.LASF6:
- 3128 0e3e 6C6F6E67 		.ascii	"long long int\000"
+ 3128 0e3c 6C6F6E67 		.ascii	"long long int\000"
  3128      206C6F6E 
  3128      6720696E 
  3128      7400
  3129              	.LASF246:
- 3130 0e4c 4379426C 		.ascii	"CyBle_GattDisconnectEventHandler\000"
+ 3130 0e4a 4379426C 		.ascii	"CyBle_GattDisconnectEventHandler\000"
  3130      655F4761 
  3130      74744469 
  3130      73636F6E 
  3130      6E656374 
  3131              	.LASF248:
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 91
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 91
 
 
- 3132 0e6d 73666C61 		.ascii	"sflashDeviceAddress\000"
+ 3132 0e6b 73666C61 		.ascii	"sflashDeviceAddress\000"
  3132      73684465 
  3132      76696365 
  3132      41646472 
  3132      65737300 
  3133              	.LASF197:
- 3134 0e81 4359424C 		.ascii	"CYBLE_GATT_ERR_PREPARE_WRITE_QUEUE_FULL\000"
+ 3134 0e7f 4359424C 		.ascii	"CYBLE_GATT_ERR_PREPARE_WRITE_QUEUE_FULL\000"
  3134      455F4741 
  3134      54545F45 
  3134      52525F50 
  3134      52455041 
  3135              	.LASF85:
- 3136 0ea9 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_PSM_NOT_REGISTERED\000"
+ 3136 0ea7 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_PSM_NOT_REGISTERED\000"
  3136      455F4552 
  3136      524F525F 
  3136      4C324341 
  3136      505F5053 
  3137              	.LASF75:
- 3138 0ece 4359424C 		.ascii	"CYBLE_ERROR_OOB_NOT_AVAILABLE\000"
+ 3138 0ecc 4359424C 		.ascii	"CYBLE_ERROR_OOB_NOT_AVAILABLE\000"
  3138      455F4552 
  3138      524F525F 
  3138      4F4F425F 
  3138      4E4F545F 
  3139              	.LASF13:
- 3140 0eec 646F7562 		.ascii	"double\000"
+ 3140 0eea 646F7562 		.ascii	"double\000"
  3140      6C6500
  3141              	.LASF90:
- 3142 0ef3 4359424C 		.ascii	"CYBLE_ERROR_DEVICE_ALREADY_EXISTS\000"
+ 3142 0ef1 4359424C 		.ascii	"CYBLE_ERROR_DEVICE_ALREADY_EXISTS\000"
  3142      455F4552 
  3142      524F525F 
  3142      44455649 
  3142      43455F41 
  3143              	.LASF68:
- 3144 0f15 4359424C 		.ascii	"CYBLE_EVT_PENDING_FLASH_WRITE\000"
+ 3144 0f13 4359424C 		.ascii	"CYBLE_EVT_PENDING_FLASH_WRITE\000"
  3144      455F4556 
  3144      545F5045 
  3144      4E44494E 
  3144      475F464C 
  3145              	.LASF200:
- 3146 0f33 4359424C 		.ascii	"CYBLE_GATT_ERR_INSUFFICIENT_ENC_KEY_SIZE\000"
+ 3146 0f31 4359424C 		.ascii	"CYBLE_GATT_ERR_INSUFFICIENT_ENC_KEY_SIZE\000"
  3146      455F4741 
  3146      54545F45 
  3146      52525F49 
  3146      4E535546 
  3147              	.LASF109:
- 3148 0f5c 4359424C 		.ascii	"CYBLE_LL_PWR_LVL_MAX\000"
+ 3148 0f5a 4359424C 		.ascii	"CYBLE_LL_PWR_LVL_MAX\000"
  3148      455F4C4C 
  3148      5F505752 
  3148      5F4C564C 
  3148      5F4D4158 
  3149              	.LASF214:
- 3150 0f71 4359424C 		.ascii	"CYBLE_GATT_ERR_PROCEDURE_ALREADY_IN_PROGRESS\000"
+ 3150 0f6f 4359424C 		.ascii	"CYBLE_GATT_ERR_PROCEDURE_ALREADY_IN_PROGRESS\000"
  3150      455F4741 
  3150      54545F45 
  3150      52525F50 
  3150      524F4345 
  3151              	.LASF87:
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 92
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 92
 
 
- 3152 0f9e 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_CHANNEL_NOT_FOUND\000"
+ 3152 0f9c 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_CHANNEL_NOT_FOUND\000"
  3152      455F4552 
  3152      524F525F 
  3152      4C324341 
  3152      505F4348 
  3153              	.LASF78:
- 3154 0fc2 4359424C 		.ascii	"CYBLE_ERROR_REPEATED_ATTEMPTS\000"
+ 3154 0fc0 4359424C 		.ascii	"CYBLE_ERROR_REPEATED_ATTEMPTS\000"
  3154      455F4552 
  3154      524F525F 
  3154      52455045 
  3154      41544544 
  3155              	.LASF243:
- 3156 0fe0 4379426C 		.ascii	"CyBle_ValueConfirmation\000"
+ 3156 0fde 4379426C 		.ascii	"CyBle_ValueConfirmation\000"
  3156      655F5661 
  3156      6C756543 
  3156      6F6E6669 
  3156      726D6174 
  3157              	.LASF12:
- 3158 0ff8 666C6F61 		.ascii	"float\000"
+ 3158 0ff6 666C6F61 		.ascii	"float\000"
  3158      7400
  3159              	.LASF91:
- 3160 0ffe 4359424C 		.ascii	"CYBLE_ERROR_FLASH_WRITE_NOT_PERMITED\000"
+ 3160 0ffc 4359424C 		.ascii	"CYBLE_ERROR_FLASH_WRITE_NOT_PERMITED\000"
  3160      455F4552 
  3160      524F525F 
  3160      464C4153 
  3160      485F5752 
  3161              	.LASF228:
- 3162 1023 6F70636F 		.ascii	"opcode\000"
+ 3162 1021 6F70636F 		.ascii	"opcode\000"
  3162      646500
  3163              	.LASF196:
- 3164 102a 4359424C 		.ascii	"CYBLE_GATT_ERR_INSUFFICIENT_AUTHORIZATION\000"
+ 3164 1028 4359424C 		.ascii	"CYBLE_GATT_ERR_INSUFFICIENT_AUTHORIZATION\000"
  3164      455F4741 
  3164      54545F45 
  3164      52525F49 
  3164      4E535546 
  3165              	.LASF224:
- 3166 1054 61747472 		.ascii	"attrHandle\000"
+ 3166 1052 61747472 		.ascii	"attrHandle\000"
  3166      48616E64 
  3166      6C6500
  3167              	.LASF150:
- 3168 105f 626F6E64 		.ascii	"bonding\000"
+ 3168 105d 626F6E64 		.ascii	"bonding\000"
  3168      696E6700 
  3169              	.LASF232:
- 3170 1067 4359424C 		.ascii	"CYBLE_GATTS_WRITE_REQ_PARAM_T\000"
+ 3170 1065 4359424C 		.ascii	"CYBLE_GATTS_WRITE_REQ_PARAM_T\000"
  3170      455F4741 
  3170      5454535F 
  3170      57524954 
  3170      455F5245 
  3171              	.LASF8:
- 3172 1085 756E7369 		.ascii	"unsigned int\000"
+ 3172 1083 756E7369 		.ascii	"unsigned int\000"
  3172      676E6564 
  3172      20696E74 
  3172      00
  3173              	.LASF50:
- 3174 1092 4359424C 		.ascii	"CYBLE_EVT_GATTS_PREP_WRITE_REQ\000"
+ 3174 1090 4359424C 		.ascii	"CYBLE_EVT_GATTS_PREP_WRITE_REQ\000"
  3174      455F4556 
  3174      545F4741 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 93
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 93
 
 
  3174      5454535F 
  3174      50524550 
  3175              	.LASF193:
- 3176 10b1 4359424C 		.ascii	"CYBLE_GATT_ERR_INSUFFICIENT_AUTHENTICATION\000"
+ 3176 10af 4359424C 		.ascii	"CYBLE_GATT_ERR_INSUFFICIENT_AUTHENTICATION\000"
  3176      455F4741 
  3176      54545F45 
  3176      52525F49 
  3176      4E535546 
  3177              	.LASF227:
- 3178 10dc 4359424C 		.ascii	"CYBLE_GATT_XCHG_MTU_PARAM_T\000"
+ 3178 10da 4359424C 		.ascii	"CYBLE_GATT_XCHG_MTU_PARAM_T\000"
  3178      455F4741 
  3178      54545F58 
  3178      4348475F 
  3178      4D54555F 
  3179              	.LASF112:
- 3180 10f8 4359424C 		.ascii	"CYBLE_LL_CONN_CH_TYPE\000"
+ 3180 10f6 4359424C 		.ascii	"CYBLE_LL_CONN_CH_TYPE\000"
  3180      455F4C4C 
  3180      5F434F4E 
  3180      4E5F4348 
  3180      5F545950 
  3181              	.LASF267:
- 3182 110e 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
+ 3182 110c 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
  3182      4320342E 
  3182      382E3420 
  3182      32303134 
  3182      30353236 
- 3183 1141 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m0 -mthumb -g -O"
+ 3183 113f 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m0 -mthumb -g -O"
  3183      20726576 
  3183      6973696F 
  3183      6E203231 
  3183      31333538 
- 3184 1174 30202D66 		.ascii	"0 -ffunction-sections\000"
+ 3184 1172 30202D66 		.ascii	"0 -ffunction-sections\000"
  3184      66756E63 
  3184      74696F6E 
  3184      2D736563 
  3184      74696F6E 
  3185              	.LASF210:
- 3186 118a 4359424C 		.ascii	"CYBLE_GATTS_ERR_PROCEDURE_ALREADY_IN_PROGRESS\000"
+ 3186 1188 4359424C 		.ascii	"CYBLE_GATTS_ERR_PROCEDURE_ALREADY_IN_PROGRESS\000"
  3186      455F4741 
  3186      5454535F 
  3186      4552525F 
  3186      50524F43 
  3187              	.LASF241:
- 3188 11b8 6572725F 		.ascii	"err_param\000"
+ 3188 11b6 6572725F 		.ascii	"err_param\000"
  3188      70617261 
  3188      6D00
  3189              	.LASF83:
- 3190 11c2 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_PSM_WRONG_ENCODING\000"
+ 3190 11c0 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_PSM_WRONG_ENCODING\000"
  3190      455F4552 
  3190      524F525F 
  3190      4C324341 
  3190      505F5053 
  3191              	.LASF180:
- 3192 11e7 4359424C 		.ascii	"CYBLE_GATT_PREPARE_WRITE_RSP\000"
+ 3192 11e5 4359424C 		.ascii	"CYBLE_GATT_PREPARE_WRITE_RSP\000"
  3192      455F4741 
  3192      54545F50 
  3192      52455041 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 94
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 94
 
 
  3192      52455F57 
  3193              	.LASF198:
- 3194 1204 4359424C 		.ascii	"CYBLE_GATT_ERR_ATTRIBUTE_NOT_FOUND\000"
+ 3194 1202 4359424C 		.ascii	"CYBLE_GATT_ERR_ATTRIBUTE_NOT_FOUND\000"
  3194      455F4741 
  3194      54545F45 
  3194      52525F41 
  3194      54545249 
  3195              	.LASF69:
- 3196 1227 4359424C 		.ascii	"CYBLE_EVT_MAX\000"
+ 3196 1225 4359424C 		.ascii	"CYBLE_EVT_MAX\000"
  3196      455F4556 
  3196      545F4D41 
  3196      5800
  3197              	.LASF33:
- 3198 1235 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_START_STOP\000"
+ 3198 1233 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_START_STOP\000"
  3198      455F4556 
  3198      545F4741 
  3198      50435F53 
  3198      43414E5F 
  3199              	.LASF270:
- 3200 1254 4379426C 		.ascii	"CyBle_IsDeviceAddressValid\000"
+ 3200 1252 4379426C 		.ascii	"CyBle_IsDeviceAddressValid\000"
  3200      655F4973 
  3200      44657669 
  3200      63654164 
  3200      64726573 
  3201              	.LASF148:
- 3202 126f 4359424C 		.ascii	"CYBLE_GAP_AUTH_FAILED_REASON_T\000"
+ 3202 126d 4359424C 		.ascii	"CYBLE_GAP_AUTH_FAILED_REASON_T\000"
  3202      455F4741 
  3202      505F4155 
  3202      54485F46 
  3202      41494C45 
  3203              	.LASF47:
- 3204 128e 4359424C 		.ascii	"CYBLE_EVT_GATTS_WRITE_REQ\000"
+ 3204 128c 4359424C 		.ascii	"CYBLE_EVT_GATTS_WRITE_REQ\000"
  3204      455F4556 
  3204      545F4741 
  3204      5454535F 
  3204      57524954 
  3205              	.LASF25:
- 3206 12a8 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_DISPLAY_REQUEST\000"
+ 3206 12a6 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_DISPLAY_REQUEST\000"
  3206      455F4556 
  3206      545F4741 
  3206      505F5041 
  3206      53534B45 
  3207              	.LASF98:
- 3208 12ce 4359424C 		.ascii	"CYBLE_ERROR_IND_DISABLED\000"
+ 3208 12cc 4359424C 		.ascii	"CYBLE_ERROR_IND_DISABLED\000"
  3208      455F4552 
  3208      524F525F 
  3208      494E445F 
  3208      44495341 
  3209              	.LASF97:
- 3210 12e7 4359424C 		.ascii	"CYBLE_ERROR_NTF_DISABLED\000"
+ 3210 12e5 4359424C 		.ascii	"CYBLE_ERROR_NTF_DISABLED\000"
  3210      455F4552 
  3210      524F525F 
  3210      4E54465F 
  3210      44495341 
  3211              	.LASF172:
- 3212 1300 4359424C 		.ascii	"CYBLE_GATT_READ_MULTIPLE_REQ\000"
+ 3212 12fe 4359424C 		.ascii	"CYBLE_GATT_READ_MULTIPLE_REQ\000"
  3212      455F4741 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 95
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 95
 
 
  3212      54545F52 
  3212      4541445F 
  3212      4D554C54 
  3213              	.LASF44:
- 3214 131d 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_RSP\000"
+ 3214 131b 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_RSP\000"
  3214      455F4556 
  3214      545F4741 
  3214      5454435F 
  3214      52454144 
  3215              	.LASF195:
- 3216 1336 4359424C 		.ascii	"CYBLE_GATT_ERR_INVALID_OFFSET\000"
+ 3216 1334 4359424C 		.ascii	"CYBLE_GATT_ERR_INVALID_OFFSET\000"
  3216      455F4741 
  3216      54545F45 
  3216      52525F49 
  3216      4E56414C 
  3217              	.LASF166:
- 3218 1354 4359424C 		.ascii	"CYBLE_GATT_READ_BY_TYPE_REQ\000"
+ 3218 1352 4359424C 		.ascii	"CYBLE_GATT_READ_BY_TYPE_REQ\000"
  3218      455F4741 
  3218      54545F52 
  3218      4541445F 
  3218      42595F54 
  3219              	.LASF61:
- 3220 1370 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_CNF\000"
+ 3220 136e 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_CNF\000"
  3220      455F4556 
  3220      545F4C32 
  3220      4341505F 
  3220      43424643 
  3221              	.LASF215:
- 3222 138e 4359424C 		.ascii	"CYBLE_GATT_ERR_OUT_OF_RANGE\000"
+ 3222 138c 4359424C 		.ascii	"CYBLE_GATT_ERR_OUT_OF_RANGE\000"
  3222      455F4741 
  3222      54545F45 
  3222      52525F4F 
  3222      55545F4F 
  3223              	.LASF164:
- 3224 13aa 4359424C 		.ascii	"CYBLE_GATT_FIND_BY_TYPE_VALUE_REQ\000"
+ 3224 13a8 4359424C 		.ascii	"CYBLE_GATT_FIND_BY_TYPE_VALUE_REQ\000"
  3224      455F4741 
  3224      54545F46 
  3224      494E445F 
  3224      42595F54 
  3225              	.LASF103:
- 3226 13cc 4359424C 		.ascii	"CYBLE_LL_PWR_LVL_NEG_6_DBM\000"
+ 3226 13ca 4359424C 		.ascii	"CYBLE_LL_PWR_LVL_NEG_6_DBM\000"
  3226      455F4C4C 
  3226      5F505752 
  3226      5F4C564C 
  3226      5F4E4547 
  3227              	.LASF135:
- 3228 13e7 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_NONE\000"
+ 3228 13e5 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_NONE\000"
  3228      455F4741 
  3228      505F4155 
  3228      54485F45 
  3228      52524F52 
  3229              	.LASF31:
- 3230 1401 4359424C 		.ascii	"CYBLE_EVT_GAP_ENCRYPT_CHANGE\000"
+ 3230 13ff 4359424C 		.ascii	"CYBLE_EVT_GAP_ENCRYPT_CHANGE\000"
  3230      455F4556 
  3230      545F4741 
  3230      505F454E 
  3230      43525950 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 96
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 96
 
 
  3231              	.LASF38:
- 3232 141e 4359424C 		.ascii	"CYBLE_EVT_GATTS_XCNHG_MTU_REQ\000"
+ 3232 141c 4359424C 		.ascii	"CYBLE_EVT_GATTS_XCNHG_MTU_REQ\000"
  3232      455F4556 
  3232      545F4741 
  3232      5454535F 
  3232      58434E48 
  3233              	.LASF163:
- 3234 143c 4359424C 		.ascii	"CYBLE_GATT_FIND_INFO_RSP\000"
+ 3234 143a 4359424C 		.ascii	"CYBLE_GATT_FIND_INFO_RSP\000"
  3234      455F4741 
  3234      54545F46 
  3234      494E445F 
  3234      494E464F 
  3235              	.LASF137:
- 3236 1455 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_OOB_DATA_NOT_AVAILABLE\000"
+ 3236 1453 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_OOB_DATA_NOT_AVAILABLE\000"
  3236      455F4741 
  3236      505F4155 
  3236      54485F45 
  3236      52524F52 
  3237              	.LASF158:
- 3238 1481 4359424C 		.ascii	"CYBLE_GAP_CONN_PARAM_UPDATED_IN_CONTROLLER_T\000"
+ 3238 147f 4359424C 		.ascii	"CYBLE_GAP_CONN_PARAM_UPDATED_IN_CONTROLLER_T\000"
  3238      455F4741 
  3238      505F434F 
  3238      4E4E5F50 
  3238      4152414D 
  3239              	.LASF7:
- 3240 14ae 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 3240 14ac 6C6F6E67 		.ascii	"long long unsigned int\000"
  3240      206C6F6E 
  3240      6720756E 
  3240      7369676E 
  3240      65642069 
  3241              	.LASF189:
- 3242 14c5 4359424C 		.ascii	"CYBLE_GATT_ERR_INVALID_HANDLE\000"
+ 3242 14c3 4359424C 		.ascii	"CYBLE_GATT_ERR_INVALID_HANDLE\000"
  3242      455F4741 
  3242      54545F45 
  3242      52525F49 
  3242      4E56414C 
  3243              	.LASF18:
- 3244 14e3 4359424C 		.ascii	"CYBLE_EVT_TIMEOUT\000"
+ 3244 14e1 4359424C 		.ascii	"CYBLE_EVT_TIMEOUT\000"
  3244      455F4556 
  3244      545F5449 
  3244      4D454F55 
  3244      5400
  3245              	.LASF249:
- 3246 14f5 73666C61 		.ascii	"sflashAddressValid\000"
+ 3246 14f3 73666C61 		.ascii	"sflashAddressValid\000"
  3246      73684164 
  3246      64726573 
  3246      7356616C 
  3246      696400
  3247              	.LASF187:
- 3248 1508 4359424C 		.ascii	"CYBLE_GATT_UNKNOWN_PDU_IND\000"
+ 3248 1506 4359424C 		.ascii	"CYBLE_GATT_UNKNOWN_PDU_IND\000"
  3248      455F4741 
  3248      54545F55 
  3248      4E4B4E4F 
  3248      574E5F50 
  3249              	.LASF100:
- 3250 1523 4359424C 		.ascii	"CYBLE_ERROR_INVALID_STATE\000"
+ 3250 1521 4359424C 		.ascii	"CYBLE_ERROR_INVALID_STATE\000"
  3250      455F4552 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 97
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 97
 
 
  3250      524F525F 
  3250      494E5641 
  3250      4C49445F 
  3251              	.LASF217:
- 3252 153d 4359424C 		.ascii	"CYBLE_GATT_DB_ATTR_HANDLE_T\000"
+ 3252 153b 4359424C 		.ascii	"CYBLE_GATT_DB_ATTR_HANDLE_T\000"
  3252      455F4741 
  3252      54545F44 
  3252      425F4154 
  3252      54525F48 
  3253              	.LASF254:
- 3254 1559 626C6553 		.ascii	"bleSsPowerLevel\000"
+ 3254 1557 626C6553 		.ascii	"bleSsPowerLevel\000"
  3254      73506F77 
  3254      65724C65 
  3254      76656C00 
  3255              	.LASF64:
- 3256 1569 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_READ\000"
+ 3256 1567 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_READ\000"
  3256      455F4556 
  3256      545F4C32 
  3256      4341505F 
  3256      43424643 
  3257              	.LASF188:
- 3258 1588 4359424C 		.ascii	"CYBLE_GATT_ERR_NONE\000"
+ 3258 1586 4359424C 		.ascii	"CYBLE_GATT_ERR_NONE\000"
  3258      455F4741 
  3258      54545F45 
  3258      52525F4E 
  3258      4F4E4500 
  3259              	.LASF223:
- 3260 159c 76616C75 		.ascii	"value\000"
+ 3260 159a 76616C75 		.ascii	"value\000"
  3260      6500
  3261              	.LASF256:
- 3262 15a2 4379426C 		.ascii	"CyBle_ApplCallback\000"
+ 3262 15a0 4379426C 		.ascii	"CyBle_ApplCallback\000"
  3262      655F4170 
  3262      706C4361 
  3262      6C6C6261 
  3262      636B00
  3263              	.LASF216:
- 3264 15b5 4359424C 		.ascii	"CYBLE_GATT_ERR_CODE_T\000"
+ 3264 15b3 4359424C 		.ascii	"CYBLE_GATT_ERR_CODE_T\000"
  3264      455F4741 
  3264      54545F45 
  3264      52525F43 
  3264      4F44455F 
  3265              	.LASF122:
- 3266 15cb 4359424C 		.ascii	"CYBLE_GAP_SCAN_TO\000"
+ 3266 15c9 4359424C 		.ascii	"CYBLE_GAP_SCAN_TO\000"
  3266      455F4741 
  3266      505F5343 
  3266      414E5F54 
  3266      4F00
  3267              	.LASF209:
- 3268 15dd 4359424C 		.ascii	"CYBLE_GATT_ERR_HTS_OUT_OF_RANGE\000"
+ 3268 15db 4359424C 		.ascii	"CYBLE_GATT_ERR_HTS_OUT_OF_RANGE\000"
  3268      455F4741 
  3268      54545F45 
  3268      52525F48 
  3268      54535F4F 
  3269              	.LASF120:
- 3270 15fd 4359424C 		.ascii	"CYBLE_GAP_BD_ADDR_T\000"
+ 3270 15fb 4359424C 		.ascii	"CYBLE_GAP_BD_ADDR_T\000"
  3270      455F4741 
  3270      505F4244 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 98
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 98
 
 
  3270      5F414444 
  3270      525F5400 
  3271              	.LASF170:
- 3272 1611 4359424C 		.ascii	"CYBLE_GATT_READ_BLOB_REQ\000"
+ 3272 160f 4359424C 		.ascii	"CYBLE_GATT_READ_BLOB_REQ\000"
  3272      455F4741 
  3272      54545F52 
  3272      4541445F 
  3272      424C4F42 
  3273              	.LASF121:
- 3274 162a 4359424C 		.ascii	"CYBLE_GAP_ADV_MODE_TO\000"
+ 3274 1628 4359424C 		.ascii	"CYBLE_GAP_ADV_MODE_TO\000"
  3274      455F4741 
  3274      505F4144 
  3274      565F4D4F 
  3274      44455F54 
  3275              	.LASF231:
- 3276 1640 68616E64 		.ascii	"handleValPair\000"
+ 3276 163e 68616E64 		.ascii	"handleValPair\000"
  3276      6C655661 
  3276      6C506169 
  3276      7200
  3277              	.LASF226:
- 3278 164e 636F6E6E 		.ascii	"connHandle\000"
+ 3278 164c 636F6E6E 		.ascii	"connHandle\000"
  3278      48616E64 
  3278      6C6500
  3279              	.LASF245:
- 3280 1659 4379426C 		.ascii	"CyBle_TimeOutEventHandler\000"
+ 3280 1657 4379426C 		.ascii	"CyBle_TimeOutEventHandler\000"
  3280      655F5469 
  3280      6D654F75 
  3280      74457665 
  3280      6E744861 
  3281              	.LASF140:
- 3282 1673 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_PAIRING_NOT_SUPPORTED\000"
+ 3282 1671 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_PAIRING_NOT_SUPPORTED\000"
  3282      455F4741 
  3282      505F4155 
  3282      54485F45 
  3282      52524F52 
  3283              	.LASF124:
- 3284 169e 4359424C 		.ascii	"CYBLE_GENERIC_TO\000"
+ 3284 169c 4359424C 		.ascii	"CYBLE_GENERIC_TO\000"
  3284      455F4745 
  3284      4E455249 
  3284      435F544F 
  3284      00
  3285              	.LASF42:
- 3286 16af 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_INFO_RSP\000"
+ 3286 16ad 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_INFO_RSP\000"
  3286      455F4556 
  3286      545F4741 
  3286      5454435F 
  3286      46494E44 
  3287              	.LASF41:
- 3288 16cd 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_TYPE_RSP\000"
+ 3288 16cb 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_TYPE_RSP\000"
  3288      455F4556 
  3288      545F4741 
  3288      5454435F 
  3288      52454144 
  3289              	.LASF263:
- 3290 16ee 6379426C 		.ascii	"cyBle_state\000"
+ 3290 16ec 6379426C 		.ascii	"cyBle_state\000"
  3290      655F7374 
  3290      61746500 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 99
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 99
 
 
  3291              	.LASF48:
- 3292 16fa 4359424C 		.ascii	"CYBLE_EVT_GATTC_WRITE_RSP\000"
+ 3292 16f8 4359424C 		.ascii	"CYBLE_EVT_GATTC_WRITE_RSP\000"
  3292      455F4556 
  3292      545F4741 
  3292      5454435F 
  3292      57524954 
  3293              	.LASF238:
- 3294 1714 4359424C 		.ascii	"CYBLE_STATE_DISCONNECTED\000"
+ 3294 1712 4359424C 		.ascii	"CYBLE_STATE_DISCONNECTED\000"
  3294      455F5354 
  3294      4154455F 
  3294      44495343 
  3294      4F4E4E45 
  3295              	.LASF28:
- 3296 172d 4359424C 		.ascii	"CYBLE_EVT_GAPP_ADVERTISEMENT_START_STOP\000"
+ 3296 172b 4359424C 		.ascii	"CYBLE_EVT_GAPP_ADVERTISEMENT_START_STOP\000"
  3296      455F4556 
  3296      545F4741 
  3296      50505F41 
  3296      44564552 
  3297              	.LASF9:
- 3298 1755 75696E74 		.ascii	"uint8\000"
+ 3298 1753 75696E74 		.ascii	"uint8\000"
  3298      3800
  3299              	.LASF260:
- 3300 175b 6379426C 		.ascii	"cyBle_authInfo\000"
+ 3300 1759 6379426C 		.ascii	"cyBle_authInfo\000"
  3300      655F6175 
  3300      7468496E 
  3300      666F00
  3301              	.LASF149:
- 3302 176a 73656375 		.ascii	"security\000"
+ 3302 1768 73656375 		.ascii	"security\000"
  3302      72697479 
  3302      00
  3303              	.LASF250:
- 3304 1773 4379426C 		.ascii	"CyBle_L2Cap_ConnParamUpdateRspEventHandler\000"
+ 3304 1771 4379426C 		.ascii	"CyBle_L2Cap_ConnParamUpdateRspEventHandler\000"
  3304      655F4C32 
  3304      4361705F 
  3304      436F6E6E 
  3304      50617261 
  3305              	.LASF176:
- 3306 179e 4359424C 		.ascii	"CYBLE_GATT_WRITE_REQ\000"
+ 3306 179c 4359424C 		.ascii	"CYBLE_GATT_WRITE_REQ\000"
  3306      455F4741 
  3306      54545F57 
  3306      52495445 
  3306      5F524551 
  3307              	.LASF2:
- 3308 17b3 73686F72 		.ascii	"short int\000"
+ 3308 17b1 73686F72 		.ascii	"short int\000"
  3308      7420696E 
  3308      7400
  3309              	.LASF152:
- 3310 17bd 61757468 		.ascii	"authErr\000"
+ 3310 17bb 61757468 		.ascii	"authErr\000"
  3310      45727200 
  3311              	.LASF208:
- 3312 17c5 4359424C 		.ascii	"CYBLE_GATT_ERR_CPS_INAPPROPRIATE_CONNECTION_PARAMET"
+ 3312 17c3 4359424C 		.ascii	"CYBLE_GATT_ERR_CPS_INAPPROPRIATE_CONNECTION_PARAMET"
  3312      455F4741 
  3312      54545F45 
  3312      52525F43 
  3312      50535F49 
- 3313 17f8 45525300 		.ascii	"ERS\000"
+ 3313 17f6 45525300 		.ascii	"ERS\000"
  3314              	.LASF194:
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 100
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 100
 
 
- 3315 17fc 4359424C 		.ascii	"CYBLE_GATT_ERR_REQUEST_NOT_SUPPORTED\000"
+ 3315 17fa 4359424C 		.ascii	"CYBLE_GATT_ERR_REQUEST_NOT_SUPPORTED\000"
  3315      455F4741 
  3315      54545F45 
  3315      52525F52 
  3315      45515545 
  3316              	.LASF35:
- 3317 1821 4359424C 		.ascii	"CYBLE_EVT_GATTC_ERROR_RSP\000"
+ 3317 181f 4359424C 		.ascii	"CYBLE_EVT_GATTC_ERROR_RSP\000"
  3317      455F4556 
  3317      545F4741 
  3317      5454435F 
  3317      4552524F 
  3318              	.LASF134:
- 3319 183b 4359424C 		.ascii	"CYBLE_GAP_IOCAP_KEYBOARD_DISPLAY\000"
+ 3319 1839 4359424C 		.ascii	"CYBLE_GAP_IOCAP_KEYBOARD_DISPLAY\000"
  3319      455F4741 
  3319      505F494F 
  3319      4341505F 
  3319      4B455942 
  3320              	.LASF239:
- 3321 185c 4359424C 		.ascii	"CYBLE_STATE_T\000"
+ 3321 185a 4359424C 		.ascii	"CYBLE_STATE_T\000"
  3321      455F5354 
  3321      4154455F 
  3321      5400
  3322              	.LASF60:
- 3323 186a 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_IND\000"
+ 3323 1868 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_IND\000"
  3323      455F4556 
  3323      545F4C32 
  3323      4341505F 
  3323      43424643 
  3324              	.LASF51:
- 3325 1888 4359424C 		.ascii	"CYBLE_EVT_GATTS_EXEC_WRITE_REQ\000"
+ 3325 1886 4359424C 		.ascii	"CYBLE_EVT_GATTS_EXEC_WRITE_REQ\000"
  3325      455F4556 
  3325      545F4741 
  3325      5454535F 
  3325      45584543 
  3326              	.LASF22:
- 3327 18a7 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_PROGRESS_RESULT\000"
+ 3327 18a5 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_PROGRESS_RESULT\000"
  3327      455F4556 
  3327      545F4741 
  3327      50435F53 
  3327      43414E5F 
  3328              	.LASF79:
- 3329 18cb 4359424C 		.ascii	"CYBLE_ERROR_GAP_ROLE\000"
+ 3329 18c9 4359424C 		.ascii	"CYBLE_ERROR_GAP_ROLE\000"
  3329      455F4552 
  3329      524F525F 
  3329      4741505F 
  3329      524F4C45 
  3330              	.LASF266:
- 3331 18e0 6379426C 		.ascii	"cyBle_advertisingIntervalType\000"
+ 3331 18de 6379426C 		.ascii	"cyBle_advertisingIntervalType\000"
  3331      655F6164 
  3331      76657274 
  3331      6973696E 
  3331      67496E74 
  3332              	.LASF118:
- 3333 18fe 62644164 		.ascii	"bdAddr\000"
+ 3333 18fc 62644164 		.ascii	"bdAddr\000"
  3333      647200
  3334              	.LASF212:
- 3335 1905 4359424C 		.ascii	"CYBLE_GATT_ERR_ANS_COMMAND_NOT_SUPPORTED\000"
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 101
+ 3335 1903 4359424C 		.ascii	"CYBLE_GATT_ERR_ANS_COMMAND_NOT_SUPPORTED\000"
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 101
 
 
  3335      455F4741 
@@ -6006,218 +6006,218 @@ ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 1
  3335      52525F41 
  3335      4E535F43 
  3336              	.LASF251:
- 3337 192e 72657370 		.ascii	"response\000"
+ 3337 192c 72657370 		.ascii	"response\000"
  3337      6F6E7365 
  3337      00
  3338              	.LASF169:
- 3339 1937 4359424C 		.ascii	"CYBLE_GATT_READ_RSP\000"
+ 3339 1935 4359424C 		.ascii	"CYBLE_GATT_READ_RSP\000"
  3339      455F4741 
  3339      54545F52 
  3339      4541445F 
  3339      52535000 
  3340              	.LASF76:
- 3341 194b 4359424C 		.ascii	"CYBLE_ERROR_NO_CONNECTION\000"
+ 3341 1949 4359424C 		.ascii	"CYBLE_ERROR_NO_CONNECTION\000"
  3341      455F4552 
  3341      524F525F 
  3341      4E4F5F43 
  3341      4F4E4E45 
  3342              	.LASF107:
- 3343 1965 4359424C 		.ascii	"CYBLE_LL_PWR_LVL_0_DBM\000"
+ 3343 1963 4359424C 		.ascii	"CYBLE_LL_PWR_LVL_0_DBM\000"
  3343      455F4C4C 
  3343      5F505752 
  3343      5F4C564C 
  3343      5F305F44 
  3344              	.LASF111:
- 3345 197c 4359424C 		.ascii	"CYBLE_LL_ADV_CH_TYPE\000"
+ 3345 197a 4359424C 		.ascii	"CYBLE_LL_ADV_CH_TYPE\000"
  3345      455F4C4C 
  3345      5F414456 
  3345      5F43485F 
  3345      54595045 
  3346              	.LASF261:
- 3347 1991 6379426C 		.ascii	"cyBle_attValuesCCCD\000"
+ 3347 198f 6379426C 		.ascii	"cyBle_attValuesCCCD\000"
  3347      655F6174 
  3347      7456616C 
  3347      75657343 
  3347      43434400 
  3348              	.LASF54:
- 3349 19a5 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_IND\000"
+ 3349 19a3 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_IND\000"
  3349      455F4556 
  3349      545F4741 
  3349      5454435F 
  3349      48414E44 
  3350              	.LASF253:
- 3351 19c6 6576656E 		.ascii	"eventCode\000"
+ 3351 19c4 6576656E 		.ascii	"eventCode\000"
  3351      74436F64 
  3351      6500
  3352              	.LASF82:
- 3353 19d0 4359424C 		.ascii	"CYBLE_ERROR_SEC_FAILED\000"
+ 3353 19ce 4359424C 		.ascii	"CYBLE_ERROR_SEC_FAILED\000"
  3353      455F4552 
  3353      524F525F 
  3353      5345435F 
  3353      4641494C 
  3354              	.LASF21:
- 3355 19e7 4359424C 		.ascii	"CYBLE_EVT_STACK_BUSY_STATUS\000"
+ 3355 19e5 4359424C 		.ascii	"CYBLE_EVT_STACK_BUSY_STATUS\000"
  3355      455F4556 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 102
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 102
 
 
  3355      545F5354 
  3355      41434B5F 
  3355      42555359 
  3356              	.LASF156:
- 3357 1a03 636F6E6E 		.ascii	"connLatency\000"
+ 3357 1a01 636F6E6E 		.ascii	"connLatency\000"
  3357      4C617465 
  3357      6E637900 
  3358              	.LASF131:
- 3359 1a0f 4359424C 		.ascii	"CYBLE_GAP_IOCAP_DISPLAY_YESNO\000"
+ 3359 1a0d 4359424C 		.ascii	"CYBLE_GAP_IOCAP_DISPLAY_YESNO\000"
  3359      455F4741 
  3359      505F494F 
  3359      4341505F 
  3359      44495350 
  3360              	.LASF34:
- 3361 1a2d 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYINFO_EXCHNGE_CMPLT\000"
+ 3361 1a2b 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYINFO_EXCHNGE_CMPLT\000"
  3361      455F4556 
  3361      545F4741 
  3361      505F4B45 
  3361      59494E46 
  3362              	.LASF181:
- 3363 1a51 4359424C 		.ascii	"CYBLE_GATT_EXECUTE_WRITE_REQ\000"
+ 3363 1a4f 4359424C 		.ascii	"CYBLE_GATT_EXECUTE_WRITE_REQ\000"
  3363      455F4741 
  3363      54545F45 
  3363      58454355 
  3363      54455F57 
  3364              	.LASF117:
- 3365 1a6e 4359424C 		.ascii	"CYBLE_BLESS_PWR_IN_DB_T\000"
+ 3365 1a6c 4359424C 		.ascii	"CYBLE_BLESS_PWR_IN_DB_T\000"
  3365      455F424C 
  3365      4553535F 
  3365      5057525F 
  3365      494E5F44 
  3366              	.LASF113:
- 3367 1a86 4359424C 		.ascii	"CYBLE_LL_MAX_CH_TYPE\000"
+ 3367 1a84 4359424C 		.ascii	"CYBLE_LL_MAX_CH_TYPE\000"
  3367      455F4C4C 
  3367      5F4D4158 
  3367      5F43485F 
  3367      54595045 
  3368              	.LASF57:
- 3369 1a9b 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_REQ\000"
+ 3369 1a99 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_REQ\000"
  3369      455F4556 
  3369      545F4C32 
  3369      4341505F 
  3369      434F4E4E 
  3370              	.LASF240:
- 3371 1ac1 67617474 		.ascii	"gattErr\000"
+ 3371 1abf 67617474 		.ascii	"gattErr\000"
  3371      45727200 
  3372              	.LASF95:
- 3373 1ac9 4359424C 		.ascii	"CYBLE_CHAR_DISC_DONE\000"
+ 3373 1ac7 4359424C 		.ascii	"CYBLE_CHAR_DISC_DONE\000"
  3373      455F4348 
  3373      41525F44 
  3373      4953435F 
  3373      444F4E45 
  3374              	.LASF191:
- 3375 1ade 4359424C 		.ascii	"CYBLE_GATT_ERR_WRITE_NOT_PERMITTED\000"
+ 3375 1adc 4359424C 		.ascii	"CYBLE_GATT_ERR_WRITE_NOT_PERMITTED\000"
  3375      455F4741 
  3375      54545F45 
  3375      52525F57 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 103
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 103
 
 
  3375      52495445 
  3376              	.LASF155:
- 3377 1b01 636F6E6E 		.ascii	"connIntv\000"
+ 3377 1aff 636F6E6E 		.ascii	"connIntv\000"
  3377      496E7476 
  3377      00
  3378              	.LASF3:
- 3379 1b0a 73686F72 		.ascii	"short unsigned int\000"
+ 3379 1b08 73686F72 		.ascii	"short unsigned int\000"
  3379      7420756E 
  3379      7369676E 
  3379      65642069 
  3379      6E7400
  3380              	.LASF203:
- 3381 1b1d 4359424C 		.ascii	"CYBLE_GATT_ERR_INSUFFICIENT_ENCRYPTION\000"
+ 3381 1b1b 4359424C 		.ascii	"CYBLE_GATT_ERR_INSUFFICIENT_ENCRYPTION\000"
  3381      455F4741 
  3381      54545F45 
  3381      52525F49 
  3381      4E535546 
  3382              	.LASF236:
- 3383 1b44 4359424C 		.ascii	"CYBLE_STATE_CONNECTED\000"
+ 3383 1b42 4359424C 		.ascii	"CYBLE_STATE_CONNECTED\000"
  3383      455F5354 
  3383      4154455F 
  3383      434F4E4E 
  3383      45435445 
  3384              	.LASF221:
- 3385 1b5a 61637475 		.ascii	"actualLen\000"
+ 3385 1b58 61637475 		.ascii	"actualLen\000"
  3385      616C4C65 
  3385      6E00
  3386              	.LASF174:
- 3387 1b64 4359424C 		.ascii	"CYBLE_GATT_READ_BY_GROUP_REQ\000"
+ 3387 1b62 4359424C 		.ascii	"CYBLE_GATT_READ_BY_GROUP_REQ\000"
  3387      455F4741 
  3387      54545F52 
  3387      4541445F 
  3387      42595F47 
  3388              	.LASF139:
- 3389 1b81 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_CONFIRM_VALUE_NOT_MATCH\000"
+ 3389 1b7f 4359424C 		.ascii	"CYBLE_GAP_AUTH_ERROR_CONFIRM_VALUE_NOT_MATCH\000"
  3389      455F4741 
  3389      505F4155 
  3389      54485F45 
  3389      52524F52 
  3390              	.LASF219:
- 3391 1bae 61747449 		.ascii	"attId\000"
+ 3391 1bac 61747449 		.ascii	"attId\000"
  3391      6400
  3392              	.LASF72:
- 3393 1bb4 4359424C 		.ascii	"CYBLE_ERROR_INVALID_OPERATION\000"
+ 3393 1bb2 4359424C 		.ascii	"CYBLE_ERROR_INVALID_OPERATION\000"
  3393      455F4552 
  3393      524F525F 
  3393      494E5641 
  3393      4C49445F 
  3394              	.LASF20:
- 3395 1bd2 4359424C 		.ascii	"CYBLE_EVT_HCI_STATUS\000"
+ 3395 1bd0 4359424C 		.ascii	"CYBLE_EVT_HCI_STATUS\000"
  3395      455F4556 
  3395      545F4843 
  3395      495F5354 
  3395      41545553 
  3396              	.LASF37:
- 3397 1be7 4359424C 		.ascii	"CYBLE_EVT_GATT_DISCONNECT_IND\000"
+ 3397 1be5 4359424C 		.ascii	"CYBLE_EVT_GATT_DISCONNECT_IND\000"
  3397      455F4556 
-ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccL4Kbo6.s 			page 104
+ARM GAS  C:\Users\Heidi\AppData\Local\Temp\ccXpsNXs.s 			page 104
 
 
  3397      545F4741 
  3397      54545F44 
  3397      4953434F 
  3398              	.LASF157:
- 3399 1c05 73757065 		.ascii	"supervisionTO\000"
+ 3399 1c03 73757065 		.ascii	"supervisionTO\000"
  3399      72766973 
  3399      696F6E54 
  3399      4F00
  3400              	.LASF123:
- 3401 1c13 4359424C 		.ascii	"CYBLE_GATT_RSP_TO\000"
+ 3401 1c11 4359424C 		.ascii	"CYBLE_GATT_RSP_TO\000"
  3401      455F4741 
  3401      54545F52 
  3401      53505F54 
  3401      4F00
  3402              	.LASF67:
- 3403 1c25 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_WRITE_IND\000"
+ 3403 1c23 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_WRITE_IND\000"
  3403      455F4556 
  3403      545F4C32 
  3403      4341505F 
  3403      43424643 
  3404              	.LASF30:
- 3405 1c49 4359424C 		.ascii	"CYBLE_EVT_GAP_DEVICE_DISCONNECTED\000"
+ 3405 1c47 4359424C 		.ascii	"CYBLE_EVT_GAP_DEVICE_DISCONNECTED\000"
  3405      455F4556 
  3405      545F4741 
  3405      505F4445 
  3405      56494345 
  3406              	.LASF55:
- 3407 1c6b 4359424C 		.ascii	"CYBLE_EVT_GATTS_HANDLE_VALUE_CNF\000"
+ 3407 1c69 4359424C 		.ascii	"CYBLE_EVT_GATTS_HANDLE_VALUE_CNF\000"
  3407      455F4556 
  3407      545F4741 
  3407      5454535F 
  3407      48414E44 
  3408              	.LASF10:
- 3409 1c8c 75696E74 		.ascii	"uint16\000"
+ 3409 1c8a 75696E74 		.ascii	"uint16\000"
  3409      313600
  3410              	.LASF80:
- 3411 1c93 4359424C 		.ascii	"CYBLE_ERROR_TX_POWER_READ\000"
+ 3411 1c91 4359424C 		.ascii	"CYBLE_ERROR_TX_POWER_READ\000"
  3411      455F4552 
  3411      524F525F 
  3411      54585F50 

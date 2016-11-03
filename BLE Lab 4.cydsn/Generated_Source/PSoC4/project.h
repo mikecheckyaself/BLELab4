@@ -44,6 +44,7 @@
 #include <CapSense.h>
 #include <CapSense_CSHL.h>
 #include <CapSense_TunerHelper.h>
+#include <CapSense_SMS.h>
 #include <CapSense_PVT.h>
 #include <CapSense_IP.h>
 #include <BLE_bless_isr.h>
